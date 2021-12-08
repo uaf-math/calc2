@@ -15,11 +15,11 @@ Instructor: [Ed Bueler](http://bueler.github.io/), [Dept. of Mathematics and Sta
 
 * See the [schedule](schedule.pdf).  Go there often to find out what happens next.
 
-* FIXME See the [Week 1 module](week1)?
+* FIXME
 
 ### Important Links
 
-* Canvas &nbsp; &nbsp; (grades and solutions)
+* FIXME Canvas &nbsp; &nbsp; (grades and solutions)
 * [Bueler's office hours](http://bueler.github.io/OffHrs.htm)
 
 <br>

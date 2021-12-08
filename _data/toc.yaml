@@ -8,5 +8,5 @@ docs:
 - title: Schedule
   url: schedule.pdf  # rebuild by "make schedule.pdf" in assets/latex/
 
-- title: Week 1
-  url: week1.html
+- title: Technology Help
+  url: techHelp.html
