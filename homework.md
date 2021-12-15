@@ -1,6 +1,7 @@
 ---
 layout: course-page
 title: Homework
+---
 
 ## Homework
 
