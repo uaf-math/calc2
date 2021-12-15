@@ -1,5 +1,5 @@
 semester: Fall 2021
-home: assets/quizzes/
+home: assets/quizzes
 quizzes:
 - name: Quiz X
   blank: quizX.pdf         # assets/quizzes/quizX.pdf
