@@ -24,4 +24,3 @@ Instructor: [Ed Bueler](http://bueler.github.io/), [Dept. of Mathematics and Sta
 
 <br>
 [<img src="GitHub-Mark-32px.png" align="right">](https://github.com/bueler/calc2 "Go to the github repository for this site.")
-
