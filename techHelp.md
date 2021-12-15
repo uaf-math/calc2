@@ -42,6 +42,3 @@ In addition, there is a student-accessible printer in the Chapman Computer Lab (
 ## CircleIn
 
 UAF is piloting an online forum for class discussion called [CircleIn](https://circleinapp.com/). It has a variety of incentives to encourage participation. Access is easy. When you log in, CircleIn will know your classes. Note that instructors do *not* have access to CircleIn and will not see any posts or participate in any discussions.
-
-
-

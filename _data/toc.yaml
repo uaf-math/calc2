@@ -3,10 +3,10 @@ sidenav_title: 'Calculus II'
 docs:
 
 - title: Syllabus
-  url: syllabus.pdf  # rebuild by "make syllabus.pdf" in assets/latex/
+  url: syllabus.pdf  # rebuild by "make syllabus.pdf" in assets/general/
 
 - title: Schedule
-  url: schedule.pdf  # rebuild by "make schedule.pdf" in assets/latex/
+  url: schedule.pdf  # rebuild by "make schedule.pdf" in assets/general/
 
 - title: Technology Help
   url: techHelp.html
