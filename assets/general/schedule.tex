@@ -4,10 +4,11 @@
 \usepackage{tabularx}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{palatino}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
 
 % commands to put defined left and right headers on the top
 % and a page number on the bottom of all pages after 1
-\usepackage{fancyhdr}
 \pagestyle{fancy}
 \makeatletter
 \fancyfoot[C]{\ifnum \value{page} > 1\relax\thepage\fi}
@@ -47,7 +48,13 @@
 \centerline{\Large \textbf{Weekly Schedule}}
 
 \bigskip
-MWF classes start at 11:45, Th at 11:30.  \due{Homework} is due at the beginning of class on the date given.  \qq{Quizzes} start after half-hour lecture, but  \ee{Midterms} at the beginning of class.
+MWF classes start at 11:45, Th at 11:30.
+
+\due{Homework} is listed at \quad \href{https://bueler.github.io/calc2/homework.html}{\texttt{bueler.github.io/calc2/homework.html}}
+
+It is due at 5pm on the date given.  (Upload with Canvas/Gradescope.)
+
+\qq{Quizzes} start after a half-hour lecture.  \ee{Midterms} start at the beginning of class.
 
 \bigskip
 
@@ -55,7 +62,7 @@ MWF classes start at 11:45, Th at 11:30.  \due{Homework} is due at the beginning
 \textbf{Week} \quad Dates & M & T & W & Th & F \\ \hline
 \wkday{1}{1/10}{1/14}  & 2.1 & review & review & 2.2 \par \qq{Q1} &   \\ \hline
 
-\wkday{2}{1/17}{1/21}  & \vac{AK Civil Rights Day} & 2.3 \par \hdue{2.1} & \phantom{x} \par \hdue{2.2} & 2.4 \par \qq{Q2} & \par \dl{drop} \\ \hline
+\wkday{2}{1/17}{1/21}  & \vac{AK Civil Rights Day} & 2.3 \par \hdue{2.1} & & 2.4 \par \qq{Q2} \hfill \hdue{2.2} & \par \dl{drop} \\ \hline
 
 \wkday{3}{1/24}{1/28}  & \phantom{x} \par \hdue{2.3} & 2.5 & 2.6 \par \hdue{2.4} & \phantom{x} \par \qq{Q3}      & 2.7   \\ \hline
 
@@ -65,7 +72,7 @@ MWF classes start at 11:45, Th at 11:30.  \due{Homework} is due at the beginning
 
 \wkday{6}{2/14}{2/18}  & \phantom{x} \par \hdue{3.3, 3.4} & 3.7 & \phantom{x} \par \hdue{3.6} & \ee{Midterm 1} \par \phantom{x} & 4.1 \\ \hline
 
-\wkday{7}{2/21}{2/25}  & 4.2 \hfill \hdue{3.7} \par \dl{prog reps} &  & 5.1 \par \hdue{4.1} & \phantom{x} \par \qq{Q6} &  \\ \hline
+\wkday{7}{2/21}{2/25}  & 4.2 \par \dl{prog reps} & \phantom{x} \par \hdue{3.7} & 5.1 & \phantom{x} \par \qq{Q6} \hfill \hdue{4.1} &  \\ \hline
 
 \wkday{8}{2/28}{3/4}   & 5.2 \par \hdue{4.2} & & 5.3 \par \hdue{5.1} & \phantom{x} \par \qq{Q7} &  \\ \hline
 
