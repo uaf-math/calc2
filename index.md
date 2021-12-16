@@ -7,6 +7,8 @@ title: Bueler's Math F252 Calculus II in Spring 2022 at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** (section 001) in Spring 2022.
 
+[<img src="GitHub-Mark-32px.png" align="right">](https://github.com/bueler/calc2 "Go to the github repository for this site.")
+
 #### Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto:elbueler@alaska.edu))
 
 I am in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).  I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
@@ -27,9 +29,11 @@ I am in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at th
 
 ### Important Links
 
-* [Canvas course page]() (grades and solutions)
+* [Canvas course page](https://canvas.alaska.edu/courses/7049).  Find grades and solutions here.
 
 * For information on scanning and uploading Homework to Canvas/Gradescope see the [Tech Help](techHelp.html) page.
 
 <br>
-[<img src="GitHub-Mark-32px.png" align="right">](https://github.com/bueler/calc2 "Go to the github repository for this site.")
+[<img src="assets/images/solid.png" align="left" height="200">](https://en.wikipedia.org/wiki/Solid_of_revolution "solid of revolution")
+
+[<img src="assets/images/ln.gif" align="left" height="200">](https://en.wikipedia.org/wiki/Taylor_series "Taylor series of y=ln x")
