@@ -1,0 +1,6 @@
+semester: Fall 2021
+home: assets/worksheets
+worksheets:
+- name: Worksheet X
+  blank: dummy.pdf       # assets/worksheets/worksheetX.pdf
+  solutions: dummy.pdf   # assets/worksheets/wsolnsX.pdf
