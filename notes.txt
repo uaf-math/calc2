@@ -1,2 +1,0 @@
-* on front page, emphasize that you upload through Canvas --> Gradescope
-* create Video tab; it says "these are found online" at top and then lists by week
