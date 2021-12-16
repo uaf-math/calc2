@@ -33,6 +33,14 @@ I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
 
 ### Links
 
-* Want to know what we will be studying?  See the Wikipedia pages for [integrals](https://en.wikipedia.org/wiki/Integral), [solids of revolution](https://en.wikipedia.org/wiki/Solid_of_revolution), [sequences](https://en.wikipedia.org/wiki/Sequence), [series](https://en.wikipedia.org/wiki/Series_(mathematics)), and [Taylor series](https://en.wikipedia.org/wiki/Taylor_series).
+* Want to know what we will be studying?  See these Wikipedia pages:
+   * [integrals](https://en.wikipedia.org/wiki/Integral)
+   * [solids](https://en.wikipedia.org/wiki/Solid_of_revolution) and [surfaces of revolution](https://en.wikipedia.org/wiki/Surface_of_revolution)
+   * [differential equations](https://en.wikipedia.org/wiki/Ordinary_differential_equation)
+   * [sequences](https://en.wikipedia.org/wiki/Sequence)
+   * [series](https://en.wikipedia.org/wiki/Series_(mathematics))
+   * [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)
+   * [parametric equations](https://en.wikipedia.org/wiki/Parametric_equation)
+   * [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinate_system)
 
 [<img src="assets/images/solid.png" height="200">](https://en.wikipedia.org/wiki/Solid_of_revolution "solid of revolution") &nbsp; &nbsp; [<img src="assets/images/ln.gif" height="200">](https://en.wikipedia.org/wiki/Taylor_series "Taylor series of y=ln x")
