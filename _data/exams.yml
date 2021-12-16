@@ -1,0 +1,6 @@
+semester: Fall 2021
+home: assets/exams
+exams:
+- name: Exam X
+  blank: dummy.pdf       # assets/exams/midtermX.pdf
+  solutions: dummy.pdf   # assets/exams/msolnsX.pdf

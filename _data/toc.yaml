@@ -1,4 +1,4 @@
-sidenavtitle: 'MATH 252'
+sidenavtitle: 'MATH F252'
 
 docs:
 
@@ -14,5 +14,8 @@ docs:
 - title: Quizzes
   url: quizzes.html
 
-- title: Technology Help
+- title: Exams
+  url: exams.html
+
+- title: Tech Help
   url: techHelp.html

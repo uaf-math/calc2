@@ -2,5 +2,5 @@ semester: Fall 2021
 home: assets/quizzes
 quizzes:
 - name: Quiz X
-  blank: quizX.pdf         # assets/quizzes/quizX.pdf
-  solutions: qsolnsX.pdf   # assets/quizzes/qsolnsX.pdf
+  blank: dummy.pdf       # assets/quizzes/quizX.pdf
+  solutions: dummy.pdf   # assets/quizzes/qsolnsX.pdf
