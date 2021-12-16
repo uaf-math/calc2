@@ -3,7 +3,7 @@ layout: course-page
 title: Math F252 Calculus II in Spring 2022 at UAF
 ---
 
-# Technology Help
+# Tech Help
 
 This page might help you turn in your written homework via Gradescope. 
 
@@ -13,7 +13,7 @@ This page might help you turn in your written homework via Gradescope.
 * [CircleIn](#circlein)
 
 - - - 
-		
+
 ## Homework
 * Homework will be uploaded through Gradescope which you will access from inside Canvas.
 
