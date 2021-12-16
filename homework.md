@@ -5,6 +5,6 @@ title: Homework
 
 ## Homework
 
-FIXME  DUMMY CONTENT BELOW
+**Warning!** This is DRAFT content for now.
 
 {% include homework_table.md  data=site.data.homework %}

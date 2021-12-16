@@ -2,12 +2,12 @@
 <table class="asst-table">
 {% for homework in data.homework %}
 <tr>
-  <td>{{ homework.name }}</td>
+  <td><b>{{ homework.name }}</b></td>
   <td> 
     <table class="inner">
     {% for section in homework.sections %}
       <tr>
-        <td><em>pages {{ section.pages }}:</em> # {{ section.problems }}</td>
+        <td><em>&#167;{{ section.section }}, pages {{ section.pages }}:</em>&nbsp; &nbsp; # {{ section.problems }}</td>
       </tr>
     {% endfor %}
     </table>
