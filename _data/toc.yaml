@@ -8,9 +8,6 @@ docs:
 - title: Schedule
   url: schedule.pdf  # rebuild by "make schedule.pdf" in assets/general/
 
-- title: Worksheets
-  url: worksheets.html
-
 - title: Homework
   url: homework.html
 
@@ -19,6 +16,9 @@ docs:
 
 - title: Exams
   url: exams.html
+
+- title: Worksheets
+  url: worksheets.html
 
 - title: Tech Help
   url: techHelp.html
