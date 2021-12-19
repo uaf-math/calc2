@@ -7,8 +7,13 @@
     <table class="inner">
     {% for section in homework.sections %}
       <tr>
-        <td><em>&#167;{{ section.section }}, pages {{ section.pages }}:</em>&nbsp; &nbsp; # {{ section.problems }}</td>
+        <td><em>&#167;{{ section.section }}, pp {{ section.pages }}:</em> &nbsp; # {{ section.problems }}</td>
       </tr>
+      {% if section.cont %}
+        <tr>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ section.cont }}</td>
+        </tr>
+      {% endif %}
     {% endfor %}
     </table>
   </td>

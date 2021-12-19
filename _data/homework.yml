@@ -27,14 +27,19 @@ homework:
     problems: 58, 64, 68, 76, 80, 84, 86, 98, 102
 - name: Homework 2.3
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
+  - section: 1.7
+    pages: 111--113
+    problems: 392, 400, 424, 432
+  - section: 2.3
+    pages: 166--168
+    problems: 114, 119, 122, 133, 134, 138,
+    cont: 156, 159, 160
 - name: Homework 2.4
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
+  - section: 2.4
+    pages: 180--182
+    problems: 166, 168, 170, 172, 175, 176,
+    cont: 184, 192, 198, 200, 209, 213
 - name: Homework 2.5
   sections:
   - section: FIXME
