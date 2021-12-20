@@ -46,4 +46,4 @@ I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
 [<img src="assets/images/solid.png" height="200">](https://en.wikipedia.org/wiki/Solid_of_revolution "solid of revolution") &nbsp; &nbsp; [<img src="assets/images/ln.gif" height="200">](https://en.wikipedia.org/wiki/Taylor_series "Taylor series of y=ln x")
 
 ---
-_Site design derived from [coordinated Calc I](https://uaf-math251.github.io/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/).
+_Site design derived from [coordinated Calc I](https://uaf-math251.github.io/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/)._
