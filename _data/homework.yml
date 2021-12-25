@@ -24,8 +24,8 @@ homework:
     problems: 320, 324, 338, 348, 364
   - section: 2.2
     pages: 150--153
-    problems: 58, 64, 68, 76, 80, 84, 86, 98, 102
-- name: Homework 2.3
+    problems: 58, 64, 68, 76, 80, 84, 86, 98, 110
+- name: DRAFT Homework 2.3
   sections:
   - section: 1.7
     pages: 111--113
@@ -34,7 +34,7 @@ homework:
     pages: 166--168
     problems: 114, 119, 122, 133, 134, 138,
     cont: 156, 159, 160
-- name: Homework 2.4
+- name: DRAFT Homework 2.4
   sections:
   - section: 2.4
     pages: 180--182
