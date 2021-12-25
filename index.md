@@ -15,7 +15,7 @@ Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto
 
 * The textbook is online: [OpenStax Calculus Volume 2](https://openstax.org/details/books/calculus-volume-2).
 
-* The [Canvas course page](https://canvas.alaska.edu/courses/7049) is important!  Go there for your grades, solutions to [Homework](homework.html), [Quizzes](quizzes.html), and [Exams](exams.html), and a link to Gradescope for submitting [Homework](homework.html).
+* The [Canvas course page](https://canvas.alaska.edu/courses/7049) is important!  Go there for your grades, solutions to [Homework](homework.html), and a link to Gradescope for submitting [Homework](homework.html).
 
 * For the [Homework](homework.html), the solutions are available in advance.  (Find them at the [Canvas page](https://canvas.alaska.edu/courses/7049).)  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) set as a single PDF file in Gradescope, accessed from the [Canvas page](https://canvas.alaska.edu/courses/7049).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
 
