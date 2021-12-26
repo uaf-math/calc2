@@ -5,7 +5,7 @@ title: Homework
 
 ## Homework
 
-  * The problems, listed in the table below, come from our textbook: [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
+  * The problems in the table below come from our textbook: [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
   * Homework is due by 11:59PM on the due date shown on the [Schedule](assets/general/schedule.pdf).
   * Turn in your homework via Gradescope, which is accessed via [Canvas](https://canvas.alaska.edu/courses/7049).
     * See the [Tech Help page](techHelp.html) for scanning/uploading advice.
