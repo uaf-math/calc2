@@ -3,7 +3,7 @@
 {% for homework in data.homework %}
 <tr>
   <td><b>{{ homework.name }}</b></td>
-  <td> 
+  <td>
     <table class="inner">
     {% for section in homework.sections %}
       <tr>
@@ -11,7 +11,7 @@
       </tr>
       {% if section.cont %}
         <tr>
-          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ section.cont }}</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ section.cont }}</td>
         </tr>
       {% endif %}
     {% endfor %}

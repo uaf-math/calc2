@@ -3,41 +3,41 @@ homework:
 - name: Homework 2.1
   sections:
   - section: 1.2
-    pages: 42--46
+    pages: 42-46
     problems: 72, 78
   - section: 1.3
-    pages: 60--63
+    pages: 60-63
     problems: 150, 172, 182
   - section: 1.5
-    pages: 90--92
+    pages: 90-92
     problems: 264, 276
   - section: 2.1
-    pages: 131--133
+    pages: 131-133
     problems: 2, 4, 6, 8, 10, 24, 28, 30, 52, 54
 - name: Homework 2.2
   sections:
   - section: 1.5
-    pages: 90--92
+    pages: 90-92
     problems: 274, 280, 294
   - section: 1.6
-    pages: 103--105
+    pages: 103-105
     problems: 320, 324, 338, 348, 364
   - section: 2.2
-    pages: 150--153
+    pages: 150-153
     problems: 58, 64, 68, 76, 80, 84, 86, 98, 110
 - name: Homework 2.3
   sections:
   - section: 1.7
-    pages: 111--113
+    pages: 111-113
     problems: 392, 400, 424, 432
   - section: 2.3
-    pages: 166--168
+    pages: 166-168
     problems: 114, 120, 122, 133, 138, 150
     cont: 159, 160
 - name: Homework 2.4
   sections:
   - section: 2.4
-    pages: 180--182
+    pages: 180-182
     problems: 166, 168, 170, 172, 175, 176,
     cont: 184, 192, 198, 200, 209, 213
 - name: Homework 2.5
@@ -50,16 +50,18 @@ homework:
   - section: 2.6
     pages:
     problems: 256, 262, 264, 271, 274, 276
-- name: Homework 2.7
+- name: DRAFT Homework 2.7
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
-- name: Homework 3.1
+  - section: 2.7
+    pages:
+    problems: 296, 300, 302, 306, 308, 312, 314, 318,
+    cont: 322, 326, 330, 336, 342, 344, 347
+- name: DRAFT Homework 3.1
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
+  - section: 3.1
+    pages:
+    problems: 8, 10, 16, 17, 20, 24, 26, 27, 28, 30, 38,
+    cont: 40, 44, 46, 48, 60 (shells!), 62, 66
 - name: Homework 3.2
   sections:
   - section: FIXME
