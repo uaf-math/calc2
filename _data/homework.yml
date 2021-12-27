@@ -1,4 +1,4 @@
-semester: Fall 2021
+semester: Spring 2022
 homework:
 - name: Homework 2.1
   sections:
@@ -50,13 +50,13 @@ homework:
   - section: 2.6
     pages:
     problems: 256, 262, 264, 271, 274, 276
-- name: DRAFT Homework 2.7
+- name: Homework 2.7
   sections:
   - section: 2.7
     pages:
     problems: 296, 300, 302, 306, 308, 312, 314, 318,
     cont: 322, 326, 330, 336, 342, 344, 347
-- name: DRAFT Homework 3.1
+- name: Homework 3.1
   sections:
   - section: 3.1
     pages:
