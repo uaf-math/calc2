@@ -62,12 +62,12 @@ homework:
     pages:
     problems: 8, 10, 16, 17, 20, 24, 26, 27, 28, 30, 38,
     cont: 40, 44, 46, 48, 60 (shells!), 62, 66
-- name: DRAFT Homework 3.2
+- name: Homework 3.2
   sections:
   - section: 3.2
     pages:
-    problems: 72, 74, 76, 78, 80, 84, 86, 88, 91, 98,
-    cont: 100, 104, 106, 110, 112, 118, 122
+    problems: 72, 74, 76, 78, 80, 86, 88, 91, 98, 100, 104,
+    cont: 106, 110, 112, 118, 122 (m>0,n>0 are integers)
 - name: DRAFT Homework 3.3
   sections:
   - section: 3.3
