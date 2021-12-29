@@ -68,12 +68,12 @@ homework:
     pages:
     problems: 72, 74, 76, 78, 80, 86, 88, 91, 98, 100, 104,
     cont: 106, 110, 112, 118, 122 (m>0,n>0 are integers)
-- name: DRAFT Homework 3.3
+- name: Homework 3.3
   sections:
   - section: 3.3
     pages:
-    problems: 132, 134, 138, 140, 142, 143, 146, 151, 160,
-    cont: 161, 162, 166, 169, 170, 172, 173, 175
+    problems: 132, 134, 138, 140, 142, 143, 146, 151, 161,
+    cont: 162, 166, 169, 170, 172, 175
 - name: Homework 3.4
   sections:
   - section: FIXME
