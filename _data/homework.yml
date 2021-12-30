@@ -1,4 +1,5 @@
 semester: Spring 2022
+home: assets/homework
 homework:
 - name: Homework 2.1
   sections:
@@ -74,16 +75,18 @@ homework:
     pages:
     problems: 132, 134, 138, 140, 142, 143, 146, 151, 161,
     cont: 162, 166, 169, 170, 172, 175
-- name: Homework 3.4
+- name: DRAFT Homework 3.4
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
-- name: Homework 3.6
+  - section: 3.4
+    pages:
+    problems: 182, 184, 186, 187, 192, 196, 200, 203, 207, 208,
+    cont: 211, 212, 214, 216, 220, 222, 231, 237
+- name: DRAFT Homework 3.6
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
+  - section: 3.6
+    pages:
+    problems: 299, 303, 306, 310, 311, 314, 315, 316, 322
+    supp: supp3p6.pdf
 - name: Homework 3.7
   sections:
   - section: FIXME

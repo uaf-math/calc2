@@ -14,6 +14,11 @@
           <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ section.cont }}</td>
         </tr>
       {% endif %}
+      {% if section.supp %}
+        <tr>
+          <td>see <a href="{{ data.home }}/{{ section.supp }}">special instructions (PDF)</a></td>
+        </tr>
+      {% endif %}
     {% endfor %}
     </table>
   </td>
