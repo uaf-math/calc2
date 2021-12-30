@@ -45,11 +45,11 @@ homework:
   - section: 2.5
     pages:
     problems: 220, 222, 224, 226, 234, 236, 248
-- name: DRAFT Homework 2.6
+- name: Homework 2.6
   sections:
   - section: 2.6
     pages:
-    problems: 256, 262, 264, 271, 274, 276
+    problems: 256, 262, 268, 271, 274, 279
 - name: Homework 2.7
   sections:
   - section: 2.7
