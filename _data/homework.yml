@@ -87,16 +87,17 @@ homework:
     pages:
     problems: 299, 303, 306, 310, 311, 314, 315, 316, 322
     supp: supp3p6.pdf
-- name: Homework 3.7
+- name: DRAFT Homework 3.7
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
-- name: Homework 4.1
+  - section: 3.7
+    pages:
+    problems: 348, 349, 350, 351, 352, 353, 360, 361, 363, 364,
+    cont: 365, 367, 374, 375, 377, 384, 394, 398, 402
+- name: DRAFT Homework 4.1
   sections:
-  - section: FIXME
-    pages: FIXME
-    problems: FIXME
+  - section: 4.1
+    pages:
+    problems: 9, 11, 17, 18, 20, 28, 35, 36, 38, 40, 53, 58
 - name: Homework 4.2
   sections:
   - section: FIXME
