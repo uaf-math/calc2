@@ -87,12 +87,12 @@ homework:
     pages:
     problems: 299, 303, 306, 310, 311, 314, 315, 316, 322
     supp: supp3p6.pdf
-- name: DRAFT Homework 3.7
+- name: Homework 3.7
   sections:
   - section: 3.7
     pages:
-    problems: 348, 349, 350, 351, 352, 353, 360, 361, 363, 364,
-    cont: 365, 367, 374, 375, 377, 384, 394, 398, 402
+    problems: 348, 349, 351, 352, 353, 360, 361, 363, 364,
+    cont: 365, 367, 374, 377, 394, 398, 402
 - name: DRAFT Homework 4.1
   sections:
   - section: 4.1
