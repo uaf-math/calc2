@@ -17,7 +17,7 @@ Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto
 
 * The [Canvas course page](https://canvas.alaska.edu/courses/7049) is important!  Go there for your grades, solutions to [Homework](homework.html), and a link to Gradescope for submitting [Homework](homework.html).
 
-* For the [Homework](homework.html), the solutions are available in advance.  (Find them at the [Canvas page](https://canvas.alaska.edu/courses/7049).)  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) set as a single PDF file in Gradescope, accessed from the [Canvas page](https://canvas.alaska.edu/courses/7049).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
+* For the [Homework](homework.html), the solutions are available in advance.  (Find them at the [Canvas page](https://canvas.alaska.edu/courses/7049).)  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in Gradescope.  (Access Gradescope from the [Canvas page](https://canvas.alaska.edu/courses/7049).)  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
 
 ### Resources
 
@@ -42,6 +42,6 @@ Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto
 [<img src="assets/images/solid.png" height="200">](https://en.wikipedia.org/wiki/Solid_of_revolution "solid of revolution") &nbsp; &nbsp; [<img src="assets/images/ln.gif" height="200">](https://en.wikipedia.org/wiki/Taylor_series "Taylor series of y=ln x")
 
 ---
-_Site design derived from [coordinated Calc I](https://uaf-math251.github.io/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/)._
+_Site design derived from the [coordinated Calc I website](https://uaf-math251.github.io/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/)._
 
 [<img src="assets/images/GitHub-Mark-32px.png" align="right">](https://github.com/bueler/calc2 "github repository for this site")
