@@ -2,16 +2,15 @@
 <table class="asst-table">
 {% for homework in data.homework %}
 <tr>
-  <td><b>{{ homework.name }}</b></td>
-  <td>
+  <td><b>{{ homework.name }}</b>
     <table class="inner">
     {% for section in homework.sections %}
       <tr>
-        <td><em>&#167;{{ section.section }}, pp {{ section.pages }}:</em> &nbsp; # {{ section.problems }}</td>
+        <td><em>&#167;{{ section.section }}:</em> &nbsp; # {{ section.problems }}</td>
       </tr>
       {% if section.cont %}
         <tr>
-          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ section.cont }}</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ section.cont }}</td>
         </tr>
       {% endif %}
       {% if section.supp %}
