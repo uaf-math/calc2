@@ -2,7 +2,7 @@
 <table class="asst-table">
 {% for homework in data.homework %}
 <tr>
-  <td><b>{{ homework.name }}</b>
+  <td><b>{{ homework.name }}</b> &nbsp; &nbsp; Due {{ homework.due }}.<br><br>
     <table class="inner">
     {% for section in homework.sections %}
       <tr>
