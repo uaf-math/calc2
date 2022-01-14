@@ -1,6 +1,6 @@
-semester: Fall 2021
+semester: Spring 2022
 home: assets/worksheets
 worksheets:
-- name: Worksheet X
-  blank: dummy.pdf       # assets/worksheets/worksheetX.pdf
-  solutions: dummy.pdf   # assets/worksheets/wsolnsX.pdf
+- name: Worksheet for section 2.2
+  blank: 2p2.pdf
+  solutions: 2p2solns.pdf
