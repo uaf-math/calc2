@@ -98,14 +98,16 @@ homework:
   - section: 5.1
     problems: 1, 2, 3, 4, 6, 8, 10, 13, 15, 23, 25, 27,
     cont: 28, 29, 31, 33, 48, 49, 51, 52, 59, 61
-- name: Homework 5.2
+- name: DRAFT Homework 5.2
   sections:
-  - section: FIXME
-    problems: FIXME
-- name: Homework 5.3
+  - section: 5.2
+    problems: 69, 72, 79, 81, 82, 84, 89, 91, 94, 102, 105,
+    cont: 114, 129
+- name: DRAFT Homework 5.3
   sections:
-  - section: FIXME
-    problems: FIXME
+  - section: 5.3
+    problems: 139, 140, 143, 146, 150, 152, 154, 156, 158, 160,
+    cont: 162, 164, 170, 176, 177, 178, 192
 - name: Homework 5.4
   sections:
   - section: FIXME
