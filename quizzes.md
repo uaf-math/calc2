@@ -5,7 +5,9 @@ title: Quizzes
 
 ## Quizzes
 
-PDFs for Quizzes, and their solutions, will appear here as they occur.
+The table below gives the date and coverage for upcoming Quizzes.  <b>The best guide to the content of a Quiz is the Homework assignments you turn in just before the Quiz!</b>  See the [Schedule](schedule.pdf) and the [Homework tab](homework.html).
+
+Links to the Quizzes themselves ("blank"), and their solutions, will appear here the day after they occur.
 
 {% include quiz_table.md  data=site.data.quizzes %}
 
