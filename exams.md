@@ -11,6 +11,8 @@ PDFs for Exams, and their solutions, will appear here as they occur.
 
 {% include exam_table.md  data=site.data.exams %}
 
+<div style="padding-bottom: 20px"></div>
+
 <!-- next block does not use Jekyll/liquid for simplicity -->
 ### Final Exams from previous semesters
 

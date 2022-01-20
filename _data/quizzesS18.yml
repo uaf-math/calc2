@@ -3,7 +3,6 @@ home: assets/quizzes/S18/
 quizzes:
 - name: Quiz 1
   url: https://bueler.github.io/M252S18/Q1.pdf
-  solutions: 
 - name: Quiz 2
   url: https://bueler.github.io/M252S18/Q2.pdf
   solutions: Q2S.pdf
