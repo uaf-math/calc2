@@ -5,9 +5,9 @@ title: Exams
 
 ## Exams
 
-PDFs for Exams, and their solutions, will appear here as they occur.
+The table below gives the date and coverage for upcoming Exams.  <b>The best guide to the content of an Exam is the Quizzes leading up to the Exam, and also the [Homework assignments](homework.html).</b>  See the [Schedule](schedule.pdf).
 
-("Exam X" is a dummy.)
+Links to the Exams themselves ("blank"), and their solutions, will appear here the day after they occur.
 
 {% include exam_table.md  data=site.data.exams %}
 
