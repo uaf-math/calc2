@@ -1,0 +1,39 @@
+semester: Spring 2018
+home: assets/quizzes/S18/
+quizzes:
+- name: Quiz 1
+  url: https://bueler.github.io/M252S18/Q1.pdf
+  solutions: 
+- name: Quiz 2
+  url: https://bueler.github.io/M252S18/Q2.pdf
+  solutions: Q2S.pdf
+- name: Quiz 3
+  url: https://bueler.github.io/M252S18/Q3.pdf
+  solutions: Q3S.pdf
+- name: Quiz 4
+  url: https://bueler.github.io/M252S18/Q4.pdf
+  solutions: Q4S.pdf
+- name: Quiz 5
+  url: https://bueler.github.io/M252S18/Q5.pdf
+  solutions: Q5S.pdf
+- name: Quiz 6
+  url: https://bueler.github.io/M252S18/Q6.pdf
+  solutions: Q6S.pdf
+- name: Quiz 7
+  url: https://bueler.github.io/M252S18/Q7.pdf
+  solutions: Q7S.pdf
+- name: Quiz 8
+  url: https://bueler.github.io/M252S18/Q8.pdf
+  solutions: Q8S.pdf
+- name: Quiz 9
+  url: https://bueler.github.io/M252S18/Q9.pdf
+  solutions: Q9S.pdf
+- name: Quiz 10
+  url: https://bueler.github.io/M252S18/Q10.pdf
+  solutions: Q10S.pdf
+- name: Quiz 11
+  url: https://bueler.github.io/M252S18/Q11.pdf
+  solutions: Q11S.pdf
+- name: Quiz 12
+  url: https://bueler.github.io/M252S18/Q12.pdf
+  solutions: Q12S.pdf
