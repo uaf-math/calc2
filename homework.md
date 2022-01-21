@@ -5,8 +5,10 @@ title: Homework
 
 ## Homework
 
-  * The problems in the table below come from our textbook: [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
-    * Occasionally there are differences between the [html version (= link above)](https://openstax.org/details/books/calculus-volume-2), the downloadable PDF, and the print (paper) version.  The [html version](https://openstax.org/details/books/calculus-volume-2) is the one to use for Homework problems!
+  * The problems in the table below come from our textbook:
+
+    [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
+
   * Homework is due by 11:59PM on the due date shown below, and on the [Schedule](schedule.pdf).
   * Turn in your homework via Gradescope, which is accessed via [Canvas](https://canvas.alaska.edu/courses/7049).
     * See the [Tech Help page](techHelp.html) for scanning/uploading advice.
@@ -15,5 +17,18 @@ title: Homework
   * Homework will be graded on completion and effort.  You should get 100% on your homework!
 
 See this [Advice on Doing Homework](hw-advice.html)!
+
+### WARNING
+
+There are some differences, hopefully not many, between the following *four* versions of our textbook:
+  1. the [html website version](https://openstax.org/details/books/calculus-volume-2) at the OpenStax website:
+
+      [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
+
+  2. the downloadable PDF from the same website
+  3. the OpenStax app (iOS and Android ... might be the same?)
+  4. the print (paper) version
+
+[<span style="font-weight: bold; color: red;">The html website version 1. is the one to use for getting the Homework problems!</span>](https://openstax.org/details/books/calculus-volume-2)
 
 {% include homework_table.md  data=site.data.homework %}
