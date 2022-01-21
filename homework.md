@@ -15,8 +15,7 @@ title: Homework
   * Complete solutions are posted _in advance_ at the [Canvas site](https://canvas.alaska.edu/courses/7049).
   * Additional solutions to some other odd-numbered problems can be found in the [Student Solutions Manual](https://openstax.org/details/books/calculus-volume-2?Student%20resources).
   * Homework will be graded on completion and effort.  You should get 100% on your homework!
-
-See this [Advice on Doing Homework](hw-advice.html)!
+  * Also see this [Advice on Doing Homework](hw-advice.html)!
 
 ### WARNING
 
