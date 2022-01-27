@@ -2,9 +2,16 @@
 <table class="asst-table">
 {% for exam in data.exams %}
 <tr>
-	<td>{{ exam.name }}</td>
-	<td>{{ exam.date }}</td>
-	<td>sections: {{ exam.sections }}</td>
+	<td> 
+		<table class="inner">
+		  <tr>
+			    <td>{{ exam.name }} &nbsp; &nbsp; {{ exam.date }}</td>
+			</tr>
+			<tr>
+			    <td>sections: {{ exam.sections }}</td>
+			</tr>
+		</table>
+	</td>
 	<td> 
 		<table class="inner">
 		  {% if exam.blank %}
