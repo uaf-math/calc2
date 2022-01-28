@@ -2,10 +2,17 @@
 <table class="asst-table">
 {% for quiz in data.quizzes %}
 <tr>
-	<td>{{ quiz.name }}</td>
-	<td>Th {{ quiz.date }}</td>
-	<td>sections: {{ quiz.sections }}</td>
-	<td> 
+  <td>
+		<table class="inner">
+		  <tr>
+			    <td>{{ quiz.name }} &nbsp; &nbsp; Th {{ quiz.date }}</td>
+			</tr>
+			<tr>
+			    <td>sections: {{ quiz.sections }}</td>
+			</tr>
+		</table>
+	</td>
+	<td>
 		<table class="inner">
 		  {% if quiz.blank %}
 		  <tr>
@@ -18,7 +25,6 @@
 			</tr>
 		  {% endif %}
 		</table>
-		<div style="padding-bottom: 10px"></div>
 	</td>
 </tr>
 {% endfor %}

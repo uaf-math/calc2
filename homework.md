@@ -28,6 +28,6 @@ There are some differences, hopefully not many, between the following *four* ver
   3. the OpenStax app (iOS and Android ... might be the same?)
   4. the print (paper) version
 
-[<span style="font-weight: bold; color: red;">The html website version 1. is the one to use for getting the Homework problems!</span>](https://openstax.org/details/books/calculus-volume-2)
+[<span style="font-weight: bold; color: red;">The html website (= 1. above) is the one to use for getting the Homework problems!</span>](https://openstax.org/details/books/calculus-volume-2)
 
 {% include homework_table.md  data=site.data.homework %}
