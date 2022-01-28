@@ -10,6 +10,11 @@
 			<tr>
 			    <td>sections: {{ exam.sections }}</td>
 			</tr>
+		  {% if exam.cont %}
+			<tr>
+			    <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  {{ exam.cont }}</td>
+			</tr>
+			{% endif %}
 		</table>
 	</td>
 	<td> 
