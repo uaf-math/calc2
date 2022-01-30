@@ -13,23 +13,29 @@ Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto
 
 * See the [Schedule](schedule.pdf).  Check it often to find out what happens next!
 
+* See the [Canvas course page](https://canvas.alaska.edu/courses/7049) for:
+
+  * [your grades](https://canvas.alaska.edu/courses/7049/grades)
+  * [solutions to Homework](https://canvas.alaska.edu/courses/7049/modules)
+  * [link to Gradescope for submitting Homework](https://canvas.alaska.edu/courses/7049/external_tools/114?display=borderless)
+  * [Zoom link for Tuesday 11:30-12:30 group tutoring](https://canvas.alaska.edu/courses/7049)
+  * [other Announcements](https://canvas.alaska.edu/courses/7049)
+
 * The textbook is online: [OpenStax Calculus Volume 2](https://openstax.org/details/books/calculus-volume-2).
 
-* The [Canvas course page](https://canvas.alaska.edu/courses/7049) is important!  Go there for your grades, solutions to [Homework](homework.html), and a link to Gradescope for submitting [Homework](homework.html).
+* Do the [Homework](homework.html).
 
-* For the [Homework](homework.html), the solutions are available in advance.  (Find them at the [Canvas page](https://canvas.alaska.edu/courses/7049).)  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in Gradescope.  (Access Gradescope from the [Canvas page](https://canvas.alaska.edu/courses/7049).)  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
+  * Solutions are [available in advance at the Canvas page](https://canvas.alaska.edu/courses/7049/modules)!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in [Gradescope](https://canvas.alaska.edu/courses/7049/external_tools/114?display=borderless).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
 
 ### Resources
 
 * The [Math & Stat Tutoring Lab](https://www.uaf.edu/dms/mathlab/index.php) is **open** for in-person tutoring and online tutoring!  You can [sign up for online tutoring](https://fairbanks.go-redrock.com/).
 
-* The [Videos](videos.html) tab might help.  It is a week-by-week, curated list of possibly-useful videos from the web.
-
 * The [Quizzes](quizzes.html) and [Exams](exams.html) pages include old versions with solutions.  (However, they are not perfectly aligned with our course.)
 
-### Links
+* Find [calculus video playlists at the Videos tab](videos.html).
 
-* Want to know what we will be studying?  See these Wikipedia pages:
+* What are we studying?  See these Wikipedia pages:
    * [integrals](https://en.wikipedia.org/wiki/Integral)
    * [solids](https://en.wikipedia.org/wiki/Solid_of_revolution) and [surfaces of revolution](https://en.wikipedia.org/wiki/Surface_of_revolution)
    * [differential equations](https://en.wikipedia.org/wiki/Ordinary_differential_equation)
