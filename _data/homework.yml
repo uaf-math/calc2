@@ -108,57 +108,70 @@ homework:
     cont: 23, 25, 27, 28, 29, 31, 33,
     contcont: 48, 49, 51, 52, 59, 61
 - name: Homework 5.2
+  due: 11:59pm Wed 3/2
   sections:
   - section: 5.2
     problems: 69, 72, 79, 81, 82, 84, 89,
     cont: 91, 94, 102, 105, 129
 - name: DRAFT Homework 5.3
+  due: 11:59pm Mon 3/14
   sections:
   - section: 5.3
     problems: 139, 140, 143, 146, 150, 152,
     cont: 154, 156, 158, 160, 162, 164,
     contcont: 170, 176, 177, 178, 192
 - name: Homework 5.4
+  due: 11:59pm Wed 3/16
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 5.5
+  due: 11:59pm Mon 3/21
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 5.6
+  due: 11:59pm Wed 3/23
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 6.1
+  due: 11:59pm Mon 3/28
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 6.2
+  due: 11:59pm Wed 3/30
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 6.3
+  due: 11:59pm Mon 4/4
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 6.4
+  due: 11:59pm Wed 4/6
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 7.1
+  due: 11:59pm Mon 4/11
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 7.2
+  due: 11:59pm Wed 4/13
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 7.3
+  due: 11:59pm Mon 4/18
   sections:
   - section: FIXME
     problems: FIXME
 - name: Homework 7.4
+  due: 11:59pm Wed 4/20
   sections:
   - section: FIXME
     problems: FIXME
