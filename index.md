@@ -5,7 +5,17 @@ title: Bueler's Math F252 Calculus II in Spring 2022 at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** (section 001), Spring 2022, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto:elbueler@alaska.edu)) &nbsp; &nbsp;  I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
+#### Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto:elbueler@alaska.edu))
+
+I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
+
+### [--> Canvas course page](https://canvas.alaska.edu/courses/7049) for:
+
+  * [your grades](https://canvas.alaska.edu/courses/7049/grades)
+  * [link to Gradescope for submitting Homework](https://canvas.alaska.edu/courses/7049/external_tools/114?display=borderless)
+  * [solutions to Homework](https://canvas.alaska.edu/courses/7049/modules)
+  * [Zoom link for Tuesday 11:30-12:30 group tutoring](https://canvas.alaska.edu/courses/7049)
+  * [other Announcements](https://canvas.alaska.edu/courses/7049)
 
 ### Getting Started
 
@@ -13,19 +23,13 @@ Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto
 
 * See the [Schedule](schedule.pdf).  Check it often to find out what happens next!
 
-* See the [Canvas course page](https://canvas.alaska.edu/courses/7049) for:
-
-  * [your grades](https://canvas.alaska.edu/courses/7049/grades)
-  * [solutions to Homework](https://canvas.alaska.edu/courses/7049/modules)
-  * [link to Gradescope for submitting Homework](https://canvas.alaska.edu/courses/7049/external_tools/114?display=borderless)
-  * [Zoom link for Tuesday 11:30-12:30 group tutoring](https://canvas.alaska.edu/courses/7049)
-  * [other Announcements](https://canvas.alaska.edu/courses/7049)
-
 * The textbook is online: [OpenStax Calculus Volume 2](https://openstax.org/details/books/calculus-volume-2).
 
 * Do the [Homework](homework.html).
 
   * Solutions are [available in advance at the Canvas page](https://canvas.alaska.edu/courses/7049/modules)!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in [Gradescope](https://canvas.alaska.edu/courses/7049/external_tools/114?display=borderless).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
+
+* There are [two Midterms and a Final](exams.html).  See the [Exams](exams.html) tab for the sections covered and old exams for review.
 
 ### Resources
 
