@@ -1,0 +1,121 @@
+\documentclass[12pt]{amsart}
+%prepared in AMSLaTeX, under LaTeX2e
+\addtolength{\oddsidemargin}{-.65in}
+\addtolength{\evensidemargin}{-.65in}
+\addtolength{\topmargin}{-.4in}
+\addtolength{\textwidth}{1.3in}
+\addtolength{\textheight}{.75in}
+
+\renewcommand{\baselinestretch}{1.05}
+
+\usepackage{xspace}
+\usepackage{verbatim,fancyvrb}
+\usepackage{palatino}
+\usepackage[final]{graphicx}
+
+\newtheorem*{thm}{Theorem}
+\newtheorem*{defn}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{problem}{Problem}
+\newtheorem*{remark}{Remark}
+
+\newcommand{\mfile}[1]{
+\begin{quote}
+\bigskip
+\VerbatimInput[frame=single,framesep=3mm,label=\fbox{\normalsize \textsl{\,#1\,}},fontfamily=courier,fontsize=\footnotesize]{../matlab/#1}
+\medskip
+\end{quote}
+}
+
+%\DefineVerbatimEnvironment{mVerb}{Verbatim}{numbersep=2mm,frame=lines,framerule=0.1mm,framesep=2mm,xleftmargin=4mm,fontsize=\footnotesize}
+\DefineVerbatimEnvironment{mVerb}{Verbatim}{numbersep=2mm,xleftmargin=4mm,fontsize=\footnotesize}
+
+% macros
+\usepackage{amssymb}
+
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\newcommand{\eps}{\epsilon}
+\newcommand{\grad}{\nabla}
+\newcommand{\lam}{\lambda}
+\newcommand{\lap}{\triangle}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.}\quad }
+
+\newcommand{\pts}[1]{(\emph{#1 pts}) }
+\newcommand{\epart}[1]{\medskip\noindent\textbf{(#1)}\quad }
+\newcommand{\ppart}[1]{\,\textbf{(#1)}\quad }
+
+\newcommand{\ds}{\displaystyle}
+
+\begin{document}
+\scriptsize \noindent Math 252 Calculus II (Bueler) \hfill Due 16 March 2022 at 11:59pm
+\normalsize
+
+\Large
+\bigskip
+\centerline{\textbf{Homework 5.4: Replacement problems}}
+\medskip
+\normalsize
+
+\thispagestyle{empty}
+
+\bigskip
+
+The Exercises in this section are not well-aligned to the text!  Here are replacements.
+
+\bigskip
+\noindent Use the comparison test to determine whether the series converge or diverge.
+
+\newcommand{\pr}[1]{\bigskip \textbf{#1.} \,\,}
+
+\pr{1} $\ds \sum_{n=1}^\infty a_n$ where $\ds a_n = \frac{2}{n(n+1)}$
+
+\pr{2} $\ds \sum_{n=1}^\infty \frac{1}{2(n+1)}$
+
+\pr{3} $\ds \sum_{n=1}^\infty \frac{1}{2n - 1}$
+
+\pr{4} $\ds \sum_{n=2}^\infty \frac{1}{(n\ln n)^2}$
+
+\pr{5} $\ds \sum_{n=1}^\infty \frac{n!}{(n+2)!}$
+
+\pr{6} $\ds \sum_{n=1}^\infty \frac{1}{n!}$
+
+\pr{7} $\ds \sum_{n=1}^\infty \frac{\sin^2 n}{n^2}$
+
+\bigskip
+\noindent Use the limit comparison test to determine whether the series converge or diverge.
+
+\pr{8} $\ds \sum_{n=0}^\infty \frac{1}{n+3}$
+
+\pr{9} $\ds \sum_{n=2}^\infty \frac{1}{n^2 - \sqrt{n}}$
+
+\pr{10} $\ds \sum_{n=1}^\infty \frac{3^n}{5^n + 4^n}$
+
+\pr{11} $\ds \sum_{n=1}^\infty \frac{\ln n}{n^3}$
+
+\pr{12} $\ds \sum_{n=1}^\infty \frac{1}{4^n - 3^n}$
+
+\bigskip
+\pr{13} Does $\ds \sum_{n=2}^\infty \frac{1}{(\ln n)^p}$ converge if $p$ is large enough?  If so, for which $p$?
+
+\pr{14} For which $p$ does the series $\sum_{n=1}^\infty \frac{2^{pn}}{3^n}$ converge?  Why?
+
+\pr{15} For which $p>0$ does the series $\sum_{n=1}^\infty \frac{n^p}{2^n}$ converge?  Why?
+
+\pr{16} \begin{minipage}[t]{5.5in} Suppose that $a_n>0$ and that $\ds \sum_{n=1}^\infty a_n$ converges.  Suppose also that $b_n$ is an arbitrary sequence of zeros and ones. Does $\ds \sum_{n=1}^\infty a_n b_n$ necessarily converge?  Explain using a convergence test. \end{minipage}
+
+\pr{17} \begin{minipage}[t]{5.5in} Show that if $a_n \ge 0$ and $\ds \sum_{n=1}^\infty a_n^2$ converges, then $\ds \sum_{n=1}^\infty \sin^2(a_n)$ converges.  (\emph{Hint. Use a convergence test, and the fact that $|\sin \theta| \le |\theta|$.})
+\end{minipage}
+
+\pr{18} \begin{minipage}[t]{5.5in} Let $d_n$ be an infinite sequence of digits, meaning $d_n$ takes values in $\{0,1,\dots,9\}$.  What is the largest possible value of $\ds x = \sum_{n=1}^\infty \frac{d_n}{10^n}$ that converges?
+\end{minipage}
+
+\end{document}
