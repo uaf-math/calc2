@@ -13,6 +13,14 @@ Links to the Exams themselves ("blank"), and their solutions, will appear here t
 
 <div style="padding-bottom: 20px"></div>
 
+### Practice problems for Midterm 1
+
+Your best guide to what Midterm 1 is like is to look at all the previous Quizzes, and the Homework problems.  However, while the Quizzes did not cover sections 3.3 and 3.4, these sections <b>are</b> on Midterm 1.
+
+The following Practice Exam, found on the web, is not perfectly aligned to our schedule/sections but it is reasonably close.
+* [Practice Problems for Midterm 1 (SUNY Stony Brook)](https://www.math.stonybrook.edu/~ddudko/mat132-fall21/Midterm1Practice.pdf) <em><-- ignore Problem 6</em>
+  * [Solutions to above Practice Problems (SUNY Stony Brook)](https://www.math.stonybrook.edu/~ddudko/mat132-fall21/Midterm1PracticeSol.pdf)
+
 <!-- next block does not use Jekyll/liquid for simplicity -->
 ### Final Exams from previous semesters
 
