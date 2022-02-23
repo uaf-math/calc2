@@ -18,4 +18,4 @@ worksheets:
   image: matlab/numint.pdf
 - name: Worksheet for section 3.7
   blank: 3p7.pdf
-  #solutions: 3p7solns.pdf
+  solutions: 3p7solns.pdf
