@@ -16,3 +16,6 @@ worksheets:
 - name: Matlab code for section 3.6 example
   file: matlab/numint.m
   image: matlab/numint.pdf
+- name: Worksheet for section 3.7
+  blank: 3p7.pdf
+  #solutions: 3p7solns.pdf
