@@ -120,7 +120,7 @@ homework:
     problems: 139, 140, 143, 146, 150, 152,
     cont: 154, 156, 158, 160, 162, 164,
     contcont: 170, 176, 177, 192
-- name: DRAFT Homework 5.4
+- name: Homework 5.4
   due: 11:59pm Mon 3/21
   override: override5p4.pdf
 - name: DRAFT Homework 5.5
