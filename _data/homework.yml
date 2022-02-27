@@ -123,7 +123,7 @@ homework:
 - name: Homework 5.4
   due: 11:59pm Mon 3/21
   override: override5p4.pdf
-- name: DRAFT Homework 5.5
+- name: Homework 5.5
   due: 11:59pm Wed 3/23
   sections:
   - section: 5.5
