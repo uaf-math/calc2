@@ -130,12 +130,12 @@ homework:
     problems: 250, 252, 254, 256, 259, 260,
     cont: 263, 270, 274, 276, 280, 281,
     contcont: 283, 301, 306
-- name: DRAFT Homework 5.6
+- name: Homework 5.6
   due: 11:59pm Mon 3/28
   sections:
   - section: 5.6
     problems: 317, 320, 321, 324, 328, 330,
-    cont: 332, 335, 336, 338, 348, 350,
+    cont: 332, 334, 336, 338, 348, 353,
     contcont: 364, 367, 369
 - name: Homework 6.1
   due: 11:59pm Mon 3/28
