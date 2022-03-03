@@ -29,6 +29,8 @@ quizzes:
 - name: Quiz 6
   date: 3/3
   sections: 3.7, 4.1
+  blank: quiz6.pdf
+  #solutions: quiz6solns.pdf
 - name: Quiz 7
   date: 3/17
   sections: 5.1, 5.2
