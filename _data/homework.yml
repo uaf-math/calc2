@@ -137,13 +137,12 @@ homework:
     problems: 317, 320, 321, 324, 328, 330,
     cont: 332, 334, 336, 338, 348, 353,
     contcont: 364, 367, 369
-- name: DRAFT Homework 6.1
+- name: Homework 6.1
   due: 11:59pm Mon 3/28
   sections:
   - section: 6.1
-    problems: 1, 2, 3, 6, 8, 9, 11, 13, 14, 15
-    cont: 18, 20, 22, 23, 31, 33, 34, 36,
-    contcont: 38, 41, 48, 57, 61
+    problems: 1, 2, 3, 6, 7, 9, 11, 13, 14, 15,
+    cont: 18, 20, 22, 31, 33, 36, 38, 41
 - name: DRAFT Homework 6.2
   due: 11:59pm Wed 3/30
   sections:
