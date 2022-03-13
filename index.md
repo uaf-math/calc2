@@ -39,9 +39,12 @@ I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
 
 * Find [calculus video playlists at the Videos tab](videos.html).
 
-* What are we studying?  See these Wikipedia pages:
+* What are we studying?  Check out these Wikipedia pages:
    * [integrals](https://en.wikipedia.org/wiki/Integral)
    * [solids](https://en.wikipedia.org/wiki/Solid_of_revolution) and [surfaces of revolution](https://en.wikipedia.org/wiki/Surface_of_revolution)
+   * [integration by parts](https://en.wikipedia.org/wiki/Integration_by_parts)
+   * integration by [trigonometric substitution](https://en.wikipedia.org/wiki/Trigonometric_substitution)
+   * integration by [partial fractions](https://en.wikipedia.org/wiki/Partial_fraction_decomposition)
    * [differential equations](https://en.wikipedia.org/wiki/Ordinary_differential_equation)
    * [sequences](https://en.wikipedia.org/wiki/Sequence)
    * [series](https://en.wikipedia.org/wiki/Series_(mathematics))
