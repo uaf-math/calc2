@@ -13,4 +13,8 @@ Here are a few recommended video series for Calculus 2 students:
   * [Prof. Dave's Calculus](https://www.youtube.com/playlist?list=PLybg94GvOJ9ELZEe9s2NXTKr41Yedbw7M)
   * [Khan Academy Calculus](https://www.youtube.com/playlist?list=PL19E79A0638C8D449)
 
+And one more recommended video:
+
+  * [Jack Monaco: mechanical integrator](https://www.youtube.com/watch?v=s-y_lnzWQjk&t=471s)
+
 None of these are aligned to our textbook, but it is easy to navigate to helpful topics anyway.  Send video suggestions: [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
