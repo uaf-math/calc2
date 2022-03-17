@@ -34,6 +34,8 @@ quizzes:
 - name: Quiz 7
   date: 3/17
   sections: 5.1, 5.2
+  blank: quiz7.pdf
+  solutions: quiz7solns.pdf
 - name: Quiz 8
   date: 3/24
   sections: 5.3, 5.4, 5.5
