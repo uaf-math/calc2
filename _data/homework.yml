@@ -121,10 +121,10 @@ homework:
     cont: 154, 156, 158, 160, 162, 164,
     contcont: 170, 176, 177, 192
 - name: Homework 5.4
-  due: 11:59pm Mon 3/21
+  due: 11:59pm Wed 3/23
   override: override5p4.pdf
 - name: Homework 5.5
-  due: 11:59pm Wed 3/23
+  due: 11:59pm Fri 3/25
   sections:
   - section: 5.5
     problems: 250, 252, 254, 256, 259, 260,

@@ -38,10 +38,10 @@ quizzes:
   solutions: quiz7solns.pdf
 - name: Quiz 8
   date: 3/24
-  sections: 5.3, 5.4, 5.5
+  sections: 5.3, 5.4
 - name: Quiz 9
   date: 3/31
-  sections: 5.6, 6.1
+  sections: 5.5, 5.6, 6.1
 - name: Quiz 10
   date: 4/14
   sections: 6.4, 7.1
