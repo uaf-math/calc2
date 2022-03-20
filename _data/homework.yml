@@ -159,8 +159,10 @@ homework:
 - name: DRAFT Homework 6.4
   due: 11:59pm Mon 4/11
   sections:
-  - section: FIXME
-    problems: FIXME
+  - section: 6.4
+    problems: 175, 178, 183, 188, 202, 203,
+    cont: 204, 207, 209, 210, 214, 226,
+    contcont: 231, 234, 235
 - name: Homework 7.1
   due: 11:59pm Wed 4/13
   sections:
