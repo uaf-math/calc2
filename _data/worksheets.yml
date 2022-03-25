@@ -22,3 +22,5 @@ worksheets:
 - name: Worksheet for section 4.2
   blank: 4p2.pdf
   solutions: 4p2solns.pdf
+- name: Summary of Convergence Tests
+  blank: 5p6.pdf
