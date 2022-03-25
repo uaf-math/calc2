@@ -129,7 +129,7 @@ homework:
   - section: 5.5
     problems: 250, 252, 254, 256, 259, 260,
     cont: 263, 270, 274, 276, 280, 281,
-    contcont: 283, 301, 306
+    contcont: 283, 300, 306
 - name: Homework 5.6
   due: 11:59pm Mon 3/28
   sections:
