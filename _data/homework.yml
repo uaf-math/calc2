@@ -155,13 +155,13 @@ homework:
   - section: 6.3
     problems: 117, 118, 120, 121, 123, 124,
     cont: 131, 132, 140, 142, 146, 155, 160
-- name: DRAFT Homework 6.4
+- name: Homework 6.4
   due: 11:59pm Mon 4/11
   sections:
   - section: 6.4
-    problems: 175, 178, 183, 188, 202, 203,
-    cont: 204, 207, 209, 210, 214, 226,
-    contcont: 231, 234, 235
+    problems: 175, 176, 202, 203, 204, 207,
+    cont: 209, 210, 211, 215, 226, 231
+    contcont: 234, 235
 - name: Homework 7.1
   due: 11:59pm Wed 4/13
   sections:
