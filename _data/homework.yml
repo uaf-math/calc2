@@ -162,11 +162,11 @@ homework:
     problems: 175, 176, 202, 203, 204, 207,
     cont: 209, 210, 211, 215, 226, 231
     contcont: 234, 235
-- name: DRAFT Homework 7.1
+- name: Homework 7.1
   due: 11:59pm Wed 4/13
   sections:
   - section: 7.1
-    problems: 1, 2, 5, 6, 8, 12, 13, 17, 19,
+    problems: 1, 2, 5, 6, 8, 13, 17, 19,
     cont: 21, 26, 28, 35, (rect. form = elim. parameter)
     contcont: 39, 43, 49, 51, 54, 59
 - name: DRAFT Homework 7.2
