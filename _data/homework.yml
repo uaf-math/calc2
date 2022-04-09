@@ -169,12 +169,12 @@ homework:
     problems: 1, 2, 5, 6, 8, 13, 17, 19,
     cont: 21, 26, 28, 35, (rect. form = elim. parameter)
     contcont: 39, 43, 49, 51, 54, 59
-- name: DRAFT Homework 7.2
+- name: Homework 7.2
   due: 11:59pm Mon 4/18
   sections:
   - section: 7.2
-    problems: 64, 67, 68, 72, 76, 79, 83, 84, 90,
-    cont: 95, 100, 102, 109, 111, 115, 116
+    problems: 64, 67, 68, 72, 76, 79, 84, 85, 90,
+    cont: 100, 102, 109, 113, 115, 116
 - name: Homework 7.3
   due: 11:59pm Wed 4/20
   sections:
