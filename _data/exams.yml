@@ -11,6 +11,8 @@ exams:
   date: Thursday 4/7
   sections: 3.6, 3.7, 4.1, 5.1, 5.2, 5.3, 5.4,
   cont: 5.5, 5.6, 6.1, 6.2, 6.3
+  blank: mid2.pdf
+  solutions: mid2-solns.pdf
 - name: Final Exam
   date: Wednesday 4/27
   sections: all previous, 6.4, 7.1, 7.2, 7.3, 7.4
