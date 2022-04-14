@@ -49,6 +49,8 @@ quizzes:
 - name: Quiz 10
   date: 4/14
   sections: 6.4, 7.1
+  blank: quiz10.pdf
+  solutions: quiz10solns.pdf
 - name: Quiz 11
   date: 4/21
   sections: 7.2, 7.3
