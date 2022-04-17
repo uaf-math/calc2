@@ -5,6 +5,8 @@ title: Videos
 
 ## Calculus playlists on YouTube
 
+Send video suggestions: [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
+
 Here are a few recommended video series for Calculus 2 students:
 
   * [3Blue1Brown's Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) &nbsp; &nbsp; <i><-- recommended for rethinking the basics</i>
@@ -13,10 +15,10 @@ Here are a few recommended video series for Calculus 2 students:
   * [Prof. Dave's Calculus](https://www.youtube.com/playlist?list=PLybg94GvOJ9ELZEe9s2NXTKr41Yedbw7M)
   * [Khan Academy Calculus](https://www.youtube.com/playlist?list=PL19E79A0638C8D449)
 
-Recommended videos on something different: mechanical analog computers which do calculus!
+None of these are well-aligned to our textbook, but it is easy to navigate to helpful topics anyway.
 
-  * [Jack Monaco: mechanical integrator](https://www.youtube.com/watch?v=s-y_lnzWQjk&t=471s) <-- see this first
+Videos on something different: mechanical analog computers which do calculus!
+
+  * [Jack Monaco: mechanical integrator](https://www.youtube.com/watch?v=s-y_lnzWQjk&t=471s) <-- start here
   * [Navy Mechanical Fire Control Computers 1 (1953)](https://www.youtube.com/watch?v=lr1uK24SND8)
   * [Navy Mechanical Fire Control Computers 2 (1953)](https://www.youtube.com/watch?v=5GZa63x3k60)
-
-None of these are aligned to our textbook, but it is easy to navigate to helpful topics anyway.  Send video suggestions: [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
