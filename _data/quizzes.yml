@@ -54,3 +54,5 @@ quizzes:
 - name: Quiz 11
   date: 4/21
   sections: 7.2, 7.3
+  blank: quiz11.pdf
+  solutions: quiz11solns.pdf
