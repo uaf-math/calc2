@@ -9,6 +9,12 @@ Welcome to the homepage of **Math F252 Calculus II** (section 001), Spring 2022,
 
 I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
 
+### Final Exam!
+
+Review Session: Monday 4/25 in Gruening 208, 4:30 -- 6:00 pm
+
+Final Exam: Wednesday 4/27 in Gruening 208, 10:15 am -- 12:15
+
 ### [--> Canvas course page](https://canvas.alaska.edu/courses/7049) for:
 
   * [your grades](https://canvas.alaska.edu/courses/7049/grades)
