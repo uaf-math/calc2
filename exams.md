@@ -40,7 +40,7 @@ The material on these old Final Exams is close to, but not perfectly reflective 
 			    <td><a href="assets/exams/F20/final.pdf">blank</a></td>
 			</tr>
 			<tr>
-			    <td><a href="assets/exams/F20/final-solns.pdf">FIXME: solutions</a></td>
+			    <td><a href="assets/exams/F20/final-solns.pdf">solutions (and commentary)</a></td>
 			</tr>
 		</table>
 		<div style="padding-bottom: 10px"></div>
