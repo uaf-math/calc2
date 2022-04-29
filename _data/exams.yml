@@ -16,3 +16,5 @@ exams:
 - name: Final Exam
   date: Wednesday 4/27
   sections: all previous, 6.4, 7.1, 7.2, 7.3, 7.4
+  blank: final.pdf
+  solutions: final-solns.pdf
