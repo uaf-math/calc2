@@ -1,0 +1,190 @@
+\documentclass[11pt]{amsart}
+%\pagestyle{empty} 
+\setlength{\topmargin}{-0.5in} % usually -0.25in
+\addtolength{\textheight}{1.2in} % usually 1.25in
+\addtolength{\oddsidemargin}{-0.95in}
+\addtolength{\evensidemargin}{-0.95in}
+\addtolength{\textwidth}{1.9in} %\setlength{\parindent}{0pt}
+
+\newcommand{\normalspacing}{\renewcommand{\baselinestretch}{1.1}\tiny\normalsize}
+\normalspacing
+
+% macros
+\usepackage{amssymb,xspace,alltt,verbatim}
+\usepackage[final]{graphicx}
+\usepackage[pdftex,colorlinks=true]{hyperref}
+\usepackage{fancyvrb}
+\usepackage{tikz}
+
+\newtheorem*{lem*}{Lemma}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bs}{\mathbf{s}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+
+\newcommand{\bbf}{\mathbf{f}}
+
+\newcommand{\CC}{{\mathbb{C}}}
+\newcommand{\RR}{{\mathbb{R}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\ZZ}{{\mathbb{Z}}}
+\newcommand{\ZZn}{{\mathbb{Z}}_n}
+\newcommand{\NN}{{\mathbb{N}}}
+\newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
+
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+
+\newcommand{\Log}{\operatorname{Log}}
+
+\newcommand{\grad}{\nabla}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+\newcommand{\Octave}{\textsc{Octave}\xspace}
+\newcommand{\pylab}{\textsc{pylab}\xspace}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{(\emph{#1 pts})}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2} \quad}
+
+
+\begin{document}
+\hfill \Large Name:\underline{\phantom{Ed Bueler really really long long long name}}
+\medskip
+
+\scriptsize \noindent Math 252 Calculus 2 (Bueler) \hfill Thursday, 17 February 2022
+\medskip
+
+\LARGE\centerline{\textbf{Midterm Exam 1}}
+
+\smallskip
+\begin{quote}
+\large
+\textbf{No book, notes, electronics, calculator, or internet access.  100 points possible. 70 minutes maximum.}
+\end{quote}
+
+\normalsize
+\medskip
+
+\thispagestyle{empty}
+
+\probpts{1}{8}  Compute the area between the curves $y=\cos(x)$ and $y=\cos^2(x)$ on the interval $0\le x \le \pi/2$. \quad (\emph{Hint.  Be careful about which curve is above the other.})
+\vfill
+
+\probpts{2}{6}  Completely set up, but do not evaluate, a definite integral for the length of the curve $\ds y=\frac{1}{x}$ on the interval $x=1$ to $x=10$.
+\vspace{2.5in}
+
+\clearpage\newpage
+\prob{3}  Evaluate and simplify the following indefinite and definite integrals.
+
+\epartpts{a}{6}  $\ds \int \tan x\,dx = $
+\vfill
+
+\epartpts{b}{6}  $\ds \int_0^1 3^x\,dx = $
+\vfill
+
+\epartpts{c}{6}  $\ds \int_0^{\pi/4} \tan^3 x \sec^2 x\,dx = $
+\vfill
+
+\clearpage\newpage
+\epartpts{d}{8}  $\ds \int \cos^2 (7t) \sin^3 (7t) \,dt = $
+\vfill
+
+\epartpts{e}{8}  $\ds \int \cos(7t) \cos(3t)\,dt = $
+\vfill
+
+\clearpage\newpage
+\epartpts{f}{8}  $\ds \int \frac{x}{x^2-4x - 5}\,dx = $
+\vfill
+
+\epartpts{g}{8}  {\large $\ds \int z^2\, e^z\,dz = $}
+\vfill
+
+\clearpage\newpage
+\prob{4}  \ppartpts{a}{4} Sketch the region bounded by the curves $y=\ln x$, $x=1$, and $y=1$.
+\vspace{3.0in}
+
+\epartpts{b}{8}  Use shells to find the volume of the solid of revolution found by rotating the region in part \textbf{(a)} around the $x$-axis.
+\vfill
+
+\clearpage\newpage
+\epartpts{c}{8}  Fully set up, but do not evaluate, the three integrals needed to compute the center of mass $(\bar x,\bar y)$ of the region in part \textbf{(a)} (previous page).  Then fill in the blanks at the bottom, to show how to compute the values $\bar x$ and $\bar y$.
+\vfill
+
+\newcommand{\fracboxes}{\frac{\quad \fbox{{\Huge $\strut$} \hspace{0.6in}} \quad}{\fbox{{\Huge $\strut$} \hspace{0.6in}}}}
+{\large
+\begin{align*}
+m &= \hspace{5.0in} \\
+{\Huge \strut} \\
+{\Huge \strut} \\
+M_y &= \\
+{\Huge \strut} \\
+{\Huge \strut} \\
+M_x &= \\
+{\Huge \strut} \\
+\end{align*}
+
+\vspace{0.5in}
+
+  $$\bar x = \fracboxes, \hspace{1.0in} \bar y = \fracboxes$$
+}
+
+\clearpage\newpage
+\prob{5}  Which trigonometric substitution would you use for the following two integrals?  Write the substitution in the box.  (There is no need to compute the integrals here.)
+
+\epartpts{a}{4} $\ds \int \sqrt{x^2 - 16\,}\,dx$
+
+\vspace{0.2in}
+
+\hfill\fbox{{\Huge $\strut$} \hspace{3.0in}}
+\bigskip
+
+\epartpts{b}{4} $\ds \int \frac{t^2}{\sqrt{1 - 4t^2\strut\,}}\,dt$
+
+\vspace{0.2in}
+
+\hfill\fbox{{\Huge $\strut$} \hspace{3.0in}}
+
+\bigskip\bigskip\bigskip
+
+\probpts{6}{8}  Evaluate and simplify the integral in \textbf{5(b)} above.
+\vfill
+
+\clearpage\newpage
+\probpts{Extra Credit}{3}  A donut (torus) surface is created by rotating a circle with radius one and center $(x,y)=(2,0)$ around the $y$-axis.  Fully set up, but do not evaluate, an integral for the surface area of this donut.
+\vfill
+
+\noindent \hrule
+
+\vspace{0.2in}
+\noindent You may find the following \textbf{trigonometric formulas} useful.  However, there are other trig.~formulas, not listed here, which you should have in memory, or which you know how to derive from these.
+
+\begin{align*}
+\sin(\alpha \pm \beta) &= \sin \alpha \cos \beta \pm \cos \alpha \sin \beta \\
+\cos(\alpha \pm \beta) &= \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \\
+\sin(ax) \sin(bx) &= \frac{1}{2} \cos((a-b)x) - \frac{1}{2} \cos((a+b)x) \\
+\sin(ax) \cos(bx) &= \frac{1}{2} \sin((a-b)x) + \frac{1}{2} \sin((a+b)x) \\
+\cos(ax) \cos(bx) &= \frac{1}{2} \cos((a-b)x) + \frac{1}{2} \cos((a+b)x)
+\end{align*}
+
+\vspace{0.3in}
+
+%\noindent \hrule
+%\begin{center}
+%\small
+%\bigskip
+%\textsc{blank space}
+%\end{center}
+%\vfill
+
+\end{document}
