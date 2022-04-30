@@ -1,0 +1,165 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.0in, bottom=0.75in, left=0.6in, right=0.8in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\ifnum \value{page} > 1\relax  \emph{\thepage}
+\fi}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+%\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+\setlength{\leftmargini}{16pt}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 8}
+\docdate{24 March, 2022}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes maximum.  No aids (book, calculator, etc.) are permitted.  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.  25 points possible.
+
+
+\problem{6}  Consider the series $\ds \sum_{n=1}^\infty \frac{1}{n^2+1}$.
+
+\begin{subproblems}
+\item Use the integral test to show this series converges.
+\vfill
+
+\item Use a comparison test to show this series converges.  (\textsl{Make sure to say which series you are comparing to, and why it converges.})
+\vfill
+\end{subproblems}
+
+
+\problem{3}  Consider the $p$-series $\ds \sum_{n=1}^\infty \frac{1}{n^p}$ for $p < 0$.  Show that such $p$-series diverge by the divergence test.
+\vfill
+
+
+\clearpage\newpage
+\problem{9}  Use the comparison test or the limit comparison test to determine whether the following series converge or diverge.  (\textsl{Say which comparison test you are using, and what series you are comparing to!})
+
+\begin{subproblems}
+\item $\ds \sum_{n=1}^\infty \frac{2^n}{4^n - 3^n}$
+\vfill
+
+\item $\ds \sum_{n=2}^\infty \frac{\ln n}{n}$
+\vfill
+
+\item $\ds \sum_{n=1}^\infty \frac{\cos^2 n}{n^2}$
+\vfill
+\end{subproblems}
+
+
+\clearpage\newpage
+\problem{4} Simplify the following series, and then determine if the series converges or diverges by applying a test.  (\textsl{Justify your conclusion about converge or diverge.})
+
+\begin{subproblems}
+\item $\ds \sum_{n=2}^\infty \frac{(n-1)!}{n!}$
+\vfill
+
+\item $\ds \sum_{n=2}^\infty \frac{n!}{(n-1)!}$
+\vfill
+\end{subproblems}
+
+\problem{3}  Sketch a partial sum $S_N$ of the harmonic series as the total area of rectangles of width one.  (\textsl{Please label axes appropriately.})
+\vspace{3.5in}
+
+
+\clearpage\newpage
+\emph{Extra Credit. [2 points]}  \quad Which of the following two series do we \emph{know} converges or diverges?  (Which is it, and why?)  Explain in words why the answer is unknown for the other series.
+    $$\sum_{n=1}^\infty \frac{(\cos n)^2}{n}, \qquad  \sum_{n=1}^\infty \frac{1}{n (\cos n)^2}$$
+\vfill
+
+\noindent \hrule
+\bigskip
+\centerline{\footnotesize \textsc{blank space}}
+\vspace{3.0in}
+\end{document}

@@ -1,0 +1,157 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.0in, bottom=0.75in, left=0.6in, right=0.8in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\ifnum \value{page} > 1\relax  \emph{\thepage}
+\fi}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+%\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+\setlength{\leftmargini}{16pt}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 11}
+\docdate{21 April, 2022}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes maximum.  No aids (book, calculator, etc.) are permitted.  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.  25 points possible.
+
+\problem{4}  Determine the slope and equation of the tangent line at the given value of the parameter:
+    $$x=t^3, \qquad y=2t-1, \qquad t=-1$$
+\vspace{2.0in}
+
+$\ds (\text{slope}) = \boxed{\phantom{\begin{matrix} lakjsd alsfjd \\ sdfa \\ sdaf \end{matrix}}} \qquad \text{equation:} \quad \boxed{\phantom{\begin{matrix} lakjsd alsfjd saf sd fad a sdfad ad asfd asdf adsf sdfasdf \\ sdfa \\ sdaf \end{matrix}}}$
+
+\problem{4}  Find $\ds \frac{d^2 y}{dx^2}$:
+    $$x=t^2-t, \qquad y=t+e^t$$
+\vfill
+
+
+\clearpage\newpage
+\problem{6}  Consider the parameteric curve
+    $$x=\sin^2 t, \qquad y=\cos^2 t, \qquad 0 \le t \le \pi/2$$
+\begin{subproblems}
+\item Use an integral to find the arc length of the curve.
+\vfill
+
+\item Eliminate the parameter to find an equation of a line segment.
+\vspace{2.0in}
+
+\item Use the answer in \textbf{b.} to compute the arc length without an integral.
+\vspace{1.0in}
+\end{subproblems}
+
+\problem{3}  Find the rectangular (cartesian) coordinates of $\ds (r,\theta) = (2,\frac{\pi}{6})$
+\vspace{1.0in}
+
+\hfill $\ds (x,y) = \boxed{\phantom{\begin{matrix} lakjsd alsfjd sadf \\ sdfa \\ sdaf \end{matrix}}}$
+
+\clearpage\newpage
+\problem{4}  Rewrite and simplify the polar curve $r = 2\cos \theta$ in rectangular (cartesian) coordinates.
+\vfill
+
+\problem{4}  Sketch the graph of $r = 5 \cos(2\theta)$ for $\ds 0 \le \theta \le \frac{\pi}{2}$.  Please make a large, careful sketch!
+\vfill
+
+\clearpage\newpage
+\emph{Extra Credit. [2 points]}  \quad Find the area between this parametric curve and the $x$-axis:
+    $$x = \cos(t^2), \qquad y = \sin(t^2), \qquad -\sqrt{\pi} \le t \le \sqrt{\pi}$$
+(\textsl{Hint.} Blind integration is unwise.)
+\vfill
+
+\noindent \hrule
+\bigskip
+\centerline{\footnotesize \textsc{blank space}}
+\vspace{3.5in}
+\end{document}

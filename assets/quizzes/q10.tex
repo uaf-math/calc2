@@ -1,0 +1,160 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.0in, bottom=0.75in, left=0.6in, right=0.8in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\ifnum \value{page} > 1\relax  \emph{\thepage}
+\fi}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+%\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+\setlength{\leftmargini}{16pt}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 10}
+\docdate{14 April, 2022}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes maximum.  No aids (book, calculator, etc.) are permitted.  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.  25 points possible.
+
+\problem{8}  Using any convenient method, write the Maclaurin series of the given function.  Use sigma notation for your answer.
+
+\begin{subproblems}
+\item $\ds g(x) = x e^{-2x}$
+\vfill
+
+\item $\ds f(x) = \frac{\sin x}{x}$
+\vfill
+\end{subproblems}
+
+\clearpage\newpage
+\problem{4}  Use the answer from problem \textbf{1 b} on the previous page to compute the integral:
+
+\bigskip
+$\ds \int_0^x \frac{\sin t}{t}\,dt = $
+\vfill
+
+\problem{4}  Use the ratio (or root) test, plus a check on series convergence at the endpoints, to show that the interval of convergence of the following familiar Maclaurin series is $[-1,1]$.
+
+\bigskip
+$\ds \arctan x = \sum_{n=0}^\infty (-1)^n \frac{x^{2n+1}}{2n+1}$
+\vfill
+
+\clearpage\newpage
+\problem{5}  Use the binomial series for \, {\large $(1+x)^r$} \, to write out the first four nonzero terms of
+   $$f(x)=(1+x^2)^{1/3}$$
+(\emph{Hint.}  This means you will write the Taylor polynomial of degree 6 for $f(x)$.)
+\vfill
+
+% following is 7.1 #27
+\problem{4}  Consider the parametric curve $x=1+\cos t$, $y=3-\sin t$.
+
+\begin{subproblems}
+\item Eliminate the parameter to convert into rectangular form.
+\vspace{1.0in}
+
+\item Sketch the curve in the $x,y$ plane.
+\vspace{1.5in}
+\end{subproblems}
+
+\clearpage\newpage
+\emph{Extra Credit. [2 points]}  \quad Finding the antiderivative
+    $$\int \sqrt{x}\, e^x\,dx$$
+is traditionally regarded as impossible.  Indeed it is impossible if you want a finite expression in terms of familiar functions, but fairly easy if you accept a series, one which is not quite a standard power series, for the answer.  Starting from the familiar Maclaurin series for $e^x$, find a series form of this antiderivative.
+\vfill
+
+\noindent \hrule
+\bigskip
+\centerline{\footnotesize \textsc{blank space}}
+\vspace{3.5in}
+\end{document}

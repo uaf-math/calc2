@@ -1,0 +1,151 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate}
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme. 
+% Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 1}
+\docdate{13 January, 2022}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 24}}
+
+\begin{document}
+30 minutes maximum.  24 points possible; each part is worth 2 points.  No aids (book, calculator, etc.) are permitted.  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.
+
+\problem{12}  Compute the derivatives of the following functions.
+
+\begin{subproblems}
+% e and prod/quotient
+\item  $\ds f(x)=\frac{e^x}{x^3}$
+\vfill
+
+% double chain, ln
+\item   $\ds f(x) = \left( \ln(x^2+e^2)\right)^5$
+\vfill
+
+%nonstandard base
+%exponential + chain
+\item   $\ds f(x)=a^{\sin(x)}$ where $a$ is a constant, $a >1$
+\vfill
+
+\newpage
+%secant
+%quotient in chain
+\item   $\ds f(x) =\sec\left(\frac{x}{x+1} \right)$
+\vfill
+
+\item  $\ds f(x) = e^{\pi x+1}+\sqrt{3}\tan(\pi x)$
+\vfill
+
+\item  Find $\ds \frac{dy}{dx}$ if $\ds 2x+y=\cos(xy)$.  (You must solve for $\ds \frac{dy}{dx}$.)
+\vfill
+\end{subproblems}
+
+
+\newpage
+\problem{12}  Compute the following definite integrals and antiderivatives (indefinite integrals).  Remember that antiderivatives need a ``$+C$''.
+
+\begin{subproblems}
+\item $\ds \int_1^2 \frac{2+x^3}{x^2} \; dx$
+\vfill
+
+\item $\ds \int \frac{e^{3x}}{\sqrt{5+e^{3x}}}\; dx$
+\vfill
+
+\item $\ds \int \frac{1}{x} + \sec(x)\tan(x) \; dx$
+\vfill
+
+\newpage
+\item $\ds \int x\sqrt{2-x} \; dx$
+\vfill
+
+\item $\ds \int_0^2 e^x\cos(1+e^x)\; dx$
+\vfill
+
+\item $\ds \int \tan(x)\sec^2(x)\; dx$
+\vfill
+\end{subproblems}
+\end{document}
