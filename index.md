@@ -3,11 +3,15 @@ layout: course-page
 title: Bueler's Math F252 Calculus II in Spring 2022 at UAF
 ---
 
-Welcome to the homepage of **Math F252 Calculus II** (section 001), Spring 2022, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
+Welcome to the homepage of **Math F252 Calculus II** (section 001), Fall 2022, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 #### Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto:elbueler@alaska.edu))
 
 I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
+
+<span style="color:orange">**FALL 2022 MATERIAL IS UNDER CONSTRUCTION.**</span>
+
+<span style="color:orange">**SCHEDULE AND DATES BELOW ARE FOR SPRING 2022!**</span>
 
 ### Final Exam!
 
