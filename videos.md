@@ -19,7 +19,9 @@ Here are some recommended video series for Calculus 2 students:
 
 None of these are well-aligned to our textbook, but it is easy to navigate to helpful topics anyway.
 
-Videos on something different: mechanical analog computers which do calculus!
+### Videos on something different
+
+There were mechanical analog computers which did calculus!
 
   * [Jack Monaco: mechanical integrator](https://www.youtube.com/watch?v=s-y_lnzWQjk&t=471s) <-- start here
   * [Navy Mechanical Fire Control Computers 1 (1953)](https://www.youtube.com/watch?v=lr1uK24SND8)

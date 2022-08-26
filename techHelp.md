@@ -1,9 +1,9 @@
 ---
 layout: course-page
-title: Math F252 Calculus II in Spring 2022 at UAF
+title: Technical Help
 ---
 
-# Tech Help
+# Technical Help
 
 This page might help you turn in your written homework via Gradescope. 
 

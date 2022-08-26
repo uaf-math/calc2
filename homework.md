@@ -31,3 +31,10 @@ There are some differences, hopefully not many, between the following *four* ver
 [<span style="font-weight: bold; color: red;">Please get the Homework problems from the html website (= 1)!</span>](https://openstax.org/details/books/calculus-volume-2)
 
 {% include homework_table.md  data=site.data.homework %}
+
+<div style="padding-bottom: 100px"></div>
+
+---
+### Homework from Spring 2022
+
+{% include homework_table.md  data=site.data.homeworkS22 %}

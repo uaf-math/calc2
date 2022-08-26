@@ -1,0 +1,26 @@
+semester: Spring 2022
+home: assets/worksheets
+worksheets:
+- name: Worksheet for section 2.2
+  blank: 2p2.pdf
+  solutions: 2p2solns.pdf
+- name: Worksheet for sections 2.5 and 2.6
+  blank: 2p56.pdf
+  solutions: 2p56solns.pdf
+- name: Worksheet for section 3.2
+  blank: 3p2.pdf
+  solutions: 3p2solns.pdf
+- name: Another Worksheet for section 3.2
+  blank: 3p2again.pdf
+  solutions: 3p2againsolns.pdf
+- name: Matlab code for section 3.6 example
+  file: matlab/numint.m
+  image: matlab/numint.pdf
+- name: Worksheet for section 3.7
+  blank: 3p7.pdf
+  solutions: 3p7solns.pdf
+- name: Worksheet for section 4.2
+  blank: 4p2.pdf
+  solutions: 4p2solns.pdf
+- name: Summary of Convergence Tests
+  blank: 5p6.pdf

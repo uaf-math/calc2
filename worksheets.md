@@ -8,3 +8,10 @@ title: Worksheets
 PDFs for Worksheets, and their solutions, will appear here as they occur.  (You **do not** have to turn-in any Worksheet!)  This is also the place to find Matlab codes which I used in occasional demonstrations.
 
 {% include worksheet_table.md  data=site.data.worksheets %}
+
+<div style="padding-bottom: 100px"></div>
+
+---
+### Worksheets from Spring 2022
+
+{% include worksheet_table.md  data=site.data.worksheetsS22 %}

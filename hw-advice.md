@@ -11,7 +11,7 @@ title: Advice on Doing Homework
   * Number all problems, and their parts, as they are in the textbook.
   * _Legibly_ write the problems in order, and space things so they are easy to find.
   * Follow directions.  When you are asked for an explanation, make sure to give one!
-  * Turn your homework in on time using Gradescope at the [Canvas site](https://canvas.alaska.edu/courses/7049).
+  * Turn your homework in on time using Gradescope at the [Canvas site](https://canvas.alaska.edu/courses/9933).
 
 ### Making Homework effective for you
   * Attempt all problems _before_ looking at the solutions.

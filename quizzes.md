@@ -11,12 +11,9 @@ Links to the Quizzes themselves ("blank"), and their solutions, will appear here
 
 {% include quiz_table.md  data=site.data.quizzes %}
 
-<div style="padding-bottom: 20px"></div>
+<div style="padding-bottom: 100px"></div>
 
-### Link to Quizzes from Spring 2018
+---
+### Quizzes from Spring 2022
 
-I taught Calculus 2 in Spring 2018, and here are the Quizzes and solutions.  The material is _not aligned well_ with the current semester because the textbook was different.
-
-<b>Use at your own risk!</b>
-
-{% include quiz_table_S18.md  data=site.data.quizzesS18 %}
+{% include quiz_table.md  data=site.data.quizzesS22 %}
