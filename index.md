@@ -1,31 +1,25 @@
 ---
 layout: course-page
-title: Bueler's Math F252 Calculus II in Spring 2022 at UAF
+title: Bueler's Math F252 Calculus II at UAF
 ---
+
+<span style="color:orange">**FALL 2022 MATERIAL IS UNDER CONSTRUCTION**</span>
 
 Welcome to the homepage of **Math F252 Calculus II** (section 001), Fall 2022, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-#### Instructor:  [Ed Bueler](http://bueler.github.io/) ([elbueler@alaska.edu](mailto:elbueler@alaska.edu))
+#### Instructor:  [Ed Bueler](http://bueler.github.io/)
 
-I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
+Email me at [elbueler@alaska.edu](mailto:elbueler@alaska.edu).  I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
 
-<span style="color:orange">**FALL 2022 MATERIAL IS UNDER CONSTRUCTION.**</span>
+### [Canvas course page](https://canvas.alaska.edu/courses/9933)
 
-<span style="color:orange">**SCHEDULE AND DATES BELOW ARE FOR SPRING 2022!**</span>
+Log in to [canvas.alaska.edu/courses/9933](https://canvas.alaska.edu/courses/9933) for:
 
-### Final Exam!
-
-Review Session: Monday 4/25 in Gruening 208, 4:30 -- 6:00 pm
-
-Final Exam: Wednesday 4/27 in Gruening 208, 10:15 am -- 12:15
-
-### [--> Canvas course page](https://canvas.alaska.edu/courses/7049) for:
-
-  * [your grades](https://canvas.alaska.edu/courses/7049/grades)
-  * [link to Gradescope for submitting Homework](https://canvas.alaska.edu/courses/7049/external_tools/114?display=borderless)
-  * [solutions to Homework](https://canvas.alaska.edu/courses/7049/modules)
-  * [Zoom link for Tuesday 11:30-12:30 group tutoring](https://canvas.alaska.edu/courses/7049)
-  * [other Announcements](https://canvas.alaska.edu/courses/7049)
+  * your grades
+  * link to Gradescope for submitting Homework
+  * solutions to Homework
+  * Zoom link for Tuesday group tutoring
+  * other Announcements
 
 ### Getting Started
 
@@ -37,15 +31,15 @@ Final Exam: Wednesday 4/27 in Gruening 208, 10:15 am -- 12:15
 
 * Do the [Homework](homework.html).
 
-  * Solutions are [available in advance at the Canvas page](https://canvas.alaska.edu/courses/7049/modules)!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in [Gradescope](https://canvas.alaska.edu/courses/7049/external_tools/114?display=borderless).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
+  * Solutions are [available in advance at the Canvas page](https://canvas.alaska.edu/courses/9933/modules)!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in [Gradescope](https://canvas.alaska.edu/courses/9933/external_tools/114?display=borderless).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
 
 * There are [two Midterms and a Final](exams.html).  See the [Exams](exams.html) tab for the sections covered and old exams for review.
 
 ### Resources
 
-* The [Math & Stat Tutoring Lab](https://www.uaf.edu/dms/mathlab/index.php) is **open** for in-person tutoring and online tutoring!  You can [sign up for online tutoring](https://fairbanks.go-redrock.com/).
+* The [Math & Stat Tutoring Lab](https://www.uaf.edu/dms/mathlab/index.php) is **open** for in-person tutoring and online tutoring!  You can sign up for online tutoring.
 
-* The [Quizzes](quizzes.html) and [Exams](exams.html) pages include old versions with solutions.  (However, they are not perfectly aligned with our course.)
+* The [Quizzes](quizzes.html) and [Exams](exams.html) tabs include old versions with solutions.
 
 * Find [calculus video playlists at the Videos tab](videos.html).
 
