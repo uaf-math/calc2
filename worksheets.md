@@ -12,6 +12,4 @@ PDFs for Worksheets, and their solutions, will appear here as they occur.  (You 
 <div style="padding-bottom: 100px"></div>
 
 ---
-### Worksheets from Spring 2022
-
-{% include worksheet_table.md  data=site.data.worksheetsS22 %}
+For instructor reference: [Spring 2022 Worksheets](worksheetsS22.html)
