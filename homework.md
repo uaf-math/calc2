@@ -12,7 +12,7 @@ title: Homework
   * Homework is due by 11:59PM on the due date shown below, and on the [Schedule](schedule.pdf).
   * Turn in your homework via Gradescope, which is accessed via [Canvas](https://canvas.alaska.edu/courses/7049).
     * See the [Tech Help page](techHelp.html) for scanning/uploading advice.
-  * Complete solutions are posted _in advance_ at the [Canvas site](https://canvas.alaska.edu/courses/7049).
+  * Complete solutions are posted _in advance_ at the [Canvas site](https://canvas.alaska.edu/courses/7049).  See the Modules tab.
   * Additional solutions to some other odd-numbered problems can be found in the [Student Solutions Manual](https://openstax.org/details/books/calculus-volume-2?Student%20resources).
   * Homework will be graded on completion and effort.  You should get 100% on your homework!
   * Also see this [Advice on Doing Homework](hw-advice.html)!
