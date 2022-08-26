@@ -23,9 +23,9 @@ Log in to [canvas.alaska.edu/courses/9933](https://canvas.alaska.edu/courses/993
 
 ### Getting Started
 
-* Read the [Syllabus](syllabus.pdf).
+* Read the [Syllabus](assets/general/syllabus.pdf).
 
-* See the [Schedule](schedule.pdf).  Check it often to find out what happens next!
+* See the [Schedule](assets/general/schedule.pdf).  Check it often to find out what happens next!
 
 * The textbook is online: [OpenStax Calculus Volume 2](https://openstax.org/details/books/calculus-volume-2).
 
