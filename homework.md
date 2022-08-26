@@ -32,4 +32,7 @@ There are some differences, hopefully not many, between the following *four* ver
 
 {% include homework_table.md  data=site.data.homework %}
 
-<div style="padding-bottom: 20px"></div>
+<div style="padding-bottom: 100px"></div>
+
+---
+For instructor reference: [Spring 2022 Homework list](homeworkS22.html)
