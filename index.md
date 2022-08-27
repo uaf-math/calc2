@@ -3,8 +3,6 @@ layout: course-page
 title: Bueler's Math F252 Calculus II at UAF
 ---
 
-<span style="color:orange">**FALL 2022 MATERIAL IS UNDER CONSTRUCTION**</span>
-
 Welcome to the homepage of **Math F252 Calculus II** (section 001), Fall 2022, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 #### Instructor:  [Ed Bueler](http://bueler.github.io/)
