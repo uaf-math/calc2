@@ -3,6 +3,11 @@ home: assets/quizzes/F22
 quizzes:
 - name: Quiz 1
   date: 9/1
-  sections: review of Chapter 1
+  sections: review (Chapter 1)
   blank: quiz1.pdf
   solutions: quiz1solns.pdf
+- name: Quiz 2
+  date: 9/8
+  sections: 2.1, 2.2
+  #blank: quiz1.pdf
+  #solutions: quiz1solns.pdf
