@@ -3,6 +3,6 @@ home: assets/quizzes/F22
 quizzes:
 - name: Quiz 1
   date: 9/1
-  sections: FIXME
-  #blank: quiz1.pdf
-  #solutions: quiz1solns.pdf
+  sections: review of Chapter 1
+  blank: quiz1.pdf
+  solutions: quiz1solns.pdf
