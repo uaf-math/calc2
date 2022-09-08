@@ -10,7 +10,7 @@ quizzes:
   date: 9/8
   sections: 2.1, 2.2
   blank: quiz2.pdf
-  #solutions: quiz2solns.pdf
+  solutions: quiz2solns.pdf
 - name: Quiz 3
   date: 9/15
   sections: 2.3, 2.4
