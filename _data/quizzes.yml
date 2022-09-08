@@ -9,5 +9,10 @@ quizzes:
 - name: Quiz 2
   date: 9/8
   sections: 2.1, 2.2
-  #blank: quiz1.pdf
-  #solutions: quiz1solns.pdf
+  blank: quiz2.pdf
+  #solutions: quiz2solns.pdf
+- name: Quiz 3
+  date: 9/15
+  sections: 2.3, 2.4
+  #blank: quiz3.pdf
+  #solutions: quiz3solns.pdf
