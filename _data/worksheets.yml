@@ -3,4 +3,4 @@ home: assets/worksheets/F22
 worksheets:
 - name: Worksheet for Section 2.4
   blank: 2p4.pdf
-#  solutions: 2p4solns.pdf
+  solutions: 2p4solns.pdf
