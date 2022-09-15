@@ -15,7 +15,7 @@ quizzes:
   date: 9/15
   sections: 2.3, 2.4
   blank: quiz3.pdf
-  #solutions: quiz3solns.pdf
+  solutions: quiz3solns.pdf
 - name: Quiz 4
   date: 9/122
   sections: 2.5, 2.7
