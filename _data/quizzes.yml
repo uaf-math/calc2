@@ -17,7 +17,7 @@ quizzes:
   blank: quiz3.pdf
   solutions: quiz3solns.pdf
 - name: Quiz 4
-  date: 9/122
+  date: 9/22
   sections: 2.5, 2.7
   #blank: quiz4.pdf
   #solutions: quiz4solns.pdf
