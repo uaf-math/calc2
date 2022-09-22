@@ -53,42 +53,42 @@ homework:
     cont: 314, 318, 322, 326, 330, 336,
     contcont: 342, 344, 347
 - name: Homework 3.1
-  due: 11:59pm FIXME
+  due: 11:59pm Mon 9/26
   sections:
   - section: 3.1
     problems: 8, 10, 16, 17, 20, 24, 26, 27,
     cont: 28, 30, 38, 40, 44, 46, 48,
     contcont: 60 (shells!), 62, 66
 - name: Homework 3.2
-  due: 11:59pm FIXME
+  due: 11:59pm Wed 9/28
   sections:
   - section: 3.2
     problems: 72, 74, 76, 78, 80, 86, 88, 91,
     cont: 98, 100, 104, 106, 110, 112,
     contcont: 118, 122 (m>0,n>0 are integers)
 - name: Homework 3.3
-  due: 11:59pm FIXME
+  due: 11:59pm Mon 10/3
   sections:
   - section: 3.3
     problems: 132, 134, 138, 140, 142, 143,
     cont: 146, 151, 161, 162, 166, 169,
     contcont: 170, 172, 175
 - name: Homework 3.4
-  due: 11:59pm FIXME
+  due: 11:59pm Wed 10/5
   sections:
   - section: 3.4
     problems: 182, 184, 186, 187, 192, 196,
     cont: 200, 203, 207, 211, 214, 220,
     contcont: 222, 231, 238
 - name: Homework 3.6
-  due: 11:59pm FIXME
+  due: 11:59pm Wed 10/12
   sections:
   - section: 3.6
     problems: 299, 303, 306, 310, 311, 314,
     cont: 315, 316, 322
     supp: supp3p6.pdf
 - name: Homework 3.7
-  due: 11:59pm FIXME
+  due: 11:59pm Mon 10/17
   sections:
   - section: 3.7
     problems: 348, 349, 351, 352, 353, 360,
