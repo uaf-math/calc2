@@ -4,3 +4,6 @@ worksheets:
 - name: Worksheet for Section 2.4
   blank: 2p4.pdf
   solutions: 2p4solns.pdf
+- name: Worksheet for Section 3.1
+  blank: 3p1.pdf
+  #solutions: 2p4solns.pdf
