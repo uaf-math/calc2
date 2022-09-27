@@ -5,15 +5,15 @@ title: Exams
 
 ## Exams
 
-The table below gives the date and coverage for upcoming Exams.  <b>The best guide to the content of an Exam is the Quizzes leading up to the Exam, and also the [Homework assignments](homework.html).</b>  See the [Schedule](assets/general/schedule.pdf).
+The table below gives the date and coverage for upcoming Exams.  <b>The best guides to the content of an Exam are the [Quizzes](quizzes.html) leading up to the Exam, and also the [Homework assignments](homework.html).</b>  Also see the [Schedule](assets/general/schedule.pdf).
 
 Links to the Exams themselves ("blank"), and their solutions, will appear here the day after they occur.
 
-<b>Scroll down to find old Exams from Spring 2022!</b>
+<b>Old Exams from Spring 2022 appear below!</b>
 
 {% include exam_table.md  data=site.data.exams %}
 
-<div style="padding-bottom: 140px"></div>
+<div style="padding-bottom: 40px"></div>
 
 ---
 ### Exams from Spring 2022
