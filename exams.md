@@ -9,9 +9,11 @@ The table below gives the date and coverage for upcoming Exams.  <b>The best gui
 
 Links to the Exams themselves ("blank"), and their solutions, will appear here the day after they occur.
 
+<b>Scroll down to find old Exams from Spring 2022!</b>
+
 {% include exam_table.md  data=site.data.exams %}
 
-<div style="padding-bottom: 100px"></div>
+<div style="padding-bottom: 140px"></div>
 
 ---
 ### Exams from Spring 2022

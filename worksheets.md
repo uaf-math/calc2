@@ -9,7 +9,7 @@ PDFs for Worksheets, and their solutions, will appear here as they occur.  (You 
 
 {% include worksheet_table.md  data=site.data.worksheets %}
 
-<div style="padding-bottom: 100px"></div>
+<div style="padding-bottom: 40px"></div>
 
 ---
 For instructor reference: [Spring 2022 Worksheets](worksheetsS22.html)

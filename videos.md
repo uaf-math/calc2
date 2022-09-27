@@ -21,7 +21,7 @@ None of these are well-aligned to our textbook, but it is easy to navigate to he
 
 ### Videos on something different
 
-There were mechanical analog computers which did calculus!
+Until the 1960s people used mechanical analog computers, many of which did calculus by cool mechanisms!
 
   * [Jack Monaco: mechanical integrator](https://www.youtube.com/watch?v=s-y_lnzWQjk&t=471s) <-- start here
   * [Navy Mechanical Fire Control Computers 1 (1953)](https://www.youtube.com/watch?v=lr1uK24SND8)
