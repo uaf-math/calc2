@@ -5,7 +5,7 @@ title: Quizzes
 
 ## Quizzes
 
-The table below gives the date and coverage for upcoming Quizzes, including the ones you have already taken.  Links to the Quizzes themselves ("blank"), and their solutions, will appear here by the day after they occur.  See the [Schedule](assets/general/schedule.pdf) and the [Homework tab](homework.html) for more information.
+The table below gives the date and coverage for upcoming or completed Quizzes.  Links to the Quizzes themselves ("blank"), and their solutions, will appear here by the day after they occur.  See the [Schedule](assets/general/schedule.pdf) and the [Homework tab](homework.html) for more information.
 
 <b>Scroll down to find old Quizzes from Spring 2022!</b>
 
