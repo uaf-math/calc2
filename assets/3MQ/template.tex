@@ -1,6 +1,6 @@
 % PREPARE AN INPUT-ABLE FILE (14sep.tex) AND THEN BUILD FROM THE COMMAND LINE
 % LIKE THIS:
-%   $ export DATEMONTH="14 Sep"; export FILE=14sep.tex; pdflatex template.tex
+%   $ export DM="14 Sep"; export FILE=14sep.tex; pdflatex template.tex
 
 \documentclass[11pt]{amsart}
 
@@ -104,7 +104,7 @@
 % make a block suitable for four blocks per page
 \newcommand{\theblock}{
 \begin{minipage}[t][4.9in][t]{3.85in}
-\scriptsize \noindent \DATEMONTH 2022 \hfill \normalsize NAME: \underline{\hspace{60mm}}
+\scriptsize \noindent \DM 2022 \hfill \normalsize NAME: \underline{\hspace{60mm}}
 \medskip
 
 \thispagestyle{empty}
@@ -118,7 +118,7 @@
 \begin{document}
 
 % get from the environment
-\getenv[\DATEMONTH]{DATEMONTH}
+\getenv[\DM]{DM}
 \getenv[\FILE]{FILE}
 
 % 2 x 2 array of the blocks
