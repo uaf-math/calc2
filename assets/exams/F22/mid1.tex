@@ -1,0 +1,189 @@
+\documentclass[11pt]{amsart}
+%\pagestyle{empty} 
+\setlength{\topmargin}{-0.5in} % usually -0.25in
+\addtolength{\textheight}{1.2in} % usually 1.25in
+\addtolength{\oddsidemargin}{-0.95in}
+\addtolength{\evensidemargin}{-0.95in}
+\addtolength{\textwidth}{1.9in} %\setlength{\parindent}{0pt}
+
+\newcommand{\normalspacing}{\renewcommand{\baselinestretch}{1.1}\tiny\normalsize}
+\normalspacing
+
+% macros
+\usepackage{amssymb,xspace,alltt,verbatim}
+\usepackage[final]{graphicx}
+\usepackage[pdftex,colorlinks=true]{hyperref}
+\usepackage{fancyvrb}
+\usepackage{tikz}
+
+\newtheorem*{lem*}{Lemma}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bs}{\mathbf{s}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+
+\newcommand{\bbf}{\mathbf{f}}
+
+\newcommand{\CC}{{\mathbb{C}}}
+\newcommand{\RR}{{\mathbb{R}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\ZZ}{{\mathbb{Z}}}
+\newcommand{\ZZn}{{\mathbb{Z}}_n}
+\newcommand{\NN}{{\mathbb{N}}}
+\newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
+
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+
+\newcommand{\Log}{\operatorname{Log}}
+
+\newcommand{\grad}{\nabla}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+\newcommand{\Octave}{\textsc{Octave}\xspace}
+\newcommand{\pylab}{\textsc{pylab}\xspace}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{(\emph{#1 pts})}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2} \quad}
+
+
+\begin{document}
+\hfill \Large Name:\underline{\phantom{Ed Bueler really really long long long name}}
+\medskip
+
+\scriptsize \noindent Math 252 Calculus 2 (Bueler) \hfill Thursday, 6 October 2022
+\medskip
+
+\LARGE\centerline{\textbf{Midterm Exam 1}}
+
+\smallskip
+\begin{quote}
+\large
+\textbf{No book, notes, electronics, calculator, or internet access.  100 points possible.  70 minutes maximum.}
+\end{quote}
+
+\normalsize
+\medskip
+
+\thispagestyle{empty}
+
+\probpts{1}{7}  Compute the area between the curves $y=x^2$ and $y=\sqrt{x}$ on the interval $0\le x \le 1$. \quad (\emph{Hint.  Be careful about which curve is above the other.})
+\vfill
+
+\probpts{2}{6}  Completely set up, but do not evaluate, a definite integral for the \textbf{length} of the curve $\ds y=\sqrt{x}$ on the interval $x=1$ to $x=4$.
+\vfill
+
+\clearpage\newpage
+\prob{3}  \ppartpts{a}{4} Sketch the region bounded by the curves $y=e^x$, $x=0$, and $y=e$. \quad (\emph{Hint.  Double-check this part!})
+
+\vfill
+
+\epartpts{b}{4} Use the \textbf{slicing (disks/washers)} method to completely set up, but not evaluate, a definite integral for the volume of the solid of revolution formed by rotating the region in part \textbf{(a)} around \textbf{the $y$-axis}.
+
+\vspace{1.2in}
+
+\epartpts{c}{4} Use the \textbf{shells} method to completely set up, but not evaluate, a definite integral for the volume of the same solid of revolution as in part \textbf{(b)}.
+
+\vspace{1.2in}
+
+\epartpts{d}{4} Evaluate one of the integrals in parts \textbf{(b)} or \textbf{(c)} to find the volume.
+\vfill
+
+\clearpage\newpage
+\probpts{4}{6}  Completely set up, but do not evaluate, a definite integral for the \textbf{surface area} of the surface created when the curve $\ds y=x^2$ on the interval $x=0$ to $x=1$ is rotated around \textbf{the $x$-axis}.
+\vfill
+
+\prob{5} It takes a force of $4$ Newtons to hold a spring $3$ centimeters from its equilibrium.
+
+\epartpts{a}{3} What is the spring constant $k$ in Hooke's Law (i.e.~$F=kx$)?
+
+\vspace{1.5in}
+
+\epartpts{b}{6} How much \textbf{work} is done to compress the spring $6$ centimeters from its equilibrium? Simplify your answer and include units.
+
+
+\vfill
+
+\clearpage\newpage
+\prob{6}  Evaluate and simplify the following indefinite and definite integrals.
+
+\epartpts{a}{6}  $\ds \int_0^2 5^x \,dx = $
+\vfill
+
+\epartpts{b}{6}  $\ds \int \cot \theta\,d\theta = $
+\vfill
+
+\epartpts{c}{6}  $\ds \int \cos (7t) \sin (7t) \,dt = $
+\vfill
+
+\clearpage\newpage
+\epartpts{d}{6}  $\ds \int_0^{\pi/2} \sin^3 x \,dx = $
+\vfill
+
+\epartpts{e}{6}  $\ds \int x^2 \sin x\,dx = $
+\vfill
+
+\clearpage\newpage
+\epartpts{f}{6}  $\ds \int \sec x\,dx = $
+\vfill
+
+\epartpts{g}{6}  $\ds \int \sin(7x)\cos(3x)\,dx = $
+\vfill
+
+\clearpage\newpage
+\probpts{7}{8}  Evaluate and simplify the indefinite integral:
+
+\medskip
+    $$\int \frac{x^2+x+1}{x^3+x}\,dx = \hspace{5.0in}$$
+\vfill
+
+\probpts{8}{8}  Evaluate and \emph{fully} simplify the indefinite integral.
+
+\noindent (\emph{Hint.} $(\tan \theta)' = \sec^2\theta$ and $(\cot\theta)' = - \csc^2\theta$.)
+
+\medskip
+    $$\int \frac{1}{x^2\sqrt{1-x^2}}\,dx = \hspace{5.0in}$$
+\vfill
+
+\clearpage\newpage
+\probpts{Extra Credit}{3}  Compute and simplify the integral
+
+\medskip
+    $$\int \sec^3 \theta\,d\theta = \hspace{6.0in}$$
+\vfill
+
+\noindent \hrule
+
+\vspace{0.2in}
+\noindent You may find the following \textbf{trigonometric formulas} useful.  However, there are other trig.~formulas, not listed here, which you should have in memory, or which you know how to derive from these.
+
+\begin{align*}
+\sin(\alpha \pm \beta) &= \sin \alpha \cos \beta \pm \cos \alpha \sin \beta \\
+\cos(\alpha \pm \beta) &= \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \\
+\sin(ax) \sin(bx) &= \frac{1}{2} \cos((a-b)x) - \frac{1}{2} \cos((a+b)x) \\
+\sin(ax) \cos(bx) &= \frac{1}{2} \sin((a-b)x) + \frac{1}{2} \sin((a+b)x) \\
+\cos(ax) \cos(bx) &= \frac{1}{2} \cos((a-b)x) + \frac{1}{2} \cos((a+b)x)
+\end{align*}
+
+\vspace{0.3in}
+
+%\noindent \hrule
+%\begin{center}
+%\small
+%\bigskip
+%\textsc{blank space}
+%\end{center}
+%\vfill
+
+\end{document}
