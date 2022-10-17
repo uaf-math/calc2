@@ -13,3 +13,6 @@ worksheets:
 - name: Worksheet for Section 3.7
   blank: 3p7.pdf
   solutions: 3p7solns.pdf
+- name: Worksheet for Section 4.2
+  blank: ../S22/4p2.pdf
+  solutions: ../S22/4p2solns.pdf
