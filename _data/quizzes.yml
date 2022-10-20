@@ -29,7 +29,7 @@ quizzes:
 - name: Quiz 6
   date: 10/20
   sections: 3.7, 4.1
-  #blank: quiz6.pdf
+  blank: quiz6.pdf
   #solutions: quiz6solns.pdf
 - name: Quiz 7
   date: 10/27
