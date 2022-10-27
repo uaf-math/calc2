@@ -34,7 +34,7 @@ quizzes:
 - name: Quiz 7
   date: 10/27
   sections: 5.1, 5.2
-  #blank: quiz7.pdf
+  blank: quiz7.pdf
   #solutions: quiz7solns.pdf
 - name: Quiz 8
   date: 11/3
