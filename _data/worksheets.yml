@@ -20,4 +20,4 @@ worksheets:
   blank: convsummary.pdf
 - name: Worksheet for Sections 5.2, 5.3, 5.4
   blank: 5p4.pdf
-  #solutions: 5p4solns.pdf
+  solutions: 5p4solns.pdf
