@@ -18,3 +18,6 @@ worksheets:
   solutions: ../S22/4p2solns.pdf
 - name: Summary of Convergence Tests
   blank: convsummary.pdf
+- name: Worksheet for Sections 5.2, 5.3, 5.4
+  blank: 5p4.pdf
+  #solutions: 5p4solns.pdf
