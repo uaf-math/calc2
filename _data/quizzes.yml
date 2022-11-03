@@ -39,7 +39,7 @@ quizzes:
 - name: Quiz 8
   date: 11/3
   sections: 5.3, 5.4
-  #blank: quiz8.pdf
+  blank: quiz8.pdf
   #solutions: quiz8solns.pdf
 - name: Quiz 9
   date: 11/10
