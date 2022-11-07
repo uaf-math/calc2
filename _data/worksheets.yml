@@ -21,3 +21,6 @@ worksheets:
 - name: Worksheet for Sections 5.2, 5.3, 5.4
   blank: 5p4.pdf
   solutions: 5p4solns.pdf
+- name: Worksheet for Section 5.6
+  blank: 5p6.pdf
+  #solutions: 5p6solns.pdf
