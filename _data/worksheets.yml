@@ -23,4 +23,7 @@ worksheets:
   solutions: 5p4solns.pdf
 - name: Worksheet for Section 5.6
   blank: 5p6.pdf
-  #solutions: 5p6solns.pdf
+  solutions: 5p6solns.pdf
+- name: Matlab code for power series example
+  file: matlab/plotlnseries.m
+  image: matlab/plotlnseries.pdf
