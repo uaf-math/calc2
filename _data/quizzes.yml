@@ -45,7 +45,7 @@ quizzes:
   date: 11/10
   sections: 5.5, 5.6 (revised)
   blank: quiz9.pdf
-  #solutions: quiz9solns.pdf
+  solutions: quiz9solns.pdf
 - name: Quiz 10
   date: 12/1
   sections: 6.3, 6.4, 7.1 (revised)
