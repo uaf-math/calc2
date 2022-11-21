@@ -27,3 +27,6 @@ worksheets:
 - name: Matlab code for power series example
   file: matlab/plotlnseries.m
   image: matlab/plotlnseries.pdf
+- name: Worksheet for Section 6.3
+  blank: 6p3.pdf
+  #solutions: 6p3solns.pdf
