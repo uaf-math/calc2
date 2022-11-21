@@ -30,3 +30,6 @@ worksheets:
 - name: Worksheet for Section 6.3
   blank: 6p3.pdf
   solutions: 6p3solns.pdf
+- name: Matlab code for Taylor series example
+  file: matlab/plote3xseries.m
+  image: matlab/plote3xseries.pdf
