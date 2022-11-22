@@ -1,0 +1,195 @@
+\documentclass[11pt]{amsart}
+%\pagestyle{empty} 
+\setlength{\topmargin}{-0.5in} % usually -0.25in
+\addtolength{\textheight}{1.2in} % usually 1.25in
+\addtolength{\oddsidemargin}{-1.0in}
+\addtolength{\evensidemargin}{-1.0in}
+\addtolength{\textwidth}{1.9in} %\setlength{\parindent}{0pt}
+
+\newcommand{\normalspacing}{\renewcommand{\baselinestretch}{1.1}\tiny\normalsize}
+\normalspacing
+
+% macros
+\usepackage{amssymb,xspace,alltt,verbatim}
+\usepackage[final]{graphicx}
+\usepackage[pdftex,colorlinks=true]{hyperref}
+\usepackage{fancyvrb}
+\usepackage{tikz}
+
+\newtheorem*{lem*}{Lemma}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bs}{\mathbf{s}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+
+\newcommand{\bbf}{\mathbf{f}}
+
+\newcommand{\CC}{{\mathbb{C}}}
+\newcommand{\RR}{{\mathbb{R}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\ZZ}{{\mathbb{Z}}}
+\newcommand{\ZZn}{{\mathbb{Z}}_n}
+\newcommand{\NN}{{\mathbb{N}}}
+\newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
+
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+
+\newcommand{\Log}{\operatorname{Log}}
+
+\newcommand{\grad}{\nabla}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+\newcommand{\Octave}{\textsc{Octave}\xspace}
+\newcommand{\pylab}{\textsc{pylab}\xspace}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{(\emph{#1 pts})}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2} \quad}
+
+
+\begin{document}
+\hfill \Large Name:\underline{\phantom{REALLY REALLY really really long long long name}}
+\medskip
+
+\scriptsize \noindent Math 252 Calculus 2 (Bueler) \hfill 17 November 2022
+\medskip
+
+\LARGE\centerline{\textbf{Midterm Exam 2}}
+
+\smallskip
+\begin{quote}
+\large
+\textbf{No book, electronics, calculator, or internet access.  Only ``Summary of Convergence Tests'' notes allowed.  100 points possible.  70 minutes.}
+\end{quote}
+
+\normalsize
+\medskip
+
+\thispagestyle{empty}
+
+\probpts{1}{5}  Verify that $y=e^{2x^2}$ is a solution to the differential equation $\ds y'-4xy=0$.
+
+\vfill
+
+\prob{2}  Compute and simplify the improper integrals, or show they diverge.  Use correct limit notation.
+
+\epartpts{a}{5} $\ds \int_0^1 \frac{dx}{x^3} =$
+\vfill
+
+\epartpts{b}{5} $\ds \int_1^\infty 2xe^{-x^2}\, dx = $
+\vfill
+
+
+\clearpage\newpage
+\prob{3}  Do the following series converge or diverge?  Show your work, including naming any test you use.
+
+\epartpts{a}{5}  $\ds \sum_{n=1}^\infty \frac{n+1}{n^2}$
+\vfill
+
+\epartpts{b}{5}  $\ds \sum_{n=1}^\infty \frac{2n+1}{5n-1}$
+\vfill
+
+\epartpts{c}{5}  $\ds \sum_{n=1}^\infty \frac{(-1)^{n+1}}{\sqrt{2n}}$
+\vfill
+
+\clearpage\newpage
+\epartpts{d}{5}  $\ds \sum_{n=0}^\infty \frac{2^n n!}{(n+2)!}$
+\vfill
+
+\epartpts{e}{5}  $\ds \sum_{n=0}^\infty \left(\frac{n+3}{2n-1}\right)^n$
+\vfill
+
+
+\clearpage\newpage
+\probpts{4}{5}  Does the following series converge or diverge?  Show your work, including naming any test you use.  (\emph{Hint.}  Previous problem?  Or another test?) \large
+  $$\sum_{n=1}^\infty \frac{2n}{e^{(n^2)}} \hspace{4.5in}$$
+\normalsize
+\vfill
+
+\probpts{5}{5}  Compute and simplify the value of the infinite series $\ds \sum_{n=1}^\infty \left(\frac{2}{5}\right)^{n+1}$.
+\vfill
+
+
+\clearpage\newpage
+\prob{6}  Consider the infinite series $\ds 1-\frac{1}{4}+\frac{1}{9}-\frac{1}{16}+\frac{1}{25} - \frac{1}{36} +\dots$
+
+\epartpts{a}{5}  Write the series using sigma ($\sum$) notation.
+\vfill
+
+\epartpts{b}{5}  Compute and simplify $S_3$, the partial sum of the first three terms.
+\vfill
+
+\newcommand{\threeopts}{{\small \hspace{-6mm} $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{absolutely}} \end{matrix}$ \qquad\qquad $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{conditionally}} \end{matrix}$ \qquad\qquad \textsc{diverges}} \bigskip}
+
+\epartpts{c}{5} Does this series converge absolutely, conditionally, or neither (diverge)?  Show your work, identify any test(s) used, and circle one answer. 
+\vfill
+
+\threeopts
+
+
+\clearpage\newpage
+\prob{7}  Use the well known geometric series $\ds \frac{1}{1-r}=\sum_{n=0}^\infty r^n$ to find power series representations for the following functions.  Show your work.
+
+\epartpts{a}{5}  $\ds \frac{1}{1+x^3}$
+
+\vspace{1.4in}
+
+\noindent $\ds \frac{1}{1+x^3}=$
+\vspace{0.3in}
+
+\epartpts{b}{7}  $\ds \ln(1+x)$
+
+\vfill
+
+\noindent $\ds \ln(1+x) =$
+\vspace{0.3in}
+
+\probpts{8}{7} If $\ds f(x)=\sum_{n=1}^\infty \frac{x^n}{\sqrt{n}}$, find a power series representation for $f'(5x)$
+
+\vfill
+
+\noindent $f'(5x)=$
+
+
+\clearpage\newpage
+\prob{9}  Find the interval of convergence of the following power series.
+
+\epartpts{a}{8}  $\ds \sum_{n=1}^\infty \frac{2^nx^n}{n!}$
+\vfill
+
+\epartpts{b}{8}  $\ds \sum_{n=1}^\infty \frac{(x-1)^n}{n\, 3^n}$
+\vfill
+
+
+\clearpage\newpage
+\probpts{Extra Credit}{3}  The function $f(x)=\arctan(x)$ can be represented by the power series
+    $$\arctan(x) = \sum_{n=0}^\infty \frac{(-1)^n x^{2n+1}}{2n+1}.$$
+Suppose I choose $x=1/\sqrt{3}$ and compute the partial sum $\ds S_{20} = \sum_{n=0}^{20} \frac{(-1)^n (1/\sqrt{3})^{2n+1}}{2n+1}$ as an approximation to $\ds \arctan(1/\sqrt{3}) = \frac{\pi}{6}$.
+
+\medskip
+\textbf{How accurate is this approximation?}  Use a known fact about remainders of alternating series.
+\vspace{2.0in}
+
+$\ds \left|S_{20} - \frac{\pi}{6}\right| \le \boxed{\phantom{\begin{matrix} lakjsd alsfjd \\ sdfa  asdf as ads fasdd \\ sdaf \end{matrix}}}$
+
+\bigskip
+\noindent \hrule
+\begin{center}
+\small
+\bigskip
+\textsc{blank space}
+\end{center}
+\vfill
+
+\end{document}
