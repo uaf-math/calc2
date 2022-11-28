@@ -156,35 +156,35 @@ homework:
     problems: 117, 118, 120, 121, 123, 124,
     cont: 131, 132, 140, 142, 146, 155, 160
 - name: Homework 6.4
-  due: 11:59pm Mon 11/28
+  due: 11:59pm Wed 11/30 (revised)
   sections:
   - section: 6.4
     problems: 175, 176, 202, 203, 204, 207,
     cont: 209, 210, 211, 215, 226, 231
     contcont: 234, 235
 - name: Homework 7.1
-  due: 11:59pm Wed 11/30
+  due: 11:59pm Mon 12/5 (revised)
   sections:
   - section: 7.1
     problems: 1, 2, 5, 6, 8, 13, 17, 19,
     cont: 21, 26, 28, 35, (rect. form = elim. parameter)
     contcont: 39, 43, 49, 51, 54, 59
 - name: Homework 7.2
-  due: 11:59pm Mon 12/5
+  due: 11:59pm Wed 12/7 (revised)
   sections:
   - section: 7.2
     problems: 64, 67, 68, 72, 76, 79, 84, 85, 90,
     cont: 100, 102, 109, 113, 115, 116
 - name: Homework 7.3
-  due: 11:59pm Wed 12/7
+  due: 11:59pm Mon 12/12 (revised)
   sections:
   - section: 7.3
     problems: 125, 131, 133, 135, 136, 139, 144, 146,
     cont: 152, 154, 155, 156, 158, 160, 162, 164,
     contcont: 165, 167, 168, 172, 177, 178
-- name: Homework 7.4
-  due: 11:59pm Mon 12/12
-  sections:
-  - section: 7.4
-    problems: 188, 189, 190, 192, 196, 199, 218,
-    cont: 219, 220, 223, 228, 235, 238
+#- name: Homework 7.4
+#  due: 11:59pm Mon 12/12
+#  sections:
+#  - section: 7.4
+#    problems: 188, 189, 190, 192, 196, 199, 218,
+#    cont: 219, 220, 223, 228, 235, 238
