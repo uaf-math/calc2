@@ -33,3 +33,5 @@ worksheets:
 - name: Matlab code for Taylor series example
   file: matlab/plote3xseries.m
   image: matlab/plote3xseries.pdf
+- name: Maclaurin Series for Common Functions
+  blank: commonseries.png
