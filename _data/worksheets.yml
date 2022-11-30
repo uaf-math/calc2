@@ -35,3 +35,6 @@ worksheets:
   image: matlab/plote3xseries.pdf
 - name: Maclaurin Series for Common Functions
   blank: commonseries.png
+- name: Matlab code for parametric equations (sect 7.1) example
+  file: matlab/pretty5.m
+  image: matlab/pretty5.pdf
