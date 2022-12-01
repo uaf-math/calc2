@@ -49,7 +49,7 @@ quizzes:
 - name: Quiz 10
   date: 12/1
   sections: 6.3, 6.4 (revised)
-  #blank: quiz10.pdf
+  blank: quiz10.pdf
   #solutions: quiz10solns.pdf
 - name: Quiz 11
   date: 12/8
