@@ -38,3 +38,5 @@ worksheets:
 - name: Matlab code for parametric equations (sect 7.1) example
   file: matlab/pretty5.m
   image: matlab/pretty5.pdf
+- name: Polar graph paper
+  blank: polar.pdf
