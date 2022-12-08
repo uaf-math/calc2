@@ -1,0 +1,141 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 6}
+\docdate{20 October, 2022}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\hspace{0.8in} / 25}}
+
+\begin{document}
+30 minutes maximum.  No aids (book, calculator, etc.) are permitted.  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.  25 points possible.
+
+\problem{9}  Compute and simplify the improper integrals, or show that they diverge.  Use correct limit notation.
+
+\begin{subproblems}
+\item $\displaystyle \int_0^\infty \frac{1}{4+x^2}\,dx = $
+\vfill
+\item $\displaystyle \int_0^\infty \sin x \,dx = $
+\vfill
+\item $\displaystyle \int_0^1 \frac{1}{\sqrt[4]{x}} \,dx = $
+\vfill
+\end{subproblems}
+
+\clearpage\newpage
+\problem{4}  Verify that {\large $y = e^{x^2/2}$} solves the differential equation {\large $y'=xy$}.  %#12 in 4.1
+\vspace{3.5in}
+
+\problem{4}  Find the general solution to the differential equation {\large $y'=\ln x + \tan x$}.  %#29 in 4.1
+\vfill
+
+\clearpage\newpage
+\problem{4}  Find the particular solution of the differential equation {\large $\displaystyle y'=\frac{y}{x^2}$} that passes through $\displaystyle \left(1,\frac{2}{e}\right)$, given that {\large $\displaystyle y=C e^{-1/x}$} is the general solution.  %#23 in 4.1
+\vfill
+
+\problem{4}  Find the area of the region in the first quadrant between the curve $y=e^{-3x}$ and the $x$-axis.  %#394 in 3.7, essentially
+\vfill
+
+\newpage
+\nameprob{EC}{1} (\emph{Extra Credit})  Suppose the curve $y=e^{-x}$, on the interval $[0,+\infty)$, is rotated around the $x$-axis.  Set up an integral for the surface area and give a convincing argument that this integral is finite.
+\vfill
+
+\noindent \hrule
+
+\bigskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}
