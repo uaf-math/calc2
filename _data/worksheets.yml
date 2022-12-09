@@ -43,3 +43,5 @@ worksheets:
 - name: Practice Final Exam as worksheet
   blank: finalF20compact.pdf
   solutions: ../../exams/F20/final-solns.pdf
+- name: tropical force wind for Hurricane Ian is a cardiod
+  image: ianwind.png
