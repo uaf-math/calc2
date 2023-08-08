@@ -3,7 +3,7 @@ layout: course-page
 title: Math F252 Calculus II at UAF
 ---
 
-Welcome to the homepage of **Math F252 Calculus II** (section 001) in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
+Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 **UNDER CONSTRUCTION**
 
