@@ -1,58 +1,58 @@
-semester: Fall 2022
-home: assets/quizzes/F22
+semester: Fall 2023
+home: assets/quizzes/F23
 quizzes:
 - name: Quiz 1
-  date: 9/1
+  date: Aug 31
   sections: review (Chapter 1)
-  blank: quiz1.pdf
-  solutions: quiz1solns.pdf
+  blank: 
+  solutions: 
 - name: Quiz 2
-  date: 9/8
-  sections: 2.1, 2.2
-  blank: quiz2.pdf
-  solutions: quiz2solns.pdf
+  date: Sept 7
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 3
-  date: 9/15
-  sections: 2.3, 2.4
-  blank: quiz3.pdf
-  solutions: quiz3solns.pdf
+  date: Sept 14
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 4
-  date: 9/22
-  sections: 2.5, 2.7
-  blank: quiz4.pdf
-  solutions: quiz4solns.pdf
+  date: Sept 21
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 5
-  date: 9/29
-  sections: 3.1, 3.2
-  blank: quiz5.pdf
-  solutions: quiz5solns.pdf
+  date: Sept 28
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 6
-  date: 10/20
-  sections: 3.7, 4.1
-  blank: quiz6.pdf
-  solutions: quiz6solns.pdf
+  date: Oct 12
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 7
-  date: 10/27
-  sections: 5.1, 5.2
-  blank: quiz7.pdf
-  solutions: quiz7solns.pdf
+  date: Oct 19
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 8
-  date: 11/3
-  sections: 5.3, 5.4
-  blank: quiz8.pdf
-  solutions: quiz8solns.pdf
+  date: Oct 26
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 9
-  date: 11/10
-  sections: 5.5, 5.6 (revised)
-  blank: quiz9.pdf
-  solutions: quiz9solns.pdf
+  date: 
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 10
-  date: 12/1
-  sections: 6.3, 6.4 (revised)
-  blank: quiz10.pdf
-  solutions: quiz10solns.pdf
+  date: 
+  sections: 
+  blank: 
+  solutions: 
 - name: Quiz 11
-  date: 12/8
-  sections: 7.1, 7.2 (revised)
-  blank: quiz11.pdf
-  solutions: quiz11solns.pdf
+  date: 
+  sections: 
+  blank: 
+  solutions: 
