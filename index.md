@@ -1,17 +1,15 @@
 ---
 layout: course-page
-title: Bueler's Math F252 Calculus II at UAF
+title: Math F252 Calculus II at UAF
 ---
 
-Welcome to the homepage of **Math F252 Calculus II** (section 001), Fall 2022, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
+Welcome to the homepage of **Math F252 Calculus II** (section 001) in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-#### Instructor:  [Ed Bueler](http://bueler.github.io/)
+**UNDER CONSTRUCTION**
 
-Email me at [elbueler@alaska.edu](mailto:elbueler@alaska.edu).  I hold [office hours](http://bueler.github.io/OffHrs.htm) in Chapman 306C.
+### [Canvas course page](FIXME)
 
-### [Canvas course page](https://canvas.alaska.edu/courses/9933)
-
-Log in to [canvas.alaska.edu/courses/9933](https://canvas.alaska.edu/courses/9933) for:
+Log in to FIXME for:
 
   * your grades
   * link to Gradescope for submitting Homework
@@ -29,7 +27,7 @@ Log in to [canvas.alaska.edu/courses/9933](https://canvas.alaska.edu/courses/993
 
 * Do the [Homework](homework.html).
 
-  * Solutions are [available in advance at the Canvas page](https://canvas.alaska.edu/courses/9933/modules)!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in [Gradescope](https://canvas.alaska.edu/courses/9933/external_tools/114?display=borderless).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
+  * Solutions are available in advance at the Canvas page!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in Gradescope.  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
 
 * There are [two Midterms and a Final](exams.html).  See the [Exams](exams.html) tab for the sections covered and old exams for review.
 
@@ -59,4 +57,4 @@ Log in to [canvas.alaska.edu/courses/9933](https://canvas.alaska.edu/courses/993
 ---
 _Site design derived from the [coordinated Calc I website](https://uaf-math251.github.io/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/)._
 
-[<img src="assets/images/GitHub-Mark-32px.png" align="right">](https://github.com/bueler/calc2 "github repository for this site")
+[<img src="assets/images/GitHub-Mark-32px.png" align="right">](https://uaf-math251.github.io/calc2/ "github repository for this site")
