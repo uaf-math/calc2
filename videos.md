@@ -5,7 +5,7 @@ title: Videos
 
 ## Calculus playlists on YouTube
 
-Send video suggestions: [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
+Send video suggestions: FIXME
 
 Here are some recommended video series for Calculus 2 students:
 

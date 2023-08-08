@@ -24,4 +24,4 @@ title: Advice on Doing Homework
 Ask for help in these places:
   * In lecture.  You will not be the only one with that kind of problem!
   * At the [Math Lab](https://uaf.edu/dms/mathlab/).
-  * During Bueler's [Office Hours](http://bueler.github.io/OffHrs.htm).
+  * During your instructor's Office Hours.
