@@ -7,7 +7,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 **UNDER CONSTRUCTION**
 
-### [Canvas course page](FIXME)
+### [Canvas course page](https://www.uaf.edu/uaf/current/canvas.php)
 
 Log in to FIXME for:
 
