@@ -6,7 +6,7 @@ docs:
   url: assets/general/syllabus.pdf  # rebuild by "make syllabus.pdf" in assets/general/
 
 - title: Schedule
-  url: assets/general/schedule.pdf  # rebuild by "make schedule.pdf" in assets/general/
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pub?output=pdf  # rebuild by "make schedule.pdf" in assets/general/
 
 - title: Homework
   url: homework.html
