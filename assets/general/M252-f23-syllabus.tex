@@ -1,0 +1,296 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.9in, left=1in, right=1in, headheight=1in, headsep=6pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=1.0]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx,hyperref}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{tabularx,colortbl}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Syllabus for MATH F252X section 901 Fall 2023 (Faudree)},
+    pdfpagemode=FullScreen,
+    }
+
+\def\mailto#1{\href{mailto:#1}{#1}}
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+\def\tableindent{\hskip 0.5 in}
+\def\ts{\hskip 1.5 em}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+\lhead{\large\sf\textbf{MATH F252 Calculus II}}
+\chead{\large\sf\textbf{Syllabus}}
+\rhead{\large\sf\textbf{Fall 2023}}
+
+\newcommand{\localhead}[1]{\par\smallskip\textbf{#1} \smallskip\nobreak\\}%
+\def\heading#1{\localhead{\large\emph{#1}}}
+\def\subheading#1{\localhead{\emph{#1}}}
+
+\newenvironment{clist}%
+{\bgroup\parskip 0pt\begin{list}{$\bullet$}{\partopsep 4pt\topsep 0pt\itemsep -2pt}}%
+{\end{list}\egroup}%
+
+\begin{document}
+
+\strut\par\vskip-12pt
+\heading{Essential Information}
+
+\vskip -12pt
+\strut\hbox to \hsize{\tableindent\vtop{\halign{#\hfill\ts&#\hfil\cr
+{\emph{Instructor}} & Jill Faudree \quad \href{mailto:jrfaudree@alaska.edu}{\texttt{jrfaudree\@@alaska.edu}} \cr
+\strut & \cr
+{\emph{Course webpage}}&\href{https://uaf-math251.github.io/calc2/}{\texttt{uaf-math251.github.io/calc2/}}\cr
+\strut & \cr
+{\emph{Canvas site}} & \href{https://canvas.alaska.edu/courses/16194}{\texttt{https://canvas.alaska.edu/courses/16194}} \cr
+\strut & \cr
+\emph{Prerequisite} & MATH F251X Calculus I; or placement.\cr
+\strut & \cr
+{\emph{Required text}} &\textit{OpenStax Calculus Volume 2} by G. Strang \& E. Herman,\cr
+&\href{https://openstax.org/details/books/calculus-volume-2}{\texttt{openstax.org/details/books/calculus-volume-2}} \cr
+&
+  optional paperback print copy:\quad \texttt{ISBN-13 978-1-50669-807-6}\cr
+  }
+\hfil}}
+
+
+\heading{Description and Course Goals}
+Calculus is useful, and part of the language, in all the science and engineering disciplines.  That is why it is part of the UAF core curriculum.  The two principal tools from Calculus I (MATH 251), differentiation and integration, are central here too, but this course extends your understanding of integration especially.  We will also study sequences and series, including Taylor series.
+
+At the completion of the course, students will:
+\begin{clist}
+\item possess mature skills in computing integrals in one variable,
+\item be able to apply integrals to common problems (areas, volumes, work, \dots),
+\item understand the convergence of sequences and series,
+\item understand and be able to apply Taylor series and polynomials, and
+\item be able to use parametric and polar equations for curves.
+\end{clist}
+In addition, students will have the mathematical foundation for success in Calculus III and other courses requiring knowledge of sophisticated integration techniques in one variable, sequences and series, including many junior/senior-level science and engineering courses.  
+
+
+\heading{Class Time}
+There are 4.5 hours of class meetings with your instructor every week:
+\begin{itemize}
+\item MWF 9:15 am -- 10:15 pm  Gruening 208
+\item Th 9:45 am -- 11:15 pm  Gruening 208
+\end{itemize}
+
+The 1.5 hour time on Thursday will be used to discuss new topics (30 minutes) and for a weekly Quiz (30 minutes).  The final 30 minutes will be spent going over the Quiz.  We go over the quiz immediately so that students can leave knowing what Quiz material has been mastered, how to work each problem correctly, and what topics need additional work. 
+
+\clearpage\newpage
+
+\strut \vspace{-12pt}
+
+\heading{Recitation}
+
+\vspace*{-0.3in}
+
+There is a 1.5 hour meeting with a Teaching Assistant on Tuesdays, 9:45--11:15 Gruening 208. This period will be used for extra practice including reviewing prerequisite concepts, completing more challenging problems, and preparation for Midterms.
+
+%For Tuesday, we will not use the official Recitation (MATH F252L) classroom.  Instead, UAF Math Services (\href{https://uaf.edu/dms/mathlab/}{\texttt{uaf.edu/dms/mathlab/}}) has scheduled group tutoring specifically for this class during that time.  A zoom link for this online tutoring will be posted at the \href{https://canvas.alaska.edu/courses/9933}{Canvas page}.
+
+
+\heading{Schedule and Online Materials}
+The course website contains a \href{https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml}{Schedule} listing the textbook sections to be covered each class, the dates each Homework is due, plus the dates for Quizzes and Exams. You should consult this schedule frequently.  I will announce any Schedule adjustments in class.
+
+Most course materials (Syllabus, old Quizzes, Exams with solutions, study materials, etc.) will be posted on the \href{https://uaf-math251.github.io/calc2/}{course webpage}.  A few course materials (grades, Homework solutions, announcements, link to Gradescope) will be available on the \href{https://north.open.uaf.edu/login/}{Canvas site}.  Each website links to the other.
+
+
+\heading{Office Hours and Communication}
+My Weekly Schedule including office hours are available and updated \href{https://docs.google.com/spreadsheets/d/e/2PACX-1vSPkx0I1WQikJjmR8qs8wpf2oWcwO8CFS2VwCZYsdusMDkxTIQuOVwcV8LfAtsDtUGoj49xCS1mOIrW/pubhtml}{\texttt{online}}.  Students can also schedule meetings with me outside of regular office hours, or mail me at \href{mailto:jrfaudree@alaska.edu}{\texttt{jrfaudree\@@alaska.edu}}.
+
+I will use Canvas to send announcements.  If I need to contact you outside of class times, I'll try to email via Canvas.  Please set the email address in Canvas to one that you check regularly!
+
+
+\heading{Evaluation and Grades}
+Grades are determined as follows.  (Each component of the grade is discussed below.)
+ 
+\begin{multicols}{2}
+\begin{tabular}{|c|c|}
+\hline
+3 Minute Questions & 5\%\\
+\hline
+Homework & 10\% \\
+\hline
+Quizzes & 20\% \\
+\hline
+Midterm Exam 1 & 20\% \\
+\hline
+Midterm Exam 2 & 20\%  \\
+\hline
+Final Exam & 25\% \\
+\hline
+total & 100\% \, \\
+\hline
+\end{tabular}
+
+%\vskip 6pt
+
+\begin{tabular}{llll}
+A  & 93--100\%& C  & 68--75\%  \\
+A- & 90--92\% & C- & not given \\
+B+ & 87--89\% & D+ & 65--67\%  \\
+B  & 82--86\% & D  & 60--65\%  \\
+B- & 79--81\% & D- & 57--59\%  \\
+C+ & 76--78\% & F  & $\le$ 56\%
+\end{tabular}
+\end{multicols}
+
+The grade ranges at right are a guarantee and a lower bound. I reserve the right to increase your grade above these ranges based on the actual difficulty of the work, average class performance, and/or improvement over the semester include exemplary performance on the final exam. 
+
+\heading{3 Minute Questions and Participation}
+Attendance and participation are important parts of mastering the material, and a strong predictor of overall course performance in any subject.
+
+Instead of using an attendance sheet, at the start of class you will complete a ``3 Minute Question.''  Please answer the question, write your name on it, and turn it in.  Naturally, you'll have 3 minutes to do this after the start of class!  It will not be graded for content at all, but whether you did it will be recorded in lieu of attendance.
+
+Please let me know by email (\href{mailto:jrfaudree@alaska.edu}{\texttt{jrfaudree\@@alaska.edu}}) if you will miss a class for any reason.
+
+
+\heading{Homework}
+Homework assignments consist of a selection of problems from the textbook.  Please write your Homework on paper, or electronically on a tablet, and turned in as a PDF via Gradescope, accessed via the \href{https://canvas.alaska.edu/courses/16194}{Canvas page}.  Help with scanning homework can be found on the \href{https://uaf-math251.github.io/techHelp.html}{Tech Help} webpage.  Assignments are due, mostly on Mondays and Wednesdays, by 11:59pm, thus in advance of the Thursday Quiz; see the online  \href{https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml}{Schedule} for due dates.  The list of Homework problems is at the \href{https://uaf-math251.github.io/calc2/homework.html}{Homework} tab on the public webpage.
+
+Complete worked solutions to all Homework problems are \emph{provided in advance on the Canvas site}!  Therefore Homework will be graded based on \emph{effort} and \emph{completion}.  All students should earn 100\% on homework.  Of course, it is possible, and pathetic, to defeat the purpose of the homework by copying the solutions.  This is a bad idea, and because Homework is only 10\% of your grade it is not worthwhile.  The Homework exists so you can \emph{learn by doing}.
+
+\heading{Quizzes}
+A weekly Quiz will be given on Thursdays.  It will be in the middle third of the 1.5 hour, 9:45--11:15 class.  A Quiz will cover material since the previous Quiz.  Quizzes are given under Exam conditions: books, notes, and calculators are not allowed.  Performance on Quizzes is your best indicator of how well you are learning the course material, and it is a much better predictor of Exam performance than is your Homework score.
+
+Students will be given the opportunity to grade and correct their Quizzes in the last third of the Thursday class.  You can earn-back up to half the missed points for doing so \emph{accurately and thoroughly}.
+
+Always contact me if you will miss a Quiz for a justified reason!  
+
+\heading{Midterm and Final Exams}
+There are two Midterm Exams this semester, to be held on the dates in the schedule on the course website: \emph{Midterm Exam 1 on Thursday October 5} and \emph{Midterm Exam 2 on Thursday November 16}.  Midterms are given during the class time.
+
+Make-up Midterms will be given only for documented extenuating circumstances, at my discretion. Always contact your instructor if you will miss a Midterm, ideally as far in advance as possible.
+
+The cumulative Final Exam will be held at the day/time listed as the common math time in the online schedule: \textbf{10:15-12:15 Tuesday December 12}.  The location of the Final will be determined near the end of the semester. Department policy does not allow me to give an early Final Exam.
+
+All Exams will be closed book, closed notes, and no calculator.
+
+\heading{Time Commitment}
+
+\vspace*{-.3in}
+As with most university courses, you should expect to spend 2-3 hours \emph{outside} of class each week for every credit-hour. So for Calc 2, you should expect to spend a minimum of 8-12 hours actually working homework and examples from the text, asking questions and preparing for quizzes and exams. The 8-12 hours does not include the time spent finding your textbook and homework assignment, getting coffee, etc! Moreover, the study time should be spread throughout the week over a minimum of 5 days.
+
+\newpage
+\heading{Getting Help}
+\vspace*{-.3in}
+
+Calculus 2 is a challenging course and one of the reasons you will have a sense of accomplishment when you succeed at learning the material. You should expect to experience the discomfort that is the unavoidable part of learning something new. This includes periods of confusion and struggle. You should expect to need to get extra help from your instructor, tutors in the Math and Stat Lab, our TA, and each other. 
+
+Please come and talk to me if you are unable to clarify points of confusion. I want to know what your long-term struggles are and help you move past them.
+
+Other places to get help: 
+
+\begin{clist}
+    	\item The Math and Stat Lab, Chapman Building Room 305, offers tutors. 
+	See 
+
+	\href{http://www.uaf.edu/dms/mathlab/}{\texttt{www.uaf.edu/dms/mathlab/}} for schedules and availability.
+	\item Free
+one-on-one (or small group) tutoring is available in 
+Chapman Building Room 201. You must schedule an
+appointment; see \href{http://www.uaf.edu/dms/mathlab/}{\texttt{www.uaf.edu/dms/mathlab/}}.
+	\item Student Support Services (\href{https://uaf.edu/sss/}{\texttt{uaf.edu/sss/}}) offers free tutoring in many subjects to students who qualify for their program.
+	\item ASUAF (\href{https://uaf.edu/asuaf/}{\texttt{uaf.edu/asuaf/}}) offers private tutoring for a small fee, based on student income.
+\end{clist}
+
+\heading{Rules and Policies}
+\vskip -20pt
+
+\subheading{Incomplete Grade} 
+Incomplete (I) will only be given in
+  DMS courses in cases where
+  the student has completed the majority (normally all but the last
+  three weeks) of a course with a grade of C or better, but for
+  personal reasons beyond his/her control has been unable to complete
+  the course during the regular term. Negligence or indifference are
+  not acceptable reasons for the granting of an incomplete. 
+
+\subheading{Late Withdrawals} 
+A withdrawal after the deadline from a DMS course will
+  normally be granted only in cases where the student is performing
+  satisfactorily (i.e., C or better) in a course, but has exceptional
+  reasons, beyond his/her control, for being unable to complete the
+  course. These exceptional reasons should be detailed in writing to
+  the instructor, department head and dean.
+
+\subheading{No Early Final Examinations}
+Final examinations for DMS
+  courses shall not be held earlier than the date and time published
+  in the official term schedule. Normally, a student will not be
+  allowed to take a final exam early. Exceptions can be made by
+  individual instructors, but should only be allowed in exceptional
+  circumstances and in a manner which doesn't endanger the security of
+  the exam.
+
+\subheading{Academic Dishonesty}
+Academic dishonesty, including cheating and plagiarism, will not
+be tolerated.  It is a violation of the Student Code of Conduct
+and will be punished according to UAF procedures.
+
+\newpage
+
+\textbf{\large{Official UAF Syllabus Addendum}}
+ 
+\hfill
+
+\noindent{\bf COVID-19 statement:} Students should keep up-to-date on the university's policies, practices, and mandates related to COVID-19 by regularly checking this website: \url{https://sites.google.com/alaska.edu/coronavirus/uaf?authuser=0}
+
+Further, students are expected to adhere to the university?s policies, practices, and mandates and are subject to disciplinary actions if they do not comply.
+
+\noindent{\bf Student protections statement:} UAF embraces and grows a culture of respect, diversity, inclusion, and caring. Students at this university are protected against sexual harassment and discrimination (Title IX). Faculty members are designated as responsible employees which means they are required to report sexual misconduct. Graduate teaching assistants do not share the same reporting obligations. For more information on your rights as a student and the resources available to you to resolve problems, please go to the following site: \url{https://catalog.uaf.edu/academics-regulations/students-rights-responsibilities/}.
+
+\noindent{\bf Disability services statement:} I will work with the Office of Disability Services to provide reasonable accommodation to students with disabilities.
+
+\noindent{\bf Student Academic Support:}
+\begin{itemize}
+\setlength\itemsep{0em}
+        \item Speaking Center (907-474-5470,
+        \mailto{uaf-speakingcenter@alaska.edu}, Gruening 507)
+\item Writing Center (907-474-5314, \mailto{uaf-writing-center@alaska.edu}, Gruening 8th floor)
+\item UAF Math Services, \mailto{uafmathstatlab@gmail.com}, Chapman Building (for math fee paying students only)
+\item Developmental Math Lab, Gruening 406
+\item The Debbie Moses Learning Center at CTC (907-455-2860, 604 Barnette St, Room 120,\\ \mailto{https://www.ctc.uaf.edu/student-services/student-success-center/})
+\item For more information and resources, please see the Academic Advising Resource List (\url{https://www.uaf.edu/advising/lr/SKM_364e19011717281.pdf})
+\end{itemize}
+
+\noindent{\bf Student Resources:}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Disability Services (907-474-5655, \mailto{uaf-disability-services@alaska.edu}, Whitaker 208)
+\item Student Health \& Counseling [6 free counseling sessions] (907-474-7043, \url{https://www.uaf.edu/chc/appointments.php}, Whitaker 203)
+\item Center for Student Rights and Responsibilities (907-474-7317, \mailto{uaf-studentrights@alaska.edu}, Eielson 110)
+\item Associated Students of the University of Alaska Fairbanks (ASUAF) or ASUAF Student Government (907-474-7355, \mailto{asuaf.office@alaska.edu}{asuaf.office@alaska.edu}, Wood Center 119)
+\end{itemize}
+
+\noindent{\bf Nondiscrimination statement:}
+The University of Alaska is an affirmative action/equal opportunity employer and educational institution. The University of Alaska does not discriminate on the basis of race, religion, color, national origin, citizenship, age, sex, physical or mental disability, status as a protected veteran, marital status, changes in marital status, pregnancy, childbirth or related medical conditions, parenthood, sexual orientation, gender identity, political affiliation or belief, genetic information, or other legally protected status. The University's commitment to nondiscrimination, including against sex discrimination, applies to students, employees, and applicants for admission and employment. Contact information, applicable laws, and complaint procedures are included on UA's statement of nondiscrimination available at www.alaska.edu/nondiscrimination. For more information, contact:
+
+\begin{tabular}{l}
+UAF Department of Equity and Compliance\\
+1760 Tanana Loop, 355 Duckering Building, Fairbanks, AK  99775\\
+907-474-7300\\
+\mailto{uaf-deo@alaska.edu}
+\end{tabular}
+
+ \scriptsize syllabus version: \today \normalsize
+
+\end{document}
