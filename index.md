@@ -9,19 +9,18 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 ### [Canvas course page](https://canvas.alaska.edu/courses/16194)
 
-Log in to FIXME for:
+Log in to Canvas for:
 
   * your grades
   * link to Gradescope for submitting Homework
   * solutions to Homework
-  * Zoom link for Tuesday group tutoring
   * other Announcements
 
 ### Getting Started
 
-* Read the [Syllabus](assets/general/syllabus.pdf).
+* Read the [Syllabus](assets/general/M252-f23-syllabus.pdf).
 
-* See the [Schedule](assets/general/schedule.pdf).  Check it often to find out what happens next!
+* See the [Schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml).  Check it often to find out what happens next!
 
 * The textbook is online: [OpenStax Calculus Volume 2](https://openstax.org/details/books/calculus-volume-2).
 
