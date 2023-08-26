@@ -1,4 +1,4 @@
-sidenav_title: 'MATH F252'
+sidenavtitle: 'MATH F252'
 
 docs:
 
@@ -10,9 +10,6 @@ docs:
 
 - title: Homework
   url: homework.html
-
-- title: Schedule (in person sections)
-  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1mTHgNl97aW5W0Hm1SHnxNwwSoTZLEM6dh4wq4SmyZSA2xHsqwQhxcU88JwHS4ldtCXU2JBHx-Gtb/pubhtml?gid=0&single=true
 
 - title: Quizzes
   url: quizzes.html
