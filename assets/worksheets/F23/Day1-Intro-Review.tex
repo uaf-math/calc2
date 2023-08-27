@@ -1,0 +1,68 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{Calc 2: Day 1}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Intro to Course and Day 1 Review}\\
+\end{center}
+
+\begin{enumerate}
+\item {\Large{Your Group Info}}
+	\begin{enumerate}
+	\item Write down the names of the other people in your group. 
+	\vspace{1.3in}
+	\item Write down the name of your group.
+	\vspace{0.5in}
+	\item Fill out the front page and turn it in.
+	\end{enumerate}
+\item  {\Large{Review Big Ideas from Calculus I}}
+	\begin{enumerate}
+	\item List ways in which you can use or interpret the derivative of a function. What information does it give you? What sort of questions can it answer? What sort of problems can it help you solve?
+	\vfill
+	\item Explain what $\displaystyle{\int f(x) \: dx}$ and  $\displaystyle{\int_a^b f(x) \: dx}$ are called and what they mean? If you are asked to evaluate them, what sort of answer do you get?
+	\vfill
+	\newpage
+	\item List ways in which you can use the definite integral,   $\displaystyle{\int_a^b f(x) \: dx}$, of a function $f(x).$ What information does it give you? What sort of questions can it answer? What sort of problems can it help you solve? (You may have answered some of this in the previous question...)
+	\vfill
+	\item How would you explain to a student new to Calculus what the symbols $\displaystyle{\lim_{x \to 2} f(x)=5}$ mean?
+	
+	\vspace{1in}
+	
+	\item List ways in which you can use or interpret a limit. 
+\vfill
+	
+\end{enumerate}
+\end{enumerate}
+\end{document}
+
