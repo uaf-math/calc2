@@ -4,6 +4,12 @@ worksheets:
 - name: Day 1 Intro to Class
   blank: Day1-Intro-Review.pdf
   solutions: Day1-Intro-Review-s.pdf
+- name: Recitation 1 (warm up)
+  blank: M252-f23-Recitation-Review.pdf
+  solutions: M252-f23-Recitation-Review-s.pdf
+- name: Recitation 1 (practice)
+  blank: quiz1.pdf
+  solutions: quiz1-s.pdf
 - name: Worksheet for Section 2.4
   blank: 2p4.pdf
   solutions: 2p4solns.pdf
