@@ -1,6 +1,9 @@
 semester: Fall 2023
 home: assets/worksheets/F23
 worksheets:
+- name: Day 1 Intro to Class
+  blank: Day1-Intro-Review.pdf
+  solutions: Day1-Intro-Review-s.pdf
 - name: Worksheet for Section 2.4
   blank: 2p4.pdf
   solutions: 2p4solns.pdf
