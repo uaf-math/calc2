@@ -10,6 +10,9 @@ worksheets:
 - name: Recitation 1 (practice)
   blank: quiz1.pdf
   solutions: quiz1-s.pdf
+- name: (8/30) Section 2.1
+  blank: M252-2-1.pdf
+  solutions: M252-2-1-s.pdf
 - name: Worksheet for Section 2.4
   blank: 2p4.pdf
   solutions: 2p4solns.pdf
