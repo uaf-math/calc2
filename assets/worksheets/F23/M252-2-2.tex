@@ -1,0 +1,73 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 2.2}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 2.2: Volumes by Slicing}\\
+\end{center}
+
+\begin{enumerate}
+\item Sketch the region $R$ bounded by $y=\sqrt{x}$, $y=0$, and $x=4.$ Determine the volume of the solid with cross-sections perpendicular to the base and parallel to the $y$-axis are squares. Attempt to describe and/or draw what this solid looks like.\\
+\vfill
+
+\item A general formula for volume using slices:
+
+\vspace{1in}
+
+\item Sketch the same region as in problem 1 above (i.e. the region $R$ bounded by $y=\sqrt{x}$, $y=0$, and $x=4$). Find the volume of the solid obtained by rotating this region about the $x$-axis. Attempt to describe and/or draw what this solid looks like.\\
+
+\vfill
+
+\item The Disk Method
+
+\vspace{1.5in}
+\newpage
+\item Sketch the region bounded by $y=x^{2/3}$ (sketched below), $x=0$ and $y=1.$ Find the volume of the solid obtained by rotating this region about the $y$-axis. Attempt to describe and/or draw what this solid looks like.\\
+
+\includegraphics[scale=0.1]{pic-2-2.png}
+\vfill
+\item Sketch the region bounded by $y=\sqrt{x}$ and $y=x^2$. Find the volume of the solid obtained by rotating this region about the $x$-axis. Attempt to describe and/or draw what this solid looks like.\\
+
+\vfill
+
+\item The Washer Method
+
+\vspace{1in}
+
+
+\item Find the volume of the solid obtained by rotating about the $y$ axis the region bounded by $y=x^2$ and $y=4x.$ (Sketch the region. Draw a slice.)
+\vfill
+\end{enumerate}
+\end{document}
+
