@@ -16,6 +16,9 @@ worksheets:
 - name: (F 9/1) Section 2.2
   blank: M252-2-2.pdf
   solutions: M252-2-2-s.pdf
+- name: (W 9/6) Section 2.3
+  blank: M252-2-3.pdf
+  solutions: M252-2-3-s.pdf
 - name: Worksheet for Section 2.4
   blank: 2p4.pdf
   solutions: 2p4solns.pdf
