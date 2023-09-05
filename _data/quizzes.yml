@@ -4,8 +4,8 @@ quizzes:
 - name: Quiz 1
   date: Aug 31
   sections: review (Chapter 1)
-  blank: 
-  solutions: 
+  blank: M252-f23-q1.pdf
+  solutions: M252-f23-q1-s.pdf
 - name: Quiz 2
   date: Sept 7
   sections: 
