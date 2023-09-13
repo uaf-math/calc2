@@ -1,0 +1,78 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 2.5}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 2.5: Work and Mass}\\
+ 
+\end{center}
+
+\begin{enumerate}
+\item Short tutorial on Work
+
+\vfill
+
+\item Basic Work Examples
+	\begin{enumerate}
+	\item In the 1976 Olympics, Vasili Alexeev set a world record when lifting 562 lb from the floor to above his head (approx. 6.5 feet). The 1985 Guinness Book of World Records claimed that, in 1957, Paul Anderson used his back to lift 6270 lb of lead and automobile parts 1 cm. Who did more work? (Note: 1 cm is approximately 0.033 feet.)
+	\vfill
+	\item Compute the work done by a force of $F(x)=\frac{1}{1+x}$ N from $x=0$ meters to $x=3$ meters.
+	\vfill
+	\end{enumerate}
+\item Springs and Work
+\vfill
+\newpage
+\item Basic Spring Examples: (Find $k$. Calculate work.)\\
+\begin{enumerate}
+	\item A spring has a natural length of 1 m and when stretched to 1.5 meters exerts a force of 3 N. Find the work required to stretch the spring from 1 m (its natural position) to 2 m.\\
+	\vfill
+	\item A spring has a natural length of $0.3$ m and requires 20 J to stretch the spring to $0.4$ m. Find the work required to to stretch the spring from $0.4$ m  to $0.5$ m.
+	\vfill
+	\end{enumerate}
+
+\item A First Look at Calculating Mass
+
+\vfill
+
+\item Basic Examples: Calculate the densities of the objects below.
+	\begin{enumerate}
+	\item A 3-ft long metal rod with density 2 lb/ft
+	\vfill
+	\item A 3-ft long metal rod with density function $\rho(x)=4x+1$ lb/ft (starting at $x=0$). 
+	\vfill
+	\end{enumerate} 
+	
+\end{enumerate}
+\end{document}
+
