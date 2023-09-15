@@ -1,0 +1,53 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 2.5}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 2.5: Work and Mass (Extra)}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item Recall how we calculated work given both (a) a constant force and (b) a variable force. Recall units.
+
+\vspace{1in}
+
+\item A rectangular fuel oil tank has dimensions $1\: \text{m} \times 1 \: \text{m}$ on the base and is 3 m in height. Assume the depth of the oil in the tank is 2 m. Calculate how much work is required to pump all the oil out of the top of the tank.\\
+
+ (Facts to use: No. 2 fuel oil is roughly 900 kg/$\text{m}^3$. Hence, So the weight (force) density at sea level on earth, of heating oil, is $(9.81\: \text{m}/\text{s}^2) \cdot (900 \:\text{kg}/\text{m}^3) = 8829 \:\text{N}/\text{m}^3.$ This means that a cubic meter of oil on a scale would push down 8829 N, compared to 1 kg of something pushing 9.81 N.)
+ \vfill
+
+\end{enumerate}
+\end{document}
+
