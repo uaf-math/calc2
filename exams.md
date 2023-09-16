@@ -5,7 +5,7 @@ title: Exams
 
 ## Exams
 
-The table below gives the date and coverage for upcoming Exams.  <b>The best guides to the content of an Exam are the [Quizzes](quizzes.html) leading up to the Exam, and also the [Homework assignments](homework.html).</b>  Also see the [Schedule](assets/general/schedule.pdf).
+The table below gives the date and coverage for upcoming Exams.  <b>The best guides to the content of an Exam are the [Quizzes](quizzes.html) leading up to the Exam, and also the [Homework assignments](homework.html).</b>  Also see the [Schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml?gid=0&single=true).
 
 Links to the Exams themselves ("blank"), and their solutions, will appear here as soon after the exam itself as possible.
 
