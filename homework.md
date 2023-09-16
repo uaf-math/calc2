@@ -9,10 +9,10 @@ title: Homework
 
     [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
 
-  * Homework is due by 11:59PM on the due date shown below, and on the [Schedule](assets/general/schedule.pdf).
-  * Turn in your homework via Gradescope, which is accessed via [Canvas](https://canvas.alaska.edu/courses/9933).
+  * Homework is due by 11:59PM on the due date shown below, and on the [Schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml?gid=0&single=true).
+  * Turn in your homework via Gradescope, which is accessed via [Canvas](https://canvas.alaska.edu/courses/16194).
     * See the [Tech Help page](techHelp.html) for scanning/uploading advice.
-  * Complete solutions are posted _in advance_ at the [Canvas site](https://canvas.alaska.edu/courses/9933).  See the Modules tab.
+  * Complete solutions are posted _in advance_ at the [Canvas site](https://canvas.alaska.edu/courses/16194).  See the Modules tab.
   * Additional solutions to some other odd-numbered problems can be found in the [Student Solutions Manual](https://openstax.org/details/books/calculus-volume-2?Student%20resources).
   * Homework will be graded on completion and effort.  You should get 100% on your homework!
   * Also see this [Advice on Doing Homework](hw-advice.html)!
