@@ -6,7 +6,7 @@ worksheets:
   solutions: Day1-Intro-Review-s.pdf
 - name: Recitation 1 (warm up)
   blank: M252-f23-Recitation-Review.pdf
-  solutions: M252-f23-Recitation-Review-s.pdf
+  #solutions: M252-f23-Recitation-Review-s.pdf
 - name: Recitation 1 (practice)
   blank: quiz1.pdf
   solutions: quiz1solns.pdf
@@ -38,43 +38,43 @@ worksheets:
   blank: M252-2-6-s.pdf
   solutions: M252-2-5-s.pdf
 - name: Worksheet for Section 3.1
-  blank: 3p1.pdf
-  solutions: 3p1solns.pdf
+  #blank: 3p1.pdf
+  #solutions: 3p1solns.pdf
 - name: Matlab code for section 3.6 example
-  file: matlab/numint.m
-  image: matlab/numint.pdf
+  #file: matlab/numint.m
+  #image: matlab/numint.pdf
 - name: Worksheet for Section 3.7
-  blank: 3p7.pdf
-  solutions: 3p7solns.pdf
+  #blank: 3p7.pdf
+  #solutions: 3p7solns.pdf
 - name: Worksheet for Section 4.2
   blank: ../S22/4p2.pdf
   solutions: ../S22/4p2solns.pdf
 - name: Summary of Convergence Tests
-  blank: convsummary.pdf
+  #blank: convsummary.pdf
 - name: Worksheet for Sections 5.2, 5.3, 5.4
-  blank: 5p4.pdf
-  solutions: 5p4solns.pdf
+  #blank: 5p4.pdf
+  #solutions: 5p4solns.pdf
 - name: Worksheet for Section 5.6
-  blank: 5p6.pdf
-  solutions: 5p6solns.pdf
+  #blank: 5p6.pdf
+  #solutions: 5p6solns.pdf
 - name: Matlab code for power series example
-  file: matlab/plotlnseries.m
-  image: matlab/plotlnseries.pdf
+  #file: matlab/plotlnseries.m
+  #image: matlab/plotlnseries.pdf
 - name: Worksheet for Section 6.3
-  blank: 6p3.pdf
-  solutions: 6p3solns.pdf
+  #blank: 6p3.pdf
+  #solutions: 6p3solns.pdf
 - name: Matlab code for Taylor series example
-  file: matlab/plote3xseries.m
-  image: matlab/plote3xseries.pdf
+  #file: matlab/plote3xseries.m
+  #image: matlab/plote3xseries.pdf
 - name: Maclaurin Series for Common Functions
-  blank: commonseries.png
+  #blank: commonseries.png
 - name: Matlab code for parametric equations (sect 7.1) example
-  file: matlab/pretty5.m
-  image: matlab/pretty5.pdf
+  #file: matlab/pretty5.m
+  #image: matlab/pretty5.pdf
 - name: Polar graph paper
-  blank: polar.pdf
+  #blank: polar.pdf
 - name: Practice Final Exam as worksheet
-  blank: finalF20compact.pdf
+  #blank: finalF20compact.pdf
   solutions: ../../exams/F20/final-solns.pdf
 - name: tropical force wind for Hurricane Ian is a cardiod
-  image: ianwind.png
+  #image: ianwind.png

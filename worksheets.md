@@ -18,6 +18,5 @@ Resources from previous semesters are below.
 
 [Fall 2022 Worksheets](worksheetsF22.html)
 
-
 [Spring 2022 Worksheets](worksheetsS22.html)
 
