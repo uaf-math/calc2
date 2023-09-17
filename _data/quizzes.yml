@@ -9,8 +9,8 @@ quizzes:
 - name: Quiz 2
   date: Sept 7
   sections: S. 2.1 and 2.2
-  #blank: M252-f23-q2.pdf
-  #solutions: M252-f23-q2-s.pdf
+  blank: M252-f23-q2.pdf
+  solutions: M252-f23-q2-s.pdf
 - name: Quiz 3
   date: Sept 14
   sections: S. 2.3 and 2.4
