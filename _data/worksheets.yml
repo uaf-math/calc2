@@ -40,6 +40,9 @@ worksheets:
 - name: (M 9/18) Section 2.7
   blank: M252-2-7.pdf
   solutions: M252-2-7-s.pdf
+- name: (W 9/20) Section 3.1
+  blank: M252-3-1.pdf
+  solutions: M252-3-1-s.pdf
 - name: Worksheet for Section 3.1
   #blank: 3p1.pdf
   #solutions: 3p1solns.pdf
