@@ -18,12 +18,12 @@ quizzes:
   solutions: M252-f23-q3-s.pdf
 - name: Quiz 4
   date: Sept 21
-  sections: 
-  blank: 
-  solutions: 
+  sections: S. 2.5 and 2.6
+  blank: M252-f23-q4.pdf
+  solutions: M252-f23-q4-ss.pdf
 - name: Quiz 5
   date: Sept 28
-  sections: 
+  sections: S. 2.7, 3.1, 3.2
   blank: 
   solutions: 
 - name: Quiz 6
