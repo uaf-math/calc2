@@ -1,0 +1,63 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.4}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.4: Partial Fractions}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item (a motivating example) $\displaystyle{\int \frac{3x}{x^2-x-2} \: dx }$
+\vfill
+\item Evaluate $\displaystyle{\int \frac{7x+3}{x^3-4x^2+3x} \: dx}$
+\vfill
+\item Summary of Partial Fraction Decomposition Structure
+\vspace{2in}
+\newpage
+\item Rewrite the expression {\large{$\: \frac{x^3-2x^2+3x-6}{(x-1)^2} \:$ }} using partial fraction decomposition and use the decomposition to evaluate the integral {\large{$\:\int  \frac{x^3-2x^2+3x-6}{(x-1)^2} \:dx$ }}
+
+\vfill
+\item Rewrite the expression {\large{$\: \frac{4x^3+2x-1}{x^4+x^2} \:$ }} using partial fraction decomposition and use the decomposition to evaluate the integral {\large{$\:\int  \frac{4x^3+2x-1}{x^4+x^2}  \:dx$ }}
+
+\vfill
+
+
+%\item Rewrite the expression {\large{$\: \frac{2x^3-2x^2-3x+6}{x^2(x+1)^2} \:$ }} using partial fraction decomposition and use the decomposition to evaluate the integral {\large{$\:\int  \frac{2x^3-2x^2-3x+6}{x^2(x+1)^2}  \:dx$ }}
+%
+%\vfill
+
+\end{enumerate}
+\end{document}
+
