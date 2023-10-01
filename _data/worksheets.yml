@@ -55,6 +55,13 @@ worksheets:
 - name: (F 9/29) Section 3.4
   blank: M252-3-4.pdf
   solutions: M252-3-4-s.pdf
+- name: (M 10/2) More Integration Practice
+  blank: M252-ch3-integration-practice.pdf
+  solutions: M252-ch3-integration-practice-s.pdf
+- name: (T 10/3) Recitation Practice
+  blank: M252-M1-recitation-probs.pdf
+  solutions: M252-M1-recitation-probs-s.pdf
 
+  
   
   
