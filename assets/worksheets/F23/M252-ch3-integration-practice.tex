@@ -1,0 +1,61 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{integration practice}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Integration Practice}\\
+   
+\end{center}
+ Evaluate the integrals below. Your answers should be reasonably simplified. 
+\begin{enumerate}
+\item $\displaystyle{\int_0^{\pi/4} \sin^2(2\theta)\: dx}$
+\vfill
+\item $\displaystyle{\int x^3 \sqrt{x^2+1} \: dx}$
+\vfill
+\item $\displaystyle{\int_2^6 t^5 \ln (t)  \: dt}$
+\vfill
+\item $\displaystyle{\int_2^3 \frac{2x+3}{(x-1)(x+4)}  \: dx}$
+\vfill
+\newpage
+\item $\displaystyle{\int \sec(x) \: dx}$
+\vfill
+\item $\displaystyle{\int  \frac{\ln(\ln(x))}{x \ln(x)}\: dx}$
+\vfill
+\item $\displaystyle{\int  \sin^6(x) \cos^3(x)\: dx}$
+\vfill
+\item $\displaystyle{\int  x\sin(7x) \: dx}$
+\vfill
+\end{enumerate}
+\end{document}
+

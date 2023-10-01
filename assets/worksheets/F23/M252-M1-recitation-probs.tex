@@ -1,0 +1,76 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{M1 practice}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Midterm I Practice Problems}\\
+   
+\end{center}
+ Evaluate the integrals below. Your answers should be reasonably simplified. 
+\begin{enumerate}
+\item Find the volume of the solid obtained by rotating the region bounded by the curves $y=\sec(x),$ $y=0,$ $x=0,$ and $x=\pi/4$ about the $x$- axis.\\
+\vfill
+
+\item Consider the region $R$  bounded by the curves $y=x^2$ and $y=5x.$ Set up the integral(s) for each problem below.
+	\begin{enumerate}
+	\item The area of $R$.
+	\item The volume when $R$ is rotated about the $x$-axis using disks/washers.
+	\item The volume when $R$ is rotated about the $x$-axis using shells.
+	\item The volume when $R$ is rotated about the $y$-axis using disks/washers.
+	\item The volume when $R$ is rotated about the $y$-axis using shells.
+	\item Find the center of mass of $R$ assuming the density is constant.
+	\end{enumerate}
+\vfill
+\item Suppose it takes a force of 10 N to stretch a spring $0.2$ m from the equilibrium position. How much work is done to stretch the spring $0.5$ m from the equilibrium position?
+\vfill
+\item Find the work done in pumping liquid out of the top of a cylindrical
+tank. The tank is 10 meters tall and is resting on its circular base which has a radius of 3 meters. Assume the liquid is 6 meters deep.  The density of the liquid is $1000 \: \text{kg}/\text{m}^3.$ (Observe that the weight density or force density of the liquid is $$(1000  \: \text{kg}/\text{m}^3 ) (9.8 \: \text{m}/\text{s}^2) = 9800 \frac{(kg \cdot m)/s^2}{m^3}= 9800 \frac{N}{m^3}.)$$
+\item Let $C$ be the curve defined by $y=6x^{3/2}$ between $x=0$ and $x=4.$ Set up the integral for each problem below.
+	\begin{enumerate}
+	\item The length of the curve $C.$
+	\item The surface area if $C$ is rotated about the $x$-axis.
+	\item The surface area if $C$ is rotated about the $y$-axis.
+	\end{enumerate}
+\vfill
+\item $\displaystyle{\int \tan^3 \theta \sec^4 \theta \: d\theta}$
+\vfill
+\item $\displaystyle{\int \frac{\sqrt{x^2-25}}{x} \: dx}$
+\vfill
+\item $\displaystyle{\int x \sec^2(x) \: dx}$
+\vfill
+\item $\displaystyle{\int  \frac{x^2+x+2}{x^3+x}\: dx}$
+\vfill
+\end{enumerate}
+\end{document}
+
