@@ -61,7 +61,11 @@ worksheets:
 - name: (T 10/3) Recitation Practice
   blank: M252-M1-recitation-probs.pdf
   solutions: M252-M1-recitation-probs-s.pdf
+- name: (W 10/4) Midterm Review
+  blank: M252-M1-review.pdf
+  solutions: none
 
+  
   
   
   
