@@ -64,7 +64,9 @@ worksheets:
 - name: (W 10/4) Midterm Review
   blank: M252-M1-review.pdf
   solutions: none
-
+- name: (F 10/6) Section 3.6
+  blank: M252-3-6.pdf
+  solutions: M252-3-6-s.pdf
   
   
   
