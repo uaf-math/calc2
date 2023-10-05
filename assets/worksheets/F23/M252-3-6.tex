@@ -1,0 +1,70 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.6}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.6: Numerical Integration}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item The Midpoint Rule:\\
+
+\vspace{1in}
+
+\item Estimate {\large{$\displaystyle{\int_0^2 e^{x^2} \: dx }$}} using $M_4$, the Midpoint Rule with 4-subintervals. Round your estimate to 4 decimal places.\\
+
+\vfill
+
+\item The Trapezoid Rule:\\
+
+\vspace{1in}
+
+\item Estimate {\large{$\displaystyle{\int_0^2 e^{x^2} \: dx }$}} using $T_4$, the Trapezoid Rule with 4-subintervals. Round your estimate to 4 decimal places.\\
+
+\vfill
+\newpage
+\item Simpson's Rule:\\
+
+\vspace{2in}
+
+\item Estimate {\large{$\displaystyle{\int_0^2 e^{x^2} \: dx }$}} using $M_4$, Simpson's Rule with 4-subintervals. Round your estimate to 4 decimal places.\\
+
+\vfill
+
+\item WolframAlpha gives the following estimate: {\large{$\displaystyle{\int_0^2 e^{x^2} \: dx=16.45262776550}$}}. Using WolframAlpha's estimation as the exact value of the integral, determine the \emph{absolute} error for each of our three estimates.
+\vfill
+\end{enumerate}
+\end{document}
+
