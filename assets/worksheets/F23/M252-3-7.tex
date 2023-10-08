@@ -1,0 +1,67 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.7}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.7: Improper Integrals}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item What is an improper integral and how to we handle them?
+\vfill
+\item Evaluate each improper integrals below or state that it diverges.
+	\begin{enumerate}
+	\item {\Large{$\displaystyle \int_1^\infty \frac{1}{x} \: dx$}}
+	\vfill
+	\item {\Large{$\displaystyle \int_1^\infty \frac{1}{x^2} \: dx$}}
+	\vfill
+	\end{enumerate}
+\item Use the integrals above to decide if the integrals below converge or diverge. Write a complete sentence explaining your reasoning.
+	\begin{enumerate}
+	\item {\Large{$\displaystyle \int_1^\infty \frac{10}{\sqrt{x}} \: dx$}}
+	\vspace{1in}
+	\item {\Large{$\displaystyle \int_1^\infty \frac{1}{x^2+20x} \: dx$}}
+	\vspace{1in}
+	\end{enumerate}
+\newpage
+\item Evaluate each improper integrals below or state that it diverges.
+	\begin{enumerate}
+	\item {\Large{$\displaystyle \int_3^9 \frac{dx}{(3-x)^2}$}}
+	\vfill
+	\item {\Large{$\displaystyle \int_0^6 \frac{1}{\sqrt{6-x}} \: dx$}}
+	\vfill
+	\end{enumerate}
+\end{enumerate}
+\end{document}
+
