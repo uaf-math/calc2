@@ -70,7 +70,9 @@ worksheets:
 - name: (M 10/9) Section 3.7
   blank: M252-3-7.pdf
   solutions: M252-3-7-s.pdf
-  
+- name: (W 10/11) Section 3.7
+  blank: M252-3-7-extra.pdf
+  solutions: M252-3-7-extra-s.pdf
   
   
   
