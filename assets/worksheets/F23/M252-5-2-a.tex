@@ -1,0 +1,86 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+\newcommand{\ds}{\displaystyle}
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 5.2}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 5.2: Series (Day 1)}\\
+   
+\end{center}
+
+
+Things to know by the end of this section
+\begin{multicols}{2}
+	\begin{enumerate}[a.]
+	\item how to use sigma notation \emph{with facility}
+	\item the meaning of a \emph{series}, especially as compared to a \emph{sequence} (from \S 5.1)
+	\item the meaning of \emph{a sequence of partial sums of a series} and how to find it.
+	\item what it means to say a series converges.
+	\item what a \emph{geometric series} is and how to determine whether or not it converges.
+	\item what a \emph{telescoping series} is and how to determine whether or not it converges.	
+	\end{enumerate}
+\end{multicols}
+
+\begin{enumerate}
+\item An infinite series is 
+
+\vspace{1in}
+
+\item The sequence of partial sums of a series is
+
+\vspace{1in}
+
+\item For each series below, expand the sigma notation and then write the first 5 terms in its sequence of partial sums, $S_1, S_2, S_3,S_4, S_5.$ (Use a calculating device to get a decimal or fraction representation of the partial sums.) 
+	\begin{enumerate}
+	\item $\displaystyle \sum_{n=1}^\infty \left( \frac{2}{3} \right)^n$
+	\vfill
+	\item $\displaystyle \sum_{n=1}^\infty  \frac{1}{n(n+1)} $
+	\vfill
+	\newpage
+	\item $\displaystyle \sum_{n=1}^\infty  \frac{(-1)^n}{5}$
+	\vfill
+	\item $\displaystyle \sum_{n=1}^\infty  \frac{n}{n^2+2}$
+	\vfill
+	\end{enumerate}
+
+\item \textbf{Definition:} Given the series \hspace{1in} , its sequence of partial sums is \hspace{1in}.\\
+\begin{itemize}
+	\item The series converges if \\
+	
+	\item The series diverges if \\
+	
+\end{itemize}
+
+\item Revisit the series in \# 3 and determine (if possible!) whether the series converges or diverges. Show your work!
+\end{enumerate}
+\end{document}
+
