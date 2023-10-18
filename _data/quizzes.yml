@@ -24,20 +24,20 @@ quizzes:
 - name: Quiz 5
   date: Sept 28
   sections: S. 2.7, 3.1, 3.2
-  blank: 
-  solutions: 
+  blank: M252-f23-q5.pdf
+  solutions: M252-f23-q5-s.pdf
 - name: Quiz 6
-  date: Oct 12
-  sections: 
+  date: Oct 19
+  sections: S. 3.7 and 5.1
   blank: 
   solutions: 
 - name: Quiz 7
-  date: Oct 19
+  date: Oct 26
   sections: 
   blank: 
   solutions: 
 - name: Quiz 8
-  date: Oct 26
+  date: 
   sections: 
   blank: 
   solutions: 
