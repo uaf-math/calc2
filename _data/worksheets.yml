@@ -73,13 +73,13 @@ worksheets:
 - name: (W 10/11) Section 3.7
   blank: M252-3-7-extra.pdf
   solutions: M252-3-7-extra-s.pdf
-- name: (Th 10/12)
+- name: (Th 10/12) Section 5.1
   blank: M252-5-1.pdf
   solutions: M252-5-1-ss.pdf
-- name: (M 10/16)
+- name: (M 10/16) Section 5.2 (day 1)
   blank: M252-5-2-a.pdf
   solutions: M252-5-2-a-s.pdf
-- name: (W 10/18)
+- name: (W 10/18) Section 5.2 (day 2)
   blank: M252-5-2-b.pdf
   solutions: M252-5-2-b-s.pdf
 
