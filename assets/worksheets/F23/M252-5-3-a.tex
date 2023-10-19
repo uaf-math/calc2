@@ -1,0 +1,58 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+\newcommand{\ds}{\displaystyle}
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 5.2}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 5.3: Divergence Test}\\
+   
+\end{center}
+\begin{enumerate}
+\item The Divergence Test:
+\vfill
+\item For each series below, find the limit if the \emph{terms} of the series and determine \textbf{if} the Divergence Test applies. If the test applies, draw a conclusion. 
+	\begin{enumerate}
+	\item $\displaystyle{\sum_{n=1}^\infty \frac{n}{40n+30}}$
+	\vfill
+	\item $\displaystyle{\sum_{n=1}^\infty \frac{n}{40n^2+30}}$
+	\vfill
+	\item $\displaystyle{\sum_{n=1}^\infty 8^{(n^{-2})} }$
+	\vfill
+	\end{enumerate}
+\item Explain how you know the following argument is FALSE:\\
+\begin{quote}
+The series $\displaystyle{\sum_{n=1}^\infty a_n}$ converges because $a_n \to 0$ as $n \to \infty.$
+\end{quote}
+\vspace{.5in}
+\end{enumerate}
+\end{document}
+
