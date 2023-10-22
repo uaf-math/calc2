@@ -1,0 +1,68 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+\newcommand{\ds}{\displaystyle}
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 5.4}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 5.4: Comparison Tests}\\
+   
+\end{center}
+\begin{enumerate}
+\item The comparison tests \emph{depend} on knowledge of geometric series and $p$-series. For each, (i) give the form of the series, (ii) state the conditions under which it converges and diverges, (iii) give examples of convergent and divergent series of the given type.
+	\begin{enumerate}
+	\item geometric series
+	\vfill
+	\item $p$-series
+	\vfill
+	\end{enumerate}
+\item The Comparison Test
+\vfill
+\item Use the \textbf{comparison test} to determine whether the series converge or diverge.
+	\begin{enumerate}
+	\item $\displaystyle \sum_{n=1}^\infty \frac{3^n}{4^n+2^n} $
+	\vfill
+	\newpage
+	\item $\displaystyle \sum_{n=1}^\infty \frac{3}{5n-1}$
+	\vfill 
+	\end{enumerate}
+\item The Limit Comparison Test
+\vfill
+\item Use the \textbf{limit comparison test} to determine whether the series converge or diverge.
+	\begin{enumerate}
+	\item $\displaystyle \sum_{n=1}^\infty \frac{1}{n^2-\ln(n)}$
+	\vfill
+	\item $\displaystyle \sum_{n=1}^\infty \frac{1}{\ln(n^{10}+n)}$
+	\vfill 
+	\end{enumerate}
+\end{enumerate}
+\end{document}
+
