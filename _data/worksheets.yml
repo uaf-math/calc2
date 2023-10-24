@@ -91,5 +91,7 @@ worksheets:
 - name: (M 10/23) Section 5.4 (day 1)
   blank: M252-5-4-a.pdf
   solutions: M252-5-4-a-s.pdf
-  
+- name: (W 10/25) Section 5.4, 5.3, 5.2 
+  blank: M252-5-4-day2.pdf
+  solutions: M252-5-4-day2-s.pdf
   
