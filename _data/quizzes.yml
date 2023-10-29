@@ -29,16 +29,16 @@ quizzes:
 - name: Quiz 6
   date: Oct 19
   sections: S. 3.7 and 5.1
-  blank: 
-  solutions: 
+  blank: M252-f23-q6.pdf
+  solutions: M252-f23-q6-s.pdf
 - name: Quiz 7
-  date: Oct 26
-  sections: 
+  date: Oct 26 
+  sections: S. 5.2 and 5.3
   blank: 
   solutions: 
 - name: Quiz 8
-  date: 
-  sections: 
+  date: Nov 2
+  sections: S. 5.3 and 5.4
   blank: 
   solutions: 
 - name: Quiz 9
