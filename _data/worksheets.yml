@@ -107,6 +107,6 @@ worksheets:
   blank: M252-5-6-b.pdf
   solutions: M252-5-6-b-s.pdf
 - name: (Th 11/2) Summary of Convergence Tests
-  blank: https://uaf-math251.github.io/calc2/assets/worksheets/F22/convsummary.pdf
+  blank: convsummary.pdf
   
   
