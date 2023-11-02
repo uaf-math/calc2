@@ -108,5 +108,8 @@ worksheets:
   solutions: M252-5-6-b-s.pdf
 - name: (Th 11/2) Summary of Convergence Tests
   blank: convsummary.pdf
+- name: (Th 11/2)
+  blank: M252-6-1-a.pdf
+  solutions: M252-6-1-a-s.pdf
   
   
