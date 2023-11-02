@@ -34,8 +34,8 @@ quizzes:
 - name: Quiz 7
   date: Oct 26 
   sections: S. 5.2 and 5.3
-  blank: 
-  solutions: 
+  blank: M252-f23-q7.pdf
+  solutions: M252-f23-q7-s.pdf
 - name: Quiz 8
   date: Nov 2
   sections: S. 5.3 and 5.4
