@@ -39,11 +39,11 @@ quizzes:
 - name: Quiz 8
   date: Nov 2
   sections: S. 5.4 and 5.5
-  blank: 
-  solutions: 
+  blank: M252-f23-q8.pdf
+  solutions: M252-f23-q8-s.pdf
 - name: Quiz 9
-  date: 
-  sections: 
+  date: Nov 9
+  sections: S. 5.6 and 6.1
   blank: 
   solutions: 
 - name: Quiz 10
