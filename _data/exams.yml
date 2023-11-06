@@ -13,7 +13,7 @@ exams:
   solutions: M252-f23-M1-b-s.pdf
 - name: Midterm Exam 2
   date: Thursday 16 November (in class)
-  sections: 3.7, 4.1, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 6.1, 6.2, 6.3
+  sections: 3.7, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 6.1, 6.2, 6.3
   blank: 
   solutions:
 - name: Final Exam
