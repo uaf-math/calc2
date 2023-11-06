@@ -1,0 +1,145 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+%\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+%\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate}
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme. 
+% Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 8}
+\docdate{2 Nov 2023}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes maximum. 25 possible points. No aids (book, calculator, etc.) are permitted  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.\\
+
+\problem{12} Use the comparison test or the limit comparison test to determine if the series converges or diverges. A complete answer includes (i) which test you are using, (ii) a clear application of the test, and (iii) a conclusion drawn from the test. 
+
+	\begin{subproblems}
+	\item $\displaystyle{\sum_{n=1}^\infty \frac{n!}{(n+2)!}}$
+	\vfill
+	\item  $\displaystyle{\sum_{n=1}^\infty \frac{\ln(n)}{n^2}}$
+	\vfill
+	\newpage
+	\item  $\displaystyle{\sum_{n=1}^\infty \frac{\sin^2(n)}{5^n}}$
+	\vfill
+	\end{subproblems}
+
+\problem{12} Do the series converge absolutely, conditionally, or neither (diverge)?  A complete answer includes (i) which test(s) you are using, (ii) a clear application of the test(s), and (iii) a circled answer. 
+	\begin{subproblems}
+	\item  $\displaystyle{\sum_{n=1}^\infty \frac{(-2)^n}{\ln(n)}}$
+	\vfill
+	\begin{tabular}{p{4cm} p{4cm}p{4cm}}
+	\textsc{converges} & \textsc{converges} & \textsc{diverges}\\
+	\textsc{absolutely} & \textsc{cconditionally} &\\
+	\end{tabular}
+	
+	
+\newpage		
+	\item $\displaystyle{\sum_{n=1}^\infty \frac{(-1)^{n+1}}{\sqrt{n+2} }}$
+	\vfill
+	\begin{tabular}{p{4cm} p{4cm}p{4cm}}
+	\textsc{converges} & \textsc{converges} & \textsc{diverges}\\
+	\textsc{absolutely} & \textsc{cconditionally} &\\
+	\end{tabular}
+
+
+\newpage	
+\item  $\displaystyle{\sum_{n=1}^\infty \frac{(-1)^n}{(n \ln(n))^2}}$
+	\vfill
+	\begin{tabular}{p{4cm} p{4cm}p{4cm}}
+	\textsc{converges} & \textsc{converges} & \textsc{diverges}\\
+	\textsc{absolutely} & \textsc{cconditionally} &\\
+	\end{tabular}	
+	
+\end{subproblems}	
+	
+	\vspace{.5in}
+
+\problem{1} The sum of the convergent series  $\displaystyle{\sum_{n=1}^\infty \frac{(-1)^{n+1}}{2n+1}}$ is estimated by its 50th partial sum $\displaystyle{S_{50}=\sum_{n=1}^\infty \frac{(-1)^{n+1}}{2n+1}} = 0.2097003.$ Estimate how close $S_{50}$ is to the sum of the series $\displaystyle{\sum_{n=1}^\infty \frac{(-1)^{n+1}}{2n+1}}$.
+
+\vspace{2in}
+	
+\end{document}
