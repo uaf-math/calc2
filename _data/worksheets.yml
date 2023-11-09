@@ -117,8 +117,10 @@ worksheets:
 - name: (M 11/6)
   blank: M252-6-2-a.pdf
   solutions: M252-6-2-a-s.pdf
-- name: (W 11/8)
+- name: (Th 11/9)
   blank: M252-6-3-a.pdf
   solutions: M252-6-3-a-s.pdf
-
+- name: (F 11/10)
+  blank: M252-6-3-b.pdf
+  solutions: M252-6-3-b-s.pdf
   
