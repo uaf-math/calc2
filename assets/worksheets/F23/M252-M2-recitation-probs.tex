@@ -1,0 +1,83 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{M2 practice}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Midterm II Practice Problems}\\
+   
+\end{center}
+\begin{enumerate}
+\item Indefinite Integrals
+	\begin{enumerate}
+	\item The directions for all such problems include the words \emph{Use correct notation.} What does this mean in practice?
+	\item Compute and simplify the improper integral $\d \int_2^5 \frac{3x}{x^2-4} \: dx$ or show that it diverges. Use correct notation.
+	\item Check your \textbf{work} (not just your answer) against the solution. Did you use correct notation? Could anyone other than you follow and understand your work?
+	\end{enumerate}
+\item Sequences and Series: The Basics\\
+	
+	Let $a_n=\frac{n}{2n+1}$ for $n=1,2,3,\cdots$
+		\begin{enumerate}
+		\item Write the first four terms in the \textbf{sequence} $a_1,a_2,a_3, \cdots.$
+		\item Does the \textbf{sequence} above converge? Show your work.
+		\item Write the \textbf{series} $\quad \frac{1}{3}+\frac{2}{5}+\frac{3}{7}+\frac{4}{9}+ \cdots$ using sum ($\sum$) notation.
+		\item Does the \textbf{series} above converge? Show that your answer is correct by stating the test you are using and applying that test.
+		\item Write $S_1, S_2,$ and $S_3,$ the first three terms in the sequence of partial sums of the \textbf{series}. Does the \textbf{sequence} $S_1, S_2, S_3, S_4, \cdots$ converge? Explain your answer.
+		\end{enumerate}
+	
+\item Convervent and Divergent Series
+	\begin{itemize}
+	\item Expect to use \emph{different} tests. No midterm or final will be do-able by repeatedly using the same one or two tests over and over again.
+	\item Recall that a correct answer here is \emph{not} ``converge" or ``diverge" since a coin can get that right 50\% of the time. A correct answer is \textbf{a correct application of an appropriate test.} So the act of checking your answer should not be limited to the words ``converge" or ``diverge.''
+	\item Check you \textbf{work.} Does it look anything like the solutions? Could anyone other than you follow and understand your work?
+	\end{itemize}
+	
+	Determine if the following series converge or diverge. Show your work.
+	
+	\begin{enumerate}
+	\item $\d \sum_{n=0}^\infty \frac{(-1)^n}{3\sqrt{n}+\pi}$
+	\item $\d \sum_{n=1}^\infty \frac{(-1)^n}{n^e}$
+	\item $\d \sum_{n=1}^\infty \frac{5}{n+\ln(n)}$
+	\item $\d \sum_{n=1}^\infty \frac{10^n}{(2n)!}$
+	\item $\d \sum_{n=0}^\infty \frac{n2^n}{5^n}$
+	\item $\d \sum_{n=2}^\infty \frac{\sin^3(n)}{n^2+1}$
+	\end{enumerate}
+\item Use the Integral Test to show that the series $\d \sum_{n=0}^\infty \frac{1}{1+n^2}$ converges.
+\item Explain why the series $\d \sum_{n=2}^\infty \frac{(-2)^n}{7^n}$ converges and determine its sum. (HINT: Look carefully at the summation limits)
+\item Find the interval of convergence for the power series 
+	$\d \sum_{n=0}^\infty \frac{1}{3^n}(x-1)^n$
+\item Find a power series representation for $\frac{2x}{3+x}$ 	
+\item Write the Taylor series for $f(x)=e^{2x}$ centered at $x=1.$
+\end{enumerate}
+\end{document}
+
