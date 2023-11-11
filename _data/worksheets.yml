@@ -126,4 +126,6 @@ worksheets:
 - name: (M 11/13)
   blank: M252-6-3-and-6-4.pdf
   solutions: M252-6-3-and-6-4-s.pdf
-  
+- name: (T 11/14)
+  blank: M252-M2-recitation-probs.pdf
+  solutions: M2-practice-s.pdf
