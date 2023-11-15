@@ -108,28 +108,28 @@ worksheets:
   solutions: M252-5-6-b-s.pdf
 - name: (Th 11/2) Summary of Convergence Tests
   blank: convsummary.pdf
-- name: (Th 11/2)
+- name: (Th 11/2) Section 6.1
   blank: M252-6-1-a.pdf
   solutions: M252-6-1-a-s.pdf
-- name: (F 11/3)
+- name: (F 11/3) Section 6.1 (day 2)
   blank: M252-6-1-b.pdf
   solutions: M252-6-1-b-s.pdf
-- name: (M 11/6)
+- name: (M 11/6) Section 6.2
   blank: M252-6-2-a.pdf
   solutions: M252-6-2-a-s.pdf
-- name: (Th 11/9)
+- name: (Th 11/9) Section 6.3
   blank: M252-6-3-a.pdf
   solutions: M252-6-3-a-s.pdf
-- name: (F 11/10)
+- name: (F 11/10) Section 6.3 (day 2)
   blank: M252-6-3-b.pdf
   solutions: M252-6-3-b-s.pdf
-- name: (M 11/13)
+- name: (M 11/13) Section 6.4
   blank: M252-6-3-and-6-4.pdf
   solutions: M252-6-3-and-6-4-s.pdf
-- name: (T 11/14)
+- name: (T 11/14) Recitation Problems
   blank: M252-M2-recitation-probs.pdf
   solutions: M2-practice-s.pdf
-- name: (W 11/15)
+- name: (W 11/15) Midterm 2 Review Sheet
   blank: M252-M2-review.pdf
   
 
