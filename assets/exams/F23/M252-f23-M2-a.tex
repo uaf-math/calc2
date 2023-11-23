@@ -1,0 +1,201 @@
+\documentclass[12pt]{article}
+\usepackage[top=1in, bottom=1in, left=.75in, right=.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{multicol,coordsys}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+\usepackage{anyfontsize}
+\usepackage[shortlabels]{enumitem}
+% \usepackage{times}
+% \usepackage[lf]{MinionPro}
+\usepackage{tikz,pgfplots,mathrsfs}
+%\def\degC{{}^\circ{\rm C}}
+\def\ra{\rightarrow}
+\usetikzlibrary{calc, backgrounds}
+\pgfplotsset{compat = newest}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+middle, xlabel={$x$}, ylabel={$y$},axis equal}}
+
+%yticklabels={,,} , xticklabels={,,}
+
+% \setmainfont{Times}
+% \def\sansfont{Lucida Grande Bold}
+\parindent 0pt
+\parskip 4pt
+\pagestyle{fancy}
+\fancyfoot[C]{\emph{\thepage}}
+\fancyhead[L]{\ifnum \value{page} > 1\relax\emph{Math 252: Midterm Exam 1}\fi}
+\fancyhead[R]{\ifnum \value{page} > 1\relax\emph{Fall 2023}\fi}
+\headheight 15pt
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\let\ds\displaystyle
+\def\continued{{\emph {Continued....}}}
+\def\continuing{{\emph {Problem \arabic{probcount} continued....}}\par\vskip 4pt}
+
+
+\newcounter{probcount}
+\newcounter{subprobcount}
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+\def\problem#1{\setcounter{subprobcount}{0}%
+\addtocounter{probcount}{1}{\emph{\arabic{probcount}.\hskip 1em(#1)}}\par}
+\def\subproblem#1{\par\hangindent=1em\hangafter=0{%
+\addtocounter{subprobcount}{1}\thesubproblem\emph{#1}\hskip 1em}}
+\def\probskip{\vskip 10pt}
+\def\medprobskip{\vskip 2in}
+\def\subprobskip{\vskip 45pt}
+\def\bigprobskip{\vskip 4in}
+
+\begin{document}
+{\emph{\fontsize{26}{28}\selectfont Math F252\hfill
+{\fontsize{32}{36}\selectfont Midterm II}
+\hfill Fall 2023}}
+\vskip 2cm
+\strut\vtop{\halign{\emph#\hskip 0.5em\hfil&#\hbox to 2in{\hrulefill}\cr
+\emph{\fontsize{18}{22}\selectfont Name:}&\cr
+\noalign{\vskip 10pt}}}
+%%\emph{\fontsize{18}{22}\selectfont Student Id:}&\cr
+%%\noalign{\vskip 10pt}
+%%\emph{\fontsize{18}{22}\selectfont Calculator Model:}&\cr
+%}}
+%\hfill
+%\vtop{\halign{\emph{\fontsize{18}{22}\selectfont #}\hfil& \emph{\fontsize{18}{22}\selectfont\hskip 0.5ex $\square$ #}\hfil\cr
+%Section: & 001 (Jill Faudree)\cr
+%\noalign{\vskip 4pt}
+%         & 002 (James Gossell)\cr
+%\noalign{\vskip 4pt}
+%         & 005 (James Gossell)\cr}}
+
+\vfill
+{\fontsize{18}{22}\selectfont\emph{Rules:}}
+
+You have {90 minutes} to complete this midterm.  
+
+Partial credit will be awarded, but you must show your work.
+
+%\textcolor{red}{You may have a single handwritten $3 \times 5$ notecard.}
+
+Calculators, notes and books are not allowed. 
+
+%Place a box around your  \fbox{FINAL ANSWER} to each question where appropriate.
+
+%If you need extra space, you can use the back sides of the pages.
+%Please make it obvious  when you have done so.
+
+Turn off anything that might go beep during the exam.
+
+Good luck!
+\vfill
+\def\emptybox{\hbox to 2em{\vrule height 16pt depth 8pt width 0pt\hfil}}
+\def\tline{\noalign{\hrule}}
+\centerline{\vbox{\offinterlineskip
+{
+\bf\sf\fontsize{18pt}{22pt}\selectfont
+\hrule
+\halign{
+\vrule#&\strut\quad\hfil#\hfil\quad&\vrule#&\quad\hfil#\hfil\quad
+&\vrule#&\quad\hfil#\hfil\quad&\vrule#\cr
+height 3pt&\omit&&\omit&&\omit&\cr
+&Problem&&Possible&&Score&\cr\tline
+height 3pt&\omit&&\omit&&\omit&\cr
+&1&&12&&\emptybox&\cr\tline
+&2&&5&&\emptybox&\cr\tline
+&3&&9&&\emptybox&\cr\tline
+&4&&10&&\emptybox&\cr\tline
+&5&&10&&\emptybox&\cr\tline
+&6&&24&&\emptybox&\cr\tline
+&7&&10&&\emptybox&\cr\tline
+&8&&10&&\emptybox&\cr\tline
+&9&&10&&\emptybox&\cr\tline
+&Extra Credit&&5&&\emptybox&\cr\tline
+&Total&&100&&\emptybox&\cr
+}\hrule}}}
+
+\newpage
+\begin{enumerate}
+%%% improper integrals
+\item (12 points) Compute and simplify the improper integrals, or show that they diverge. Use correct limit notation.
+	\begin{enumerate}
+	\item $\ds \int_2^\infty \frac{dx}{x(\ln(x))^2}$
+	\vfill
+	\item $\ds \int_0^3 \frac{1}{x^{4/3}}\: dx$
+	\vfill
+	\end{enumerate}
+
+\item (5 points) Does the series $\ds \sum_{n=2}^\infty \frac{1}{n(\ln(n))^2}$  converge or diverge? Show your work including naming any test you use. (Hint: You may use the previous problem though you don't have to. )\\
+
+
+\vfill
+
+\newpage
+%%% Sequence of partial sums
+\item (9 points) Consider the infinite series $-\frac{1}{2\cdot 1}+\frac{1}{2\cdot 2}-\frac{1}{2\cdot3}+\frac{1}{2\cdot 4}-\frac{1}{2\cdot 5}+\frac{1}{2 \cdot 6}-\cdots$
+	\begin{enumerate}
+	\item Write the series using sigma or summation notation. (That is, write the series using $\ds \sum $ notation.)
+	\vfill
+	\item  Compute and simplify $S_1,$ $S_2,$ and $S_3$ the first three terms in the sequence partial sums of the series.
+	\vfill
+	\end{enumerate}
+\item (10 points) Consider the infinite series $\ds \sum_{n=0}^\infty \frac{(-3)^{n+1}}{10^{n}}.$
+	\begin{enumerate}
+	\item Explain why the series converges. 
+	\vfill
+	\item Determine the sum of the series. Write you answer as a simplified fraction.
+	\vfill
+	\end{enumerate}
+\newpage
+\item (10 points) Show that the series $\quad \ds \sum_{n=0}^\infty (-1)^{n+1}\frac{1}{\sqrt{2n+1}} \quad$ is conditionally convergent. \\
+
+Note that you must show that the series converges \textbf{and} that it is not absolutely convergent. \\
+
+A complete answer will include (i) the name of the test(s) you are using, (ii) a clear application of the test (or tests), and (iii) an explicit explanation of what conclusion(s) you are drawing.
+		
+\newpage
+\item (24 points) Do the following series converge or diverge? Show your work, including naming any test you use.
+	\begin{enumerate}
+	\item $\ds \sum_{n=0}^\infty \frac{2n-1}{5n+1}$
+	\vfill
+%	\item $\ds \sum_{n=0}^\infty \frac{n+2}{6^n}$
+%	\vfill
+	\item $\ds \sum_{n=1}^\infty \frac{\ln(n)}{n^2} $
+	\vfill
+	\newpage
+	\item $\ds \sum_{n=1}^\infty \frac{\sin(n)}{n^{5/3}}$
+	\vfill
+	\item $\ds \sum_{n=1}^\infty \frac{(\ln n)^{n}}{n^n} $
+	\vfill
+	\end{enumerate}
+\newpage
+\item (10 points) Use $\quad \ds \frac{1}{1-x}=\sum_{n=0}^\infty x^n \quad$ to find power series representations centered at $a=0$ for each function below.  				\begin{enumerate}
+	\item $g(x)=\frac{x}{1-3x}$  
+	\vspace{3in}
+	\item $h(x)=\frac{1}{(1+x)^2}$ (Hint: Differentiate an appropriate function.)
+	\vfill
+	\end{enumerate}
+\newpage
+\item (10 points) Write the Taylor series for $y=e^{-2x}$ centered at $a=1.$
+\vfill
+
+\item (10 points) Find the interval of convergence of the following power series.
+	\begin{enumerate}
+	\item $\ds \sum_{n=0}^\infty \frac{(x-3)^{n}}{(n+1)!}$
+	\vfill
+	\item $\ds \sum_{n=1}^\infty \frac{x^n}{n8^n}$
+	\vfill
+	\end{enumerate}
+
+\end{enumerate}
+\newpage
+%%%
+\textbf{Extra Credit} (5 points) The Taylor series for $f(x)=\sin(x)$ centered at $a=0$ is $\ds \sin(x)=\sum_{n=0}^\infty \frac{(-1)^n}{(2n+1)!}x^{2n+1}.$
+\begin{enumerate}
+\item Find $p_3(x)$, the 3rd Taylor polynomial, and use it to estimate $\sin(1).$
+\item Show that this estimate is within $0.005$ of the exact value.
+\end{enumerate}
+\vfill
+\end{document}
