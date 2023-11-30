@@ -5,16 +5,14 @@ title: Math F252 Calculus II at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-**UNDER CONSTRUCTION**
-
 ### [Canvas course page](https://canvas.alaska.edu/courses/16194)
 
-Log in to Canvas for:
+Log in to [canvas.alaska.edu/courses/16194](https://canvas.alaska.edu/courses/16194):
 
-  * your grades
-  * link to Gradescope for submitting Homework
-  * solutions to Homework
-  * other Announcements
+  * to see your grades
+  * to link to Gradescope for submitting Homework
+  * for solutions to Homework
+  * for other Announcements
 
 ### Getting Started
 
