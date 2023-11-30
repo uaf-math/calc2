@@ -1,0 +1,192 @@
+\documentclass[11pt]{amsart}
+%prepared in AMSLaTeX, under LaTeX2e
+\addtolength{\oddsidemargin}{-1.2in} 
+\addtolength{\evensidemargin}{-1.2in}
+\addtolength{\topmargin}{-.9in}
+\addtolength{\textwidth}{2.0in}
+\addtolength{\textheight}{1.5in}
+
+\renewcommand{\baselinestretch}{1.05}
+
+\usepackage{verbatim} % for "comment" environment
+
+\usepackage{palatino}
+
+\usepackage[final]{graphicx}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\usepackage{enumitem,xspace,fancyvrb}
+
+\newtheorem*{thm}{Theorem}
+\newtheorem*{defn}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{problem}{Problem}
+\newtheorem*{remark}{Remark}
+
+\DefineVerbatimEnvironment{mVerb}{Verbatim}{numbersep=2mm,frame=lines,framerule=0.1mm,framesep=2mm,xleftmargin=4mm,fontsize=\footnotesize}
+
+% macros
+\usepackage{amssymb}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bE}{\mathbf{E}}
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bJ}{\mathbf{J}}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+
+\newcommand{\hbi}{\mathbf{\hat i}}
+\newcommand{\hbj}{\mathbf{\hat j}}
+\newcommand{\hbk}{\mathbf{\hat k}}
+\newcommand{\hbn}{\mathbf{\hat n}}
+\newcommand{\hbr}{\mathbf{\hat r}}
+\newcommand{\hbt}{\mathbf{\hat t}}
+\newcommand{\hbx}{\mathbf{\hat x}}
+\newcommand{\hby}{\mathbf{\hat y}}
+\newcommand{\hbz}{\mathbf{\hat z}}
+\newcommand{\hbphi}{\mathbf{\hat \phi}}
+\newcommand{\hbtheta}{\mathbf{\hat \theta}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\ppr}[1]{\frac{\partial #1}{\partial r}}
+\newcommand{\ppt}[1]{\frac{\partial #1}{\partial t}}
+\newcommand{\ppx}[1]{\frac{\partial #1}{\partial x}}
+\newcommand{\ppy}[1]{\frac{\partial #1}{\partial y}}
+\newcommand{\ppz}[1]{\frac{\partial #1}{\partial z}}
+\newcommand{\pptheta}[1]{\frac{\partial #1}{\partial \theta}}
+\newcommand{\ppphi}[1]{\frac{\partial #1}{\partial \phi}}
+\newcommand{\Div}{\ensuremath{\nabla\cdot}}
+\newcommand{\Curl}{\ensuremath{\nabla\times}}
+\newcommand{\curl}[3]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ \partial_x & \partial_y & \partial_z \\ #1 & #2 & #3 \end{vmatrix}}}
+\newcommand{\cross}[6]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ #1 & #2 & #3 \\ #4 & #5 & #6 \end{vmatrix}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\grad}{\nabla}
+\newcommand{\ip}[2]{\ensuremath{\left<#1,#2\right>}}
+\newcommand{\lam}{\lambda}
+\newcommand{\lap}{\triangle}
+
+\newcommand{\Null}{\operatorname{null}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\range}{\operatorname{range}}
+\newcommand{\trace}{\operatorname{tr}}
+
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.}\quad }
+\newcommand{\exer}[2]{\prob{Exercise #2 on page #1}}
+\newcommand{\exerpages}[2]{\prob{Exercise #2 on pages #1}}
+
+\newcommand{\pts}[1]{(\emph{#1 pts}) }
+\newcommand{\epart}[1]{\bigskip\noindent\textbf{(#1)}\quad }
+\newcommand{\ppart}[1]{\,\textbf{(#1)}\quad }
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+
+\newcommand{\ds}{\displaystyle}
+
+\begin{document}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 7.3: Polar Coordinates (day 1)}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item The definition of polar coordinates
+
+\vfill
+\item In the polar grids below, graph the points $P=(2.5, 5 \pi /4),$ $Q=(-3, \pi/2),$ $r=1$, and $\theta = \pi/6.$\\
+
+\begin{tikzpicture}[>=latex, scale=.8]
+% Draw the lines at multiples of pi/12
+\foreach \ang in {0,...,31} {
+  \draw [lightgray] (0,0) -- (\ang * 180 / 12:4);
+}
+% Concentric circles and radius labels
+\foreach \s in {0, 1, 2, 3} {
+  \draw [lightgray] (0,0) circle (\s + 0.5);
+  \draw (0,0) circle (\s);
+  \node [fill=white] at (\s, 0) [below] {\scriptsize $\s$};
+}
+% Add the labels at multiples of pi/4
+\foreach \ang/\lab/\dir in {
+  0/0/right,
+  1/{\pi/4}/{above right},
+  2/{\pi/2}/above,
+  3/{3\pi/4}/{above left},
+  4/{\pi}/left,
+  5/{5\pi/4}/{below left},
+  7/{7\pi/4}/{below right},
+  6/{3\pi/2}/below} {
+  \draw (0,0) -- (\ang * 180 / 4:4.1);
+  \node [fill=white] at (\ang * 180 / 4:4.2) [\dir] {\scriptsize $\lab$};
+}
+% Add the labels at multiples of pi/6
+\foreach \ang/\lab/\dir in {
+  1/{\pi/6}/{above right},
+  2/{\pi/3}/above,
+  4/{2\pi/3}/{above left},
+  5/{5\pi/6}/{left},
+  7/{7\pi/6}/{below left},
+  8/{4\pi/3}/below,
+  10/{5\pi/3}/below,
+  11/{11\pi/6}/right} {
+  \draw (0,0) -- (\ang * 180 / 6:4.1);
+  \node [fill=white] at (\ang * 180 / 6:4.2) [\dir] {\scriptsize $\lab$};
+}
+% The double-lined circle around the whole diagram
+\draw [style=double] (0,0) circle (4);
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}[>=latex, scale=.8]
+% Draw the lines at multiples of pi/12
+\foreach \ang in {0,...,31} {
+  \draw [lightgray] (0,0) -- (\ang * 180 / 12:4);
+}
+% Concentric circles and radius labels
+\foreach \s in {0, 1, 2, 3} {
+  \draw [lightgray] (0,0) circle (\s + 0.5);
+  \draw (0,0) circle (\s);
+  \node [fill=white] at (\s, 0) [below] {\scriptsize $\s$};
+}
+% Add the labels at multiples of pi/4
+\foreach \ang/\lab/\dir in {
+  0/0/right,
+  1/{\pi/4}/{above right},
+  2/{\pi/2}/above,
+  3/{3\pi/4}/{above left},
+  4/{\pi}/left,
+  5/{5\pi/4}/{below left},
+  7/{7\pi/4}/{below right},
+  6/{3\pi/2}/below} {
+  \draw (0,0) -- (\ang * 180 / 4:4.1);
+  \node [fill=white] at (\ang * 180 / 4:4.2) [\dir] {\scriptsize $\lab$};
+}
+% Add the labels at multiples of pi/6
+\foreach \ang/\lab/\dir in {
+  1/{\pi/6}/{above right},
+  2/{\pi/3}/above,
+  4/{2\pi/3}/{above left},
+  5/{5\pi/6}/{left},
+  7/{7\pi/6}/{below left},
+  8/{4\pi/3}/below,
+  10/{5\pi/3}/below,
+  11/{11\pi/6}/right} {
+  \draw (0,0) -- (\ang * 180 / 6:4.1);
+  \node [fill=white] at (\ang * 180 / 6:4.2) [\dir] {\scriptsize $\lab$};
+}
+% The double-lined circle around the whole diagram
+\draw [style=double] (0,0) circle (4);
+\end{tikzpicture}
+
+
+\end{enumerate}
+\end{document}
