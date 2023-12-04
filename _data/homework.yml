@@ -165,27 +165,27 @@ homework:
     cont: 209, 210, 211, 215, 226, 231
     contcont: 234, 235
 - name: Homework 7.1
-  due: 11:59pm Mon 12/5 (revised)
+  due: 11:59pm Mon 11/27
   sections:
   - section: 7.1
     problems: 1, 2, 5, 6, 8, 13, 17, 19,
     cont: 21, 26, 28, 35, (rect. form = elim. parameter)
     contcont: 39, 43, 49, 51, 54, 59
 - name: Homework 7.2
-  due: 11:59pm Wed 12/7 (revised)
+  due: 11:59pm Wed 12/4 
   sections:
   - section: 7.2
     problems: 64, 67, 68, 72, 76, 79, 84, 85, 90,
     cont: 100, 102, 109, 113, 115, 116
 - name: Homework 7.3
-  due: 11:59pm Mon 12/12 (revised)
+  due: 11:59pm Mon 12/6
   sections:
   - section: 7.3
     problems: 125, 131, 133, 135, 136, 139, 144, 146,
     cont: 152, 154, 155, 156, 158, 160, 162, 164,
     contcont: 165, 167, 168, 172, 177, 178
-#- name: Homework 7.4
-#  due: 11:59pm Mon 12/12
+- name: Homework 7.4
+  due: 11:59pm Mon 12/11
 #  sections:
 #  - section: 7.4
 #    problems: 188, 189, 190, 192, 196, 199, 218,
