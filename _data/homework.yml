@@ -186,7 +186,4 @@ homework:
     contcont: 165, 167, 168, 172, 177, 178
 - name: Homework 7.4
   due: 11:59pm Mon 12/11
-#  sections:
-#  - section: 7.4
-#    problems: 188, 189, 190, 192, 196, 199, 218,
-#    cont: 219, 220, 223, 228, 235, 238
+  override: C2-HW-7-4.pdf
