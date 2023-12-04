@@ -1,0 +1,59 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 7.4}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{HW 7.4: Area in Polar Coordinates}\\
+\end{center}
+For each problem below,\\
+	\begin{enumerate}[a.]
+	\item Use technology to graph the curve.
+	\item Shade the region $R$ in your sketch.
+	\item Set up and evaluate the integral representing the area of the region $R$.
+	\end{enumerate}
+	
+\vspace{.3in}
+
+\begin{enumerate}
+\item $R$ is the region enclosed by $\d r=6\sin(\theta).$
+\item $R$ is the region enclosed by one petal of $\d r=3\cos(2 \theta).$
+\item $R$ is the region enclosed by the region $r=2+4\cos(\theta)$ but outside the inner loop.
+\item $R$ is the region common to both $r=4\sin(2 \theta)$ and $r=2.$
+\end{enumerate}
+
+\vspace{.3in}
+
+Note: These problems are like those in \S 7.4 \#'s 188-213.
+\end{document}
+
