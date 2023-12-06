@@ -1,0 +1,236 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol,hyperref}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{FE Review}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Review for Final Exam}\\
+   
+\end{center}
+{\Large{Basics}}\\
+
+\begin{itemize}
+\item Tuesday 12 December 10:15am-12:15pm Gruening \textcolor{red}{\textbf{Room 409}.}
+\item The textbook summary of tests will be attached to the midterm. \href{https://openstax.org/books/calculus-volume-2/pages/5-6-ratio-and-root-tests}{Link} to textbook. \href{https://uaf-math251.github.io/calc2/assets/worksheets/F23/convsummary.pdf}{Link} in course webpage.
+\item You can bring one sheet (8.5 in by 11.5 in) of notes with writing on one side. You must turn it in with your final.
+\item Cell phones should be either in a zippered pocket of a backpack or facedown on your desk, not in your pocket or lap. Smart watches should be in a backpack.
+\item You will be required to sit where there is an exam (ie spread out).
+\item There will be two versions of the exam.\\
+\end{itemize}
+
+\noindent{\Large{Sections Covered}}\\
+
+The asterisks represent problems that have been on all four final exams posted on the Calc 2 webpage.
+
+\begin{itemize}
+
+\item ** Section 2.1 Areas between Curves\\
+Given a region defined by various familiar curves set up and evaluate a definite integral that calculates the area of the region.
+\item ** Volumes of Revolution
+	\begin{itemize} 
+	\item Section 2.2 Volumes by Slicing (disks, washers or defined cross-sections)
+		\begin{itemize}
+		\item Given the base and a characterization of the cross-sections of an object, find its volume.
+		\item Given a region $R$ in the $xy$-plane and an axis or rotation ($x$- or $y$-axis), determine the volume using disks or washers.
+		\end{itemize}
+	\item Section 2.3 Volumes of Revolution using Shells\\
+Given a region $R$ in the $xy$-plane and an axis or rotation ($x$- or $y$-axis), determine the volume using shells.
+	\end{itemize}
+\item Section 2.4 Arc Length of a Curve and Surface Area
+	\begin{itemize}
+	\item Given a curve $C$ in the $xy$-plane, find the arc length of $C$. 
+	\item Given a curve $C$ in the $xy$-plane and an axis of rotation ($x$- or $y$-axis), find the surface area of the volume of rotation.
+	\end{itemize}
+\item Section 2.5 Physical Applications
+	\begin{itemize}
+	\item Work. Including Hooke's Law and pumping fluid out of a container.
+	\item Mass.
+	\end{itemize}
+\item Section 2.6 Moments and Centers of Mass\\
+Find the center of mass of 1- and 2-dimensional regions.
+\item Section 2.7 A Second Look at Exponential and Logarithmic Functions\\
+Nothing from this section will appear directly. You should know how to integrate and differentiate exponential and logarithmic functions as you did in Calc I.
+
+\newpage
+
+\item ** Chapter 3 Integration Techniques.\\
+For each technique, you should be able to recognize what integrals are suitable to the technique and know how to implement this technique.
+	\begin{itemize}
+	\item Section 3.1 Integration by Parts
+	\item Section 3.2 Trigonometric Integrals
+	\item Section 3.3 Trigonometric Substitution
+	\item Section 3.4 Partial Fractions
+	\end{itemize}
+
+
+\item ** Section 3.7 Improper Integrals\\
+
+How to recognize and evaluate an improper integral. How to determine if an improper integral converges or diverges.\\
+
+Practical Notes:
+	\begin{itemize}
+	\item The first step of understanding an improper integral is to rewrite it in terms of a limit.
+	\item You must complete the integration and substitution prior to evaluating the limit.
+	\item If you \emph{formally} use the method of $u$-substitution, it is safer to resubstitute prior to evaluating the limit.\\
+	\end{itemize}
+
+\item Section 5.1 Sequences\\
+
+	\begin{enumerate}
+	\item Understand the difference between a \emph{sequence} and a \emph{series}. 
+	\item Know how to write the terms of a sequence whether the terms are given via an explicit formula or a recursive one. 
+	\item Know how to write a formula for a sequence given term-by-term (i.e. look for a pattern and  generalize it).\\
+	\end{enumerate}
+	
+\item ** Infinite Series and Convergence
+	\begin{itemize}
+	\item Section 5.2 Infinite Series\\
+		\begin{enumerate}
+		\item Know what is meant by \emph{the sequence of partial sums} of a series and be able to find a few of the terms.
+		\item Know that a series converges if and only if its sequence of partial sums converges. (This is the definition of convergence for series.)
+		\item Know what a geometric series is and how to determine when it converges and when it diverges. If it converges, know to what it converges. 
+		\item Know that the \textbf{harmonic series} is and that it diverges.
+		\item Know how to identify and exploit the properties of \emph{telescoping series}.
+		\end{enumerate}
+
+	\item Section 5.3 The Divergence and Integral Tests\\
+
+		\begin{enumerate}
+		\item How to use the Divergence Test and know its limits.
+		\item How to use the Integral Test.
+		\item Know what is meant by a \textbf{$p$-series} and under what conditions a $p$-series converges and diverges.
+		\item Any questions about remainders will be extra credit.
+		\end{enumerate}
+
+	\item Section 5.4 Comparison Tests\\
+
+		\begin{enumerate}
+		\item Know \textbf{how} and when to apply the (direct) comparison test and the limit comparison test.\\
+		\end{enumerate}
+
+	\item Section 5.5 Alternating Series \\
+
+		\begin{enumerate}
+		\item Know what is meant by an alternating series.
+		\item Know how to apply the Alternating Series Test.
+		\item Know how to estimate the remainder of a convergent alternating series when the sum of the series is estimated by a partial sum.
+		\item Know that absolute convergence implies convergence and why this fact is useful.
+		\item Know what you must do to \emph{show} that a series is absolutely convergent.
+		\item Know what you must do to \emph{show} that a series is conditionally convergent.\\
+		\end{enumerate}
+
+	\item Section 5.6 Ratio and Root Tests\\
+
+		\begin{enumerate}
+		\item Know how to apply the ratio test.
+		\item Know how to apply the root test.
+		\item Keep in mind that for the root test, you may need to  be somewhat careful about your algebra when taking limits.
+		\item Know how to work with factorials.
+		\end{enumerate}
+	\end{itemize}
+	
+\textbf{Summary:} You need to think about what characteristics of series suggest one test or another. \\
+
+\textbf{Cautionary Notes:}
+	\begin{itemize}
+	\item You cannot ever assert a series converges or diverges without a justification.
+	\item The only series for which the justification does \emph{not} require the application of a formal test are geometric series, $p$-series, and the harmonic series.
+	\end{itemize}
+
+\item ** Section 6.1 Power Series and Functions\\
+
+	\begin{enumerate}
+	\item Know what is meant by a power series centered at $x=a.$
+	\item Know how to find the radius of convergence and the center of convergence.
+	\item Know the power series representation of $f(x)=\frac{1}{1-x}$ and how to use it to find power series representations of other similar functions.
+	\end{enumerate}
+
+\item Section 6.2 Properties of Power Series\\
+
+	\begin{enumerate}
+	\item Know how to operate on power series term-by-term within their radius of convergence including addition, multiplication, differentiation and integration.
+	\end{enumerate}
+
+\item Section 6.3 Taylor and Maclaurin Series\\
+
+	\begin{enumerate}
+	\item Know how to find the Taylor Series of a function $f(x)$ centered at $x=a.$
+	\item Know how to find the $n$th Taylor polynomial, $p_n$ centered at $x=a.$
+	\item You should know that a Maclaurin series is a Taylor series with center $a=0.$
+	\item Remainder questions will only appear as extra credit.
+	\end{enumerate}
+
+\item Section 6.4 Working with Taylor Series\\
+
+	\begin{enumerate}
+	\item Know how to derive the Maclaurin series for the standard functions: $\frac{1}{1-x}, e^x, \sin(x), \cos(x), \ln(1+x), \arctan(x), (1+x)^r.$
+	\item Know how to use the methods of integration and differentiation to produce new series (like in Section 6.3).
+	\end{enumerate}
+\item ** Parametric Equations
+	\begin{itemize}
+	\item Section 7.1: Parametric Equations
+
+		\begin{enumerate}
+		\item know how to sketch a curve described by parametric equations
+		\item know how to eliminate the parameter
+		\end{enumerate}
+		
+	\item Section 7.2: Calculus of Parametric Curves
+	
+		\begin{enumerate}
+		\item know how to find the find the first and second derivatives of parametric curves.
+		\item know how to find area under a parametric curve
+		\end{enumerate}
+	\end{itemize}
+		
+\item ** Polar Coordinates
+
+	\begin{itemize}
+	\item Section 7.3: Polar Coordinates
+		\begin{enumerate}
+		\item Know how to plot points given in polar coordinates and how to sketch polar graphs.
+		\item know how to convert between polar coordinates and rectangular coordinates (for both points and equations)
+		\end{enumerate}
+	
+	\item Section 7.4: Area in Polar Coordinates
+		\begin{enumerate}
+		\item Know how to set up and evaluate an integral to find the area of a polar curve.
+		\end{enumerate}
+		
+	\end{itemize}
+	
+\end{itemize}
+
+
+\end{document}
+
