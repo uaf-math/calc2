@@ -146,3 +146,8 @@ worksheets:
 - name: (F 12/1) Section 7.3 (day 2)
   blank: M252-7-3-b.pdf
   solutions: M252-7-3-b-s.pdf
+- name: (M 12/4) Section 7.4 
+  blank: M252-7-4.pdf
+  solutions: M252-7-4-s.pdf
+- name: (W 12/6) Review for Final
+  blank: M252-FE-Review.pdf
