@@ -154,5 +154,7 @@ worksheets:
 - name: (Th 12/7) Practice Problems
   blank: FE-review-probs.pdf
   solutions: FinalExam-probs-sons.pdf
-
+- name: (F 12/8)
+  blank: FE-review-probs-b.pdf
+  solutions: FE-rev-b-s.pdf
   
