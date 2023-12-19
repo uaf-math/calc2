@@ -5,7 +5,7 @@ title: Videos
 
 ## Calculus playlists on YouTube
 
-Send video suggestions: FIXME
+_Please send video suggestions to <a href="mailto:elbueler@alaska.edu">Bueler</a>._
 
 Here are some recommended video series for Calculus 2 students:
 
@@ -15,7 +15,7 @@ Here are some recommended video series for Calculus 2 students:
   * [Prof. Dave's Calculus](https://www.youtube.com/playlist?list=PLybg94GvOJ9ELZEe9s2NXTKr41Yedbw7M)
   * [Khan Academy Calculus](https://www.youtube.com/playlist?list=PL19E79A0638C8D449)
   * [Prof. Leonard's Calculus 2](https://www.youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-)
-  * [Prof. Leonard's Calculus 1](https://www.youtube.com/playlist?list=PLF797E961509B4EB5) <-- last 4 videos do area/volume/arclength integrals
+  * [Prof. Leonard's Calculus 1](https://www.youtube.com/playlist?list=PLF797E961509B4EB5) <i><-- last 4 videos do area/volume/arclength integrals</i>
 
 None of these are well-aligned to our textbook, but it is easy to navigate to helpful topics anyway.
 
