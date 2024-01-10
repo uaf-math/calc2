@@ -31,7 +31,9 @@ to see
 
   * Solutions are available in advance at the Canvas page!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in Gradescope.  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
 
-* There are [two Midterms and a Final](exams.html).  See the [Exams](exams.html) tab for the sections covered and old exams for review.
+* There are weekly [Quizzes](quizzes.html).
+
+* There are [two Midterms and a Final](exams.html).  See the Schedule for your section (tab at left) for dates.  See the [Exams](exams.html) tab for the sections covered and old exams for review.
 
 ### Resources
 
