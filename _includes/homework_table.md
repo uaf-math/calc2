@@ -2,7 +2,14 @@
 <table class="asst-table">
 {% for homework in data.homework %}
 <tr>
-  <td><b>{{ homework.name }}</b> &nbsp; &nbsp; Due {{ homework.due }}.<br><br>
+  <td><b>{{ homework.name }}</b><br>
+    {% if homework.due %}
+      <table class="inner">
+        <tr>
+          <td> &nbsp; &nbsp; Due {{ homework.due }}.</td>
+        </tr>
+      </table>
+    {% endif %}
     {% if homework.override %}
       <table class="inner">
         <tr>

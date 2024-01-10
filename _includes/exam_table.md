@@ -4,13 +4,16 @@
 <tr>
 	<td> 
 		<table class="inner">
-		  <tr>
-			    <td>{{ exam.name }} &nbsp; &nbsp; {{ exam.date }}</td>
+		    <tr>
+			    <td><b>{{ exam.name }}</b></td>
+			</tr>
+			<tr>
+			    <td> &nbsp; &nbsp; {{ exam.date }}</td>
 			</tr>
 			<tr>
 			    <td>sections: {{ exam.sections }}</td>
 			</tr>
-		  {% if exam.cont %}
+		    {% if exam.cont %}
 			<tr>
 			    <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  {{ exam.cont }}</td>
 			</tr>
