@@ -9,11 +9,11 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 Log in to the Canvas page for your section:
 
-  * section 701 online Spring 2024 (Faudree): TO ADD
-  * section 901 in-person Spring 2024 (Bueler): TO ADD
-  * section 901 in-person Fall 2023 (Faudree): [canvas.alaska.edu/courses/16194](https://canvas.alaska.edu/courses/16194):
+  * section 901 in-person Spring 2024 (Bueler): [canvas.alaska.edu/courses/18805](https://canvas.alaska.edu/courses/18805)
+  * section 701 online Spring 2024 (Faudree): FIXME
 
 to see
+
   * your grades
   * the link to Gradescope for submitting Homework
   * solutions to Homework
@@ -21,9 +21,9 @@ to see
 
 ### Getting Started
 
-* Read the [Syllabus](assets/general/M252-f23-syllabus.pdf).
+* Read the Syllabus for your section (tab at left).
 
-* See the [Schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml).  Check it often to find out what happens next!
+* See the Schedule for your section (tab at left).  Check it often to find out what happens next!
 
 * The textbook is online: [OpenStax Calculus Volume 2](https://openstax.org/details/books/calculus-volume-2).
 
