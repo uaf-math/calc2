@@ -10,7 +10,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 Log in to the Canvas page for your section:
 
   * section 901 in-person Spring 2024 (Bueler): [canvas.alaska.edu/courses/18805](https://canvas.alaska.edu/courses/18805)
-  * section 701 online Spring 2024 (Faudree): FIXME
+  * section 701 online Spring 2024 (Faudree): [canvas.alaska.edu/courses/18799](https://canvas.alaska.edu/courses/18799)
 
 to see
 
