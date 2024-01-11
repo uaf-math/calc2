@@ -32,12 +32,11 @@
 \renewcommand{\d}{\displaystyle}
 \newcommand{\wkday}[3]{\textbf{\large #1\strut}\quad #2\,--\,#3}
 \newcommand{\vacinline}[1]{{\color{OliveGreen} \textsl{#1}}}
-\newcommand{\vac}[1]{\strut \footnotesize{\vacinline{#1}}}
+\newcommand{\vac}[1]{\strut {\small {\vacinline{#1}}}}
 \newcommand{\due}[1]{\strut {\color{BrickRed} \textsl{#1}}}
-\newcommand{\hdue}[1]{\due{#1 due}}
+\newcommand{\hdue}[1]{\due{H #1}}
 \newcommand{\proj}[1]{\strut {\color{RedOrange} #1}}
-\newcommand{\dlinline}[1]{{\color{Purple} \textbf{#1}}}
-\newcommand{\dl}[1]{{\footnotesize \dlinline{#1}}}
+\newcommand{\dl}[1]{{\small \color{Purple} \textbf{#1}}}
 
 \newcommand{\ee}[1]{\strut {\color{Blue} \textbf{#1}}}
 \newcommand{\qq}[1]{\strut {\color{RedOrange} #1}}
@@ -56,16 +55,16 @@ The schedule below is subject to changes!  See the public course webpage for det
 
 \centerline{\href{https://uaf-math251.github.io/calc2/}{\texttt{uaf-math251.github.io/calc2}}}
 
-\noindent MWF classes start at 11:45, Th at 11:30, in Gruening 208.  Thursday \qq{Quizzes} start after 30 minutes of lecture.  Note \ee{Exams} and UAF \dl{deadlines}.  \due{Homework} for each section, due at 11:59pm on the date given, is on the \href{https://uaf-math251.github.io/calc2/}{Homework tab} of the \href{https://uaf-math251.github.io/calc2/}{\texttt{calc2}} website.  Please upload Homework using Gradescope, from the Canvas page.
+\noindent MWF classes start at 11:45, Th at 11:30, in Gruening 208.  Thursday \qq{Quizzes} start after 30 minutes of lecture.  Note \vac{vacation days}, \ee{Exams}, and \dl{deadlines}.  \due{Homework} for each section, due at 11:59pm on the date given, is on the \href{https://uaf-math251.github.io/calc2/}{Homework tab} of the \href{https://uaf-math251.github.io/calc2/}{\texttt{calc2}} website.  Please upload Homework using Gradescope, from the Canvas page.
 
 \bigskip
 
 \begin{tabularx}{1.03\textwidth}{l|>{\raggedright\arraybackslash}X|X|X|X|}
 \textbf{Week} \quad Dates & M & W & Th & F \\ \hline
 
-\wkday{1}{1/15}{1/19}   & \vac{AK Civil Rights Day} & 2.1 & review \par \qq{Q1} & 2.2 \\ \hline
+\wkday{1}{1/15}{1/19}   & \vac{Civil Rights Day} & 2.1 & review \par \qq{Q1} & 2.2 \par \hdue{Review} \\ \hline
 
-\wkday{2}{1/22}{1/26}   & 2.3 \par \hdue{2.1, 2.2} & & \phantom{x} \par \qq{Q2} & 2.4 \par \dl{drop} \\ \hline
+\wkday{2}{1/22}{1/26}   & 2.3 \par \hdue{2.1} & \phantom{x} \par \hdue{2.2} & \phantom{x} \par \qq{Q2} & 2.4 \par \dl{drop} \\ \hline
 
 \wkday{3}{1/29}{2/2}    & \phantom{x} \par \hdue{2.3} & 2.5 \par \hdue{2.4} & \phantom{x} \par \qq{Q3} & 2.7 \\ \hline
 
@@ -75,25 +74,25 @@ The schedule below is subject to changes!  See the public course webpage for det
 
 \wkday{6}{2/19}{2/23}   & \phantom{x} \par \hdue{3.3} & review \par \hdue{3.4} & \ee{Midterm 1} & 3.6 \par \dl{progress reps} \\ \hline
 
-\wkday{7}{2/26}{3/1}    & 3.7 & \phantom{x} \par \hdue{3.6} & 4.1 & 4.2  \\ \hline
+\wkday{7}{2/26}{3/1}    & 3.7 & \phantom{x} \par \hdue{3.6} & 4.1 &   \\ \hline
 
-\wkday{8}{3/4}{3/8}     & \phantom{x} \par \hdue{3.7} & 5.1 \par \hdue{4.1} & \phantom{x} \par \qq{Q6} & 5.2 \\ \hline
+\wkday{8}{3/4}{3/8}     & 5.1 \par \hdue{3.7} & \phantom{x} \par \hdue{4.1} & 5.2 \par \qq{Q6} &  \\ \hline
 
 \wkday{9}{3/11}{3/15}   & \vac{Spring Break} & \vac{Spring Break} & \vac{Spring Break} & \vac{Spring Break} \\ \hline
 
-\wkday{10}{3/18}{3/22}  & \phantom{x} \par \hdue{5.1} & 5.3 \par \hdue{5.2} & \phantom{x} \par \qq{Q7} & 5.4 \\ \hline
+\wkday{10}{3/18}{3/22}  & 5.3 \par \hdue{5.1} & \phantom{x} \par \hdue{5.2} & 5.4 \par \qq{Q7} & \\ \hline
 
-\wkday{11}{3/25}{3/29}  & \phantom{x} \par \hdue{5.3} & 5.5 \par \hdue{5.4} & \phantom{x} \par \qq{Q8} & \mbox{{\small \color{Purple} \textbf{withdrawal}}} \par \hdue{5.5} \\ \hline
+\wkday{11}{3/25}{3/29}  & 5.5 \par \hdue{5.3} & \phantom{x} \par \hdue{5.4} & 5.6 \par \qq{Q8} & \mbox{\dl{withdrawal}} \par \hdue{5.5} \\ \hline
 
-\wkday{12}{4/1}{4/5}    & 5.6 & 6.1 \par \hdue{5.6} & \phantom{x} \par \qq{Q9} & 6.2 \\ \hline
+\wkday{12}{4/1}{4/5}    & 6.1 & \phantom{x} \par \hdue{5.6} & 6.2 \par \qq{Q9} &  \\ \hline
 
-\wkday{13}{4/8}{4/12}   & \phantom{x} \par \hdue{6.1} & review \par \hdue{6.2} & \ee{Midterm 2} & 6.3  \\ \hline
+\wkday{13}{4/8}{4/12}   & 6.3 \par \hdue{6.1} & review \par \hdue{6.2} & \ee{Midterm 2} & 6.4  \\ \hline
 
-\wkday{14}{4/15}{4/19}  & 6.4 \par \hdue{6.3} & 7.1 \par \hdue{6.4} & \phantom{x} \par \qq{Q10} & 7.2  \\ \hline
+\wkday{14}{4/15}{4/19}  & 7.1 \par \hdue{6.3} & \phantom{x} \par \hdue{6.4} & 7.2 \par \qq{Q10} &  \\ \hline
 
-\wkday{15}{4/22}{4/26}  & \phantom{x} \par \hdue{7.1} & 7.3 \par \hdue{7.2} & \phantom{x} \par \qq{Q11} & review  \\ \hline
+\wkday{15}{4/22}{4/26}  & 7.3 \par \hdue{7.1} & 7.4 \par \hdue{7.2} & \phantom{x} \par \qq{Q11} & review \par \hdue{7.3}  \\ \hline
 
-\wkday{16}{4/29}{5/3}   &  &  & \ee{Final Exam} \par 1:00--3:00pm  \\ \hline
+\wkday{16}{4/29}{5/3}   & review \par \hdue{7.4} & \ee{Final Exam} \par 10:15--12:15 & & \\ \hline
 
 \end{tabularx}
 
