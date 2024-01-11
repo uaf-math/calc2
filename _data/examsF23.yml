@@ -19,9 +19,15 @@ exams:
   cont: 5.5, 5.6, 6.1, 6.2, 6.3
   blank: M252-f23-M2-a.pdf
   solutions: M252f23_M2s.pdf
-- name: Final Exam
+- name: Final Exam (a)
   date: Tuesday 12 December, 10:15--12:15
   sections: all previous, 6.3, 6.4,
   cont: 7.1, 7.2, 7.3, 7.4
-  blank: 
-  solutions: 
+  blank: M252-f23-FE-a.pdf
+  solutions: M252-f23-FE-a-s.pdf
+- name: Final Exam (b)
+  date: Tuesday 12 December, 10:15--12:15
+  sections: all previous, 6.3, 6.4,
+  cont: 7.1, 7.2, 7.3, 7.4
+  blank: M252-f23-FE-b.pdf
+  solutions: M252-f23-FE-b-s.pdf
