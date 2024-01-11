@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+\usepackage[top=1in, bottom=1in, left=.75in, right=.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{multicol,coordsys}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+\usepackage{anyfontsize}
+\usepackage[shortlabels]{enumitem}
+% \usepackage{times}
+% \usepackage[lf]{MinionPro}
+\usepackage{tikz,pgfplots,mathrsfs}
+%\def\degC{{}^\circ{\rm C}}
+\def\ra{\rightarrow}
+\usetikzlibrary{calc, backgrounds}
+\pgfplotsset{compat = newest}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+middle, xlabel={$x$}, ylabel={$y$},axis equal}}
+
+%yticklabels={,,} , xticklabels={,,}
+
+% \setmainfont{Times}
+% \def\sansfont{Lucida Grande Bold}
+\parindent 0pt
+\parskip 4pt
+\pagestyle{fancy}
+\fancyfoot[C]{\emph{\thepage}}
+\fancyhead[L]{\ifnum \value{page} > 1\relax\emph{Math 252: Final Exam}\fi}
+\fancyhead[R]{\ifnum \value{page} > 1\relax\emph{Fall 2023}\fi}
+\headheight 15pt
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\let\ds\displaystyle
+\def\continued{{\emph {Continued....}}}
+\def\continuing{{\emph {Problem \arabic{probcount} continued....}}\par\vskip 4pt}
+
+
+\newcounter{probcount}
+\newcounter{subprobcount}
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+\def\problem#1{\setcounter{subprobcount}{0}%
+\addtocounter{probcount}{1}{\emph{\arabic{probcount}.\hskip 1em(#1)}}\par}
+\def\subproblem#1{\par\hangindent=1em\hangafter=0{%
+\addtocounter{subprobcount}{1}\thesubproblem\emph{#1}\hskip 1em}}
+\def\probskip{\vskip 10pt}
+\def\medprobskip{\vskip 2in}
+\def\subprobskip{\vskip 45pt}
+\def\bigprobskip{\vskip 4in}
+
+\begin{document}
+{\emph{\fontsize{26}{28}\selectfont Math F252\hfill
+{\fontsize{32}{36}\selectfont Final Exam}
+\hfill Fall 2023}}
+\vskip 2cm
+\strut\vtop{\halign{\emph#\hskip 0.5em\hfil&#\hbox to 2in{\hrulefill}\cr
+\emph{\fontsize{18}{22}\selectfont Name:}&\cr
+\noalign{\vskip 10pt}}}
+%%\emph{\fontsize{18}{22}\selectfont Student Id:}&\cr
+%%\noalign{\vskip 10pt}
+%%\emph{\fontsize{18}{22}\selectfont Calculator Model:}&\cr
+%}}
+%\hfill
+%\vtop{\halign{\emph{\fontsize{18}{22}\selectfont #}\hfil& \emph{\fontsize{18}{22}\selectfont\hskip 0.5ex $\square$ #}\hfil\cr
+%Section: & 001 (Jill Faudree)\cr
+%\noalign{\vskip 4pt}
+%         & 002 (James Gossell)\cr
+%\noalign{\vskip 4pt}
+%         & 005 (James Gossell)\cr}}
+
+\vfill
+{\fontsize{18}{22}\selectfont\emph{Rules:}}
+
+You have 2 hours to complete this midterm.  
+
+Partial credit will be awarded, but you must show your work.
+
+{You may have a single sheet of paper written on the front only.}
+
+Calculators and books are not allowed. 
+
+%Place a box around your  \fbox{FINAL ANSWER} to each question where appropriate.
+
+%If you need extra space, you can use the back sides of the pages.
+%Please make it obvious  when you have done so.
+
+Turn off anything that might go beep during the exam.
+
+Good luck!
+\vfill
+\def\emptybox{\hbox to 2em{\vrule height 16pt depth 8pt width 0pt\hfil}}
+\def\tline{\noalign{\hrule}}
+\centerline{\vbox{\offinterlineskip
+{
+\bf\sf\fontsize{18pt}{22pt}\selectfont
+\hrule
+\halign{
+\vrule#&\strut\quad\hfil#\hfil\quad&\vrule#&\quad\hfil#\hfil\quad
+&\vrule#&\quad\hfil#\hfil\quad&\vrule#\cr
+height 3pt&\omit&&\omit&&\omit&\cr
+&Problem&&Possible&&Score&\cr\tline
+height 3pt&\omit&&\omit&&\omit&\cr
+&1&&10&&\emptybox&\cr\tline
+&2&&5&&\emptybox&\cr\tline
+&3&&5&&\emptybox&\cr\tline
+&4&&10&&\emptybox&\cr\tline
+&5&&10&&\emptybox&\cr\tline
+&6&&10&&\emptybox&\cr\tline
+&7&&8&&\emptybox&\cr\tline
+&8&&8&&\emptybox&\cr\tline
+&9&&6&&\emptybox&\cr\tline
+&10&&12&&\emptybox&\cr\tline
+&11&&8&&\emptybox&\cr\tline
+&12&&8&&\emptybox&\cr\tline
+&Extra Credit&&5&&\emptybox&\cr\tline
+&Total&&100&&\emptybox&\cr
+}\hrule}}}
+
+\newpage
+\begin{enumerate}
+%Area and Volume Rectangular
+\item (10 points) Let $R$ be the region of the plane bounded by $y=3\sqrt{x},$ the $y$-axis, and $y=3.$
+	\begin{enumerate}
+	\item Sketch the region $R$. Label at least three points on your graph.\\
+	
+		\begin{tikzpicture}[scale=1.5]
+		\draw[ultra thick,<->] (-1,0) -- (4,0);
+		\draw[ultra thick,<->] (0,-1) -- (0,2);
+		\end{tikzpicture}
+	\item Find the area of the region $R.$ Your final answer should be simplified.\\
+	\vfill
+	\item Find the volume of the solid obtained by rotating the region $R$ about the $x$-axis. Your final answer should be simplified.\\
+	\vfill
+	\end{enumerate}
+	\newpage
+%integration techniques (1) (definite)
+\item (5 points) A $1$-meter long rod oriented along the x-axis on the interval $[0,1]$ has density $\rho(x)=xe^{3x}$ grams per meter at position $x$ meters. Find the mass of the rod. Include units in your answer.
+	\vfill
+\item (5 points) Evaluate the definite integral: $\ds \int_0^1 \frac{5x+1}{(x+1)(2x+1)}\: dx$
+	\vfill
+	\newpage
+%integration techniques (2) (indefinite)
+\item (10 points) Evaluate the following indefinite integrals.
+	\begin{enumerate}
+	\item $\ds \int \sec^4(\theta)\: d\theta$
+	\vfill
+	\item $\ds \int \frac{x^2}{\sqrt{4-x^2}}\: dx$
+	\vfill
+	\end{enumerate}
+\newpage
+%series techniques (1)
+\item (10 points) Determine whether the series is convergent or divergent. Note that to earn full credit, you work must include the name of the test being applied, a clear application of the test, and a conclusion. 
+	\begin{enumerate}
+	\item $\ds \sum_{n=0}^\infty \frac{n^2+1}{n^3+1}$
+	\vfill
+	\item $\ds \sum_{n=0}^\infty \frac{(-1)^n}{\sqrt{2n+1}}$
+	\vfill
+	\end{enumerate}
+\newpage
+%series techniques (2)
+\item (10 points) Determine whether the series is convergent or divergent. Note that to earn full credit, you work must include the name of the test being applied, a clear application of the test, and a conclusion. 
+	\begin{enumerate}
+	\item $\ds \sum_{n=0}^\infty \ln \left( \frac{2n}{3n+5}\right)$
+	\vfill
+	\item $\ds 1+e+\frac{e^2}{2!}+\frac{e^3}{3!}+\frac{e^4}{4!}+\cdots$
+	\vfill
+	\end{enumerate}
+\newpage
+%Improper integral
+\item (8 points) Evaluate the improper integral $\ds \int_2^\infty \frac{dx}{x (\ln(x))^2}$ or demonstrate that it is divergent. Use correct limit notation.
+\vfill
+%radius/interval of convergence
+\item (8 points) Find the interval of convergence for the series $\ds \sum_{n=1}^\infty \frac{(x-2)^n}{n3^n}$
+\vfill
+\vfill
+\newpage
+%taylor/maclaurin series + sense-making
+\item (6 points) Find the Taylor series for $f(x)=e^{5x}$ centered at $a=-1.$
+\vfill
+\newpage
+% parametric equations
+\item (12 points) Answer the questions about the parametric equations $x(t)=t^2$ and $y(t)=t^3+t,$ where $0 \leq t.$
+	\begin{enumerate}
+	\item Make a rough sketch of the curve defined by the parametric equations. Plot at least 4 points and indicate with arrows the direction in which the curve is traced as $t$ increases.\\
+	
+\vfill
+
+	\item Write an equation of the line tangent to the curve when $t=1.$
+	\vfill
+	\item Use the second derivative to demonstrate that the curve is concave up when $t=1.$
+	\vfill
+	\end{enumerate}
+\newpage	
+% elementary polar coordinates
+\item (8 points) Make a careful and reasonably large sketch of the polar curve $r=1+\cos(\theta).$ To earn full credit, you must label at least $4$ points on your graph.
+\vfill
+%solution to DE OR area in polar coord
+\item (8 points) Find the area inside the polar curve in the previous problem.
+\vfill
+\end{enumerate}
+\newpage
+%%%Extra Credit
+\textbf{Extra Credit} (5 points) Determine all the values of $p$ for which the series $\ds \sum_{n=0}^\infty \frac{4^{pn}}{3^n}$ converges or explain why it is not possible for the series to converge for any value of $p.$
+\end{document}
