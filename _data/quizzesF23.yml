@@ -47,12 +47,8 @@ quizzes:
   blank: M252-f23-q9.pdf
   solutions: M252-f23-q9-s.pdf
 - name: Quiz 10
-  date: 
-  sections: 
-  blank: 
-  solutions: 
-- name: Quiz 11
-  date: 
-  sections: 
-  blank: 
-  solutions: 
+  date: Nov 30
+  sections: S. 6.4, 7.1
+  blank: M252-f23-q10.pdf
+  solutions: M252-f23-q10-s.pdf
+
