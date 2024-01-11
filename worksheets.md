@@ -16,6 +16,8 @@ This is also the place to find Matlab codes which I used in occasional demonstra
 ---
 Resources from previous semesters are below.
 
+[Fall 2023 Worksheets](worksheetsF23.html)
+
 [Fall 2022 Worksheets](worksheetsF22.html)
 
 [Spring 2022 Worksheets](worksheetsS22.html)
