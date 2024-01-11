@@ -5,15 +5,20 @@ title: Quizzes
 
 ## Quizzes
 
-The table below gives the date and coverage for upcoming or completed Quizzes.  Links to the Quizzes themselves ("blank"), and their solutions, will appear here by the day after they occur.  See the [Schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml?gid=0&single=true) and the [Homework tab](homework.html) for more information.
+The table below gives the section coverage Quizzes.  PDFs for the Quizzes themselves ("blank"), and their solutions, will appear here by the day after they occur.  See the Schedule for your section (tab at left) for Quiz dates.
 
-<b>Scroll down to find old Quizzes from Fall 2022 and Spring 2022!</b>
+<b>Scroll down to find lots of old Quizzes, with solutions, from previous semesters!</b>
 
-<b>The best guide to the content of an upcoming Quiz is the Homework assignments you turn in just before the Quiz!</b>
+<b>The best guide to the content of an upcoming Quiz is the Homework assignments you turn in just before the Quiz!  See the [Homework tab](homework.html).</b>
 
 {% include quiz_table.md  data=site.data.quizzes %}
 
 <div style="padding-bottom: 40px"></div>
+
+---
+### Old Quizzes: Fall 2023
+
+{% include quiz_table.md  data=site.data.quizzesF23 %}
 
 ---
 ### Old Quizzes: Fall 2022
