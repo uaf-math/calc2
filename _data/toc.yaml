@@ -6,7 +6,7 @@ docs:
   url: assets/general/S24/Bueler/syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
 
 - title: Syllabus (Faudree)
-  url: assets/general/F23/M252-f23-syllabus.pdf
+  url: assets/general/S24/Faudree/M252s24-syllabus.pdf
 
 - title: Schedule (Bueler)
   url: assets/general/S24/Bueler/schedule.pdf  # rebuild by "make schedule.pdf" in directory
