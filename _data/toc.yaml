@@ -12,7 +12,7 @@ docs:
   url: assets/general/S24/Bueler/schedule.pdf  # rebuild by "make schedule.pdf" in directory
 
 - title: Schedule (Faudree)
-  absurl: https://docs.google.com/spreadsheets/d/e/2PACX-1vTJV11ILVouSFriJJQo6VS7-qBGvXBt6gtQNPTmmScJuiknursixGxHQf12yrBgwkJqETFn31EgQRia/pubhtml?gid=0&single=true
+  absurl: https://docs.google.com/spreadsheets/d/e/2PACX-1vSetyTdOP14yatuWNH7CuB9yCT3zqOhFWYmCj1BzRAZhU4eHCXCJaRjnCgxgZW_NieE59iLRok3NdzK/pubhtml?gid=0&single=true
 
 - title: Homework
   url: homework.html
