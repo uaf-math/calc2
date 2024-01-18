@@ -5,6 +5,13 @@ title: Math F252 Calculus II at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
+### Instructors
+
+  * [Ed Bueler](https://bueler.github.io/) for in-person section 901 (CRN 33226) in Chapman 208
+    * Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
+  * [Jill Faudree](https://jrfaudree.github.io/) for online, asynchronous sections 001 (CRN 34145) and 002 (CRN 35375)
+    * Chapman 306B, [jrfaudree@alaska.edu](mailto:jrfaudree@alaska.edu)
+
 ### Canvas course pages
 
 Log in to the Canvas page for your section:
