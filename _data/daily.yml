@@ -1,6 +1,10 @@
 semester: Spring 2024
 home: assets/daily/S24/Bueler/
 daily:
+- name: review
+  date: Th 1/18
+  extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
+  extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
 - name: Section 2.1
   date: Wed 1/17
   #worksheet: FIXME

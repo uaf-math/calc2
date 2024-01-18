@@ -5,7 +5,9 @@ title: Daily log (Bueler)
 
 ## Daily log for Bueler's section
 
-PDFs for Worksheets, and their solutions, will appear here as they occur.  (You **do not** have to turn-in any Worksheet! The purpose of worksheets is to keep us efficient and active in-class.)  Also this is the place to find Matlab codes which I used in occasional demonstrations.  You can use either [Matlab online](https://matlab.mathworks.com/) or [Octave online](https://octave-online.net/) to try these codes, or get [Matlab on your own machine](https://www.mathworks.com/products/matlab/student.html).
+Covered sections, PDFs for worksheets and their solutions, and other things will appear here as they occur.  (You **do not** have to turn-in any worksheet!  The purpose of a worksheet is to be efficient and active in-class.)
+
+Also, this is the place I will put Matlab codes which I used in occasional demonstrations.  You could use either [Matlab online](https://matlab.mathworks.com/) or [Octave online](https://octave-online.net/) to try these codes yourself.
 
 {% include daily_table.md  data=site.data.daily %}
 

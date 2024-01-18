@@ -7,12 +7,22 @@
 		<table class="inner">
 			{% if xx.worksheet %}
 		  <tr>
-			    <td><a href="{{ data.home }}/{{ xx.blank }}">worksheet</a></td>
+			    <td><a href="{{ data.home }}/{{ xx.worksheet }}">worksheet</a></td>
+			</tr>
+			{% endif %}
+			{% if xx.extworksheet %}
+		  <tr>
+			    <td><a href="{{ xx.extworksheet }}">worksheet</a></td>
 			</tr>
 			{% endif %}
 			{% if xx.solutions %}
 			<tr>
 			    <td><a href="{{ data.home }}/{{ xx.solutions }}">solutions</a></td>
+			</tr>
+			{% endif %}
+			{% if xx.extsolutions %}
+		  <tr>
+			    <td><a href="{{ xx.extsolutions }}">solutions</a></td>
 			</tr>
 			{% endif %}
 			{% if xx.mfile %}
