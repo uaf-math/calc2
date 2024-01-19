@@ -2,7 +2,7 @@
 <table class="asst-table">
 {% for xx in data.daily %}
 <tr>
-	<td>{{ xx.name }} ({{ xx.date }})</td>
+	<td>{{ xx.date }}: {{ xx.name }}</td>
 	<td>
 		<table class="inner">
 			{% if xx.worksheet %}
