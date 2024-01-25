@@ -1,5 +1,5 @@
-semester: Fall 2023
-home: assets/quizzes/F23
+semester: Spring 2024
+home: assets/quizzes/S24
 quizzes:
 - name: Quiz 1
   sections: review (Chapter 1)
@@ -7,6 +7,8 @@ quizzes:
   #solutions: M252-f23-q1-s.pdf
 - name: Quiz 2
   sections: S. 2.1 and 2.2
+  blank: Bueler/quiz2.pdf
+  solutions: Bueler/quiz2solns.pdf
 - name: Quiz 3
   sections: S. 2.3 and 2.4
 - name: Quiz 4
