@@ -3,8 +3,8 @@ home: assets/quizzes/S24
 quizzes:
 - name: Quiz 1
   sections: review (Chapter 1)
-  #blank: M252-f23-q1.pdf
-  #solutions: M252-f23-q1-s.pdf
+  blank: Bueler/quiz1.pdf
+  solutions: Bueler/quiz1solns.pdf
 - name: Quiz 2
   sections: S. 2.1 and 2.2
   blank: Bueler/quiz2.pdf
