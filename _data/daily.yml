@@ -1,6 +1,10 @@
 semester: Spring 2024
 home: assets/daily/S24/Bueler/
 daily:
+- name: Section 2.5 finished
+  date: Fri 2/2
+  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5.pdf
+  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5-s.pdf
 - name: Section 2.5; Quiz 3
   date: Thurs 2/1
 - name: Section 2.4 finished; 2.5 started
