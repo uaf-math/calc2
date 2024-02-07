@@ -1,7 +1,13 @@
 semester: Spring 2024
-home: assets/daily/S24/Bueler/
+home: assets/worksheets/S24
 daily:
-- name: Section 2.5 finished
+- name: Section 2.7
+  date: Wed 2/5
+  worksheet: 2p7.pdf
+  solutions: 2p7solns.pdf
+- name: Section 2.5 finished; 2.7 started
+  date: Mon 2/5
+- name: Section 2.5
   date: Fri 2/2
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5-s.pdf
