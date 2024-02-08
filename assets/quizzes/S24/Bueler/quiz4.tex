@@ -1,0 +1,153 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252 (Bueler): Quiz 4}
+\docdate{8 February 2024}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes.  No aids (book, notes, calculator, internet, etc.) are permitted.  Show all work and use proper notation for full credit.  Put answers in reasonably-simplified form.  25 points possible.
+
+\problem{7}  A 2 meter fishing rod is made of solid fiberglass and tapers at the end.  Assume it has a linear mass density function of $\ds \rho(x) = 4 - \frac{x^2}{10000}$ grams per centimeter, where $x=0$ is the thick end.  What is its mass?  Give your answer as a simplified number, with units.
+% int 0^200 4 - x^2/10000 = [4x - x^3/30000]_0^200 = 800 - 8000000/30000 = 800 - 800/3 = 1600/3 approx 533 grams = 0.533 kg
+\vfill
+
+\problem{10}  Find the derivative, indefinite integral, or definite integral.  Write ``$+C$'' if appropriate.
+
+\begin{subproblems}
+\item Find $\ds \frac{dy}{dx}$ if\, $y = \ln(\tan x)$.
+\vspace{2.0in}
+
+\clearpage
+\newpage
+
+\item $\ds \int_0^{\pi/4} \tan x\,dx = $
+\vfill
+
+\item Find $\ds \frac{dy}{dx}$ if\, $y = \log_{10} x$.
+\vfill
+
+\item $\ds \int \frac{dx}{x \,\ln x} = $
+\vfill
+
+\item Find $\ds \frac{dy}{dx}$ if\, {\large $y = e^{\cos x}$}.  (\textsl{Hint.  Differentiate $\ln y$.})
+\vfill
+\end{subproblems}
+
+\clearpage\newpage
+\problem{8}  It requires 10 Newtons of force to stretch a spring 0.25 m from its natural length.  How much work is required to stretch the spring one meter from its natural length?  Give your answer with units, and in simplified form. (\textsl{Hint. First, what is the spring constant?})
+\vfill
+
+\clearpage\newpage
+\nameprob{EC}{1} (\emph{Extra Credit})  Assume $a>0$ and $b>0$ are positive numbers.  Simplify both integrals as far as possible.  (\textsl{Credit is given only if both answers are correct and fully simplified.})
+\begin{align*}
+\int_1^b \frac{1}{t}\,dt &= \hspace{6.0in} \\
+\phantom{foo} & \\
+\phantom{foo} & \\
+\phantom{foo} & \\
+\int_a^{ab} \frac{1}{t}\,dt &= 
+\end{align*}
+\vspace{1.5in}
+
+\noindent \hrule
+
+\bigskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}

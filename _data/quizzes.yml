@@ -6,26 +6,28 @@ quizzes:
   blank: Bueler/quiz1.pdf
   solutions: Bueler/quiz1solns.pdf
 - name: Quiz 2
-  sections: S. 2.1 and 2.2
+  sections: 2.1 and 2.2
   blank: Bueler/quiz2.pdf
   solutions: Bueler/quiz2solns.pdf
 - name: Quiz 3
-  sections: S. 2.3 and 2.4
+  sections: 2.3 and 2.4
   blank: Bueler/quiz3.pdf
   solutions: Bueler/quiz3solns.pdf
 - name: Quiz 4
-  sections: S. 2.5 and 2.6
+  sections: 2.5 and 2.7
+  blank: Bueler/quiz4.pdf
+  solutions: Bueler/quiz4solns.pdf
 - name: Quiz 5
-  sections: S. 2.7, 3.1, 3.2
+  sections: 3.1 and 3.2
 - name: Quiz 6
-  sections: S. 3.7 and 5.1
+  sections: 3.7 and 5.1
 - name: Quiz 7
-  sections: S. 5.2 and 5.3
+  sections: 5.2 and 5.3
 - name: Quiz 8
-  sections: S. 5.4 and 5.5
+  sections: 5.4 and 5.5
 - name: Quiz 9
-  sections: S. 5.6, 6.1, plus
+  sections:
 - name: Quiz 10
-  sections: 
+  sections:
 - name: Quiz 11
-  sections: 
+  sections:
