@@ -1,0 +1,63 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.1}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.1: Integration by Parts}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item The Integration by Parts Formula
+\vspace{1.5in}
+
+\item Evaluate the integrals.
+	\begin{enumerate}
+	\item $\displaystyle \int xe^x \: dx$
+	\vfill
+	\item $\displaystyle \int \ln(x) \: dx$
+	\vfill
+	\item $\displaystyle \int x^2\cos(x) \: dx$
+	\vfill
+	\newpage
+	\item $\displaystyle \int e^x\cos(x) \: dx$
+	\vfill
+	\item $\displaystyle \int_0^1 xe^{-3x} \: dx$
+	\vfill
+	\item Find the area bounded between $f(x)=\arctan(x)$ and the $y$-axis between $x=0$ and $x=2.$
+	\vfill
+	\end{enumerate}
+\end{enumerate}
+\end{document}
+

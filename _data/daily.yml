@@ -1,8 +1,14 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section Section 3.1 finished
+  date: Fri 2/9
+  worksheet: 3p1.pdf
+  solutions: 3p1solns.pdf
+- name: Section 3.1; Quiz 4
+  date: Thurs 2/8
 - name: Section 2.7
-  date: Wed 2/5
+  date: Wed 2/7
   worksheet: 2p7.pdf
   solutions: 2p7solns.pdf
 - name: Section 2.5 finished; 2.7 started
