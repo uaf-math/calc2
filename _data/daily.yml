@@ -1,7 +1,15 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
-- name: Section Section 3.1 finished
+- name: Section 3.3 started; Quiz 5
+  date: Thurs 2/15
+- name: Section 3.2 finished
+  date: Wed 2/14
+  worksheet: 3p2merge.pdf
+  solutions: 3p2mergesolns.pdf
+- name: Section 3.1 finished; 3.2 started
+  date: Mon 2/12
+- name: Section 3.1 finished
   date: Fri 2/9
   worksheet: 3p1.pdf
   solutions: 3p1solns.pdf
