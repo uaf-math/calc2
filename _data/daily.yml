@@ -1,6 +1,10 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 3.3
+  date: Fri 2/16
+  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a.pdf
+  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a-s.pdf
 - name: Section 3.3 started; Quiz 5
   date: Thurs 2/15
 - name: Section 3.2 finished
