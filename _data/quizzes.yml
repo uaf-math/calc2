@@ -19,6 +19,8 @@ quizzes:
   solutions: Bueler/quiz4solns.pdf
 - name: Quiz 5
   sections: 3.1 and 3.2
+  blank: Bueler/quiz5.pdf
+  solutions: Bueler/quiz5solns.pdf
 - name: Quiz 6
   sections: 3.7 and 5.1
 - name: Quiz 7
