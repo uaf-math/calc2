@@ -1,6 +1,8 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 3.3 finished; 3.4 started
+  date: Mon 2/19
 - name: Section 3.3
   date: Fri 2/16
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a.pdf
