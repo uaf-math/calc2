@@ -35,6 +35,16 @@
 			    <td><a href="{{ data.home }}/{{ xx.image }}">output image</a></td>
 			</tr>
 			{% endif %}
+			{% if xx.extmfile %}
+		  <tr>
+			    <td><a href="{{ xx.extmfile }}">Matlab code</a></td>
+			</tr>
+			{% endif %}
+			{% if xx.extimage %}
+		  <tr>
+			    <td><a href="{{ xx.extimage }}">output image</a></td>
+			</tr>
+			{% endif %}
 		</table>
 		<div style="padding-bottom: 10px"></div>
 	</td>

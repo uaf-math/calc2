@@ -1,6 +1,15 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 3.6
+  date: Thurs 2/22
+  worksheet: 3p6.pdf
+  solutions: 3p6solns.pdf
+  mfile: matlab/cosxx.m
+  extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.m
+  extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.pdf
+- name: Midterm 1
+  date: Thurs 2/22
 - name: Section 3.4 finished; review
   date: Wed 2/21
   worksheet: 3p4.pdf
