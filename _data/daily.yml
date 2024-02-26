@@ -1,8 +1,10 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 3.6 finished; 3.7 started
+  date: Mon 2/26
 - name: Section 3.6
-  date: Thurs 2/22
+  date: Fri 2/23
   worksheet: 3p6.pdf
   solutions: 3p6solns.pdf
   mfile: matlab/cosxx.m
