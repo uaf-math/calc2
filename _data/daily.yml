@@ -7,13 +7,13 @@ daily:
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7-s.pdf
 - name: Section 3.6 finished; 3.7 started
   date: Mon 2/26
+  extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.m
+  extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.pdf
 - name: Section 3.6
   date: Fri 2/23
   worksheet: 3p6.pdf
   solutions: 3p6solns.pdf
   mfile: matlab/cosxx.m
-  extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.m
-  extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.pdf
 - name: Midterm 1
   date: Thurs 2/22
 - name: Section 3.4 finished; review
