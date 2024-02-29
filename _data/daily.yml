@@ -1,10 +1,12 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
-- name: Section 3.7
-  date: Wed 2/28
+- name: Section 3.7 finished; 4.1 started
+  date: Thurs 2/29
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7-s.pdf
+- name: Section 3.7
+  date: Wed 2/28
 - name: Section 3.6 finished; 3.7 started
   date: Mon 2/26
   extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.m
