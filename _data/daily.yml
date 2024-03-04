@@ -1,10 +1,12 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
-- name: Section 4.1
-  date: Fri 3/1
+- name: Section 4.1 finished; 5.1 started
+  date: Mon 3/4
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2solns.pdf
+- name: Section 4.1
+  date: Fri 3/1
 - name: Section 3.7 finished
   date: Thurs 2/29
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7.pdf
