@@ -5,6 +5,8 @@ daily:
   date: Mon 3/4
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2solns.pdf
+  py: py/logistic.py
+  image: py/logistic.png
 - name: Section 4.1
   date: Fri 3/1
 - name: Section 3.7 finished
