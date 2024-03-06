@@ -1,0 +1,87 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+\newcommand{\ds}{\displaystyle}
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 5.1}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 5.1: Sequences}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item To know by the end of section 5.1:
+\begin{multicols}{2}
+	\begin{enumerate}
+	\item what an infinite sequence is
+	\item how to read and use sequence notation
+	\item what it means to ``Find a formula for the $n$th term'', and how to find it
+	\item what it means for a sequence to converge or diverge
+	\item different limit techniques for determining if a sequence converges or diverges, including L'Hopital's rule
+	\item what $n!$ means
+	\item terms for describing a sequence: bounded, monotone, increasing, decreasing
+	\end{enumerate}
+\end{multicols}
+\item For each sequence below, write the first 5 terms and graph them.
+	\begin{enumerate}
+	\item $\ds \left\{ \frac{n+2}{2n} \right\}_{n=1}^\infty$
+	\vfill
+	\item $\ds a_n=3\left(\frac{-1}{2} \right)^{n-1}$ for $n\geq 1$
+	\vfill
+	\item $a_1=5$ and $a_n = 2\, a_{n-1} +1$
+	\vfill
+	\end{enumerate}
+\item Find a formula for 2 (c).
+\vspace{1.5in}
+\newpage
+\item Definition: The symbol $n!$ or ``n factorial'' means
+
+\vspace{0.5in}
+and $0!=$
+\medskip
+\item Find the limit of each of the following sequences or show that it diverges. 
+	\begin{enumerate}
+	\item $\displaystyle \left\{\pi + \frac{100}{n} \right\}$
+	\vfill
+	\item $\ds a_n=\frac{3^n}{n!}$
+	\vfill
+	\item $\displaystyle \left\{\frac{100n^2+\sqrt{n}}{n-3n^2} \right\}$
+	\vfill
+	\item $\displaystyle \left\{\frac{n^2}{10^n} \right\}$
+	\vfill
+	\item $\displaystyle a_n = \left(1+\frac{1}{n}\right)^n$
+	\vfill
+	\end{enumerate}
+Now, go back to the examples in 2. Find the limit of each or show that it diverges.
+
+\end{enumerate}
+\end{document}
+
