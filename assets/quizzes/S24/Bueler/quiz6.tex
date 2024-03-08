@@ -1,0 +1,144 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252 (Bueler): Quiz 6}
+\docdate{6 March 2024}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes.  No aids (book, notes, calculator, internet, etc.) are permitted.  Show all work and use proper notation for full credit.  Put answers in reasonably-simplified form.  25 points possible.
+
+\problem{12}  Compute the following improper integrals, or show that they diverge.  \textsl{Use appropriate limit notation for improper integrals.}
+
+\begin{subproblems}
+\item $\ds \int_0^\infty x\, e^{-2x}\,dx = $
+\vfill
+
+\item $\ds \int_{-\infty}^0 \cos \theta\,d\theta = $
+\vspace{1.7in}
+
+\item $\ds \int_1^3 \frac{1}{\sqrt{3-x}}\,dx = $
+\vfill
+\end{subproblems}
+
+\clearpage\newpage
+\problem{6}  Sketch the region under the graph {\large $\ds y = \frac{1}{x^2}$} on the interval $1\le x<\infty$.  Then find the volume of the solid from rotating this region around {\large\strut} the $x$-axis.
+\vfill
+
+\clearpage\newpage
+\problem{4}  Find the general solution of the differential equation \,{\large $\ds x' = t \sqrt{4+t}$}.
+\vfill
+
+\problem{3}  Find the particular solution of the differential equation {\large $y'=2xy$} which passes through $\ds \left(0,\frac{1}{2}\right)$ given that {\large $\ds y = C e^{x^2}$} is the general solution.
+\vspace{3.0in}
+
+\clearpage\newpage
+\textbf{\textsf{Extra Credit. [1 point]}} {\large\strut} \, I have no idea how to solve the differential equation
+
+\qquad $y' = \sin(\pi x) + y^2$
+
+\noindent by hand.  However, assume the initial condition $y(0)=2$.  Then I can \textsl{approximately} compute $y(x)$, at least somewhat beyond $x=0$, by using the differential equation to create a straight line from the initial condition.  Do this to give an approximation to $y(0.5)$.
+\vfill
+
+
+\noindent \hrule
+\medskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}
