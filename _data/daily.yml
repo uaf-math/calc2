@@ -2,6 +2,10 @@ semester: Spring 2024
 home: assets/worksheets/S24
 daily:
 - name: Section 5.2
+  date: Mon 3/18
+  worksheet: 5p2.pdf
+  solutions: 5p2solns.pdf
+- name: Section 5.2
   date: Fri 3/8
 - name: Section 5.1; Quiz 6
   date: Thurs 3/7
