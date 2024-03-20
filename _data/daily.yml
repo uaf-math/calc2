@@ -1,6 +1,10 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 5.3; Quiz 7
+  date: Thurs 3/21
+- name: Section 5.2 finished; 5.3 started
+  date: Wed 3/20
 - name: Section 5.2
   date: Mon 3/18
   worksheet: 5p2.pdf

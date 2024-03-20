@@ -26,10 +26,11 @@ quizzes:
   blank: Bueler/quiz6.pdf
   solutions: Bueler/quiz6solns.pdf
 - name: Quiz 7
-  sections: 5.2 and 5.3
+  sections: 5.1 and 5.2
 - name: Quiz 8
-  sections: 5.4 and 5.5
+  sections: 5.3 and 5.4
 - name: Quiz 9
+  sections: 5.5 and 5.6
   sections:
 - name: Quiz 10
   sections:
