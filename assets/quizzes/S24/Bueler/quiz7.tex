@@ -1,0 +1,163 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252 (Bueler): Quiz 7}
+\docdate{21 March 2024}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes.  No aids (book, notes, calculator, internet, etc.) are permitted.  Show all work and use proper notation for full credit.  Put answers in reasonably-simplified form.  25 points possible.
+
+% 5.1 #10 on homework
+\problem{3}  Find a formula for the $n$th term $a_n$ of the sequence whose first several terms are
+    $$0,3,8,15,24,35,48,63,80,99,\dots \hspace{4.0in}$$
+\vspace{2.0in}
+
+% done in class
+\problem{5}  Consider the series \quad $\ds \sum_{n=1}^\infty \frac{1}{n(n+1)}$.
+
+\begin{subproblems}
+\item Use partial fractions and ``telescoping'' to write a simplified formula for the partial sum $S_k$.
+\vfill
+
+\item Compute the sum of the infinite series.
+\vspace{0.7in}
+\end{subproblems}
+
+
+\clearpage\newpage
+% 5.1 #27 and #49 from homework
+\problem{6}  For each sequence, find the limit if it converges, or show that the sequence diverges.  Indicate any places where you use L'H\^opital's rule.
+\begin{subproblems}
+\item \quad $\ds \frac{n^2}{2^n}$
+\vfill
+\item \quad $\ds a_n = \left(1 - \frac{2}{n}\right)^n$
+\vfill
+\end{subproblems}
+
+\problem{3}  Find a formula for the $n$th term $a_n$ of this recursively-defined sequence, for $n\ge 1$:
+    $$a_1 = 3 \quad \text{ and } \quad a_{n+1} = \frac{a_n}{n}. \hspace{4.0in}$$
+\vfill
+
+
+\clearpage\newpage
+% 5.2 #90; #91 was on homework
+\problem{6}  Does the series converge or diverge?  If it converges find its sum; if it diverges explain why.
+\begin{subproblems}
+\item \quad $\ds 1 + \frac{e}{\pi} + \frac{e^2}{\pi^2} + \frac{e^3}{\pi^3} + \dots$
+\vfill
+\item \quad $\ds \sum_{n=1}^\infty \frac{n+1}{n}$
+\vfill
+\end{subproblems}
+
+\problem{2}  Compute and simplify the partial sum $S_4$ for the series in \emph{5 b.}
+\vspace{2.0in}
+
+\clearpage\newpage
+\textbf{\textsf{Extra Credit. [1 point]}} {\large\strut} \, \quad The thing below is called the \emph{Sierpinksi gasket}.  It is built by removing the white parts from a black square.  Assume the original square has side-length one and thus area one.  Remove the middle 1/9th of the area.  The remainder is 8 smaller black squares.  For each of these, remove the middle 1/9th.  Continuing in this way forever, you remove all the white area.  Using geometric series, compute the white area you removed.  What area is left, the black area?
+
+\bigskip
+\includegraphics[width=0.25\textwidth]{figs/sierp.jpg}
+\vspace{2.5in}
+
+\noindent \hrule
+\medskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}

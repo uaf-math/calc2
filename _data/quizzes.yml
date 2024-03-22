@@ -27,6 +27,8 @@ quizzes:
   solutions: Bueler/quiz6solns.pdf
 - name: Quiz 7
   sections: 5.1 and 5.2
+  blank: Bueler/quiz7.pdf
+  solutions: Bueler/quiz7solns.pdf
 - name: Quiz 8
   sections: 5.3 and 5.4
 - name: Quiz 9
