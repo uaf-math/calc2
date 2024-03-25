@@ -1,8 +1,7 @@
-semester: Fall 2023
-home: assets/homework/F23
+semester: Spring 2024
+home: assets/homework
 homework:
 - name: Homework Review
-  #due: 11:59pm Thur 8/31
   sections:
   - section: 1.2
     problems: 72, 78
@@ -16,173 +15,145 @@ homework:
     problems: 392, 400, 424, 432
   
 - name: Homework 2.1
-  #due: 11:59pm Wed 9/7
   sections:
   - section: 2.1
     problems: 2, 4, 6, 8, 10, 24, 28, 30, 52, 54
 - name: Homework 2.2
-  #due: 11:59pm Wed 9/7
   sections:
   - section: 2.2
     problems: 58, 64, 68, 76, 80, 84, 86, 98, 110
 - name: Homework 2.3
-  #due: 11:59pm Mon 9/12
   sections:  
   - section: 2.3
     problems: 114, 120, 122, 133, 138, 150
     cont: 159, 160
 - name: Homework 2.4
-  #due: 11:59pm Wed 9/14
   sections:
   - section: 2.4
     problems: 166, 168, 170, 172, 175, 176,
     cont: 184, 192, 198, 200, 209, 213
 - name: Homework 2.5
-  #due: 11:59pm Mon 9/19
   sections:
   - section: 2.5
     problems: 220, 222, 224, 226, 234, 236, 248
 - name: Homework 2.6
-  #due: 11:59pm Fri 9/23
   sections:
   - section: 2.6
     problems: 256, 262, 268, 271, 274, 279
 - name: Homework 2.7
-  #due: 11:59pm Wed 9/21
   sections:
   - section: 2.7
     problems: 296, 300, 302, 306, 308, 312,
     cont: 314, 318, 322, 326, 330, 336,
     contcont: 342, 344, 347
 - name: Homework 3.1
-  #due: 11:59pm Mon 9/26
   sections:
   - section: 3.1
     problems: 8, 10, 16, 17, 20, 24, 26, 27,
     cont: 28, 30, 38, 40, 44, 46, 48,
     contcont: 60 (shells!), 62, 66
 - name: Homework 3.2
-  #due: 11:59pm Wed 9/28
   sections:
   - section: 3.2
     problems: 72, 74, 76, 78, 80, 86, 88, 91,
     cont: 98, 100, 104, 106, 110, 112,
     contcont: 118, 122 (m>0,n>0 are integers)
 - name: Homework 3.3
-  #due: 11:59pm Mon 10/3
   sections:
   - section: 3.3
     problems: 132, 134, 138, 140, 142, 143,
     cont: 146, 151, 161, 162, 166, 169,
     contcont: 170, 172, 175
 - name: Homework 3.4
-  #due: 11:59pm Wed 10/5
   sections:
   - section: 3.4
     problems: 182, 184, 186, 187, 192, 196,
     cont: 200, 203, 207, 211, 214, 220,
     contcont: 222, 231, 238
 - name: Homework 3.6
-  #due: 11:59pm Wed 10/12
   sections:
   - section: 3.6
     problems: 299, 303, 306, 310, 311, 314,
     cont: 315, 316, 322
-    supp: supp3p6.pdf
+    supp: F23/supp3p6.pdf
 - name: Homework 3.7
-  #due: 11:59pm Mon 10/17
   sections:
   - section: 3.7
     problems: 348, 349, 351, 352, 353, 360,
     cont: 361, 363, 364, 365, 367, 374,
     contcont: 377, 394, 398, 402
 - name: Homework 4.1
-  #due: 11:59pm Wed 10/19
   sections:
   - section: 4.1
     problems: 9, 11, 17, 18, 20, 28, 35, 36,
     cont: 38, 40, 56, 58
 - name: Homework 5.1
-  #due: 11:59pm Mon 10/24
   sections:
   - section: 5.1
     problems: 1, 2, 3, 4, 6, 8, 10, 13, 15,
     cont: 23, 25, 27, 28, 29, 31, 33,
     contcont: 48, 49, 51, 52, 59, 61
 - name: Homework 5.2
-  #due: 11:59pm Wed 10/26
   sections:
   - section: 5.2
     problems: 69, 72, 79, 81, 82, 84, 89,
     cont: 91, 94, 102, 105, 129
 - name: Homework 5.3
-  #due: 11:59pm Mon 10/31
   sections:
   - section: 5.3
     problems: 139, 140, 143, 146, 150, 152,
     cont: 154, 156, 158, 160, 162, 164,
     contcont: 170, 176, 177, 192
 - name: Homework 5.4
-  #due: 11:59pm Wed 11/2
-  override: override5p4.pdf
+  override: S24/override5p4.pdf
 - name: Homework 5.5
-  #due: 11:59pm Sat 11/5 (revised)
   sections:
   - section: 5.5
     problems: 250, 252, 254, 256, 259, 260,
     cont: 263, 270, 274, 276, 280, 281,
     contcont: 283, 300, 306
 - name: Homework 5.6
-  #due: 11:59pm Wed 11/9 (revised)
   sections:
   - section: 5.6
     problems: 317, 320, 321, 324, 328, 330,
     cont: 332, 334, 336, 338, 348, 353,
     contcont: 364, 367, 369
 - name: Homework 6.1
-  #due: 11:59pm Mon 11/14 (revised)
   sections:
   - section: 6.1
     problems: 1, 2, 3, 6, 7, 9, 11, 13, 14, 15,
     cont: 18, 20, 22, 31, 33, 36, 38, 41
 - name: Homework 6.2
-  #due: 11:59pm Wed 11/16 (revised)
   sections:
   - section: 6.2
     problems: 63, 65, 69, 71, 79, 83, 88, 90,
     cont: 91, 94, 95, 98, 99
 - name: Homework 6.3
-  #due: 11:59pm Mon 11/21 (revised)
   sections:
   - section: 6.3
     problems: 117, 118, 120, 121, 123, 124,
     cont: 131, 132, 140, 142, 146, 155, 160
 - name: Homework 6.4
-  #due: 11:59pm Wed 11/30 (revised)
   sections:
   - section: 6.4
     problems: 175, 176, 202, 203, 204, 207,
     cont: 209, 210, 211, 215, 226, 231
     contcont: 234, 235
 - name: Homework 7.1
-  #due: 11:59pm Mon 11/27
   sections:
   - section: 7.1
     problems: 1, 2, 5, 6, 8, 13, 17, 19, 21, 26,
     cont: 28, 35, 39, 43, 49, 51, 54, 59
 - name: Homework 7.2
-  #due: 11:59pm Wed 12/4 
   sections:
   - section: 7.2
     problems: 64, 67, 68, 72, 76, 79, 84, 85, 90,
     cont: 100, 102, 109, 113, 115, 116
 - name: Homework 7.3
-  #due: 11:59pm Mon 12/6
   sections:
   - section: 7.3
     problems: 125, 131, 133, 135, 136, 139, 144, 146,
     cont: 152, 154, 155, 156, 158, 160, 162, 164,
     contcont: 165, 167, 168, 172, 177, 178
 - name: Homework 7.4
-  #due: 11:59pm Mon 12/11
-  override: C2-HW-7-4.pdf
+  override: F23/C2-HW-7-4.pdf
