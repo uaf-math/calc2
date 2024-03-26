@@ -1,6 +1,12 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 5.5; Quiz 8
+  date: Thurs 3/28
+- name: Section 5.4 finished
+  date: Wed 3/27
+  worksheet: 5pmany.pdf
+  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/5p4solns.pdf
 - name: Section 5.4
   date: Mon 3/25
 - name: Section 5.3 finished
