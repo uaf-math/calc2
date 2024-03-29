@@ -1,0 +1,21 @@
+Are you visualizing series the right way?  For example, the alternating harmonic series:
+  $$\sum_{n=1}^\infty \frac{(-1)^{n+1}}{n}$$
+Graph the sequence of \emph{terms} $a_n$ on the first axes and the sequence of \emph{partial sums} $\displaystyle S_k = \sum_{n=1}^k a_n$ on the second axes.
+
+\qquad \begin{tikzpicture}[scale=0.7]
+  \draw[black, thick, ->] (-1.0,0.0) -- (10.0,0.05) node[xshift=3mm] {$n$};
+  \draw[black, thick, ->] (0.0,-2.0) -- (0.0,2.5) node[yshift=3mm] {$a_n$};
+  \foreach \x in {0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0} {
+      \draw[black] (\x,-0.2) -- (\x,0.2);
+  }
+\end{tikzpicture}
+
+\vspace{5mm}
+
+\qquad \begin{tikzpicture}[scale=0.7]
+  \draw[black, thick, ->] (-1.0,0.0) -- (10.0,0.05) node[xshift=3mm] {$k$};
+  \draw[black, thick, ->] (0.0,-2.0) -- (0.0,2.5) node[yshift=3mm] {$S_k$};
+  \foreach \x in {0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0} {
+      \draw[black] (\x,-0.2) -- (\x,0.2);
+  }
+\end{tikzpicture}
