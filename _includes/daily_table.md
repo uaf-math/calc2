@@ -25,6 +25,11 @@
 			    <td><a href="{{ xx.extsolutions }}">solutions</a></td>
 			</tr>
 			{% endif %}
+			{% if xx.ext %}
+		  <tr>
+			    <td><a href="{{ xx.ext }}">{{ xx.extdescription }}</a></td>
+			</tr>
+			{% endif %}
 			{% if xx.py %}
 		  <tr>
 			    <td><a href="{{ data.home }}/{{ xx.py }}">Python code</a></td>

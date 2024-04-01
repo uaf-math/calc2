@@ -5,6 +5,8 @@ daily:
   date: Mon 4/1
   worksheet: 5p6.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/5p6solns.pdf
+  ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/convsummary.pdf
+  extdescription: summary of tests
 - name: Section 5.5
   date: Fri 3/29
 - name: Section 5.5; Quiz 8
@@ -21,7 +23,7 @@ daily:
   solutions: 5p3solns.pdf
 - name: Section 5.3; Quiz 7
   date: Thurs 3/21
-- name: Section 5.2 finished; 5.3 started
+- name: Section 5.2 finished; 5.3
   date: Wed 3/20
 - name: Section 5.2
   date: Mon 3/18
@@ -35,7 +37,7 @@ daily:
   solutions: 5p1solns.pdf
 - name: Section 5.1
   date: Wed 3/6
-- name: Section 4.1 finished; 5.1 started
+- name: Section 4.1 finished; 5.1
   date: Mon 3/4
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2solns.pdf
@@ -49,7 +51,7 @@ daily:
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7-s.pdf
 - name: Section 3.7
   date: Wed 2/28
-- name: Section 3.6 finished; 3.7 started
+- name: Section 3.6 finished; 3.7
   date: Mon 2/26
   extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.m
   extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.pdf
@@ -60,23 +62,23 @@ daily:
   mfile: matlab/cosxx.m
 - name: Midterm 1
   date: Thurs 2/22
-- name: Section 3.4 finished; review
+- name: Section 3.4; review
   date: Wed 2/21
   worksheet: 3p4.pdf
   solutions: 3p4solns.pdf
-- name: Section 3.3 finished; 3.4 started
+- name: Section 3.3 finished; 3.4
   date: Mon 2/19
 - name: Section 3.3
   date: Fri 2/16
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a-s.pdf
-- name: Section 3.3 started; Quiz 5
+- name: Section 3.3; Quiz 5
   date: Thurs 2/15
 - name: Section 3.2 finished
   date: Wed 2/14
   worksheet: 3p2merge.pdf
   solutions: 3p2mergesolns.pdf
-- name: Section 3.1 finished; 3.2 started
+- name: Section 3.1 finished; 3.2
   date: Mon 2/12
 - name: Section 3.1 finished
   date: Fri 2/9
@@ -88,7 +90,7 @@ daily:
   date: Wed 2/7
   worksheet: 2p7.pdf
   solutions: 2p7solns.pdf
-- name: Section 2.5 finished; 2.7 started
+- name: Section 2.5 finished; 2.7
   date: Mon 2/5
 - name: Section 2.5
   date: Fri 2/2
@@ -96,7 +98,7 @@ daily:
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5-s.pdf
 - name: Section 2.5; Quiz 3
   date: Thurs 2/1
-- name: Section 2.4 finished; 2.5 started
+- name: Section 2.4 finished; 2.5
   date: Wed 1/31
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-4-a.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-4-a-s.pdf
@@ -106,15 +108,15 @@ daily:
   date: Fri 1/26
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-3.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-3-s.pdf
-- name: Section 2.3 started; Quiz 2
+- name: Section 2.3; Quiz 2
   date: Thurs 1/25
 - name: Section 2.2
   date: Wed 1/24
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-2.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-2-s.pdf
-- name: Quiz 1; Section 2.2 cont.
+- name: Quiz 1; Section 2.2
   date: Mon 1/22
-- name: Section 2.1 finished; 2.2 started
+- name: Section 2.1 finished; 2.2
   date: Fri 1/19
 - name: review
   date: Th 1/18
