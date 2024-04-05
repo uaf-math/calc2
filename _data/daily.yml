@@ -1,6 +1,8 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 6.1
+  date: Fri 4/5
 - name: Section 6.1; Quiz 9
   date: Thurs 4/4
   ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/convsummary.pdf
