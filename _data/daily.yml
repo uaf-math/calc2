@@ -1,6 +1,10 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 6.1 and 6.2
+  date: Mon 4/8
+  worksheet: 6p12.pdf
+  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-6-1-b-s.pdf
 - name: Section 6.1
   date: Fri 4/5
 - name: Section 6.1; Quiz 9
