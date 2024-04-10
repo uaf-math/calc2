@@ -1,6 +1,11 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Midterm 2
+  date: Thurs 4/11
+- name: Section 6.2 and review
+  date: Wed 4/10
+  image: matching.pdf
 - name: Section 6.1 and 6.2
   date: Mon 4/8
   worksheet: 6p12.pdf
