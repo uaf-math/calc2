@@ -1,6 +1,8 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 6.3
+  date: Fri 4/12
 - name: Midterm 2
   date: Thurs 4/11
 - name: Section 6.2 and review
