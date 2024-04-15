@@ -1,6 +1,10 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 6.3 done; 6.4
+  date: Mon 4/15
+  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3.pdf
+  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3solns.pdf
 - name: Section 6.3
   date: Fri 4/12
   mfile: matlab/plottaylors.m
