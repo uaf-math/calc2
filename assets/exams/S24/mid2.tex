@@ -1,0 +1,211 @@
+\documentclass[12pt]{article}
+\usepackage[top=1in, bottom=1in, left=.75in, right=.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{multicol,coordsys}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+\usepackage{anyfontsize}
+\usepackage[shortlabels]{enumitem}
+% \usepackage{times}
+% \usepackage[lf]{MinionPro}
+\usepackage{tikz,pgfplots,mathrsfs}
+%\def\degC{{}^\circ{\rm C}}
+\def\ra{\rightarrow}
+\usetikzlibrary{calc, backgrounds}
+\pgfplotsset{compat = newest}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+middle, xlabel={$x$}, ylabel={$y$},axis equal}}
+
+%yticklabels={,,} , xticklabels={,,}
+
+% \setmainfont{Times}
+% \def\sansfont{Lucida Grande Bold}
+\parindent 0pt
+\parskip 4pt
+\pagestyle{fancy}
+\fancyfoot[C]{\emph{\thepage}}
+\fancyhead[L]{\ifnum \value{page} > 1\relax\emph{Math 252: Midterm Exam 2}\fi}
+\fancyhead[R]{\ifnum \value{page} > 1\relax\emph{Spring 2024}\fi}
+\headheight 15pt
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\let\ds\displaystyle
+\def\continued{{\emph {Continued....}}}
+\def\continuing{{\emph {Problem \arabic{probcount} continued....}}\par\vskip 4pt}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{{\small (\textsl{#1 pts})}}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2} \quad}
+
+
+\begin{document}
+{\emph{\fontsize{26}{28}\selectfont Math F252\hfill
+{\fontsize{32}{36}\selectfont Midterm II}
+\hfill Spring 2024}}
+\vskip 2cm
+\strut\vtop{\halign{\emph#\hskip 0.5em\hfil&#\hbox to 4in{\hrulefill}\cr
+\emph{\fontsize{18}{22}\selectfont Name:}&\cr
+\noalign{\vskip 10pt}}}
+
+\vspace{0.5in}
+{\fontsize{18}{22}\selectfont\emph{Rules:}}
+
+You have {90 minutes} to complete this midterm.  
+
+Partial credit will be awarded, but you must show your work.
+
+Calculators are not allowed. 
+
+Place a box around your \fbox{FINAL ANSWER} to each question, or use the box provided.
+
+Turn off anything that might go beep during the exam.
+
+Good luck!
+\vfill
+\def\emptybox{\hbox to 2em{\vrule height 16pt depth 8pt width 0pt\hfil}}
+\def\tline{\noalign{\hrule}}
+\centerline{\vbox{\offinterlineskip
+{
+\bf\sf\fontsize{18pt}{22pt}\selectfont
+\hrule
+\halign{
+\vrule#&\strut\quad\hfil#\hfil\quad&\vrule#&\quad\hfil#\hfil\quad
+&\vrule#&\quad\hfil#\hfil\quad&\vrule#\cr
+height 3pt&\omit&&\omit&&\omit&\cr
+&Problem&&Possible&&Score&\cr\tline
+height 3pt&\omit&&\omit&&\omit&\cr
+&1&& 12&&\emptybox&\cr\tline
+&2&&  4&&\emptybox&\cr\tline
+&3&& 18&&\emptybox&\cr\tline
+&4&& 18&&\emptybox&\cr\tline
+&5&& 13&&\emptybox&\cr\tline
+&6&& 12&&\emptybox&\cr\tline
+&7&&  5&&\emptybox&\cr\tline
+&8&&  6&&\emptybox&\cr\tline
+&9&& 12&&\emptybox&\cr\tline
+&\textsl{Extra Credit}&& \textsl{3}&&\emptybox&\cr\tline
+&Total&& 100&&\emptybox&\cr
+}\hrule}}}
+
+\newpage
+\prob{1}  Compute and simplify the improper integrals, or show they diverge.  Use correct limit notation.
+
+\epartpts{a}{6} $\ds \int_0^1 \frac{dx}{x^{1/3}} =$
+\vfill
+
+\epartpts{b}{6} $\ds \int_1^\infty \frac{x\,dx}{1+x^2} = $
+\vfill
+
+% 5.1 #10, from homework
+\probpts{2}{4}  Find a formula for the general term $a_n$ of the sequence
+	$$\{0,3,8,15,24,35,48,\dots\} \hspace{5.0in}$$
+\vspace{1.25in}
+
+
+\newpage\clearpage
+\prob{3} Do the following series converge or diverge?  Show your work, including naming any test you use.
+
+\epartpts{a}{6}  $\ds \sum_{n=1}^\infty \frac{\sqrt{n+1}}{n^2}$
+\vfill
+
+\epartpts{b}{6} $\ds \sum_{n=1}^\infty \ln(n)$
+\vspace{1.8in}
+
+\epartpts{c}{6} $\ds \sum_{n=1}^\infty \frac{(-1)^n}{\sqrt{n+1}}$
+\vfill
+
+
+\newpage\clearpage
+\prob{4} Do the following series converge or diverge?  Show your work, including naming any test you use.
+
+\epartpts{a}{6}  $\ds \sum_{n=0}^\infty \frac{2^n}{(n+2)!}$
+\vfill
+
+\epartpts{b}{6}  $\ds \sum_{n=0}^\infty \left(\frac{n+1}{2n+3}\right)^n$
+\vfill
+
+\epartpts{c}{6}  $\ds \sum_{n=1}^\infty \frac{n}{e^{(n^2)}}$
+\vfill
+
+
+\newpage\clearpage
+\newcommand{\threeopts}{{\small $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{absolutely}} \end{matrix}$ \qquad\qquad $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{conditionally}} \end{matrix}$ \qquad\qquad \textsc{diverges}} \bigskip}
+
+\prob{5} Consider the infinite series \, $\ds 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} +\dots$
+
+\epartpts{a}{4}  Write the series using sigma ($\sum$) notation.
+\vfill
+
+\epartpts{b}{4}  Compute and simplify $S_3$, the partial sum of the first three terms.
+\vfill
+
+\epartpts{c}{5}  Does the series converge absolutely, conditionally, or neither (diverge)?  Show your work, identify any test(s) used, and circle one answer. 
+\vspace{3.0in}
+
+\threeopts
+
+
+\newpage\clearpage
+\prob{6} Use the well known geometric series $\ds \frac{1}{1-r}=\sum_{n=0}^\infty r^n$ to find power series representations for the following functions.  Show your work.  (\textsl{Hint on part} \emph{(b)}: \textsl{Use the answer from part} \emph{(a)}.)
+
+\epartpts{a}{6}  $\ds \frac{1}{1+x^2}$
+\vfill
+
+\newcommand{\spread}{$\ds\frac{{\large\strut}}{{\large\strut}}$}
+\newcommand{\bspread}{$\ds\frac{{\Large\strut}}{{\Large\strut}}$}
+
+\noindent \hfill \fbox{\bspread $\ds \frac{1}{1+x^2}=$ \hspace{4.0in}}
+\bigskip
+
+\epartpts{b}{6}  $\ds \arctan x$
+\vfill
+
+\hfill\fbox{\bspread $\ds \arctan x=$ \hspace{4.0in}}
+\bigskip
+
+
+\newpage\clearpage
+\probpts{7}{5} Compute and simplify the value of the infinite series \, $\ds \sum_{n=1}^\infty \left(\frac{1}{5}\right)^{n+1}$.
+\vspace{2.5in}
+
+\probpts{8}{6} If \,$\ds f(x)=\sum_{n=0}^\infty \frac{x^n}{n!}$,\, find a \textsl{simplified} power series representation for $f'(-x^2)$.
+\vfill
+\hfill \fbox{\bspread $\ds f'(-x^2)=$ \hspace{4.0in}}
+
+
+\newpage\clearpage
+\prob{9} Find the \emph{radius} and \emph{interval} of convergence of the following power series.
+
+\epartpts{a}{6} $\ds \sum_{n=1}^\infty \frac{3^n x^n}{n!}$
+\vspace{2.5in}
+
+\hfill \fbox{\spread $\ds R=$ \hspace{1.5in}} \qquad \fbox{\spread interval: \hspace{2.5in}}
+
+\epartpts{b}{6} $\ds \sum_{n=1}^\infty \frac{(x+1)^n}{n\, 2^n}$
+\vfill
+
+\hfill \fbox{\spread $\ds R=$ \hspace{1.5in}} \qquad \fbox{\spread interval: \hspace{2.5in}}
+
+
+\newpage\clearpage
+\probpts{Extra Credit}{3} The series $\displaystyle \sum_{n=1}^\infty \frac{(-1)^n}{2n+1}$ converges to $\pi/4$.  Suppose you wanted to use this series to obtain an estimate of $\pi/4$ that is within $0.0001$ of the actual value.  Determine the fewest number of terms you would need to sum in order to obtain this level of accuracy.  Explain your reasoning.
+\vfill
+
+\noindent \hrule
+\medskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+
+\newpage\clearpage
+\medskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}
