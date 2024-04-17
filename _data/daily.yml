@@ -1,7 +1,11 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 6.4; Quiz 10
+  date: Thurs 4/18
 - name: Section 6.3 done; 6.4
+  date: Wed 4/17
+- name: Section 6.3
   date: Mon 4/15
   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3.pdf
   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3solns.pdf
