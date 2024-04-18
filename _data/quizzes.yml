@@ -39,5 +39,7 @@ quizzes:
   solutions: quiz9solns.pdf
 - name: Quiz 10
   sections: 6.3 and 6.4
+  blank: quiz10.pdf
+  solutions: quiz10solns.pdf
 - name: Quiz 11
   sections: 7.1 and 7.2

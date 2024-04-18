@@ -1,0 +1,156 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252 (Bueler): Quiz 10}
+\docdate{18 April 2024}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes.  No aids (book, notes, calculator, internet, etc.) are permitted.  Show all work and use proper notation for full credit.  Put answers in reasonably-simplified form.  25 points possible.
+
+\newcommand{\threeopts}{{\small \hspace{-6mm} $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{absolutely}} \end{matrix}$ \qquad\qquad $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{conditionally}} \end{matrix}$ \qquad\qquad \textsc{diverges}} \bigskip}
+
+% like 6.3 #120 (on homework)
+\problem{6}  Let {\large $f(x)=\sqrt[3]{x}$}.
+
+\begin{subproblems}
+\item Find the first and second Taylor polynomials, of degrees 1 and 2, of $f(x)$ at basepoint $a=8$.
+\vfill
+
+\item Use the first Taylor polynomial to estimate {\large $\sqrt[3]{9}$}.
+\vfill
+\end{subproblems}
+
+% based on 6.3 #131 (on homework)
+\problem{3}  We know that {\large $e^x \approx 1 + x + \frac{x^2}{2} + \frac{x^3}{6}$}; this is the 3rd Taylor polynomial at $a=0$.  Evaluate at $-x^2$, and use this to approximate
+	$$\int_0^1 e^{-x^2}\,dx \approx \hspace{4.0in}$$
+\vfill
+
+
+\clearpage\newpage
+\problem{8}  Let {\large $f(x)=\ln(1+x)$}.
+
+\begin{subproblems}
+\item Find the Maclaurin series.  (\textsl{Any valid method is accepted, including from memory.  But get the right series!})
+\vspace{3.0in}
+
+\item Use the ratio or root test to find the interval of convergence of the same series.  (\textsl{Hint. Remember to check the endpoints of the interval.})
+\vfill
+\end{subproblems}
+
+
+\clearpage\newpage
+% like 6.3 #132 on homework, but much simpler
+\problem{4}  Let $f(x)=\sin x$ and $a=0$, and consider the interval $[-1,1]$.  Find the smallest value of $n$ so that the remainder estimate $\ds |R_n(x)| \le \frac{M}{(n+1)!} (x-a)^{n+1}$, where $M$ is an upper bound on $|f^{(n+1)}(z)|$ on the interval, yields $\ds |R_n(x)| \le \frac{1}{20}$ on the interval.
+\vfill
+
+% compare 6.3 #152; compare 6.3 #155
+\problem{4}  Find the Taylor series for {\large $f(x)=x^2$} around $a=1$.
+\vfill
+
+
+\clearpage\newpage
+\textbf{\textsf{Extra Credit. [2 points]}} {\large\strut} \, \quad Suppose $f$ is this fifth degree polynomial: $f(x)=1+x+2x^2+3x^3+4x^4+5x^5$.  Write down a \emph{fully simplified} expression for $p_{17}(x)$, the 17th Taylor polynomial of $f(x)$ at basepoint $a=\sqrt{\pi}$.  Explain why your answer, which should require only one line to write, can be written down so immediately.
+\vfill
+
+\noindent \hrule
+\medskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}
