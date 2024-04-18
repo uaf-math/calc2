@@ -5,6 +5,8 @@ daily:
   date: Fri 4/18
 - name: Section 6.4; Quiz 10
   date: Thurs 4/18
+  ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/commonseries.png
+  extdescription: familiar Maclaurin series
 - name: Section 6.3 done; 6.4
   date: Wed 4/17
 - name: Section 6.3
