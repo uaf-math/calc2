@@ -2,6 +2,10 @@ semester: Spring 2024
 home: assets/worksheets/S24
 daily:
 - name: Section 7.1
+  date: Mon 4/22
+  extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/pretty5.m
+  extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/pretty5.pdf
+- name: Section 6.4
   date: Fri 4/18
 - name: Section 6.4; Quiz 10
   date: Thurs 4/18
