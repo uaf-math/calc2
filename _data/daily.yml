@@ -1,6 +1,14 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
+- name: Section 7.3 done; review
+  date: Mon 4/29
+- name: Section 7.3
+  date: Fri 4/26
+- name: Section 7.2 done; Quiz 11
+  date: Thurs 4/25
+- name: Section 7.2
+  date: Wed 4/24
 - name: Section 7.1
   date: Mon 4/22
   extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/pretty5.m
