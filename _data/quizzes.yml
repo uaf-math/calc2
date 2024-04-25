@@ -43,3 +43,5 @@ quizzes:
   solutions: quiz10solns.pdf
 - name: Quiz 11
   sections: 7.1 and 7.2
+  blank: quiz11.pdf
+  solutions: quiz11solns.pdf
