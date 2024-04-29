@@ -3,6 +3,8 @@ home: assets/worksheets/S24
 daily:
 - name: Section 7.3 done; review
   date: Mon 4/29
+  ext: https://uaf-math251.github.io/calc2/assets/worksheets/S24/FEreview.pdf
+  extdescription: Final Exam review
 - name: Section 7.3
   date: Fri 4/26
   ext: https://uaf-math251.github.io/calc2/assets/worksheets/S24/polar2side.pdf
