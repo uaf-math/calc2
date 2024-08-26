@@ -5,14 +5,11 @@ docs:
 - title: Syllabus (Bueler)
   url: assets/general/S24/Bueler/syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
 
-- title: Syllabus (Faudree)
-  url: assets/general/S24/Faudree/M252s24_syllabus.pdf
+- title: Syllabus (Gossell)
+  url: assets/general/F24/M252f24_syllabus.pdf
 
 - title: Schedule (Bueler)
   url: assets/general/S24/Bueler/schedule.pdf  # rebuild by "make schedule.pdf" in directory
-
-- title: Schedule (Faudree)
-  absurl: https://docs.google.com/spreadsheets/d/e/2PACX-1vSetyTdOP14yatuWNH7CuB9yCT3zqOhFWYmCj1BzRAZhU4eHCXCJaRjnCgxgZW_NieE59iLRok3NdzK/pubhtml?gid=0&single=true
 
 - title: Homework
   url: homework.html
