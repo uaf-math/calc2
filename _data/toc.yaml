@@ -2,14 +2,14 @@ sidenavtitle: 'MATH F252'
 
 docs:
 
-- title: Syllabus (Bueler)
-  url: assets/general/S24/Bueler/syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
+- title: Syllabus (Meek)
+  url: assets/general/F24/meek/syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
 
 - title: Syllabus (Gossell)
   url: assets/general/F24/M252f24_syllabus.pdf
 
-- title: Schedule (Bueler)
-  url: assets/general/S24/Bueler/schedule.pdf  # rebuild by "make schedule.pdf" in directory
+- title: Schedule (Meek)
+  url: assets/general/F24/Meek/schedule.pdf  # rebuild by "make schedule.pdf" in directory
 
 - title: Homework
   url: homework.html
