@@ -9,7 +9,7 @@ docs:
   url: assets/general/F24/M252f24_syllabus.pdf
 
 - title: Schedule (Meek)
-  url: assets/general/F24/Meek/schedule.pdf  # rebuild by "make schedule.pdf" in directory
+  url: assets/general/F24/meek/schedule.pdf  # rebuild by "make schedule.pdf" in directory
 
 - title: Homework
   url: homework.html
