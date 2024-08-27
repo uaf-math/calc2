@@ -11,7 +11,9 @@ The table below gives the section coverage Quizzes.  PDFs for the Quizzes themse
 
 <b>The best guide to the content of an upcoming Quiz is the Homework assignments you turn in just before the Quiz!  See the [Homework tab](homework.html).</b>
 
-{% include quiz_table.md  data=site.data.quizzes %}
+### Old Quizzes: Spring 2024
+
+{% include quiz_table.md  data=site.data.quizzesS24 %}
 
 <div style="padding-bottom: 40px"></div>
 
