@@ -10,7 +10,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
   * Kevin Meek for in-person section 901 (CRN 73172) in Chapman 208
     * Chapman 301C, [krmeek2@alaska.edu](mailto:krmeek2@alaska.edu)
   * James Gossell for online, asynchronous section (CRN 72472)
-    * Chapman 306B, [jrfaudree@alaska.edu](mailto:jrfaudree@alaska.edu)
+    * Chapman 306B, [jegossell@alaska.edu](mailto:jegossell@alaska.edu)
 
 ### Canvas course pages
 
