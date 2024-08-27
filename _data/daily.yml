@@ -171,12 +171,12 @@ daily:
 #   date: Mon 1/22
 # - name: Section 2.1 done; 2.2
 #   date: Fri 1/19
-- name: review
-  date: Th 1/18
-  extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
-- name: Section 2.1
-  date: Wed 1/17
+# - name: review
+#   date: Th 1/18
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
+- name: Review
+  date: Mon 8/26
   #worksheet: FIXME
   #solutions: FIXME
   #mfile: FIXME
