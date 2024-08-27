@@ -7,8 +7,8 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 ### Instructors
 
-  * [Ed Bueler](https://bueler.github.io/) for in-person section 901 (CRN 33226) in Chapman 208
-    * Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
+  * Kevin Meek for in-person section 901 (CRN 73172) in Chapman 208
+    * Chapman 301C, [krmeek2@alaska.edu](mailto:krmeek2@alaska.edu)
   * [Jill Faudree](https://jrfaudree.github.io/) for online, asynchronous sections 001 (CRN 34145) and 002 (CRN 35375)
     * Chapman 306B, [jrfaudree@alaska.edu](mailto:jrfaudree@alaska.edu)
 
@@ -16,7 +16,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 Log in to the Canvas page for your section:
 
-  * section 901 in-person Spring 2024 (Bueler): [canvas.alaska.edu/courses/18805](https://canvas.alaska.edu/courses/18805)
+  * section 901 in-person Fall 2024 (Meek): [canvas.alaska.edu/courses/21592](https://canvas.alaska.edu/courses/21592)
   * section 701 online Spring 2024 (Faudree): [canvas.alaska.edu/courses/18799](https://canvas.alaska.edu/courses/18799)
 
 to see
