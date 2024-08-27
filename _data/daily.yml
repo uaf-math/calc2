@@ -1,182 +1,184 @@
 semester: Spring 2024
 home: assets/worksheets/S24
 daily:
-- name: "Final Exam 10:15-12:15 Gruening 208"
-  date: Wed 5/1
-- name: Review Session 4pm Gruening 208
-  date: Tues 4/30
-- name: Section 7.3 done; review
-  date: Mon 4/29
-  ext: https://uaf-math251.github.io/calc2/assets/worksheets/S24/FEreview.pdf
-  extdescription: Final Exam review
-- name: Section 7.3
-  date: Fri 4/26
-  ext: https://uaf-math251.github.io/calc2/assets/worksheets/S24/polar2side.pdf
-  extdescription: polar graphing paper
-- name: Section 7.2 done; Quiz 11
-  date: Thurs 4/25
-- name: Section 7.2
-  date: Wed 4/24
-- name: Section 7.1
-  date: Mon 4/22
-  extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/pretty5.m
-  extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/pretty5.pdf
-- name: Section 6.4
-  date: Fri 4/18
-- name: Section 6.4; Quiz 10
-  date: Thurs 4/18
-  ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/commonseries.png
-  extdescription: familiar Maclaurin series
-- name: Section 6.3 done; 6.4
-  date: Wed 4/17
-- name: Section 6.3
-  date: Mon 4/15
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3solns.pdf
-- name: Section 6.3
-  date: Fri 4/12
-  mfile: matlab/plottaylors.m
-  image: figs/taylors.pdf
-- name: Midterm 2
-  date: Thurs 4/11
-- name: Section 6.2 and review
-  date: Wed 4/10
-  image: matching.pdf
-- name: Section 6.1 and 6.2
-  date: Mon 4/8
-  worksheet: 6p12.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-6-1-b-s.pdf
-- name: Section 6.1
-  date: Fri 4/5
-- name: Section 6.1; Quiz 9
-  date: Thurs 4/4
-  ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/convsummary.pdf
-  extdescription: summary of tests
-- name: Section 5.6
-  date: Wed 4/3
-- name: Section 5.6
-  date: Mon 4/1
-  worksheet: 5p6.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/5p6solns.pdf
-  ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/convsummary.pdf
-  extdescription: summary of tests
-- name: Section 5.5
-  date: Fri 3/29
-- name: Section 5.5; Quiz 8
-  date: Thurs 3/28
-- name: Section 5.4 done
-  date: Wed 3/27
-  worksheet: 5pmany.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/5p4solns.pdf
-- name: Section 5.4
-  date: Mon 3/25
-- name: Section 5.3 done
-  date: Fri 3/22
-  worksheet: 5p3.pdf
-  solutions: 5p3solns.pdf
-- name: Section 5.3; Quiz 7
-  date: Thurs 3/21
-- name: Section 5.2 done; 5.3
-  date: Wed 3/20
-- name: Section 5.2
-  date: Mon 3/18
-  worksheet: 5p2.pdf
-  solutions: 5p2solns.pdf
-- name: Section 5.2
-  date: Fri 3/8
-- name: Section 5.1; Quiz 6
-  date: Thurs 3/7
-  worksheet: 5p1.pdf
-  solutions: 5p1solns.pdf
-- name: Section 5.1
-  date: Wed 3/6
-- name: Section 4.1 done; 5.1
-  date: Mon 3/4
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2solns.pdf
-  py: py/logistic.py
-  image: py/logistic.png
-- name: Section 4.1
-  date: Fri 3/1
-- name: Section 3.7 done
-  date: Thurs 2/29
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7-s.pdf
-- name: Section 3.7
-  date: Wed 2/28
-- name: Section 3.6 done; 3.7
-  date: Mon 2/26
-  extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.m
-  extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.pdf
-- name: Section 3.6
-  date: Fri 2/23
-  worksheet: 3p6.pdf
-  solutions: 3p6solns.pdf
-  mfile: matlab/cosxx.m
-- name: Midterm 1
-  date: Thurs 2/22
-- name: Section 3.4; review
-  date: Wed 2/21
-  worksheet: 3p4.pdf
-  solutions: 3p4solns.pdf
-- name: Section 3.3 done; 3.4
-  date: Mon 2/19
-- name: Section 3.3
-  date: Fri 2/16
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a-s.pdf
-- name: Section 3.3; Quiz 5
-  date: Thurs 2/15
-- name: Section 3.2 done
-  date: Wed 2/14
-  worksheet: 3p2merge.pdf
-  solutions: 3p2mergesolns.pdf
-- name: Section 3.1 done; 3.2
-  date: Mon 2/12
-- name: Section 3.1 done
-  date: Fri 2/9
-  worksheet: 3p1.pdf
-  solutions: 3p1solns.pdf
-- name: Section 3.1; Quiz 4
-  date: Thurs 2/8
-- name: Section 2.7
-  date: Wed 2/7
-  worksheet: 2p7.pdf
-  solutions: 2p7solns.pdf
-- name: Section 2.5 done; 2.7
-  date: Mon 2/5
-- name: Section 2.5
-  date: Fri 2/2
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5-s.pdf
-- name: Section 2.5; Quiz 3
-  date: Thurs 2/1
-- name: Section 2.4 done; 2.5
-  date: Wed 1/31
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-4-a.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-4-a-s.pdf
-- name: Section 2.4
-  date: Mon 1/29
-- name: Section 2.3
-  date: Fri 1/26
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-3.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-3-s.pdf
-- name: Section 2.3; Quiz 2
-  date: Thurs 1/25
-- name: Section 2.2
-  date: Wed 1/24
-  extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-2.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-2-s.pdf
-- name: Quiz 1; Section 2.2
-  date: Mon 1/22
-- name: Section 2.1 done; 2.2
-  date: Fri 1/19
-- name: review
-  date: Th 1/18
-  extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
-  extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
-- name: Section 2.1
-  date: Wed 1/17
+# - name: "Final Exam 10:15-12:15 Gruening 208"
+#   date: Wed 5/1
+# - name: Review Session 4pm Gruening 208
+#   date: Tues 4/30
+# - name: Section 7.3 done; review
+#   date: Mon 4/29
+#   ext: https://uaf-math251.github.io/calc2/assets/worksheets/S24/FEreview.pdf
+#   extdescription: Final Exam review
+# - name: Section 7.3
+#   date: Fri 4/26
+#   ext: https://uaf-math251.github.io/calc2/assets/worksheets/S24/polar2side.pdf
+#   extdescription: polar graphing paper
+# - name: Section 7.2 done; Quiz 11
+#   date: Thurs 4/25
+# - name: Section 7.2
+#   date: Wed 4/24
+# - name: Section 7.1
+#   date: Mon 4/22
+#   extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/pretty5.m
+#   extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/pretty5.pdf
+# - name: Section 6.4
+#   date: Fri 4/18
+# - name: Section 6.4; Quiz 10
+#   date: Thurs 4/18
+#   ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/commonseries.png
+#   extdescription: familiar Maclaurin series
+# - name: Section 6.3 done; 6.4
+#   date: Wed 4/17
+# - name: Section 6.3
+#   date: Mon 4/15
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/6p3solns.pdf
+# - name: Section 6.3
+#   date: Fri 4/12
+#   mfile: matlab/plottaylors.m
+#   image: figs/taylors.pdf
+# - name: Midterm 2
+#   date: Thurs 4/11
+# - name: Section 6.2 and review
+#   date: Wed 4/10
+#   image: matching.pdf
+# - name: Section 6.1 and 6.2
+#   date: Mon 4/8
+#   worksheet: 6p12.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-6-1-b-s.pdf
+# - name: Section 6.1
+#   date: Fri 4/5
+# - name: Section 6.1; Quiz 9
+#   date: Thurs 4/4
+#   ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/convsummary.pdf
+#   extdescription: summary of tests
+# - name: Section 5.6
+#   date: Wed 4/3
+# - name: Section 5.6
+#   date: Mon 4/1
+#   worksheet: 5p6.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/5p6solns.pdf
+#   ext: https://uaf-math251.github.io/calc2/assets/worksheets/F22/convsummary.pdf
+#   extdescription: summary of tests
+# - name: Section 5.5
+#   date: Fri 3/29
+# - name: Section 5.5; Quiz 8
+#   date: Thurs 3/28
+# - name: Section 5.4 done
+#   date: Wed 3/27
+#   worksheet: 5pmany.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F22/5p4solns.pdf
+# - name: Section 5.4
+#   date: Mon 3/25
+# - name: Section 5.3 done
+#   date: Fri 3/22
+#   worksheet: 5p3.pdf
+#   solutions: 5p3solns.pdf
+# - name: Section 5.3; Quiz 7
+#   date: Thurs 3/21
+# - name: Section 5.2 done; 5.3
+#   date: Wed 3/20
+# - name: Section 5.2
+#   date: Mon 3/18
+#   worksheet: 5p2.pdf
+#   solutions: 5p2solns.pdf
+# - name: Section 5.2
+#   date: Fri 3/8
+# - name: Section 5.1; Quiz 6
+#   date: Thurs 3/7
+#   worksheet: 5p1.pdf
+#   solutions: 5p1solns.pdf
+# - name: Section 5.1
+#   date: Wed 3/6
+# - name: Section 4.1 done; 5.1
+#   date: Mon 3/4
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/S22/4p2solns.pdf
+#   py: py/logistic.py
+#   image: py/logistic.png
+# - name: Section 4.1
+#   date: Fri 3/1
+# - name: Section 3.7 done
+#   date: Thurs 2/29
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-7-s.pdf
+# - name: Section 3.7
+#   date: Wed 2/28
+# - name: Section 3.6 done; 3.7
+#   date: Mon 2/26
+#   extmfile: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.m
+#   extimage: https://uaf-math251.github.io/calc2/assets/worksheets/F22/matlab/numint.pdf
+# - name: Section 3.6
+#   date: Fri 2/23
+#   worksheet: 3p6.pdf
+#   solutions: 3p6solns.pdf
+#   mfile: matlab/cosxx.m
+# - name: Midterm 1
+#   date: Thurs 2/22
+# - name: Section 3.4; review
+#   date: Wed 2/21
+#   worksheet: 3p4.pdf
+#   solutions: 3p4solns.pdf
+# - name: Section 3.3 done; 3.4
+#   date: Mon 2/19
+# - name: Section 3.3
+#   date: Fri 2/16
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-3-3-a-s.pdf
+# - name: Section 3.3; Quiz 5
+#   date: Thurs 2/15
+# - name: Section 3.2 done
+#   date: Wed 2/14
+#   worksheet: 3p2merge.pdf
+#   solutions: 3p2mergesolns.pdf
+# - name: Section 3.1 done; 3.2
+#   date: Mon 2/12
+# - name: Section 3.1 done
+#   date: Fri 2/9
+#   worksheet: 3p1.pdf
+#   solutions: 3p1solns.pdf
+# - name: Section 3.1; Quiz 4
+#   date: Thurs 2/8
+# - name: Section 2.7
+#   date: Wed 2/7
+#   worksheet: 2p7.pdf
+#   solutions: 2p7solns.pdf
+# - name: Section 2.5 done; 2.7
+#   date: Mon 2/5
+# - name: Section 2.5
+#   date: Fri 2/2
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-5-s.pdf
+# - name: Section 2.5; Quiz 3
+#   date: Thurs 2/1
+# - name: Section 2.4 done; 2.5
+#   date: Wed 1/31
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-4-a.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-4-a-s.pdf
+# - name: Section 2.4
+#   date: Mon 1/29
+# - name: Section 2.3
+#   date: Fri 1/26
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-3.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-3-s.pdf
+# - name: Section 2.3; Quiz 2
+#   date: Thurs 1/25
+# - name: Section 2.2
+#   date: Wed 1/24
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-2.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/worksheets/F23/M252-2-2-s.pdf
+# - name: Quiz 1; Section 2.2
+#   date: Mon 1/22
+# - name: Section 2.1 done; 2.2
+#   date: Fri 1/19
+# - name: review
+#   date: Th 1/18
+#   extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
+#   extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
+# - name: Section 2.1
+#   date: Wed 1/17
+-name: Review
+ date: Mon 8/26
   #worksheet: FIXME
   #solutions: FIXME
   #mfile: FIXME
