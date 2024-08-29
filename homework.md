@@ -9,7 +9,12 @@ title: Homework
 
     [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
 
-  * Complete solutions are posted _in advance_ at the Canvas site for your section (Bueler: [canvas.alaska.edu/courses/18805](https://canvas.alaska.edu/courses/18805); Faudree: [canvas.alaska.edu/courses/18799](https://canvas.alaska.edu/courses/18799)).  See the Modules tab.
+  * Complete solutions are posted _in advance_ at the Canvas site for
+    your section (Meek:
+    [canvas.alaska.edu/courses/21592](https://canvas.alaska.edu/courses/21592);
+    Gossell:
+    [canvas.alaska.edu/courses/21589](https://canvas.alaska.edu/courses/21589)).
+    See the Modules tab.
   * Additional solutions to some other odd-numbered problems can be found in the [Student Solutions Manual](https://openstax.org/details/books/calculus-volume-2?Student%20resources).
   * Turn in your homework via Gradescope, which is accessed via the Canvas site for your section.
     * See the [Tech Help page](techHelp.html) for scanning/uploading advice.
