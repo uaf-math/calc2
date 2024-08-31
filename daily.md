@@ -1,9 +1,9 @@
 ---
 layout: course-page
-title: Daily log (Bueler)
+title: Daily log (Meek)
 ---
 
-## Daily log for Bueler's section
+## Daily log for Meek's section
 
 Sections covered each day, PDFs for worksheets and their solutions, and other things from lecture will appear here as they occur.  You **do not** have to turn-in any worksheet!  The purpose of a worksheet is to be an active, efficient learner in-class.
 
