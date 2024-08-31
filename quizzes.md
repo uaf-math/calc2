@@ -3,7 +3,7 @@ layout: course-page
 title: Quizzes
 ---
 
-## Quizzes for Bueler's section
+## Quizzes for Meek section
 
 The table below gives the section coverage Quizzes.  PDFs for the Quizzes themselves ("blank"), and their solutions, will appear here by the day after they occur.  See the Schedule for your section (tab at left) for Quiz dates.
 
