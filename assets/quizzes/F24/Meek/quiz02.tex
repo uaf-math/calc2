@@ -1,0 +1,118 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 2 \\
+           Math F252X-901, Calculus II  			\hfill	Fall 2024 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Thirty minutes maximum. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item Consider the functions $f(x) = \sqrt{x}$ and $g(x) = 2-x$.
+
+  \begin{enumerate}
+
+  \item \points{3} Sketch the region bounded by $f(x)$, $g(x)$, and
+    the $x$-axis. Be sure to label any important points.
+    \vfill
+
+  \item \points{6} Determine the area of this region.
+    \vfill
+
+  \end{enumerate}
+
+  \newpage
+  
+\item Consider the functions $f(x) = \cos(x)$ and $g(x) = \sin(x)$.
+
+  \begin{enumerate}
+
+  \item \points{3} Sketch the region bounded to the left by the $y$-axis and to
+    the right by $f$ and $g$. Be sure to label any important points.
+    \vfill
+
+  \item \points{6}Determine the area of this region.
+    \vfill
+
+  \end{enumerate}
+
+  \newpage
+
+\item Consider the region bounded by $y=x^2$, $y=0$, and $x=1$.
+
+  \begin{enumerate}
+
+  \item \points{3} Sketch the region. Be sure to label any important points.
+
+    \vfill
+
+  \item \points{6} Find the volume of the region obtained by revolving
+    the region
+    about the $x$-axis.
+
+    \vfill
+
+    \newpage
+
+  \item \points{6} Find the volume of the region obtained by revolving
+    the region
+    about the $y$-axis.
+    
+  \end{enumerate}
+    
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

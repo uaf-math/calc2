@@ -1,0 +1,7 @@
+semester: Fall 2024 (Meek's section)
+home: assets/quizzes/F24/Meek
+quizzes:
+- name: Quiz 1
+  sections: review (Chapter 1)
+  blank: quiz01.pdf
+  solutions: quiz01sols.pdf
