@@ -4,4 +4,4 @@ quizzes:
 - name: Quiz 1
   sections: review (Chapter 1)
   blank: quiz01.pdf
-  solutions: quiz01sols.pdf
+  solutions: quiz01Sols.pdf
