@@ -175,6 +175,12 @@ daily:
 #   date: Th 1/18
 #   extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
 #   extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
+- name: Section 2.5
+  date: Thu 9/12
+- name: Section 2.5
+  date: Wed 9/11
+- name: Section 2.4
+  date: Mon 9/9
 - name: Section 2.4
   date: Fri 9/6
 - name: Section 2.3
