@@ -175,6 +175,28 @@ daily:
 #   date: Th 1/18
 #   extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
 #   extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
+- name: Section 3.6/3.7
+  date: Mon 10/7
+- name: Section 3.6
+  date: Fri 10/4
+- name: Midterm 1
+  date: Thu 10/3
+- name: Section 3.4
+  date: Wed 10/2
+- name: Section 3.4
+  date: Mon 9/30
+- name: Section 3.3
+  date: Fri 9/27
+- name: Section 3.3
+  date: Thu 9/26
+- name: Section 3.2
+  date: Wed 9/25
+- name: Section 3.2
+  date: Mon 9/23
+- name: Section 3.1
+  date: Fri 9/20
+- name: Section 3.1
+  date: Thu 9/19
 - name: Section 2.7
   date: Wed 9/18
 - name: Section 2.6
