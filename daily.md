@@ -5,7 +5,7 @@ title: Daily log (Meek)
 
 ## Daily log for Meek's section
 
-Sections covered each day, PDFs for worksheets and their solutions, and other things from lecture will appear here as they occur.  You **do not** have to turn-in any worksheet!  The purpose of a worksheet is to be an active, efficient learner in-class.
+Sections covered each day. PDFs for worksheets and solutions from past semesters are available at the bottom of this page.
 
 <!-- This is also the place I will put Matlab codes which I used in occasional demonstrations.  To run these examples yourself, use either [Matlab online](https://matlab.mathworks.com/) or [Octave online](https://octave-online.net/) or get a copy of Matlab/Octave on your own machine. -->
 
