@@ -175,6 +175,38 @@ daily:
 #   date: Th 1/18
 #   extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
 #   extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
+- name: Section 6.1
+  date: Mon 11/4
+- name: Section 5.6
+  date: Fri 11/1
+- name: Section 5.6
+  date: Thu 10/31
+- name: Section 5.5
+  date: Wed 10/30
+- name: Section 5.5
+  date: Mon 10/28
+- name: Section 5.4
+  date: Fri 10/25
+- name: Section 5.4
+  date: Thu 10/24
+- name: Section 5.3
+  date: Wed 10/23
+- name: Slushpocalypse
+  date: Mon 10/21
+- name: Section 5.3
+  date: Fri 10/18
+- name: Section 5.2
+  date: Thu 10/17
+- name: Section 5.2
+  date: Wed 10/16
+- name: Section 5.1
+  date: Mon 10/14
+- name: Section 5.1
+  date: Fri 10/11
+- name: Section 4.1
+  date: Thu 10/10
+- name: Section 4.1
+  date: Wed 10/9
 - name: Section 3.6/3.7
   date: Mon 10/7
 - name: Section 3.6
