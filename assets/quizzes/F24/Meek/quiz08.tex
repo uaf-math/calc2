@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 7 \\
+           Math F252X-901, Calculus II  			\hfill	Fall 2024 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Thirty minutes maximum. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item \points{5} Write out the first 5 terms of the sequence of
+  partial sums for the series $\ds \sum_{n=0}^{\infty} (2n+1)$. \\
+  $S_1 =$ \\
+  \vspace{0.02cm}
+  
+  $S_2 =$ \\
+  \vspace{0.02cm}
+
+  $S_3 =$ \\
+  \vspace{0.02cm}
+
+  $S_4 =$ \\
+  \vspace{0.02cm}
+
+  $S_5 =$
+  \vspace{0.02cm}
+
+\item Determine whether the following series converge or diverge. If
+  the series converges, state its sum. Justify your answers.
+  \begin{enumerate}
+  \item \points{6} $\ds \sum_{n=1}^{\infty} \frac{1}{3000} \left( \frac{7}{5} \right)^n$.
+    \vfill
+    
+  \item \points{6} $\ds \sum_{n=1}^{\infty} 10 \left( -\frac{3}{5} \right)^n$.
+    \vfill
+  \end{enumerate}
+  
+  \newpage
+
+\item What does the divergence test say about the following series?
+  Justify your answers.
+  \begin{enumerate}
+  \item \points{6} $\ds \sum_{n=1}^{\infty} \left( \frac{n}{40n^2+30} \right)$.
+    \vfill
+    
+  \item \points{6} $\ds \sum_{n=1}^{\infty} 9^{(n^{-2})}$.
+    \vfill
+  \end{enumerate}
+  
+  
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

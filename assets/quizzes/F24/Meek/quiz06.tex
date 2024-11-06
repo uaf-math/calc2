@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 6 \\
+           Math F252X-901, Calculus II  			\hfill	Fall 2024 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Thirty minutes maximum. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item \points{8} Estimate $\ds \int_{-4}^4 x^2 \, dx$ using the midpoint
+  rule with 4 subintervals. Be explicit in showing all your work.
+  \vfill
+  
+\item \points{8} Estimate $\ds \int_{-4}^4 x^2 \, dx$ using the trapezoid
+  rule with 4 subintervals. Be explicit in showing all your work.
+  \vfill
+
+  (Turn over for one more problem)
+
+  \newpage
+
+\item \points{8} If $f^{(2)}(x)$ is continuous on $[a,b]$ 
+  and $|f^{(2)}(x)| \leq M$ on $[a,b]$, then the
+  absolute error obtained from using the midpoint rule with $n$
+  subintervals is bounded by $\ds \frac{M(b-a)^3}{24n^2}$. Find the
+  number of subintervals needed to ensure that the error in estimating
+  $\ds \int_{-4}^4 x^2 \, dx$ is no more than 0.1. Note that your
+  calculations will not yield a ``nice'' integer. Leave your answer in
+  exact form.
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

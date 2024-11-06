@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 3 \\
+           Math F252X-901, Calculus II  			\hfill	Fall 2024 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Thirty minutes maximum. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item Set up integrals to calculate the following values. Do not
+  calculate the integrals!
+  \begin{enumerate}
+    
+  \item \points{5} The length of the curve $y=2x^3-\sin(\frac{\pi x}{3})$ on the
+    interval $[1,6]$
+    \vfill
+
+  \item \points{5} The area of the surface formed by revolving the graph of $y =
+    \ln(x)$ on the interval $[2,4]$ around the $x$-axis.
+    \vfill
+
+  \item \points{5} The area between the curves $x^2+x$ and $6-x^2$. (Yes, this is
+    a review problem.)
+    \vfill
+    \end{enumerate}
+
+    \newpage
+
+\item Consider the region bounded by the curves $\ds y=e^{-x^2}$, $y=0$,
+  $x=1$, and $x=2$.
+  \begin{enumerate}
+  \item \points{3} Sketch the region.
+    \vfill
+
+  \item \points{8}Find the volume of the region obtained by rotating the region
+    about the $y$-axis.
+    \vfill
+  \end{enumerate}
+
+  \newpage
+
+\item \points{4} (BONUS!) Set up an integral to find the area of the surface
+  obtained by rotating the region bounded by the curve $y=6x-2x^2$ and
+  the $x$-axis about the $y$-axis.
+    
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
