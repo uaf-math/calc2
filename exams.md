@@ -13,11 +13,16 @@ Links to the Exams themselves ("blank"), and their solutions, will appear here a
 
 <b>Old Exams appear below!</b>
 
+### Exams from Fall 2024
+
+{% include exam_table.md  data=site.data.examsF24 %}
+
+<div style="padding-bottom: 40px"></div>
+
+---
 ### Exams from Spring 2024
 
 {% include exam_table.md  data=site.data.examsS24 %}
-
-<div style="padding-bottom: 40px"></div>
 
 ---
 ### Exams from Fall 2023

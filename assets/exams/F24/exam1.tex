@@ -1,0 +1,180 @@
+\documentclass[addpoints,12pt]{exam}
+\pointsinmargin
+\marginpointname{ pts}
+\pagestyle{headandfoot}
+\runningheadrule
+\firstpageheadrule
+\firstpageheader{Math F252X-901}{Exam 1, Page \thepage\ of \numpages}{Fall 2024}
+\runningheader{Math F252X-901}
+{Exam 1, Page \thepage\ of \numpages}
+{Fall 2024}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{tikz,enumerate}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+\pgfplotsset{width=9cm,compat=1.9}
+\tikzset{
+  jumpdot/.style={mark=*,solid},
+  excl/.append style={jumpdot,fill=white},
+  incl/.append style={jumpdot,fill=blue},
+}
+\renewcommand{\arraystretch}{2.25}
+\newcommand{\f}[2]{\displaystyle\frac{#1}{#2}}
+
+\newcommand {\ds}{\displaystyle}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\begin{document}
+	
+\begin{coverpages}
+  \begin{center}
+    \begin{center}
+      \Large{\textbf{Math F252X-901 - Fall 2024}}\\
+      \Large{\textbf{Exam 1}}\\
+      \vspace{0.5in}
+      \normalsize{\begin{itemize}
+        \item No outside materials (e.g. books, notes, calculators,
+          other electronic devices).
+        \item SHOW ALL WORK. Credit may not be given for answers
+          without sufficient work.
+        \item Illegible work will not be graded.
+        \end{itemize}}
+    \end{center}
+    \vspace{1in}
+		\textbf{Print Name:}\underline{\hspace{4in}}\\
+    \vspace{0.5in}
+    \gradetable[v][pages]
+  \end{center}
+\end{coverpages}
+
+\begin{questions}
+
+\question[8] Find the area of the region in the first quadrant bounded
+  by the curves $y=x^2+2x$ and $x^3$.\\
+
+\vfill
+\vfill
+
+\question[6] Completely set up, but do not evaluate, a definite
+  integral which gives the \textbf{arc length} of the curve
+  $y=\sqrt{1-x^2}$ from $x=0$ to $x=1$.\\
+ 
+ \vfill
+ 
+ \newpage
+ 
+\question [16] Let $R$ be the region bounded by the curves
+  $y=\sqrt{x}$, $x=0$, and $y=2$.
+  \begin{parts}
+  \part Sketch the region $R$. (\emph{Hint.  Double-check this part
+      before proceeding to part (b).})\\
+    \begin{center}
+      \begin{tikzpicture}[scale=0.3]
+        \draw[->, ultra thick] (-2,0) -- (20,0);
+        \draw[->, ultra thick] (0,-2) -- (0,10);
+        \node at (20,-.5){$x$};
+        \node at (-0.5,10){$y$};
+      \end{tikzpicture}
+    \end{center}
+    \vspace{.2in}
+  \part Use the \textbf{slicing (disks/washers)} method to completely
+    set up, but not evaluate, a definite integral for the volume of the
+    solid of revolution formed by rotating $R$ around \textbf{the
+      $x$-axis}.
+  \vfill
+  \part Use the \textbf{shell} method to completely set up, but not
+    evaluate, a definite integral for the volume of the same solid of
+    revolution as in part \textbf{(b)}.
+  \vfill
+  \part \textbf{Evaluate one} of the integrals in parts \textbf{(b)}
+    or \textbf{(c)} to find the exact volume.
+  \vfill
+  \vfill
+\end{parts}
+
+\newpage
+
+\question[6] Completely set up, but do not evaluate, a definite
+  integral for the \textbf{surface area} of the surface created when the
+  curve $\ds y=\sin(x)$ on the interval $x=0$ to $x=\pi$ is rotated
+  around \textbf{the $x$-axis}.\\
+
+\vfill
+
+\question[10] It takes a force of $4$ Newtons to hold a spring $3$
+  centimeters from its equilibrium.
+  \begin{parts}
+  \part What is the spring constant $k$ in Hooke's Law (i.e.~$F=kx$)?
+  \vfill
+  \part How much \textbf{work} is done to compress the spring $6$
+    centimeters from its equilibrium? Simplify your answer and include
+    units.
+  \vfill
+  \vfill
+  \end{parts}
+
+\vfill
+
+\newpage
+
+\question[10] Compute the center of mass $(\bar{x},\bar{y})$ for the
+  region in the first quadrant bounded by $y=0$, $x=1$ and $y=2x^2$.\\
+ 
+
+  \newpage
+
+\question Compute the following integrals and antiderivatives.
+  \begin{parts}
+  \part[6] $\ds \int ( 2^x + \frac{5}{x} + e^{-3} ) \, dx$
+    \vfill
+  \part[6] $\ds \int_0^{\pi/2} x\sin(x) \, dx$
+    \vfill
+  \part[6] $\ds \int x^2e^{(3x)} \, dx$
+    \vfill
+
+    \newpage
+    
+  \part[6] $\ds \int \sin^2(x) \cos^5(x) \, dx$
+    \vfill
+    
+  \part[6] $\ds \int \cos(6x) \sin(2x) \, dx$
+    \vfill
+    
+  \part[7] $\ds \int \frac{dx}{x^2\sqrt{1-x^2}}$
+    \vfill
+
+    \newpage
+
+  \part[7] $\ds \int \frac{x}{x^2 -x -6} \, dx$
+    \vfill
+  \end{parts}
+
+  BONUS (5 points): $\ds \int \frac{x^2}{4+9x^2} \, dx$
+  \vfill
+  
+\end{questions}
+
+\hrulefill
+
+You may find the following trigonometric formulas useful.
+\begin{align*}
+\sin(\alpha \pm \beta) &= \sin \alpha \cos \beta \pm \cos \alpha \sin \beta \qquad &
+    \sin(ax) \sin(bx) &= \frac{1}{2} \cos((a-b)x) - \frac{1}{2} \cos((a+b)x) \\
+\cos(\alpha \pm \beta) &= \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \qquad &
+    \sin(ax) \cos(bx) &= \frac{1}{2} \sin((a-b)x) + \frac{1}{2} \sin((a+b)x) \\
+ && \cos(ax) \cos(bx) &= \frac{1}{2} \cos((a-b)x) + \frac{1}{2} \cos((a+b)x)
+\end{align*}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:
