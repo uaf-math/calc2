@@ -1,6 +1,10 @@
 semester: Fall 2024 (Meek's section)
 home: assets/quizzes/F24/Meek
 quizzes:
+- name: Quiz 10
+  sections: 5.6, 6.1
+  blank: quiz10.pdf
+  solutions: quiz10Sols.pdf
 - name: Quiz 9
   sections: 5.4, 5.5
   blank: quiz09.pdf
