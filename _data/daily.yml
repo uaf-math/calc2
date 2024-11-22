@@ -175,6 +175,26 @@ daily:
 #   date: Th 1/18
 #   extworksheet: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1.pdf
 #   extsolutions: https://uaf-math251.github.io/calc2/assets/quizzes/S22/quiz1solns.pdf
+- name: Section 7.2
+  date: Fri 11/22
+- name: Section 7.1/7.2
+  date: Thu 11/21
+- name: Section 7.1
+  date: Wed 11/20
+- name: Section 6.4
+  date: Mon 11/18
+- name: Section 6.3
+  date: Fri 11/15
+- name: Midterm 2
+  date: Thu 11/14
+- name: Review
+  date: Wed 11/13
+- name: Section 6.3
+  date: Mon 11/11
+- name: Section 6.2
+  date: Fri 11/8
+- name: Section 6.2
+  date: Thu 11/7
 - name: Section 6.1
   date: Wed 11/6
 - name: Section 6.1
