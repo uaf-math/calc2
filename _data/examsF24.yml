@@ -6,3 +6,8 @@ exams:
   cont: 2.6, 2.7, 3.1, 3.2, 3.3, 3.4
   blank: exam1.pdf
   solutions: exam1Sols.pdf
+- name: Midterm Exam 2
+  sections: 3.7, 5.1, 5.2, 5.3, 5.4
+  cont: 5.5, 5.6, 6.1, 6.2, part of 6.3
+  blank: exam2.pdf
+  solutions: exam2Sols.pdf

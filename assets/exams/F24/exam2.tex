@@ -1,0 +1,193 @@
+\documentclass[addpoints,12pt]{exam}
+\pointsinmargin
+\marginpointname{ pts}
+\pagestyle{headandfoot}
+\runningheadrule
+\firstpageheadrule
+\firstpageheader{Math F252X-901}{Exam 2, Page \thepage\ of \numpages}{Fall 2024}
+\runningheader{Math F252X-901}
+{Exam 2, Page \thepage\ of \numpages}
+{Fall 2024}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{tikz,enumerate}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+\pgfplotsset{width=9cm,compat=1.9}
+\tikzset{
+  jumpdot/.style={mark=*,solid},
+  excl/.append style={jumpdot,fill=white},
+  incl/.append style={jumpdot,fill=blue},
+}
+\renewcommand{\arraystretch}{2.25}
+\newcommand{\f}[2]{\displaystyle\frac{#1}{#2}}
+
+\newcommand {\ds}{\displaystyle}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\begin{document}
+	
+\begin{coverpages}
+  \begin{center}
+    \begin{center}
+      \Large{\textbf{Math F252X-901 - Fall 2024}}\\
+      \Large{\textbf{Exam 2}}\\
+      \vspace{0.5in}
+      \normalsize{\begin{itemize}
+        \item No outside materials (e.g. books, notes, calculators,
+          other electronic devices).
+        \item SHOW ALL WORK. Credit may not be given for answers
+          without sufficient work. Cite any tests/theorems you use.
+        \item Illegible work will not be graded.
+        \end{itemize}}
+    \end{center}
+    \vspace{1in}
+		\textbf{Print Name:}\underline{\hspace{4in}}\\
+    \vspace{0.5in}
+    \gradetable[v][pages]
+  \end{center}
+\end{coverpages}
+
+\begin{questions}
+
+\question[6] Evaluate the integral $\ds \int_2^{\infty} \frac{1}{x
+    (\ln(x))^2} \, dx$.
+  \vfill
+
+\question[6] Evaluate the integral $\ds \int_0^3 \frac{1}{x-1} \, dx$.
+  \vfill
+
+\question[6] Find a closed form (explicit formula) for the sequence
+  given by the recurrence relation $\ds a_1 = 6000$, $a_{n+1} =
+  \frac{a_n}{10}$.
+  \vfill
+
+  \newpage
+
+\question[4] Find the first three partial sums for the series $\ds
+  \sum_{k=1}^{\infty} (-1)^k(2^{k-1})$.
+  \vspace{0.2cm}
+  
+  $S_1 =$ \underline{\hspace{4cm}}
+  \vspace{0.5cm}
+  
+  $S_2 =$ \underline{\hspace{4cm}}
+  \vspace{0.5cm}
+  
+  $S_3 =$ \underline{\hspace{4cm}}
+  \vspace{0.5cm}
+
+\question Determine whether the following series converge or
+  diverge. If a series converges, find its sum/limit.
+  \begin{parts}
+  \part[6] $\ds \sum_{n=1}^{\infty} 3^{1/n} - 3^{1/(n+1)}$
+    \vfill
+    
+  \part[6] $\ds \sum_{n=1}^{\infty} \frac{5}{2^n}$
+    \vfill
+  \end{parts}
+
+  \newpage
+
+\question Determine whether the following series coverge or diverge.
+  \begin{parts}
+  \part[6] $\ds \sum_{k=2}^{\infty} \frac{1}{k (\ln(k))^2}$
+    %% integral test using #100%
+    \vfill
+    
+  \part[6] $\ds \sum_{k=5}^{\infty} \frac{2k}{k^2 -4k}$
+    %% limit comparison test with harmonic series
+    \vfill
+
+    \newpage
+    
+  \part[6] $\ds \sum_{k=50}^{\infty} \frac{1}{e^{1/k}}$
+    %% divergence test
+    \vfill
+    
+  \part[6] $\ds \sum_{k=1}^{\infty} \frac{k}{2^k}$
+    %% root test
+    \vfill
+
+    \newpage
+    
+  \part[6] $\ds \sum_{k=0}^{\infty} \frac{5^k}{k!}$
+    %% ratio test
+    \vfill
+    
+  \end{parts}
+
+\question Determine whether the following series converge
+  conditionally, converge absolutely, or diverge.
+  \begin{parts}
+  \part[6] $\ds \sum_{k=0}^{\infty} \frac{(-5)^k}{k!}$
+    %% alt series test + previous problem
+    \vfill
+
+    \newpage
+    
+  \part[6] $\ds \sum_{k=0}^{\infty} \frac{(-1)^{k+1}}{\sqrt{k}}$
+    %% abs value is geometric with |r|<1
+    \vfill
+
+  \end{parts}
+
+\question[6] Find the center, interval, and radius of convergence for
+  the power series $\ds \sum_{n=1}^{\infty} \frac{nx^n}{2^n}$.
+  %% ratio test
+  \vfill
+  
+  center:\underline{\hspace{3cm}} \hfill radius:\underline{\hspace{3cm}} \hfill interval:\underline{\hspace{3cm}}
+
+  \newpage
+  
+\question Find power series representations for the following
+  functions. State the
+  radius of convergence for each. (Recall that $\ds
+  \sum_{k=0}^{\infty} x^k = \frac{1}{1-x}$.)
+  \begin{parts}
+  \part[6] $\ds f(x) = \frac{1}{1+2x}$
+    \vfill
+    
+  \part[6] $\ds g(x) = \frac{2}{(1+2x)^2}$.
+    \vfill
+  \end{parts}
+
+  \newpage
+
+\question[6] Find the Maclaurin series (Taylor series centered at 0)
+  for the function $f(x) = \sin(x)$.
+  \vfill
+  
+\end{questions}
+
+BONUS: (6 points) Determine whether the series $\ds
+\sum_{k=1}^{\infty} \log\left( \frac{n}{n+1} \right)$ converges or
+diverges.
+%% use properties of logarithms to construct a telescoping series
+\vfill
+
+
+\hrulefill
+
+% You may find the following trigonometric formulas useful.
+% \begin{align*}
+% \sin(\alpha \pm \beta) &= \sin \alpha \cos \beta \pm \cos \alpha \sin \beta \qquad &
+%     \sin(ax) \sin(bx) &= \frac{1}{2} \cos((a-b)x) - \frac{1}{2} \cos((a+b)x) \\
+% \cos(\alpha \pm \beta) &= \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \qquad &
+%     \sin(ax) \cos(bx) &= \frac{1}{2} \sin((a-b)x) + \frac{1}{2} \sin((a+b)x) \\
+%  && \cos(ax) \cos(bx) &= \frac{1}{2} \cos((a-b)x) + \frac{1}{2} \cos((a+b)x)
+% \end{align*}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:
