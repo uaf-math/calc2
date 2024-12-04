@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{soul}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 11 \\
+           Math F252X-901, Calculus II  			\hfill	Fall 2024 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Thirty minutes maximum. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item Let $\ds f(x) = \sqrt[3]{x}$.
+  \begin{enumerate}
+  \item \points{8} Find the first order and second order Taylor polynomials for
+    $f(x)$ centered at $a=8$.
+    \vfill
+
+  \item \points{8} Use the first order Taylor polynomial to estimate $\ds \sqrt[3]{7}$.
+    \vfill
+  \end{enumerate}
+
+  \newpage
+
+\item \points{8} Find the Taylor series for $\ds g(x) = \ln(x)$ centered at $a=1$
+  (Wait, haven't we seen this before?).
+
+  \vfill
+
+\item \points{8} Find the radius and interval of convergence for the Taylor
+  series you found in problem 2 above.
+
+  \vfill
+
+  RADIUS OF CONVERGENCE:\underline{\hspace{2cm}} INTERVAL OF CONVERGENCE:\underline{\hspace{2cm}} 
+  
+\end{enumerate}
+
+\newpage
+
+BONUS (5 points) What is the 32nd derivative of $\ds f(x) = e^{x^2}$
+at $x=0$. I.E., find $f^{(32)}(0)$.
+(Hey, this looks familiar too!).
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
