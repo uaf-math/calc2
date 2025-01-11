@@ -16,7 +16,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 Log in to the Canvas page for your section:
 
-  * section 902 in-person Fall 2024 (Meek): [canvas.alaska.edu/courses/24107](https://canvas.alaska.edu/courses/24107)
+  * section 902 in-person Spring 2025 (Meek): [canvas.alaska.edu/courses/24107](https://canvas.alaska.edu/courses/24107)
   * section 001 online Fall 2024 (Gossell): [canvas.alaska.edu/courses/21589](https://canvas.alaska.edu/courses/21589)
 
 to see
