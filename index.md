@@ -7,7 +7,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 ### Instructors
 
-  * Kevin Meek for in-person section 901 (CRN 73172) in Chapman 208
+  * Kevin Meek for in-person section 902 (CRN 35128) 
     * Chapman 301C, [krmeek2@alaska.edu](mailto:krmeek2@alaska.edu)
   * James Gossell for online, asynchronous section (CRN 72472)
     * Chapman 301D, [jegossell@alaska.edu](mailto:jegossell@alaska.edu)
@@ -16,7 +16,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 Log in to the Canvas page for your section:
 
-  * section 901 in-person Fall 2024 (Meek): [canvas.alaska.edu/courses/21592](https://canvas.alaska.edu/courses/21592)
+  * section 902 in-person Fall 2024 (Meek): [canvas.alaska.edu/courses/24107](https://canvas.alaska.edu/courses/24107)
   * section 001 online Fall 2024 (Gossell): [canvas.alaska.edu/courses/21589](https://canvas.alaska.edu/courses/21589)
 
 to see

@@ -1,0 +1,111 @@
+\documentclass[12pt]{article}
+\usepackage[top=1.0in, bottom=0.5in, left=0.9in, right=1.0in]{geometry}
+
+\usepackage{tabularx,enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{palatino}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true,urlcolor=black]{hyperref}
+\usepackage[nodayofweek]{datetime}
+
+% commands to put defined left and right headers on the top
+% and a page number on the bottom of all pages after 1
+\pagestyle{fancy}
+\makeatletter
+\fancyfoot[C]{\ifnum \value{page} > 1\relax\thepage\fi}
+\fancyhead[L]{\ifx\@doclabel\@empty\else\@doclabel\fi}
+\fancyhead[R]{\ifx\@docdate\@empty\else\@docdate\fi}
+\headheight 15pt
+\headsep 5pt
+\def\doclabel#1{\gdef\@doclabel{#1}}
+\def\docdate#1{\gdef\@docdate{#1}}
+\makeatother
+
+%% General formatting parameters
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% header content
+\doclabel{Math F252 Calculus II}
+\docdate{Spring 2025}
+
+% macros
+\renewcommand{\d}{\displaystyle}
+\newcommand{\wkday}[3]{\textbf{\large #1\strut}\quad #2\,--\,#3}
+\newcommand{\vacinline}[1]{{\color{OliveGreen} \textsl{#1}}}
+\newcommand{\vac}[1]{\strut {\small {\vacinline{#1}}}}
+\newcommand{\due}[1]{\strut {\color{BrickRed} \textsl{#1}}}
+\newcommand{\hdue}[1]{\due{H #1}}
+\newcommand{\proj}[1]{\strut {\color{RedOrange} #1}}
+\newcommand{\dl}[1]{{\small \color{Purple} \textbf{#1}}}
+
+\newcommand{\ee}[1]{\strut {\color{Blue} \textbf{#1}}}
+\newcommand{\qq}[1]{\strut {\color{RedOrange} #1}}
+
+
+\begin{document}
+\noindent\footnotesize \emph{version 1.01: \today} \normalsize \hfill Meek (\textbf{section 902 in-person})
+
+\medskip
+\centerline{\large \textbf{Weekly Schedule}}
+
+\medskip
+The schedule below is subject to changes!  See the public course webpage for details:
+
+\medskip
+
+\centerline{\href{https://uaf-math251.github.io/calc2/}{\texttt{uaf-math251.github.io/calc2}}}
+
+\noindent MWF classes start at 9:15, Th at 9:45, in Duckering 341.
+Thursday \qq{Quizzes} start after 30 minutes of lecture.  Note
+\vac{vacation days}, \ee{Exams}, and \dl{deadlines}.  \due{Homework}
+for each section, due at 11:59pm on the date given, is on the
+\href{https://uaf-math251.github.io/calc2/}{Homework tab} of the
+public webpage.  Please upload Homework using Gradescope, accessed
+from the Canvas page.
+
+\medskip
+
+\begin{tabularx}{1.03\textwidth}{l|>{\raggedright\arraybackslash}X|X|X|X|}
+\textbf{Week} \quad Dates & M & W & Th & F \\ \hline
+
+\wkday{1}{1/13}{1/17}   & Intro/review & 2.1 & 2.2 \par \mbox{\qq{Q1}} & \phantom{x} \par \hdue{Review (Sat)} \\ \hline
+
+\wkday{2}{1/20}{1/24}   & \vac{Civil Rights Day} \par \mbox{\hdue{2.1}} & 2.3 \par \hdue{2.2} & \phantom{x} \par \qq{Q2} & 2.4 \par \dl{drop} \\ \hline
+
+\wkday{3}{1/27}{1/31}    & \phantom{x} \par \hdue{2.3} & 2.5 \par \hdue{2.4} & 2.6 \par \qq{Q3} &  \\ \hline
+
+\wkday{4}{2/3}{2/7}     & 2.7 \par \hdue{2.5} & \phantom{x} \par \hdue{2.6} & 3.1 \par \qq{Q4} &  \\ \hline
+
+\wkday{5}{2/10}{2/14}   & 3.2 \par \hdue{2.7, 3.1} & \phantom{x} \par \hdue{3.2} & 3.3 \par \qq{Q5} &  \\ \hline
+
+\wkday{6}{2/17}{2/21}   & 3.4\par \hdue{3.3} & review \par \hdue{3.4} & \ee{Midterm 1} & 3.6 \\ \hline
+
+\wkday{7}{2/24}{3/28}    & 3.7 & \phantom{x} \par \hdue{3.6} & 4.1 &   \\ \hline
+
+\wkday{8}{3/3}{3/7}     & 5.1 \par \hdue{3.7} & \phantom{x} \par \hdue{4.1} & \phantom{x} \par \qq{Q6} & 5.2 \\ \hline
+
+\wkday{9}{3/10}{3/14}   & \vac{Spring Break} & \vac{Spring Break} & \vac{Spring Break} & \vac{Spring Break} \\ \hline
+
+\wkday{10}{3/17}{3/21}  & \phantom{x} \par \hdue{5.1} & 5.3 \par \hdue{5.2} & \phantom{x} \par \qq{Q7} &  \\ \hline
+
+\wkday{11}{3/24}{3/28}  & 5.4 \par \hdue{5.3} & \phantom{x} \par \hdue{5.4} & 5.5 \par \qq{Q8} & \mbox{\dl{withdrawal}} \\ \hline
+
+\wkday{12}{3/31}{4/4}    & 5.6 \par \hdue{5.5} & \phantom{x} \par \hdue{5.6} & 6.1 \par \qq{Q9} &  \\ \hline
+
+\wkday{13}{4/7}{4/11}   & 6.2 \par \hdue{6.1} & review \par \hdue{6.2} & \ee{Midterm 2} & 6.3  \\ \hline
+
+\wkday{14}{4/14}{4/18}  &  & 6.4 \par \hdue{6.3} & \phantom{x} \par \qq{Q10} &  \\ \hline
+
+\wkday{15}{4/21}{4/25}  & 7.1 \par \hdue{6.4} & 7.2 \par \hdue{7.1} & \phantom{x} \par \qq{Q11} & 7.3 \par \hdue{7.2} \\ \hline
+
+\wkday{16}{4/28}{5/2}   & \phantom{x} \par \hdue{7.3} & \ee{Final Exam} \par 10:15--12:15 & & \\ \hline
+
+\end{tabularx}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:
