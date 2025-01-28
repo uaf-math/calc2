@@ -13,7 +13,7 @@ The table below gives the section coverage Quizzes.  PDFs for the Quizzes themse
 
 ### Spring 2025
 
-{% include quiz_table.md  data=site.data.quizzesF24 %}
+{% include quiz_table.md  data=site.data.quizzesS25 %}
 
 ### Old Quizzes: Fall 2024
 
