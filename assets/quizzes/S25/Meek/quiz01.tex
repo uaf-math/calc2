@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 1 \\
+           Math F252X-902, Calculus II  			\hfill	Spring 2025 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+16 points possible; each part is worth 2 points. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+\item Compute the derivatives of the following functions.
+  \begin{enumerate}
+  \item $\ds f(x) = x \ln(x) + \frac{\pi}{4}$
+    \vfill
+
+  \item $\ds h(\theta) = \sin(\theta)\sec(\theta)$ (Simplify as much
+    as possible.)
+    \vfill
+
+    \newpage
+
+  \item $\ds y = \frac{e^{(2x)}}{x^4+e}$ (Do not simplify.)
+    \vfill
+
+  \item $\ds G(z) = \sin(z^a - b)$ where $a$ and $b$ are constants
+    \vfill
+
+  % \item $\ds F(x) = \arcsin(x^2)$
+    % \vfill
+  \end{enumerate}
+  
+  \newpage
+
+\item Compute the following antiderivatives (indefinite integrals) and definite integrals.
+  \begin{enumerate}
+  \item $\ds \int_0^2 \frac{x}{x^2+1} \, dx$
+    \vfill
+
+  \item $\ds \int \frac{\csc^2(x)}{\cot^2(x)} \, dx$
+    \vfill
+
+    \newpage
+
+  \item $\ds \int \frac{1+e^{2x}-e^{5x}}{e^{x}} \, dx$
+    \vfill
+
+  \item $\ds \int x \sqrt{x+3} \, dx$
+    \vfill
+
+  \end{enumerate}
+  
+    
+    
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
