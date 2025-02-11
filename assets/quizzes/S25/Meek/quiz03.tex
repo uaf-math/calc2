@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 3 \\
+           Math F252X-902, Calculus II  			\hfill	Spring 2025 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Graded out of 27 points. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item
+  \begin{enumerate}
+  \item \points{3} Sketch the region in the first quadrant bounded by $y=1-x^2$, the $x$-axis, and the $y$-axis.
+    \vfill
+    
+  \item \points{4} Write an integral to compute the volume of the
+    solid of revolution obtained by rotating the region from part (a)
+    about the $x$-axis using the slicing method (disc/washer
+    method). Do not evaluate the integral.
+    \vfill
+
+  \item \points{4} Write an integral to compute the volume of the
+    solid of revolution obtained by rotating the region from part (a)
+    about the $y$-axis using the slicing method (disc/washer
+    method). Do not evaluate the integral.
+    \vfill
+
+    \newpage
+    
+  \item \points{4} Write an integral to compute the volume of the
+    solid of revolution obtained by rotating the region from part (a)
+    about the $x$-axis using the method of cylindrical shells. Do not
+    evaluate the integral.
+    \vfill
+ 
+  \item \points{4} Write an integral to compute the volume of the
+    solid of revolution obtained by rotating the region from part (a)
+    about the $y$-axis using the method of cylindrical shells. Do not
+    evaluate the integral.
+    \vfill
+  \end{enumerate}
+
+\item \points{4} Write an integral to compute the arc length of the
+  curve $y=\cos(x)$ from $x=-\frac{\pi}{2}$ to $x=\frac{\pi}{2}$. Do
+  not evaluate the integral.
+  \vfill
+
+\item \points{4} Write an integral to compute the area of the surface
+  formed by revolving the graph of $y=x^4$ on the interval $[-1,1]$
+  around the $x$-axis. Do not evaluate the integral.
+  \vfill
+
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

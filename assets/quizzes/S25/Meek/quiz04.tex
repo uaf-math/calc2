@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 4 \\
+           Math F252X-902, Calculus II  			\hfill	Spring 2025 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Graded out of 30 points. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+\item \points{8} A $1$-meter spring requires 10 joules to stretch the spring to
+  1.1 meters. How much work would it take to stretch the spring from 1
+  meter to 1.2 meters? Include units with your answer.
+  \vfill
+  \vfill
+
+\item\points{6} Find the mass of a metal rod that is 4 meters long (starting at
+  $x=2$) and has density function $\ds \rho(x)=\frac{5}{x}$ grams per
+  meter. Include units with your answer.
+  \vfill
+
+  \newpage
+
+\item \points{8} Find the center of mass of a system with the
+  following point masses. Include units with your answer.
+  \begin{itemize}
+  \item $m_1$ is 3kg, placed at $(-3,4)$
+  \item $m_2$ is 5kg, placed at $(1,5)$
+  \item $m_3$ is 2kg, placed at $(2,-1)$
+  \end{itemize}
+  \vfill
+
+
+\item \points{8} Find the center of mass (or, equivalently, the centroid) for
+  the region in the first quadrant bounded by $y=4-x^2$, $y=0$, and
+  $x=0$. Simplify ONLY within reason.
+  $$
+  m=\rho \int_a^b f(x) \, dx, M_x = \rho \int_a^b \frac{(f(x))^2}{2} \, dx , M_y = \rho \int_a^b xf(x) \, dx
+  $$
+  \vfill
+  \vfill
+
+  \newpage
+  
+\item \points{3} (BONUS) Find the centroid (center of mass)
+  for the region bounded by $y=\cos(2x)$ and
+  $\ds y=\sin\left(2x-\frac{\pi}{2}\right)$ on the interval $\ds \left[-\frac{\pi}{2},
+  \frac{\pi}{2}\right]$. Answers without justification will receive zero points.
+  \vfill
+
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
