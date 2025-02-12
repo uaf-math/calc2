@@ -1,6 +1,10 @@
 semester: Spring 2025 (Meek's section)
 home: assets/quizzes/S25/Meek
 quizzes:
+- name: Quiz 4
+  sections: 2.5, 2.6
+  blank: quiz04.pdf
+  solutions: quiz04Sols.pdf
 - name: Quiz 3
   sections: 2.3, 2.4
   blank: quiz03.pdf
