@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 9 \\
+           Math F252X-902, Calculus II  			\hfill	Spring 2025 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Graded out of 40 points. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+\vspace{0.3cm}
+
+\begin{enumerate}
+\item Determine whether each of the following series diverges,
+  converges conditionally, or converges absolutely.
+
+  \begin{enumerate}
+  \item \points{10} $\ds \sum_{n=2}^{\infty} \frac{(-1)^n}{n^2\ln(n)}$
+    \vfill
+    
+  \item \points{10} $\ds \sum_{k=0}^{\infty} \frac{(-1)^{k-1}}{2(k+1)}$
+    \vfill
+
+  \end{enumerate}
+    
+  \newpage
+
+\item Determine whether each of the following series converges or
+  diverges.
+
+  \begin{enumerate}
+  \item \points{10} $\ds \sum_{k=1}^{\infty} \frac{5^k}{k!}$
+    \vfill
+    
+  \item \points{10} $\ds \sum_{n=5}^{\infty} \frac{n}{2^n}$
+    \vfill
+  \end{enumerate}
+
+  % \item Use the integral test to show that $\ds \sum_{n=1}^{\infty} \frac{1}{n^p}$ converges for $p > 1$
+  %   \vfill
+  
+  
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

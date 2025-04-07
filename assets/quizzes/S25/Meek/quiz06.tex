@@ -1,0 +1,97 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 6 \\
+           Math F252X-902, Calculus II  			\hfill	Spring 2025 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Graded out of 40 points. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item Evaluate the following integrals and antiderivatives.
+  \begin{enumerate}
+    \item \points{10} $\ds \int \frac{3x}{x^2 + 2x - 8} \, dx$
+      \vfill
+
+    \item \points{10} $\ds \int \frac{dx}{x^3+x}$
+      \vfill
+
+  \end{enumerate}
+
+  \newpage
+
+\item Determine whether each of the following integrals converge or
+  diverge. If an integral converges, find the value that it converges
+  to.
+  \begin{enumerate}
+    \item \points{10} $\ds \int_0^{\infty} e^{-x} \, dx$
+      \vfill
+
+    \item \points{10} $\ds \int_{-1}^2 \frac{dx}{x^3}$
+      \vfill
+  \end{enumerate}
+
+  \newpage
+
+  BONUS (2 points) Determine whether the following integral converges
+  or diverges. If it converges, find its value.
+  $$
+  \int_0^4 x\ln(4x) \, dx
+  $$
+  
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

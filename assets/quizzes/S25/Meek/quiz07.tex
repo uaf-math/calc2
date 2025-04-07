@@ -1,0 +1,129 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{pgfplots}
+
+\usepackage{longtable}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\points}[1]{(#1 points.)}		% Trying to be lazy.
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\topmargin -1in
+\textheight 9.5in
+\oddsidemargin -0.3in
+\evensidemargin \oddsidemargin
+\pagestyle{empty}
+%\marginparwidth 0.5in
+\textwidth 7in
+\parindent 0in
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+%						Document
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\pagestyle{plain}
+
+\noindent \textbf{Name:} \underline{\hspace{15em}}		\hfill	Quiz 7 \\
+           Math F252X-902, Calculus II  			\hfill	Spring 2025 	
+
+%-------------------------------------------------------------------------------------------------------------
+%						Assignment
+%-------------------------------------------------------------------------------------------------------------
+                \vspace{1cm}
+                
+Graded out of 40 points. No aids (book, notes,
+calculator, phone, etc.) are permitted. Show all work and use proper
+notation for full credit. Answers should be in reasonably simplified
+form.
+
+\begin{enumerate}
+
+\item Consider the sequence $a_1 = 0$, $a_n = 2a_{n-1} + 1$.
+  \begin{enumerate}
+  \item \points{4} Write out the first four terms of this sequence.
+    \vfill
+
+  \item \points{6} Find an explicit formula for the $n$th term of this sequence.
+    \vfill
+  \end{enumerate}
+
+\item Consider the sequence $\ds \left\{ \frac{1}{2}, \frac{2}{3},
+    \frac{3}{4}, \frac{4}{5}, \frac{5}{6}, \dots \right\}$.
+
+  \begin{enumerate}
+  \item \points{4} Find an explicit formula for the $n$th term of this sequence.
+    \vfill
+
+  \item \points{6} Determine whether the sequence converges or diverges. If the
+    sequence converges, find its limit. {\bf Justify your answer!}
+    \vfill
+  \end{enumerate}
+
+  \newpage
+
+\item Consider the series $\ds \sum_{n=1}^{\infty} \left( \sqrt{n} -
+    \sqrt{n+1} \right) $.
+  \begin{enumerate}
+  \item \points{4} Write out the first four partial sums:
+    \vspace{0.3cm}
+
+    $S_1 = $
+    \vspace{0.3cm}
+
+    $S_2 = $
+    \vspace{0.3cm}
+
+    $S_3 = $
+    \vspace{0.3cm}
+
+    $S_4 = $
+    \vspace{0.3cm}
+
+  \item \points{6} Determine whether the series converges or diverges. If it
+    converges, find its limit. {\bf Justify your answer!}
+    \vfill
+
+  \end{enumerate}
+
+\item Consider the series $1 + e + e^2 + e^3 + \dots$.
+  \begin{enumerate}
+  \item \points{4} Rewrite the series using summation notation.
+    \vfill
+
+  \item \points{6} Determine whether the series converges or diverges. If it
+    converges, find its limit. {\bf Justify your answer!}
+    \vfill
+  \end{enumerate}
+  
+  \newpage
+
+\item \points{2} BONUS: Determine whether the series $\ds
+  \sum_{n=1}^{\infty} \frac{1}{n(n+1)}$ converges or diverges. If it
+  converges, find its limit. {\bf Justify your answer!}
+  
+\end{enumerate}
+
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
