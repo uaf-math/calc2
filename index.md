@@ -5,19 +5,22 @@ title: Math F252 Calculus II at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
+# **This Page is Under Construction for FALL 2025**
+
 ### Instructors
 
-  * Kevin Meek for in-person section 902 (CRN 35128) 
-    * Chapman 301C, [krmeek2@alaska.edu](mailto:krmeek2@alaska.edu)
-  * James Gossell for online, asynchronous section (CRN 72472)
-    * Chapman 301D, [jegossell@alaska.edu](mailto:jegossell@alaska.edu)
-
+  * Deven Barnett for in-person section 902 (CRN 76437) 
+    * Chapman 303C, [dcbarnett@alaska.edu](mailto:dcbarnett@alaska.edu)
+  * Jill Faudree for in-person section 901 (CRN 73246)
+    * Chapman 306B, [jrfaudree@alaska.edu](mailto:jrfaudree@alaska.edu)
+  * Levi McClurg for asynchronous section 001 (CRN 72496)
+    * Chapman ZZZ, [ljmcclurg@alaska.edu](mailto:ljmcclurg@alaska.edu)
 ### Canvas course pages
 
 Log in to the Canvas page for your section:
 
-  * section 902 in-person Spring 2025 (Meek): [canvas.alaska.edu/courses/24107](https://canvas.alaska.edu/courses/24107)
-  * section 001 online Fall 2024 (Gossell): [canvas.alaska.edu/courses/21589](https://canvas.alaska.edu/courses/21589)
+  * in-person sections (901,902): [canvas.alaska.edu/courses/24107](https://canvas.alaska.edu/courses/27071)
+  * asychronous section (001): [canvas.alaska.edu/courses/21589](https://canvas.alaska.edu/courses/27067)
 
 to see
 
