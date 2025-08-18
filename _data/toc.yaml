@@ -2,26 +2,26 @@ sidenavtitle: 'MATH F252'
 
 docs:
 
-- title: Syllabus (Meek)
-  url: assets/general/S25/meek/syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
+- title: Syllabus (in-person)
+  url: assets/general/f25/M252_f25_syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
 
-- title: Syllabus (Gossell)
-  url: assets/general/F24/M252f24_syllabus.pdf
+- title: Syllabus (async)
+  url: assets/general/f25/M252f24_syllabus.pdf
 
-- title: Schedule (Meek)
-  url: assets/general/S25/meek/schedule.pdf  # rebuild by "make schedule.pdf" in directory
+- title: Schedule (in-person)
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTOF-YOVqqB-MTwrxCpTC2GFHkvhlc3OMeVsltm1G4O2OvQQH-1Xhi9aUhZ8M506ZIhe1UIQKlEjSwB/pubhtml?gid=0&single=true
 
 - title: Homework
   url: homework.html
+
+- title: Worksheets
+  url: worksheets.html
 
 - title: Quizzes (Meek)
   url: quizzes.html
 
 - title: Exams
   url: exams.html
-
-# - title: Daily log (Meek)
-#   url: daily.html
 
 - title: Tech Help
   url: techHelp.html
