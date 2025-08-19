@@ -1,9 +1,9 @@
 semester: Fall 2025
 home: assets/worksheets/F25
 worksheets:
-- name: Day 1 Intro to Class
-  blank: Day1-Intro-Review.pdf
-  solutions: Day1-Intro-Review-s.pdf
-- name: Day 1 (practice)
+- name: Day 1 Review Formulas
+  blank: M252-f25-formula-Review.pdf
+  solutions: M252-f25-formula-Review-s.pdf
+- name: Day 1 (practice quiz 1)
   blank: quiz1.pdf
   solutions: quiz1solns.pdf
