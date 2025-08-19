@@ -3,10 +3,10 @@ sidenavtitle: 'MATH F252'
 docs:
 
 - title: Syllabus (in-person)
-  url: assets/general/f25/M252_f25_syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
+  url: assets/general/F25/M252_f25_syllabus.pdf  # rebuild by "make syllabus.pdf" in directory
 
 - title: Syllabus (async)
-  url: assets/general/f25/M252f25_syllabus_async.pdf
+  url: assets/general/F25/M252f25_syllabus_async.pdf
 
 - title: Schedule (in-person)
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTOF-YOVqqB-MTwrxCpTC2GFHkvhlc3OMeVsltm1G4O2OvQQH-1Xhi9aUhZ8M506ZIhe1UIQKlEjSwB/pubhtml?gid=0&single=true
