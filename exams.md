@@ -7,9 +7,11 @@ title: Exams
 
 The table below gives the coverage for upcoming Exams.  <b>The best guides to the content of an Exam are the [Quizzes](quizzes.html) leading up to the Exam, and also the [Homework assignments](homework.html).</b>
 
-### Fall 2023
+### Fall 2025
 
 **Coming Soon !!**
+
+{% include exam_table.md  data=site.data.examsF25 %}
 
 <b>Old Exams appear below!</b>
 
