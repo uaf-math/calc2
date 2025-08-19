@@ -15,6 +15,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
     * Chapman 306B, [jrfaudree@alaska.edu](mailto:jrfaudree@alaska.edu)
   * Levi McClurg for asynchronous section 001 (CRN 72496)
     * Chapman ZZZ, [ljmcclurg@alaska.edu](mailto:ljmcclurg@alaska.edu)
+
 ### Canvas course pages
 
 Log in to the Canvas page for your section:
