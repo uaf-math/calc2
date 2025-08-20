@@ -7,3 +7,6 @@ worksheets:
 - name: Day 1 (practice quiz 1)
   blank: quiz1.pdf
   solutions: quiz1solns.pdf
+- name: Section 2.1
+  blank: M252-2-1.pdf
+  solutions: 
