@@ -22,6 +22,7 @@ homework:
   sections:
   - section: 2.2
     problems: 58, 64, 68, 76, 80, 84, 86, 98, 110
+    cont: Try 76-98 first! (They are easier!)
 - name: Homework 2.3
   sections:  
   - section: 2.3
