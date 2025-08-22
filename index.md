@@ -9,12 +9,15 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 ### Instructors
 
-  * Deven Barnett for in-person section 902 (CRN 76437) 
-    * Chapman 303C, [dcbarnett@alaska.edu](mailto:dcbarnett@alaska.edu)
+  * Deven Barnett for in-person section 902 (CRN 76437)
+    * (course info:) MWF 11:45am-12:45pm, Th 11:30am-1:00pm, Chapman 204  
+    * (instructor office:) Chapman 303C, [dcbarnett@alaska.edu](mailto:dcbarnett@alaska.edu)
   * Jill Faudree for in-person section 901 (CRN 73246)
-    * Chapman 306B, [jrfaudree@alaska.edu](mailto:jrfaudree@alaska.edu)
+    * (course info:) MWF 11:45am-12:45pm, Th 11:30am-1:00pm, Grue 208
+    * (instructor office:) Chapman 306B, [jrfaudree@alaska.edu](mailto:jrfaudree@alaska.edu)
   * Levi McClurg for asynchronous section 001 (CRN 72496)
-    * Chapman ZZZ, [ljmcclurg@alaska.edu](mailto:ljmcclurg@alaska.edu)
+    * (course info:) asynchronous online on Canvas
+    * (instructor office:) Chapman ZZZ, [ljmcclurg@alaska.edu](mailto:ljmcclurg@alaska.edu)
 
 ### Canvas course pages
 
