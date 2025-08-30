@@ -23,11 +23,11 @@ homework:
   - section: 2.2
     problems: 58, 64, 68, 76, 80, 84, 86, 98, 110
     cont: Try 76-98 first! (They are easier!)
-- name: Homework 2.3
+- name: Homework 2.3 (Updated 30 Aug 2025)
   sections:  
   - section: 2.3
-    problems: 114, 120, 122, 133, 138, 150
-    cont: 159, 160
+    problems: 114, 120, 122, 132, 138, 143,
+    cont: 148, 150, 159
 - name: Homework 2.4
   sections:
   - section: 2.4
