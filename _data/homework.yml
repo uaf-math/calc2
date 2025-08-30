@@ -28,11 +28,11 @@ homework:
   - section: 2.3
     problems: 114, 120, 122, 132, 138, 143,
     cont: 148, 150, 159
-- name: Homework 2.4
+- name: Homework 2.4 (Updated 30 Aug 2025)
   sections:
   - section: 2.4
     problems: 166, 168, 170, 172, 175, 176,
-    cont: 184, 192, 198, 200, 209, 213
+    cont: 184, 192, 198
 - name: Homework 2.5
   sections:
   - section: 2.5
