@@ -13,3 +13,18 @@ worksheets:
 - name: Section 2.2
   blank: M252-2-2.pdf
   solutions: M252-2-2-ss.pdf
+- name: Section 2.3
+  blank: M252-2-3.pdf
+  solutions: M252-2-3-s.pdf
+- name: Section 2.3 (day 2)
+  blank: M252-2-3-a.pdf
+  solutions: M252-2-3-a-s.pdf
+- name: Section 2.4
+  blank: M252-2-4.pdf
+  solutions: M252-2-4-s.pdf
+- name: Section 2.4 (day 2)
+  blank: M252-2-4-a.pdf
+  solutions: M252-2-4-a-s.pdf
+
+
+
