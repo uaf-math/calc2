@@ -1,0 +1,11 @@
+semester: Fall 2025
+home: assets/quizzes/F25
+quizzes:
+- name: Quiz 1
+  sections: Review
+  blank: M252F25_quiz1.pdf
+  solutions: M252F25_quiz1-s.pdf
+- name: Quiz 2
+  sections: 2.1, 2.2
+  blank: M252F25_quiz2.pdf
+  solutions: M252F25_quiz2-s.pdf
