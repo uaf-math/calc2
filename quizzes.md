@@ -13,7 +13,7 @@ The table below gives the section coverage Quizzes.  PDFs for the Quizzes themse
 
 ### Fall 2025
 
-Coming Soon!
+{% include quiz_table.md  data=site.data.quizzesF25 %}
 
 ### Spring 2025
 
