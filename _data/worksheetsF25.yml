@@ -34,5 +34,7 @@ worksheets:
 - name: Section 2.6
   blank: M252-2-6.pdf
   solutions: M252-2-6-s.pdf
-
+- name: Section 2.7
+  blank: M252-2-7.pdf
+  solutions: M252-2-7-s.pdf
 
