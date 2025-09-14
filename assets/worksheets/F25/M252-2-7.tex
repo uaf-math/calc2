@@ -1,0 +1,70 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 2.7}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 2.7: Integrals, Exponential Functions and Logarithms}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item List things you know about the function $f(x)=\ln(x)$.
+\vspace{1.5in}
+\item A new definition for the natural logarithm.
+\vspace{1.5in}
+\item Explain/justify how the facts below follow immediately from this definition.
+	\begin{enumerate}	
+	\item $\ln(1)=0.$
+	\vfill
+	\item If $0 < x <1,$ then $\ln(x) < 0.$
+	\vfill
+	\item The domain of $f(x)=\ln(x)$ is restricted to positive $x$-values.
+	\vfill
+	\item The graph of $f(x)=\ln(x)$ keeps growing but is grows at a slower and slower rate.
+	\vfill
+	\item $\frac{d}{dx} \left( \ln(x) \right) = \frac{1}{x}.$
+	\vfill
+	\end{enumerate}
+\newpage
+\item Another way to discover logarithm rules.
+\vspace{1.5in}
+\item Another view of the number $e$ and the function $g(x)=e^x.$
+\vfill
+\item Use this definition (and rules about logarithms) to confirm the rule $e^pe^q=e^{p+q}.$
+\vfill
+\item Use the fact that $N=e^{\ln(N)}$ provided $N>0,$ to find the derivative of $y=a^x$ for $a>0.$
+\vfill
+\end{enumerate}
+\end{document}
+
