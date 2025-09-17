@@ -40,3 +40,12 @@ worksheets:
 - name: Section 3.1
   blank: M252-3-1.pdf
   solutions: M252-3-1-s.pdf
+- name: Section 3.2
+  blank: M252-3-2.pdf
+  solutions: M252-3-2-s.pdf
+- name: Section 3.2 (day 2)
+  blank: M252-3-2-a.pdf
+  solutions: M252-3-a-s.pdf
+- name: Section 3.2 (FYI more problems)
+  blank: 3p2merge.pdf
+  solutions: 3p2mergesolns.pdf
