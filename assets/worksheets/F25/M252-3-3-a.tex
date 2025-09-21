@@ -1,0 +1,87 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.3 (day 1)}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.3: Trigonometric Substitution (Day 1)}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item Compare the following three integrals:
+	\begin{enumerate}
+	\item $\displaystyle{\int x\sqrt{9-x^2}\: dx}$
+	\vspace{1in}
+	\item $\displaystyle{\int \frac{dx}{\sqrt{9-x^2}}}$
+	\vspace{1in}
+	\item $\displaystyle{\int  \sqrt{9-x^2}\: dx}$
+	\vfill
+	\end{enumerate}
+\item Summary: If {\Large{$\sqrt{a^2-x^2}$}} appears in an integrand (\textbf{and} other techniques do not work), then\\
+\vspace{.2in}
+\item Evaluate $\displaystyle{\int \frac{dx}{x^2\sqrt{4-x^2}}}$
+\vfill
+\newpage
+\item Compare the following integrals: 
+\begin{enumerate}
+	\item $\displaystyle{\int x\sqrt{9+x^2}\: dx}$
+	\vspace{0.5in}
+	\item $\displaystyle{\int \frac{dx}{{9+x^2}}}$
+	\vspace{0.5in}
+	\item $\displaystyle{\int \frac{dx}{\sqrt{9+x^2}}}$
+	\vfill
+	\item $\displaystyle{\int  \frac{dx}{\sqrt{x^2-9}}\: dx}$
+	\vfill
+	\end{enumerate}
+\item Summary: 
+	\begin{itemize}
+	\item If {\Large{$\sqrt{a^2+x^2}$}} appears in an integrand (\textbf{and} other techniques do not work), then\\
+	\vspace{.2in}
+	\item If {\Large{$\sqrt{x^2-a^2}$}} appears in an integrand (\textbf{and} other techniques do not work), then\\
+	\vspace{.2in}
+	\end{itemize}
+
+\item Evaluate 
+	\begin{enumerate}
+	\item $\displaystyle{\int \frac{\sqrt{4+x^2}}{x} \: dx }$
+	\vfill
+	\item $\displaystyle{\int \frac{dx}{(x^2-9)^{3/2}}}$
+	\vfill
+	\end{enumerate}
+	
+
+
+\end{enumerate}
+\end{document}
+

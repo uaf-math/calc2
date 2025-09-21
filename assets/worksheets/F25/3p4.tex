@@ -1,0 +1,71 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.1}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\ds}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.4: Integration by Partial Fractions}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item Express the rational function as a sum of simpler rational functions.  That is: \textbf{expand in partial fractions}.
+
+	\begin{enumerate}
+	\item \emph{like 3.4 \#182} \qquad $\ds \frac{2}{(x-1)(x-3)} = $
+	\vfill
+	
+	\item \emph{3.4 \#183} \qquad $\ds \frac{x^2 + 1}{x(x+1)(x+2)} = $
+	\vfill
+	
+	\item \emph{3.4 \#188} \qquad $\ds \frac{1}{(x-1)(x^2+1)} = $
+	\vfill
+	\end{enumerate}
+
+\item \textbf{Evaluate the integrals using partial fractions}.
+
+	\begin{enumerate}
+	\item \emph{3.4 \#204} \qquad $\ds \int \frac{2}{x^2 - x - 6}\,dx = $
+	\vfill
+
+\clearpage\newpage
+	\item \emph{like 3.4 \#211} \qquad $\ds \int \frac{x+3}{(x^2+1)(x-4)}\,dx = $
+	\vfill
+
+	\item \emph{like 3.4 \#203} \qquad $\ds \int_1^2 \frac{2-x}{x^2+x}\,dx = $
+	\vfill
+
+	\item \emph{3.4 \#227}; \emph{hint: start with a substitution} \qquad $\ds \int \frac{1}{1+e^x}\,dx =$
+	\vfill
+	\end{enumerate}
+\end{enumerate}
+\end{document}
