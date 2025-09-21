@@ -46,6 +46,21 @@ worksheets:
 - name: Section 3.2 (day 2)
   blank: M252-3-2-a.pdf
   solutions: M252-3-a-s.pdf
-- name: Section 3.2 (FYI more problems)
+- name: Section 3.2 (more problems)
   blank: 3p2merge.pdf
   solutions: 3p2mergesolns.pdf
+- name: Section 3.3
+  blank: M252-3-3-a.pdf
+  solutions: M252-3-3-a-s.pdf
+- name: Section 3.4 
+  blank: M252-3-4.pdf
+  solutions: M252-3-4-s.pdf
+- name: Section 3.4 (more problems)
+  blank: 3p4.pdf
+  solutions: 3p4solns.pdf
+- name: Integration Practice 
+  blank: M252-ch3-integration-practice.pdf
+  solutions: M252-ch3-integration-practice-s.pdf
+- name: Midterm 1 Review Problems 
+  blank: .pdf
+  solutions: .pdf
