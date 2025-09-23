@@ -1,0 +1,102 @@
+
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.2 \& 3.3}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Last of 3.2 Trig Integrals and 3.3 Trig Substitution}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item Trigonometric Identities (Fill in the set of Pythagorean Identities.)\\
+
+\begin{tabular}{ccc}
+Half-Angle/Double Angle && Sum and Difference\\
+\hline
+&&\\
+$\sin^2(x)=\frac{1}{2} ( 1-\cos(2x))$&&$\sin(ax)\cos(bx)=\frac{1}{2} ( \sin((a-b)x)+\sin((a+b)x))$\\ &&\\
+
+ $\cos^2(x)=\frac{1}{2} ( 1+\cos(2x))$&&$\sin(ax)\sin(bx)=\frac{1}{2} ( \cos((a-b)x)-\cos((a+b)x))$\\ &&\\
+ 
+$\sin(2x)=2\sin(x)\cos(x)$ &&$\cos(ax)\cos(bx)=\frac{1}{2} ( \cos((a-b)x)+\cos((a+b)x))$\\ &&\\
+Pythagorean \quad \hspace{.8 in} \quad&&\\
+\hline
+\end{tabular}
+\vspace{1in}
+
+
+\item Compare the following three integrals. Which integration strategy works on which one?\\
+
+\begin{tabular}{ccc}
+(a) $\d \int \cos(x) \: dx$ &\quad \hspace{.5in} (b) $\d \int \cos^2(x) \: dx$ &\quad \hspace{1in} (c) $\d \int \cos^3(x) \: dx$ \\
+\end{tabular}
+\newpage
+\begin{center} Section 3.3 \end{center}
+\item Compare the following three integrals. Which ones can a Calculus I student integrate?\\
+	\begin{tabular}{ccc}	
+	(a) $\displaystyle{\int \frac{1}{\sqrt{9-x^2}}\: dx}$& \quad \hspace{.5in} (b)$\displaystyle{\int \frac{x}{\sqrt{9-x^2}}\: dx}$ &\quad \hspace{1in} (c) $\displaystyle{\int  \frac{x^2}{\sqrt{9-x^2}}\: dx}$
+	\end{tabular}
+	\vfill
+\item Summary: If {\Large{$\sqrt{a^2-x^2}$}} appears in an integrand (\textbf{and} other techniques do not work), then\\
+\vspace{.2in}
+\newpage
+\item Compare the following integrals. Which one can a Calculus I student integrate?\\
+\begin{tabular}{ccc}	
+	(a) $\displaystyle{\int \frac{dx}{{9+x^2}}}$&
+	\quad \hspace{.5in} (b) $\displaystyle{\int \frac{dx}{\sqrt{9+x^2}}}$&\quad \hspace{.5in} (c)
+	$\displaystyle{\int  \frac{dx}{\sqrt{x^2-9}}\: dx}$
+	\end{tabular}
+	\vfill
+\item Summary: 
+	\begin{itemize}
+	\item If {\Large{$\sqrt{a^2+x^2}$}} appears in an integrand (\textbf{and} other techniques do not work), then\\
+	\vspace{.2in}
+	\item If {\Large{$\sqrt{x^2-a^2}$}} appears in an integrand (\textbf{and} other techniques do not work), then\\
+	\vspace{.2in}
+	\end{itemize}
+\newpage
+\begin{center} EXTRA PRACTICE \end{center}
+\item Evaluate 
+	\begin{enumerate}
+	\item $\displaystyle{\int \frac{dx}{(4+x^2)^2}  }$
+	\vfill
+	\item $\displaystyle{\int \frac{dx}{(x^2-9)^{3/2}}}$
+	\vfill
+	\end{enumerate}
+	
+
+
+\end{enumerate}
+\end{document}
+
