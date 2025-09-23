@@ -49,6 +49,9 @@ worksheets:
 - name: Section 3.2 (more problems)
   blank: 3p2merge.pdf
   solutions: 3p2mergesolns.pdf
+- name: Jill's Wed 24 Sept class
+  blank: M252_3_2_and_3_3.pdf
+  solutions: M252_3_2_and_3_3-s.pdf
 - name: Section 3.3
   blank: M252-3-3-a.pdf
   solutions: M252-3-3-a-s.pdf
