@@ -13,5 +13,8 @@ quizzes:
   sections: 2.3, 2.4
   blank: M252F25_quiz3.pdf
   solutions: M252F25_quiz3-s.pdf
-
+- name: Quiz 4
+  section: 2.5, 2.6
+  blank: M252F25_quiz4.pdf
+  solutions: M252F25_quiz4-s.pdf
 
