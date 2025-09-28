@@ -64,6 +64,8 @@ worksheets:
 - name: Integration Practice 
   blank: M252-ch3-integration-practice.pdf
   solutions: M252-ch3-integration-practice-s.pdf
-- name: Midterm 1 Review Problems 
-  blank: .pdf
-  solutions: .pdf
+- name: Midterm 1 Review 
+  blank: M252-M1-review.pdf
+- name: Section 3.6
+  blank: M252-3-6.pdf
+  solutions: M252-3-6-s.pdf
