@@ -1,0 +1,72 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.6}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\renewcommand{\d}{\displaystyle}
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.6: Numerical Integration (Extra)}\\
+   
+\end{center}
+
+\begin{enumerate}
+\item Recall from 3.6
+	\begin{enumerate}
+	\item The Midpoint Rule:\\
+	\vfill
+	\item The Trapezoid Rule:\\
+	\vfill 
+	\item Simpson's Rule:\\
+	\vfill
+	\end{enumerate}
+\item We estimated {\large{$\displaystyle{\int_0^2 e^{x^2} \: dx }$}} using
+	\begin{enumerate}
+	\item $M_4$
+	\vfill
+	\item $T_4$
+	\vfill
+	\item $S_4$
+	\vfill
+	\item Wolfram Alpha as 16.45262776550
+	\vfill
+	\end{enumerate}
+\newpage
+
+\item It is possible to estimate error. 
+	\begin{enumerate}
+	\item For the Midpoint Rule. \\
+	\vfill
+	\item For Simpson's Rule. \\
+	\vfill
+	\end{enumerate}
+\end{enumerate}
+\end{document}
+
