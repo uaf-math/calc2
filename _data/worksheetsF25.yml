@@ -69,3 +69,21 @@ worksheets:
 - name: Section 3.6
   blank: M252-3-6.pdf
   solutions: M252-3-6-s.pdf
+- name: Section 3.6 Extra
+  blank: M252-3-6-extra.pdf
+  solutions: M252-3-6-extra-s.pdf
+- name: Section 3.7 (day 1)
+  blank: M252-3-7.pdf
+  solutions: M252-3-7-s.pdf
+- name: Section 3.7 (day 2)
+  blank: M252-3-7-extra.pdf
+  solutions: M252-3-7-extra-s.pdf
+- name: Section 5.1 (2-day sheet)
+  blank: M252-5-1.pdf
+  solutions: M252-5-1-ss.pdf
+- name: Section 5.2 (day 1)
+  blank: M252-5-2-a.pdf
+  solutions: M252-5-2-a-s.pdf
+- name: Section 5.2 (day 2)
+  blank: M252-5-2-b.pdf
+  solutions: M252-5-2-b-s.pdf
