@@ -1,0 +1,73 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+\newcommand{\ds}{\displaystyle}
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 3.7}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 3.7: Improper Integrals (day 2)}\\
+   
+\end{center}
+
+
+\emph{Compute these integrals with friends!  Please carefully write the limit, for example}
+    $$\int_1^\infty \frac{dx}{x^2} = \lim_{t\to \infty} \int_1^t \frac{dx}{x^2} = \lim_{t\to \infty} \left[-\frac{1}{x}\right]_1^t = \lim_{t\to \infty} 1 - \frac{1}{t} = 1$$
+
+
+
+\begin{enumerate}
+\item  $\ds \int_2^\infty \frac{1}{9+x^2}\,dx =$
+\vfill
+
+\item  $\ds \int_{-\infty}^0 e^x\,dx =$
+\vfill
+
+\item   $\ds \int_0^1 \frac{1}{\sqrt[4]{x}}\,dx =$
+\vfill
+
+\item   $\ds \int_0^1 \ln t\,dt =$
+\vfill
+
+\clearpage\newpage
+\item  $\ds \int_1^2 \frac{dx}{1-x} =$
+\vfill
+
+\item   $\ds \int_0^\infty e^x \,e^{-s x}\,dx =$
+\vfill
+
+\item   $\ds \int_0^\pi \tan x\,dx =$
+\vfill
+
+\item   $\ds \int_2^\infty \frac{dx}{x \ln^3 x} =$
+\vspace{3.0in}
+\end{enumerate}
+\end{document}
+
