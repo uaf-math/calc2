@@ -5,8 +5,6 @@ title: Math F252 Calculus II at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-# **This Page is Under Construction for FALL 2025**
-
 ### Instructors
 
   * Deven Barnett for in-person section 902 (CRN 76437)
