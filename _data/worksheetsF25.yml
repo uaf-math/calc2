@@ -87,3 +87,11 @@ worksheets:
 - name: Section 5.2 (day 2)
   blank: M252-5-2-b.pdf
   solutions: M252-5-2-b-ss.pdf
+- name: Section 5.3 (day 1)
+  blank: M252-5-3-a.pdf
+  solutions: M252-5-3-a-s.pdf
+- name: Section 5.3 (day 2)
+  blank: M252-5-3-b.pdf
+  solutions: M252-5-3-b-s.pdf
+  
+  
