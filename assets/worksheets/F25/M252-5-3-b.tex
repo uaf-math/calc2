@@ -1,0 +1,68 @@
+\documentclass[11pt,fleqn]{article} 
+\usepackage[margin=0.8in, head=0.8in]{geometry} 
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{fancyhdr} 
+\usepackage{palatino, url, multicol}
+\usepackage{graphicx, pgfplots} 
+\usepackage[all]{xy}
+\usepackage{polynom} 
+%\usepackage{pdfsync} %% I don't know why this messes up tabular column widths
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{array,tikz}
+
+\pgfplotsset{compat=1.6}
+
+\pgfplotsset{soldot/.style={color=black,only marks,mark=*}} \pgfplotsset{holdot/.style={color=black,fill=white,only marks,mark=*}}
+
+\newcommand{\ds}{\displaystyle}
+\pagestyle{fancy} 
+\lfoot{}
+\rfoot{\S 5.3}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+
+
+\vspace*{-0.7in}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 5.3: Integral Test and $p$-Series}\\
+   
+\end{center}
+\begin{enumerate}
+\item The Integral Test:
+\vfill
+\item All questions below refer to the series $\displaystyle{\sum_{n=1}^\infty \frac{3n}{10+n^2}}$
+	\begin{enumerate}
+	\item What does the Divergence Test tell us about this series?
+	\vspace{.7in}
+	\item Show that we can apply the Integral Test to the series.
+	\vspace{.7in}
+	\item Use the Integral Test to determine whether or not the series converges.
+	\vfill
+	\end{enumerate}
+\newpage
+\item A \textbf{p-series} as the form: \\
+
+\vfill
+\item $p$-series and convergence
+
+\vfill
+
+\item Use what we know about $p$-series and convergence to determine whether the series below converge or diverge.
+	\begin{enumerate}
+	\item  $\displaystyle{\sum_{n=1}^\infty \frac{1}{n^{1.56}}}$
+	\vspace{.5in}
+	\item  $\displaystyle{\sum_{n=1}^\infty \frac{1}{n^{99/100}}}$
+	\vspace{.5in}
+	\end{enumerate}
+\end{enumerate}
+\end{document}
+
