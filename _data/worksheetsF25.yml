@@ -99,6 +99,9 @@ worksheets:
 - name: Section 5.4 (day 2)
   blank: M252-5-4-day2.pdf
   solutions: M252-5-4-day2-new-s.pdf 
+- name: Section 5.5
+  blank: M252-5-5-a.pdf
+  solutions: M252-5-5-a-ss.pdf 
 
 
   
