@@ -103,7 +103,9 @@ worksheets:
   blank: M252-5-5-a.pdf
   solutions: M252-5-5-a-ss.pdf 
 - name: Section 5.6
-  blank: M252-5-6-a.pdf
+  blank: M252-5-6-aa.pdf
   solutions: M252-5-6-a-s.pdf 
-
+- name: Section 5.6
+  blank: M252-5-6-b.pdf
+  solutions: M252-5-6-b-s.pdf 
   
