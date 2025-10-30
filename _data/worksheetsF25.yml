@@ -111,3 +111,6 @@ worksheets:
 - name: Section 6.1 (day 1)
   blank: M252-6-1-a.pdf
   solutions: M252-6-1-aa-s.pdf   
+- name: Section 6.1 (day 2)
+  blank: M252-6-1-b.pdf
+  solutions: M252-6-1-b-s.pdf  
