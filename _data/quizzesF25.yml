@@ -29,6 +29,19 @@ quizzes:
   section: 3.7, 5.1
   blank: M252F25_quiz6-2.pdf
   solutions: M252F25_quiz6-2-s.pdf
-
-
-  
+- name: Quiz 7 (v1)
+  section: 5.2, 5.3
+  blank: M252F25_quiz7.pdf
+  solutions: M252F25_quiz7-s.pdf
+- name: Quiz 7 (v2)
+  section: 5.2, 5.3
+  blank: M252F25_quiz7-2.pdf
+  solutions: M252F25_quiz7-2-s.pdf
+- name: Quiz 8 (v1)
+  section: 5.4, 5.5
+  blank: M252F25_quiz8.pdf
+  solutions: MM252F25_quiz8-s.pdf
+- name: Quiz 8 (v2)
+  section: 5.4, 5.5
+  blank: M252F25_quiz8-v2.pdf
+  solutions: M252F25_quiz8-v2-s.pdf  
