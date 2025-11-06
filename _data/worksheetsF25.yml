@@ -117,3 +117,9 @@ worksheets:
 - name: Section 6.2 (two-day sheet)
   blank: M252-6-2-a.pdf
   solutions: M252-6-2-a-s.pdf 
+- name: Section 6.3 (brief intro)
+  blank: M252-6-3-a.pdf
+  solutions: M252-6-3-a-s.pdf
+- name: Section 6.3 (more practice)
+  blank: M252-6-3-b.pdf
+  solutions: M252-6-3-b-s.pdf
