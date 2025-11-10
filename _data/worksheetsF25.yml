@@ -123,3 +123,7 @@ worksheets:
 - name: Section 6.3 (more practice)
   blank: M252-6-3-b.pdf
   solutions: M252-6-3-b-s.pdf
+- name: Section 6.3 (remainders)
+  blank: M252-6-3-c.pdf
+  solutions: M252-6-3-c-s.pdf
+
