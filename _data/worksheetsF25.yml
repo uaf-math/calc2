@@ -129,3 +129,6 @@ worksheets:
 - name: Review for Midterm 2
   blank: M252-M2-review.pdf
   solutions: 
+- name: Section 6.4 (Binomial Series)
+  blank: M252-6-4a.pdf
+  solutions: M252-6-4as.pdf
