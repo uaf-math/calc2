@@ -132,3 +132,12 @@ worksheets:
 - name: Section 6.4 (Binomial Series)
   blank: M252-6-4a.pdf
   solutions: M252-6-4as.pdf
+- name: Section 6.4 (Day 2)
+  blank: M252-6-4b.pdf
+  solutions: M252-6-4bs.pdf
+- name: Section 7.1 (Intro to Parametric Equ.)
+  blank: M252-7-1.pdf
+  solutions: M252-7-1-ss.pdf
+
+
+  
