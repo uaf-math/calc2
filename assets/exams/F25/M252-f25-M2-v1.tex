@@ -1,0 +1,217 @@
+\documentclass[12pt]{article}
+\usepackage[top=1in, bottom=1in, left=.75in, right=.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{multicol,coordsys}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+\usepackage{anyfontsize}
+\usepackage[shortlabels]{enumitem}
+% \usepackage{times}
+% \usepackage[lf]{MinionPro}
+\usepackage{tikz,pgfplots,mathrsfs}
+%\def\degC{{}^\circ{\rm C}}
+\def\ra{\rightarrow}
+\usetikzlibrary{calc, backgrounds}
+\pgfplotsset{compat = newest}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+middle, xlabel={$x$}, ylabel={$y$},axis equal}}
+
+%yticklabels={,,} , xticklabels={,,}
+
+% \setmainfont{Times}
+% \def\sansfont{Lucida Grande Bold}
+\parindent 0pt
+\parskip 4pt
+\pagestyle{fancy}
+\fancyfoot[C]{\emph{\thepage}}
+%% version indicator
+\fancyfoot[R]{\emph{v1}}
+\fancyhead[L]{\ifnum \value{page} > 1\relax\emph{Math 252: Midterm Exam 2}\fi}
+\fancyhead[R]{\ifnum \value{page} > 1\relax\emph{Fall 2025}\fi}
+\headheight 15pt
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\let\ds\displaystyle
+\def\continued{{\emph {Continued....}}}
+\def\continuing{{\emph {Problem \arabic{probcount} continued....}}\par\vskip 4pt}
+
+
+\newcounter{probcount}
+\newcounter{subprobcount}
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+\def\problem#1{\setcounter{subprobcount}{0}%
+\addtocounter{probcount}{1}{\emph{\arabic{probcount}.\hskip 1em(#1)}}\par}
+\def\subproblem#1{\par\hangindent=1em\hangafter=0{%
+\addtocounter{subprobcount}{1}\thesubproblem\emph{#1}\hskip 1em}}
+\def\probskip{\vskip 10pt}
+\def\medprobskip{\vskip 2in}
+\def\subprobskip{\vskip 45pt}
+\def\bigprobskip{\vskip 4in}
+
+\begin{document}
+{\emph{\fontsize{26}{28}\selectfont Math F252\hfill
+{\fontsize{32}{36}\selectfont Midterm 2}
+\hfill Fall 2025}}
+\vskip 2cm
+\strut\vtop{\halign{\emph#\hskip 0.5em\hfil&#\hbox to 2in{\hrulefill}\cr
+\emph{\fontsize{18}{22}\selectfont Name:}&\cr
+\noalign{\vskip 10pt}}}
+%%\emph{\fontsize{18}{22}\selectfont Student Id:}&\cr
+%%\noalign{\vskip 10pt}
+%%\emph{\fontsize{18}{22}\selectfont Calculator Model:}&\cr
+%}}
+%\hfill
+%\vtop{\halign{\emph{\fontsize{18}{22}\selectfont #}\hfil& \emph{\fontsize{18}{22}\selectfont\hskip 0.5ex $\square$ #}\hfil\cr
+%Section: & 001 (Jill Faudree)\cr
+%\noalign{\vskip 4pt}
+%         & 002 (James Gossell)\cr
+%\noalign{\vskip 4pt}
+%         & 005 (James Gossell)\cr}}
+
+\vfill
+{\fontsize{18}{22}\selectfont\emph{Rules:}}
+
+You have {90 minutes} to complete this midterm.  
+
+Partial credit will be awarded, but you must show your work.
+
+Calculators are not allowed. 
+
+One hand-written sheet of notes is allowed.
+
+%Place a box around your  \fbox{FINAL ANSWER} to each question where appropriate.
+
+%If you need extra space, you can use the back sides of the pages.
+%Please make it obvious  when you have done so.
+
+Turn off anything that might go beep during the exam.
+
+Good luck!
+\vfill
+\def\emptybox{\hbox to 2em{\vrule height 16pt depth 8pt width 0pt\hfil}}
+\def\tline{\noalign{\hrule}}
+\centerline{\vbox{\offinterlineskip
+{
+\bf\sf\fontsize{18pt}{22pt}\selectfont
+\hrule
+\halign{
+\vrule#&\strut\quad\hfil#\hfil\quad&\vrule#&\quad\hfil#\hfil\quad
+&\vrule#&\quad\hfil#\hfil\quad&\vrule#\cr
+height 3pt&\omit&&\omit&&\omit&\cr
+&Problem&&Possible&&Score&\cr\tline
+height 3pt&\omit&&\omit&&\omit&\cr
+&1&&8&&\emptybox&\cr\tline
+&2&&8&&\emptybox&\cr\tline
+&3&&12&&\emptybox&\cr\tline
+&4&&8&&\emptybox&\cr\tline
+&5&&24&&\emptybox&\cr\tline
+&6&&8&&\emptybox&\cr\tline
+&7&&12&&\emptybox&\cr\tline
+&8&&12&&\emptybox&\cr\tline
+&9&&8&&\emptybox&\cr\tline
+&Extra Credit&&5&&\emptybox&\cr\tline
+&Total&&100&&\emptybox&\cr
+}\hrule}}}
+
+\newpage
+\begin{enumerate}
+\item (8 pts) Consider the sequence $S=\left\{\frac{1}{2},\frac{2}{3},\frac{3}{4}, \frac{4}{5}, \frac{5}{6},\cdots \right\}.$
+	\begin{enumerate}
+	\item (4 pts) Find a formula for the general term $a_n$ of the sequence assuming that the pattern of the first few terms continues.
+	\vfill
+	\item (2 pts) Does this sequence converge? Justify your conclusion.
+	\vfill
+	\item (2 pts) Does series $\ds \sum_{n=1}^\infty a_n,$ with terms from the sequence $S$, converge? Justify your conclusion.
+	\vfill
+	\end{enumerate}
+\item (8 pts) Determine if the integral below converges or diverges. Evaluate the integral if it converges. To earn full points, a solution must contain clear complete work and correct use of notation. \\
+\quad \\
+$\ds \int_0^4 \frac{1}{(4-x)^{2/3}} \: dx$
+
+\vfill
+
+\vfill
+
+
+\newpage
+\item (12 pts) For each \textbf{convergent} series below, determine its sum.  
+	\begin{enumerate}
+	\item $\ds \sum_{n=1}^{\infty} \left( \frac{3}{n^4}-\frac{3}{(n+1)^4}\right)$
+	\vfill
+	\item $\ds \sum_{n=1}^\infty \frac{(-5)^{n-1}}{2^{3n}}.$
+	\vfill
+	\end{enumerate}
+\newpage
+\item (8 pts) Use the \textbf{Integral Test} to determine if the series $\ds \sum_{n=1}^{\infty} ne^{-n^2}$ converges or diverges. (You do not have to verify that the Intergral Test applies.)
+
+\vfill
+
+\item (6 pts each) For each series below, show whether the series converges or diverges using an appropriate test. \textbf{State the test you use.}
+
+	\begin{enumerate}
+	\item $\ds \sum_{n=1}^{\infty} \frac{n^6}{2^n} $
+
+	\vfill
+	\newpage
+	\item $\ds \sum_{n=1}^{\infty} \frac{n!}{(n+3)!} $
+
+	\vfill
+
+	\item $\ds \sum_{n=1}^{\infty} (-1)^{n+1}\ln\left(\tfrac{1}{n}\right)$ 
+
+	\vfill
+
+	
+\newpage	
+	\item $\ds \sum_{n=1}^{\infty} (-1)^{n+1} \frac{1}{\sqrt[3]{n+2}}$ 
+
+	\vfill
+	\end{enumerate}
+
+\item (8 pts) Determine whether the series $\ds \sum_{n=1}^{\infty}  \frac{(-1)^{n+1}n^3}{5+n^5}$ is \textbf{absolutely convergent, conditionally convergent, or divergent.}
+\vfill
+
+\vfill
+
+
+
+
+\newpage
+\item (12 pts) Determine the radius of convergence, $R$, and the interval of convergence for each power series below.
+	\begin{enumerate}
+	\item  $\ds \sum_{n=0}^\infty \frac{(x-2)^n}{5n+4}$
+	\vfill
+	\vfill
+	\item  $\ds \sum_{n=0}^\infty \frac{x^n}{n!}$
+	\vfill
+	\end{enumerate}
+\newpage
+\item (12 pts)
+	\begin{enumerate}
+	\item Find a power series representation for the function $\ds f(x)=\frac{x}{1-6x}.$
+	\vfill
+	\item Determine the radius of convergence and interval of convergence for the power series in part (a).
+	\vfill
+	\item Use your answer from part (a) to find a power series representation for $f'(x).$ 
+	\vfill
+	\end{enumerate}
+\newpage
+\item (8 pts) Find the Taylor series for $f(x)=\frac{1}{x}$ at $a=3.$ Your answer should be simplified.
+	\vfill
+	\vfill
+
+\end{enumerate}
+
+\textbf{Extra Credit} (5 pts) Determine the convergence of the two series below.
+	\begin{enumerate}
+	\item[a.]  $\ds \sum_{n=1}^\infty (\sqrt[n]{2} -1)^n$
+	\vfill
+	\item[b.]  $\ds \sum_{n=1}^\infty (\sqrt[n]{2} -1)$
+	\vfill
+	\end{enumerate}
+\end{document}
