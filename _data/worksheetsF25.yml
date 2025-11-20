@@ -138,6 +138,8 @@ worksheets:
 - name: Section 7.1 (Intro to Parametric Equ.)
   blank: M252-7-1.pdf
   solutions: M252-7-1-ss.pdf
-
+- name: Section 7.2
+  blank: M252-7-2a.pdf
+  solutions: M252-7-2as.pdf
 
   
