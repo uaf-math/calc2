@@ -9,8 +9,6 @@ The table below gives the coverage for upcoming Exams.  <b>The best guides to th
 
 ### Fall 2025
 
-**Coming Soon !!**
-
 {% include exam_table.md  data=site.data.examsF25 %}
 
 <b>Old Exams appear below!</b>
