@@ -141,5 +141,7 @@ worksheets:
 - name: Section 7.2
   blank: M252-7-2a.pdf
   solutions: M252-7-2as.pdf
-
+- name: Section 7.3
+  blank: M252-7-3-a.pdf
+  solutions: M252-7-3-as.pdf
   
