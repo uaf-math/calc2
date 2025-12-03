@@ -147,3 +147,14 @@ worksheets:
 - name: Section 7.3 (day 2)
   blank: M252-7-3-b.pdf
   solutions: M252-7-3-bs.pdf  
+- name: Section 7.4 (day 1)
+  blank: M252-7-4a.pdf
+  solutions:  M252-7-4as.pdf
+- name: Section 7.4 (day 2)
+  blank: M252-7-4b.pdf
+  solutions: M252-7-4bs.pdf
+- name: Review Day 1
+  blank: M252-FE-Review.pdf
+  solutions:
+
+  
