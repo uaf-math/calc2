@@ -1,0 +1,196 @@
+\documentclass[11pt]{amsart}
+%prepared in AMSLaTeX, under LaTeX2e
+\addtolength{\oddsidemargin}{-1.2in} 
+\addtolength{\evensidemargin}{-1.2in}
+\addtolength{\topmargin}{-.9in}
+\addtolength{\textwidth}{2.0in}
+\addtolength{\textheight}{1.5in}
+
+\renewcommand{\baselinestretch}{1.05}
+
+\usepackage{verbatim} % for "comment" environment
+
+\usepackage{palatino}
+
+\usepackage[final]{graphicx}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\usepackage{enumitem,xspace,fancyvrb}
+
+\newtheorem*{thm}{Theorem}
+\newtheorem*{defn}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{problem}{Problem}
+\newtheorem*{remark}{Remark}
+
+\DefineVerbatimEnvironment{mVerb}{Verbatim}{numbersep=2mm,frame=lines,framerule=0.1mm,framesep=2mm,xleftmargin=4mm,fontsize=\footnotesize}
+
+% macros
+\usepackage{amssymb}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bE}{\mathbf{E}}
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bJ}{\mathbf{J}}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+
+\newcommand{\hbi}{\mathbf{\hat i}}
+\newcommand{\hbj}{\mathbf{\hat j}}
+\newcommand{\hbk}{\mathbf{\hat k}}
+\newcommand{\hbn}{\mathbf{\hat n}}
+\newcommand{\hbr}{\mathbf{\hat r}}
+\newcommand{\hbt}{\mathbf{\hat t}}
+\newcommand{\hbx}{\mathbf{\hat x}}
+\newcommand{\hby}{\mathbf{\hat y}}
+\newcommand{\hbz}{\mathbf{\hat z}}
+\newcommand{\hbphi}{\mathbf{\hat \phi}}
+\newcommand{\hbtheta}{\mathbf{\hat \theta}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\ppr}[1]{\frac{\partial #1}{\partial r}}
+\newcommand{\ppt}[1]{\frac{\partial #1}{\partial t}}
+\newcommand{\ppx}[1]{\frac{\partial #1}{\partial x}}
+\newcommand{\ppy}[1]{\frac{\partial #1}{\partial y}}
+\newcommand{\ppz}[1]{\frac{\partial #1}{\partial z}}
+\newcommand{\pptheta}[1]{\frac{\partial #1}{\partial \theta}}
+\newcommand{\ppphi}[1]{\frac{\partial #1}{\partial \phi}}
+\newcommand{\Div}{\ensuremath{\nabla\cdot}}
+\newcommand{\Curl}{\ensuremath{\nabla\times}}
+\newcommand{\curl}[3]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ \partial_x & \partial_y & \partial_z \\ #1 & #2 & #3 \end{vmatrix}}}
+\newcommand{\cross}[6]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ #1 & #2 & #3 \\ #4 & #5 & #6 \end{vmatrix}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\grad}{\nabla}
+\newcommand{\ip}[2]{\ensuremath{\left<#1,#2\right>}}
+\newcommand{\lam}{\lambda}
+\newcommand{\lap}{\triangle}
+
+\newcommand{\Null}{\operatorname{null}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\range}{\operatorname{range}}
+\newcommand{\trace}{\operatorname{tr}}
+
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.}\quad }
+\newcommand{\exer}[2]{\prob{Exercise #2 on page #1}}
+\newcommand{\exerpages}[2]{\prob{Exercise #2 on pages #1}}
+
+\newcommand{\pts}[1]{(\emph{#1 pts}) }
+\newcommand{\epart}[1]{\bigskip\noindent\textbf{(#1)}\quad }
+\newcommand{\ppart}[1]{\,\textbf{(#1)}\quad }
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+
+\newcommand{\ds}{\displaystyle}
+
+\begin{document}
+
+%%%%%%%%%intro page
+\begin{center}
+  \large
+  \sc{Section 7.4: Slope and Arc Length in Polar Coordinates (Extra)}\\
+   
+\end{center}
+Recall the polar curve $r=f(\theta)=2 \cos (3 \theta),$ graphed below.\\
+
+\begin{center}
+%%polar on polar
+\begin{tikzpicture}[scale=1.2]
+    % Draw concentric circles (radial grid lines)
+    \foreach \r in {0.5, 1, 1.5, 2} {
+        \draw[gray!40, thin] (0,0) circle (\r);
+    }
+    
+    % Draw rays at various angles (angular grid lines)
+    \foreach \angle in {0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330} {
+        \draw[gray!40, thin] (0,0) -- (\angle:2.2);
+    }
+    
+    % Label the angles
+    \foreach \angle/\label in {0/0, 30/{\pi/6}, 60/{\pi/3}, 90/{\pi/2}, 120/{2\pi/3}, 150/{5\pi/6}, 
+                                180/{\pi}, 210/{7\pi/6}, 240/{4\pi/3}, 270/{2\pi/2}, 300/{5\pi/3}, 330/{11\pi/6}} {
+        \node[font=\small] at (\angle:2.5) {$\label$};
+    }
+    
+    % Label the radii
+    \foreach \r in {0.5, 1, 1.5, 2} {
+        \node[font=\scriptsize, fill=white, inner sep=1pt] at (15:\r) {\r};
+    }
+    
+    % Draw the polar curve r = 2cos(3θ)
+    % We need to be careful about the domain since cos(3θ) can be negative
+    \draw[blue,  ultra thick, smooth, domain=0:60, samples=100] 
+        plot ({2*cos(3*\x)*cos(\x)}, {2*cos(3*\x)*sin(\x)});
+    \draw[blue,  ultra thick, smooth, domain=120:180, samples=100] 
+        plot ({2*cos(3*\x)*cos(\x)}, {2*cos(3*\x)*sin(\x)});
+    \draw[blue, ultra thick, smooth, domain=240:300, samples=100] 
+        plot ({2*cos(3*\x)*cos(\x)}, {2*cos(3*\x)*sin(\x)});
+    
+    % Draw axes
+    \draw[->, thick] (-2.5,0) -- (2.5,0) node[right] {};
+    \draw[->, thick] (0,-2.5) -- (0,2.5) node[above] {};
+    
+    % Add title
+    \node[above, blue, font=\large] at (0,2.7) {$r = 2\cos(3\theta)$};
+    
+\end{tikzpicture}
+\hfill
+%polar on rectangular
+\begin{tikzpicture}[scale=1.2]
+    % Draw fine rectangular grid
+    \draw[gray!20, very thin, step=0.25] (-2.5,-2.5) grid (2.5,2.5);
+    \draw[gray!50, thin, step=1] (-2.5,-2.5) grid (2.5,2.5);
+    
+    % Draw axes
+    \draw[->, thick] (-2.7,0) -- (2.7,0) node[right] {$x$};
+    \draw[->, thick] (0,-2.7) -- (0,2.7) node[above] {$y$};
+    
+    % Add tick marks and labels
+    \foreach \x in {-2,-1,1,2} {
+        \draw (\x,0.05) -- (\x,-0.05) node[below, font=\scriptsize] {\x};
+    }
+    \foreach \y in {-2,-1,1,2} {
+        \draw (0.05,\y) -- (-0.05,\y) node[left, font=\scriptsize] {\y};
+    }
+    
+    % Draw the polar curve
+    \draw[blue, very thick, smooth, domain=0:60, samples=100] 
+        plot ({2*cos(3*\x)*cos(\x)}, {2*cos(3*\x)*sin(\x)});
+    \draw[blue, very thick, smooth, domain=120:180, samples=100] 
+        plot ({2*cos(3*\x)*cos(\x)}, {2*cos(3*\x)*sin(\x)});
+    \draw[blue, very thick, smooth, domain=240:300, samples=100] 
+        plot ({2*cos(3*\x)*cos(\x)}, {2*cos(3*\x)*sin(\x)});
+    
+    % Add title
+    \node[above, blue, font=\Large] at (0,2.9) {$r = 2\cos(3\theta)$};
+    
+\end{tikzpicture}
+
+\end{center}
+	\begin{enumerate}
+	\item On the graphs above, sketch a tangent line at $\theta=\pi/6$ and another one at $\theta = \pi/3.$ Next to your tangent lines, estimate the slope.
+	\vskip 0.2in
+	\item Find $f'(\theta)$ and evaluate it at $\theta = \pi/6$ and $\theta = \pi/3.$ Does this fit with your estimates above?
+	\vfill
+	\item Review for the Final Exam\\
+	If we have a parametrized curve $x(t)$, $y(t)$, how do we find $dy/dx$?
+	\vfill
+	\item Use this to find $dy/dx$ for the polar curve and evaluate this at  $\theta = \pi/3.$
+	\vfill
+	\vfill
+	\newpage
+	\item Review for the Final Exam\\
+	 If we have a parametrized curve $x(t)$, $y(t)$, how do we find its arc length from $t=\alpha$ to $t=\beta$?
+	\vfill
+	\item Use this formula to set up an integral to find the arc length in one petal of the 3-petal flower $r=f(\theta)=2 \cos (3 \theta).$
+	\vfill
+	\end{enumerate}
+
+\end{document}
