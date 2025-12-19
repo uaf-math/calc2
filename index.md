@@ -5,7 +5,9 @@ title: Math F252 Calculus II at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-# UNDER CONSTRUCTION FOR SPRING 2026!  PLEASE DON'T TRUST THE LINKS YET!
+## UNDER CONSTRUCTION FOR SPRING 2026!
+
+## PLEASE DON'T TRUST THE LINKS YET!
 
 ### Instructors
 
