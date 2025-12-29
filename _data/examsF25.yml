@@ -16,8 +16,13 @@ exams:
   cont: 5.5, 5.6, 6.1, 6.2, 6.3
   blank: M252-f25-M2-v2.pdf
   solutions: M252-f25-M2-v2s.pdf
-- name: Final Exam
+- name: Final Exam (v1)
   sections: all previous, 6.4, 7.1,
   cont: 7.2, 7.3, 7.4
-  blank: final.pdf
-  solutions: finalsolns.pdf
+  blank: M252-f25-FE-ip-v1.pdf
+  solutions: M252-f25-FE-ip-v1-s.pdf
+- name: Final Exam (v2)
+  sections: all previous, 6.4, 7.1,
+  cont: 7.2, 7.3, 7.4
+  blank: M252-f25-FE-ip-v2.pdf
+  solutions: M252-f25-FE-ip-v1-s.pdf
