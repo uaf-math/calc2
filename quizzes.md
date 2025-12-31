@@ -5,11 +5,15 @@ title: Quizzes
 
 ## Quizzes for In-Person sections will be here.
 
-The table below gives the section coverage Quizzes.  PDFs for the Quizzes themselves ("blank"), and their solutions, will appear here by the day after they occur.  See the Schedule for your section (tab at left) for Quiz dates.
+The table below gives the section coverage, or planned coverage, of each Quiz.  PDFs for the Quizzes themselves ("blank"), and their solutions, will appear soon after they occur.  See the Schedule for your section (tab at left) for Quiz dates.
 
 <b>Scroll down to find lots of old Quizzes, with solutions, from previous semesters!</b>
 
 <b>The best guide to the content of an upcoming Quiz is the Homework assignments you turn in just before the Quiz!  See the [Homework tab](homework.html).</b>
+
+### Spring 2026
+
+{% include quiz_table.md  data=site.data.quizzesS26 %}
 
 ### Fall 2025
 
