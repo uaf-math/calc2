@@ -10,7 +10,7 @@ This page might help you turn in your written homework via Gradescope.
 * [Homework](#homework)
 * [Scanning](#scanning)
 * [Printing](#printing)
-* [CircleIn](#circlein)
+<!--* [CircleIn](#circlein)-->
 
 - - - 
 
@@ -39,6 +39,8 @@ This page might help you turn in your written homework via Gradescope.
 In addition, there is a student-accessible printer in the Chapman Computer Lab (CHAP 103). You will need to swipe your PolarExpress card at the Student Printer in order to print, and there will be a charge (you will use your Bear Bucks to pay for printing).
 
 
+<!--
 ## CircleIn
 
 UAF is piloting an online forum for class discussion called [CircleIn](https://circleinapp.com/). It has a variety of incentives to encourage participation. Access is easy. When you log in, CircleIn will know your classes. Note that instructors do *not* have access to CircleIn and will not see any posts or participate in any discussions.
+-->
