@@ -9,7 +9,7 @@ _Please send video suggestions to <a href="mailto:elbueler@alaska.edu">Bueler</a
 
 Here are some recommended video series for Calculus 2 students:
 
-  * [3Blue1Brown's Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) &nbsp; &nbsp; <i><-- recommended for rethinking the basics</i>
+  * [3Blue1Brown's Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) &nbsp; &nbsp; <i><-- recommended for getting all the basics</i>
   * [Dr. Bazett's Calculus II](https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n)
   * [Kimberly Brehm' Calculus II](https://www.youtube.com/playlist?list=PLl-gb0E4MII1OxI-BbNkEhuwPHcKxuPSg)
   * [Prof. Dave's Calculus](https://www.youtube.com/playlist?list=PLybg94GvOJ9ELZEe9s2NXTKr41Yedbw7M)
@@ -17,11 +17,11 @@ Here are some recommended video series for Calculus 2 students:
   * [Prof. Leonard's Calculus 2](https://www.youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-)
   * [Prof. Leonard's Calculus 1](https://www.youtube.com/playlist?list=PLF797E961509B4EB5) <i><-- last 4 videos do area/volume/arclength integrals</i>
 
-None of these are well-aligned to our textbook, but it is easy to navigate to helpful topics anyway.
+None of these are aligned to our textbook, but it is easy to navigate to helpful topics anyway!
 
-### Videos on different things
+### Different things
 
-A trick integral (not actually a video ...):
+A trick integral:
 
   * [the integral of secant has a history](https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html)
 
