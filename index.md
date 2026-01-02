@@ -10,14 +10,14 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 ### Instructors
 
   * [Youngho Yoo](https://sites.google.com/view/younghoyoo/), in-person section 901 (CRN 31037)
-    * (course info:) MWF 11:45am-12:45pm, Th 11:30am-1pm, Gruening 409
-    * (instructor contact:) Chapman 303B, [yyoo2@alaska.edu](mailto:yyoo2@alaska.edu)
+    * course info: MWF 11:45am-12:45pm, Th 11:30am-1pm, Gruening 409
+    * instructor contact: Chapman 303B, [yyoo2@alaska.edu](mailto:yyoo2@alaska.edu)
   * [Ed Bueler](https://bueler.github.io/), in-person section 902 (CRN 31788)
-    * (course info:) MWF 9:15-10:15am, Th 9:45-11:15am, Chapman 106 
-    * (instructor contact:) Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
+    * course info: MWF 9:15-10:15am, Th 9:45-11:15am, Chapman 106 
+    * instructor contact: Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
   * Glen Woodworth, asynchronous section 001 (CRN 30347)
-    * (course info:) asynchronous online on Canvas
-    * (instructor contact:) x
+    * course info: asynchronous online on Canvas
+    * instructor contact: x
 
 ### Canvas course pages
 
