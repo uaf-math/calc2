@@ -1,4 +1,4 @@
-PDFS = schedule.pdf
+PDFS = schedule.pdf syllabus.pdf
 
 all: $(PDFS)
 
