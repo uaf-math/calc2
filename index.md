@@ -5,28 +5,27 @@ title: Math F252 Calculus II at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-## UNDER CONSTRUCTION FOR SPRING 2026!
-
-## PLEASE DON'T TRUST THE LINKS YET!
+## UNDER CONSTRUCTION FOR SPRING 2026! PLEASE DON'T TRUST THE LINKS YET!
 
 ### Instructors
 
-  * Youngho Yoo for in-person section 901 (CRN xx)
-    * (course info:) xx
-    * (instructor office:) Chapman x, [x](mailto:x)
-  * Ed Bueler for in-person section 902 (CRN xx)
+  * [Youngho Yoo](https://sites.google.com/view/younghoyoo/), in-person section 901 (CRN 31037)
+    * (course info:) MWF 11:45am-12:45pm, Th 11:30am-1pm, Gruening 409
+    * (instructor contact:) Chapman 303B, [yyoo2@alaska.edu](mailto:yyoo2@alaska.edu)
+  * [Ed Bueler](https://bueler.github.io/), in-person section 902 (CRN 31788)
     * (course info:) MWF 9:15-10:15am, Th 9:45-11:15am, Chapman 106 
-    * (instructor office:) Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
-  * Glen Woodworth for asynchronous section 001 (CRN xx)
+    * (instructor contact:) Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
+  * Glen Woodworth, asynchronous section 001 (CRN 30347)
     * (course info:) asynchronous online on Canvas
-    * (instructor office:) x
+    * (instructor contact:) x
 
 ### Canvas course pages
 
 Log in to the Canvas page for your section:
 
-  * in-person sections (901,902): [canvas.alaska.edu/courses/xx](xx)
-  * asychronous section (001): [canvas.alaska.edu/courses/xx](xx)
+  * Yoo's in-person sections (901): [canvas.alaska.edu/courses/xx](xx)
+  * Bueler's in-person sections (902): [canvas.alaska.edu/courses/30035](https://canvas.alaska.edu/courses/30035)
+  * Woodworth's asychronous section (001): [canvas.alaska.edu/courses/xx](xx)
 
 to see
 
