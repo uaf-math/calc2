@@ -5,12 +5,15 @@ docs:
 - title: Syllabus (in-person)
   url: assets/general/S26/inperson/syllabus.pdf  # rebuild by "make" in directory
 
+- title: Syllabus (async TBD)
+  url: index.html # assets/general/S26/async/syllabus.pdf?
+
 - title: Schedule (in-person)
   url: assets/general/S26/inperson/schedule.pdf  # rebuild by "make" in directory
-  #url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTOF-YOVqqB-MTwrxCpTC2GFHkvhlc3OMeVsltm1G4O2OvQQH-1Xhi9aUhZ8M506ZIhe1UIQKlEjSwB/pubhtml?gid=0&single=true
 
-- title: Syllabus (async TBD)
-  url: index.html # assets/general/S26/syllabus_async.pdf?
+- title: Schedule (async TBD)
+  url: index.html # assets/general/S26/asynch/schedule.pdf?
+  #alternative like this? url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTOF-YOVqqB-MTwrxCpTC2GFHkvhlc3OMeVsltm1G4O2OvQQH-1Xhi9aUhZ8M506ZIhe1UIQKlEjSwB/pubhtml?gid=0&single=true
 
 - title: Homework
   url: homework.html
