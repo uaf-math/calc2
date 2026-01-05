@@ -21,7 +21,7 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
 
 Log in to the Canvas page for your section:
 
-  * Yoo (in-person section 901): [canvas.alaska.edu/courses/30032](https://canvas.alaska.edu/courses/30035)
+  * Yoo (in-person section 901): [canvas.alaska.edu/courses/30032](https://canvas.alaska.edu/courses/30032)
   * Bueler (in-person section 902): [canvas.alaska.edu/courses/30035](https://canvas.alaska.edu/courses/30035)
   * Woodworth (asychronous section 001): [canvas.alaska.edu/courses/xx](TBD)
 

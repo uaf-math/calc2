@@ -15,6 +15,10 @@ The table below gives the section coverage, or planned coverage, of each Quiz.  
 
 {% include quiz_table.md  data=site.data.quizzesS26 %}
 
+---
+
+<b>Old Quizzes appear below!</b>
+
 ### Fall 2025
 
 {% include quiz_table.md  data=site.data.quizzesF25 %}
