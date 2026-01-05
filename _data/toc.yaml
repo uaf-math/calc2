@@ -2,15 +2,15 @@ sidenavtitle: 'MATH F252'
 
 docs:
 
-- title: Syllabus (Bueler)
-  url: assets/general/S26/bueler/syllabus.pdf  # rebuild by "make" in directory
+- title: Syllabus (in-person)
+  url: assets/general/S26/inperson/syllabus.pdf  # rebuild by "make" in directory
 
-- title: Schedule (Bueler)
-  url: assets/general/S26/bueler/schedule.pdf  # rebuild by "make" in directory
+- title: Schedule (in-person)
+  url: assets/general/S26/inperson/schedule.pdf  # rebuild by "make" in directory
   #url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTOF-YOVqqB-MTwrxCpTC2GFHkvhlc3OMeVsltm1G4O2OvQQH-1Xhi9aUhZ8M506ZIhe1UIQKlEjSwB/pubhtml?gid=0&single=true
 
-- title: Syllabus (async BROKEN)
-  url: index.html # assets/general/S26/syllabus_async.pdf
+- title: Syllabus (async TBD)
+  url: index.html # assets/general/S26/syllabus_async.pdf?
 
 - title: Homework
   url: homework.html

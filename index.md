@@ -5,8 +5,6 @@ title: Math F252 Calculus II at UAF
 
 Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
-## UNDER CONSTRUCTION FOR SPRING 2026! PLEASE DON'T TRUST THE LINKS YET!
-
 ### Instructors
 
   * [Youngho Yoo](https://sites.google.com/view/younghoyoo/), in-person section 901 (CRN 31037)
@@ -17,15 +15,15 @@ Welcome to the homepage of **Math F252 Calculus II** in the [Dept. of Mathematic
     * instructor contact: Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
   * Glen Woodworth, asynchronous section 001 (CRN 30347)
     * course info: asynchronous online on Canvas
-    * instructor contact: x
+    * instructor contact: [gwoodworth@alaska.edu](mailto:gwoodworth@alaska.edu)
 
 ### Canvas course pages
 
 Log in to the Canvas page for your section:
 
-  * Yoo (in-person section 901): [canvas.alaska.edu/courses/xx](xx)
+  * Yoo (in-person section 901): [canvas.alaska.edu/courses/30032](https://canvas.alaska.edu/courses/30035)
   * Bueler (in-person section 902): [canvas.alaska.edu/courses/30035](https://canvas.alaska.edu/courses/30035)
-  * Woodworth (asychronous section 001): [canvas.alaska.edu/courses/xx](xx)
+  * Woodworth (asychronous section 001): [canvas.alaska.edu/courses/xx](TBD)
 
 to see
 
@@ -36,7 +34,7 @@ to see
 
 ### Getting Started
 
-* Read the Syllabus for your section (tab at left).
+* Read the Syllabus for your section (tab at left).  "In-person" is for sections 901 and 902 (Yoo & Bueler).
 
 * See the Schedule for your section (tab at left).  Check it often to find out what happens next!
 
