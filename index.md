@@ -23,7 +23,7 @@ Log in to the Canvas page for your section:
 
   * Yoo (in-person section 901): [canvas.alaska.edu/courses/30032](https://canvas.alaska.edu/courses/30032)
   * Bueler (in-person section 902): [canvas.alaska.edu/courses/30035](https://canvas.alaska.edu/courses/30035)
-  * Woodworth (asychronous section 001): [canvas.alaska.edu/courses/xx](TBD)
+  * Woodworth (asychronous section 001): TBD <!-- [canvas.alaska.edu/courses/xx](TBD) -->
 
 to see
 
