@@ -21,15 +21,13 @@ title: Homework
 ### WARNING
 
 There are some differences, hopefully not many, between the following *four* versions of our textbook:
-  1. the [html website version](https://openstax.org/details/books/calculus-volume-2) at the OpenStax website:
+  1. the [html website version](https://openstax.org/details/books/calculus-volume-2) at the OpenStax website:  [<span style="font-weight: bold; color: red;"><-- Please get your Homework problems from here!</span>](https://openstax.org/details/books/calculus-volume-2)
 
       [openstax.org/details/books/calculus-volume-2](https://openstax.org/details/books/calculus-volume-2)
 
   2. the downloadable PDF from the same website
   3. the OpenStax app (iOS and Android ... might be the same?)
   4. the print (paper) version
-
-[<span style="font-weight: bold; color: red;">Please get the Homework problems from the html website (= 1)!</span>](https://openstax.org/details/books/calculus-volume-2)
 
 {% include homework_table.md  data=site.data.homework %}
 
