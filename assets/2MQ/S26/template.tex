@@ -1,0 +1,98 @@
+% PREPARE AN INPUT-ABLE FILE (e.g. "14sep.tex") AND THEN BUILD FROM THE COMMAND LINE
+% LIKE THIS:
+%   $ export DM="14 Sep"; export FILE=14sep.tex; pdflatex template.tex
+
+\documentclass[11pt]{amsart}
+
+\usepackage[left=0.25in,top=0.35in,bottom=0.25in]{geometry}
+
+\renewcommand{\baselinestretch}{1.05}
+
+\usepackage{verbatim} % for "comment" environment
+
+\usepackage{palatino}
+\usepackage{tikz}
+
+\usepackage{enumitem,xspace,fancyvrb}
+
+\usepackage{xparse}  % to define \getenv[]() command below
+
+\newtheorem*{thm}{Theorem}
+\newtheorem*{defn}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{problem}{Problem}
+\newtheorem*{remark}{Remark}
+
+\DefineVerbatimEnvironment{mVerb}{Verbatim}{numbersep=2mm,frame=lines,framerule=0.1mm,framesep=2mm,xleftmargin=4mm,fontsize=\footnotesize}
+
+% macros
+\usepackage{amssymb}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bE}{\mathbf{E}}
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bJ}{\mathbf{J}}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+
+\newcommand{\Div}{\ensuremath{\nabla\cdot}}
+\newcommand{\Curl}{\ensuremath{\nabla\times}}
+\newcommand{\curl}[3]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ \partial_x & \partial_y & \partial_z \\ #1 & #2 & #3 \end{vmatrix}}}
+\newcommand{\cross}[6]{\ensuremath{\begin{vmatrix} \hbi & \hbj & \hbk \\ #1 & #2 & #3 \\ #4 & #5 & #6 \end{vmatrix}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\grad}{\nabla}
+\newcommand{\ip}[2]{\ensuremath{\left<#1,#2\right>}}
+\newcommand{\lam}{\lambda}
+\newcommand{\lap}{\triangle}
+
+\newcommand{\Null}{\operatorname{null}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\range}{\operatorname{range}}
+\newcommand{\trace}{\operatorname{tr}}
+
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+
+\newcommand{\ds}{\displaystyle}
+
+% get environment variables
+% see https://tex.stackexchange.com/questions/62010/can-i-access-system-environment-variables-from-latex-for-instance-home
+\ExplSyntaxOn
+\NewDocumentCommand{\getenv}{om}
+{
+  \sys_get_shell:nnN{ kpsewhich ~ --var-value ~ #2 }{}#1
+}
+\ExplSyntaxOff
+
+% make a block suitable for four blocks per page
+\newcommand{\theblock}{
+\begin{minipage}[t][4.9in][t]{3.75in}
+\scriptsize \noindent \DM 2026 \hfill \normalsize NAME: \underline{\hspace{60mm}}
+\medskip
+
+\thispagestyle{empty}
+
+\noindent \textbf{Q.}\quad \input{\FILE}
+\vfill
+\end{minipage}
+}
+
+
+\begin{document}
+
+% get from the environment
+\getenv[\DM]{DM}
+\getenv[\FILE]{FILE}
+
+% 2 x 2 array of the blocks
+\noindent \mbox{\theblock \qquad \theblock}
+
+\vspace{0.6in}
+\noindent \mbox{\theblock \qquad \theblock}
+\end{document}
