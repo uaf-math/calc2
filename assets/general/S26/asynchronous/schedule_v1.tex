@@ -1,0 +1,98 @@
+\documentclass[12pt]{article}
+\usepackage[top=1.0in, bottom=0.5in, left=0.9in, right=1.0in]{geometry}
+
+\usepackage{tabularx,enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{palatino}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true,urlcolor=black]{hyperref}
+
+% commands to put defined left and right headers on the top
+% and a page number on the bottom of all pages after 1
+\pagestyle{fancy}
+\makeatletter
+\fancyfoot[C]{\ifnum \value{page} > 1\relax\thepage\fi}
+\fancyhead[L]{\ifx\@doclabel\@empty\else\@doclabel\fi}
+\fancyhead[R]{\ifx\@docdate\@empty\else\@docdate\fi}
+\headheight 15pt
+\headsep 5pt
+\def\doclabel#1{\gdef\@doclabel{#1}}
+\def\docdate#1{\gdef\@docdate{#1}}
+\makeatother
+
+%% General formatting parameters
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% header content
+\doclabel{Math F252 Calculus II}
+\docdate{Spring 2026}
+
+% macros
+\renewcommand{\d}{\displaystyle}
+\newcommand{\wkday}[3]{\textbf{\large #1\strut}\quad #2\,--\,#3}
+\newcommand{\vacinline}[1]{{\color{OliveGreen} \textsl{#1}}}
+\newcommand{\vac}[1]{\strut {\small {\vacinline{#1}}}}
+\newcommand{\due}[1]{\strut {\color{BrickRed} \textsl{#1}}}
+\newcommand{\hdue}[1]{\due{H #1}}
+\newcommand{\proj}[1]{\strut {\color{RedOrange} #1}}
+\newcommand{\dl}[1]{{\small \color{Purple} \textbf{#1}}}
+
+\newcommand{\ee}[1]{\strut {\color{Blue} \textbf{#1}}}
+\newcommand{\qq}[1]{\strut {\color{RedOrange} #1}}
+% New macro for Check-ins
+\newcommand{\ckin}[1]{\strut {\color{Violet} \textbf{Check-in #1}}}
+
+
+\begin{document}
+\noindent\footnotesize \emph{version 1: \today} \normalsize \hfill asynchronous section 001
+
+\bigskip
+\centerline{\Large \textbf{Weekly Schedule}}
+
+\bigskip
+This schedule is subject to changes!  See the public course page: \,{\small \href{https://uaf-math.github.io/calc2/}{\texttt{uaf-math.github.io/calc2/}}}
+
+\noindent Note that \qq{Quizzes} and \ee{Midterm Exams} happen during the Thursday class.   Please check out the days for \vac{vacations}, \dl{deadlines}, and the \ee{Final Exam}.  The start days for textbook sections during lecture are in \textbf{black}.  \due{Homework} for each section is found on the \href{https://uaf-math251.github.io/calc2/}{Homework tab} of the public webpage. \ckin{x} notices indicate weekly check-ins. It is due at 11:59pm on the date given.  Turn it in by Gradescope upload, accessed from the Canvas page for your section.
+
+\bigskip
+
+\begin{tabularx}{1.03\textwidth}{l|>{\raggedright\arraybackslash}X|X|X|X|}
+\textbf{Week} \quad Dates &M & W & Th & F \\ \hline
+
+\wkday{1}{1/12}{1/16}   & review \par \ckin{1} & 2.1 & 2.2\phantom{x} \par \mbox{\qq{Q1}\, \hdue{Review}}  &  \\ \hline
+
+\wkday{2}{1/19}{1/23}   & \vac{Civil Rights Day} & 2.3 \par \hdue{2.1} \par \ckin{2} & \phantom{x} \par \mbox{\qq{Q2}\, \hdue{2.2}} & 2.4 \par \dl{drop} \\ \hline
+
+\wkday{3}{1/26}{1/30}   & \phantom{x} \par \hdue{2.3} \par \ckin{3} & 2.5 \par \hdue{2.4} & \phantom{x} \par \qq{Q3} &  \\ \hline
+
+\wkday{4}{2/2}{2/6}     & 2.7 \par \hdue{2.5} \par \ckin{4} & 3.1 \par \hdue{2.7} & \phantom{x} \par \qq{Q4} & 3.2 \\ \hline
+
+\wkday{5}{2/9}{2/13}    & \phantom{x} \par \hdue{3.1} \par \ckin{5} & 3.3 \par \hdue{3.2} & \phantom{x} \par \qq{Q5} & 3.4 \\ \hline
+
+\wkday{6}{2/16}{2/20}   & \phantom{x} \par \hdue{3.3} \par \ckin{6} & review \par \hdue{3.4} & \ee{Midterm 1 Opens} & \ee{Midterm 1 Closes} \par \dl{progress reps} \\ \hline
+
+\wkday{7}{2/23}{2/27}   & 3.6 \par \ckin{7} & 3.7\phantom{x} \par \hdue{3.6} & 4.1 \par \mbox{\qq{(no quiz)} \,\, \hdue{3.7}} &   5.1 \\ \hline
+
+\wkday{8}{3/2}{3/6}     & \phantom{x} \par \hdue{4.1} \par \ckin{8} & 5.2 \par \hdue{5.1} & \phantom{x} \par \qq{Q6} & 5.3 \\ \hline
+
+\wkday{9}{3/9}{3/13}    & \vac{Spring Break} & \vac{Spring Break} & \vac{Spring Break} & \vac{Spring Break} \\ \hline
+
+\wkday{10}{3/16}{3/20}  & \phantom{x} \par \hdue{5.2} \par \ckin{9} & 5.4 \par \hdue{5.3} & \phantom{x} \par \qq{Q7} & 5.5 \\ \hline
+
+\wkday{11}{3/23}{3/27}  & \phantom{x} \par \hdue{5.4} \par \ckin{10} & 5.6 \par \hdue{5.5} & \phantom{x} \par \qq{Q8} & 6.1 \par \mbox{\dl{withdrawal}} \\ \hline
+
+\wkday{12}{3/30}{4/3}   & \phantom{x} \par \hdue{5.6} \par \ckin{11} & 6.2 \par \hdue{6.1} & \phantom{x} \par \qq{Q9} & 6.3 \\ \hline
+
+\wkday{13}{4/6}{4/10}   & \phantom{x} \par \hdue{6.2} \par \ckin{12} & review \par \hdue{6.3} & \ee{Midterm 2 Opens} & \ee{Midterm 2 Closes}  \\ \hline
+
+\wkday{14}{4/13}{4/17}  & 6.4 \par\ckin{13} & 7.1 \par \hdue{6.4} & \phantom{x} \par \qq{(no quiz)} & 7.2 \par \hdue{7.1} \\ \hline
+
+\wkday{15}{4/20}{4/24}  & \ckin{14} & 7.3 \par \hdue{7.2} & \phantom{x} \par \qq{Q10} & 7.4 \par \hdue{7.3} \\ \hline
+
+\wkday{16}{4/27}{5/1}   & review \par \hdue{7.4} \par \ckin{15} & \ee{Final Exam Opens} & &\ee{Final Exam Closes} \\ \hline
+
+\end{tabularx}
+
+
+\end{document}
