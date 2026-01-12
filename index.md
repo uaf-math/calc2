@@ -42,7 +42,7 @@ to see
 
 * Do the [Homework](homework.html).
 
-  * Solutions are available in advance at the Canvas page!  Your Homework will be graded for completion and effort.  You will need to scan and upload each [Homework](homework.html) assignment as a single PDF file in Gradescope.  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
+  * **Homework solutions are available in advance at the Canvas page!**  Really!  Your Homework will be graded only for completion and effort, but of course you need to write something sensible.  You will need to scan and upload each [Homework Assignment](homework.html) as a single PDF file in Gradescope; find the Gradescope link on your section's Canvas page (as above).  See the [Tech Help](techHelp.html) page for help on scanning and uploading.
 
 * There are weekly [Quizzes](quizzes.html).
 
