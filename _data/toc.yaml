@@ -12,7 +12,7 @@ docs:
   url: assets/general/S26/inperson/schedule.pdf  # rebuild by "make" in directory
 
 - title: Schedule (async.)
-  url: assets/general/S26/asynchronous/schedule_v1.pdf
+  url: assets/general/S26/asynchronous/schedule.pdf
 
 - title: Homework
   url: homework.html
