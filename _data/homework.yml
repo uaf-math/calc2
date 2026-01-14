@@ -26,8 +26,7 @@ homework:
 - name: Homework 2.3
   sections:  
   - section: 2.3
-    problems: 114, 120, 122, 132, 138, 143,
-    cont: 148, 150, 159
+    problems: 114, 120, 122, 133, 138, 150, 159, 160
 - name: Homework 2.4
   sections:
   - section: 2.4
