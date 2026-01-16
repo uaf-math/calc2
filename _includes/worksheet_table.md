@@ -25,6 +25,11 @@
 			    <td><a href="{{ data.home }}/{{ ws.image }}">output image</a></td>
 			</tr>
 			{% endif %}
+			{% if ws.demo %}
+		  <tr>
+			    <td><a href="{{ data.home }}/{{ ws.demo }}">demo</a></td>
+			</tr>
+			{% endif %}
 		</table>
 		<div style="padding-bottom: 10px"></div>
 	</td>

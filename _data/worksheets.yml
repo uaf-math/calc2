@@ -13,6 +13,7 @@ worksheets:
 - name: Section 2.2
   blank: M252-2-2.pdf
   solutions: M252-2-2-ss.pdf
+  demo: M252_2_2_demo_cross_section.html
 - name: Section 2.3
   blank: M252-2-3.pdf
   solutions: M252-2-3-s.pdf
