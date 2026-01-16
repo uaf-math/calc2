@@ -3,7 +3,7 @@ layout: course-page
 title: Quizzes
 ---
 
-## Quizzes for In-Person sections will be here.
+## Quizzes
 
 The table below gives the section coverage, or planned coverage, of each Quiz.  PDFs for the Quizzes themselves ("blank"), and their solutions, will appear soon after they occur.  See the Schedule for your section (tab at left) for Quiz dates.
 
