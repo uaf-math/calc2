@@ -3,8 +3,8 @@ home: assets/quizzes/S26
 quizzes:
 - name: Quiz 1
   sections: Review
-  #blank: quiz1.pdf
-  #solutions: quiz1-s.pdf
+  #blank: q1.pdf
+  #solutions: q1-sol.pdf
 - name: Quiz 2
   sections: 2.1, 2.2
 - name: Quiz 3
