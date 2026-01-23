@@ -7,6 +7,8 @@ quizzes:
   solutions: q1sol.pdf
 - name: Quiz 2
   sections: 2.1, 2.2
+  blank: q2.pdf
+  solutions: q2sol.pdf
 - name: Quiz 3
   sections: 2.3, 2.4
 - name: Quiz 4
