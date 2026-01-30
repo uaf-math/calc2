@@ -11,6 +11,8 @@ quizzes:
   solutions: q2sol.pdf
 - name: Quiz 3
   sections: 2.3, 2.4
+  blank: q3.pdf
+  solutions: q3sol.pdf
 - name: Quiz 4
   sections: 2.5, 2.7
 - name: Quiz 5
