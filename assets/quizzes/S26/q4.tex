@@ -1,0 +1,145 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 4}
+\docdate{5 February 2026}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes.  No aids (book, notes, calculator, internet, etc.) are permitted.  Show all work and use proper notation for full credit.  Put answers in reasonably-simplified form.  25 points possible.
+
+\problem{3} Compute the total work done by a force $F(x)=cos(\pi x)$ on an object which moves from $x=0$ to $x=\frac12$.
+\vspace{6cm}
+
+\problem{6}  A 1-dimensional rod is 3 meters long and has linear mass density $\ds \rho(x)=1+\frac{2}{(1+x)^2}$ kilograms per meter (starting at $x=0$). 
+Find its mass. Simplify your answer and include units.
+% int 0^200 4 - x^2/10000 = [4x - x^3/30000]_0^200 = 800 - 8000000/30000 = 800 - 800/3 = 1600/3 approx 533 grams = 0.533 kg
+
+\newpage
+
+\problem{8}  A spring has natural length of 3 meters. It requires 6 J of work to stretch the spring from its natural length to a length of 4 meters. How much work would it take to stretch the spring from 4 meters to 5 meters?
+
+
+\newpage
+
+\problem{8}  Find the derivative, indefinite integral, or definite integral. Put your answers in reasonably simplified form and write ``$+C$'' if appropriate.
+
+\begin{subproblems}
+\item Find $\ds \frac{dy}{dx}$ if\, $\ds y = \frac{\ln (x^2)}{x}$.
+
+\vfill
+
+\item $\ds \int_0^{\pi/4} \tan x\,dx = $
+\vfill
+
+\item Find $\ds \frac{dy}{dx}$ if\, $y = 2^{5x}+\log_{2} (5x)$.
+\vfill
+
+\item $\ds \int \frac{dx}{x \,\ln x} = $
+\vfill
+
+\end{subproblems}
+
+
+\clearpage\newpage
+
+\bigskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}
