@@ -75,7 +75,7 @@ worksheets:
   solutions: M252-3-6-extra-s.pdf
 - name: Section 3.7 (for groups)
   blank: ../S26/3p7.pdf
-  #solutions: 
+  #solutions: ../S26/3p7solns.pdf
 - name: Section 3.7 (day 1)
   blank: M252-3-7.pdf
   solutions: M252-3-7-s.pdf
