@@ -23,6 +23,8 @@ quizzes:
   solutions: q5sol.pdf
 - name: Quiz 6
   sections: 3.6, 3.7, 5.1
+  blank: q6.pdf
+  solutions: q6sol.pdf
 - name: Quiz 7
   sections: 5.2, 5.3
 - name: Quiz 8
