@@ -102,7 +102,7 @@ worksheets:
   solutions: M252-5-3-b-s.pdf
 - name: Section 5.3 (day 2 alternate)
   blank: ../S26/5p3c.pdf
-  #solutions: ../S26/5p3csolns.pdf
+  solutions: ../S26/5p3csolns.pdf
 - name: Section 5.4 
   blank: M252-5-4-a.pdf
   solutions: M252-5-4-a-s.pdf  
