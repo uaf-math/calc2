@@ -116,7 +116,7 @@ worksheets:
   blank: ../S26/5p5.pdf
   solutions: ../S26/5p5solns.pdf
 - name: Section 5.6 (day 1)
-  blank: M252-5-6-aa.pdf
+  blank: M252-5-6-a.pdf
   solutions: M252-5-6-a-s.pdf 
 - name: Section 5.6 (day 2)
   blank: M252-5-6-b.pdf
