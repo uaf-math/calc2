@@ -121,6 +121,8 @@ worksheets:
 - name: Section 5.6 (day 2)
   blank: M252-5-6-b.pdf
   solutions: M252-5-6-b-s.pdf 
+- name: Summary of Convergence Tests
+  blank: ../S22/5p6.pdf
 - name: Section 6.1 (day 1)
   blank: M252-6-1-a.pdf
   solutions: M252-6-1-aa-s.pdf   
