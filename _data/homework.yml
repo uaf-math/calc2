@@ -119,6 +119,7 @@ homework:
     cont: 332, 334, 336, 338, 348, 353,
     contcont: 364, 367, 369
 - name: Homework 6.1
+  # problems here are fucking stupid because they never ask about series in (x-a) ... need to do what I did for 5.4 above, and write a new set
   sections:
   - section: 6.1
     problems: 1, 2, 3, 6, 7, 9, 11, 13, 14, 15,
