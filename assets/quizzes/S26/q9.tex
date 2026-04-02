@@ -1,0 +1,152 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.18}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% like \problem but with name
+\newcommand{\nameprob}[2]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{#1.}\hskip1ex}\emph{[#2 points]}\hskip1ex}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\theenumi}{\emph{\alph{enumi}}}}%
+{\setcounter{subprobcount}{\value{enumi}}\end{enumerate}}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+
+
+\doctitle{Math 252: Quiz 9 }
+\docdate{2 April 2026}
+\doccourse{}
+\docversion{v1}
+\docscoring{\fbox{{\LARGE \strut}\blank{0.8in} / 25}}
+
+\begin{document}
+30 minutes maximum.  No aids (book, calculator, etc.) are permitted.  \textbf{Show all work} and use proper notation for full credit.  Answers should be in reasonably-simplified form.  25 points possible.
+
+\begin{enumerate}
+\item (12 points) Use either the ratio test or the root test as appropriate to determine whether the series converges or diverges or state that the test is inconclusive. State the test that you are using.
+	\begin{enumerate}
+	\item $\ds \sum_{n=1}^{\infty} \frac{5^{n}}{n!}$ 
+	\vfill
+	\item $\ds \sum_{k=1}^{\infty} \left(\frac{3k}{k+1}\right)^k$
+	\vfill
+	\end{enumerate}
+
+\item (4 points) For which $p$-values does the series $\ds \sum_{n=1}^{\infty} \frac{n^p}{2^n}$ converge? Justify your conclusion.
+\vfill
+\newpage
+
+\item (9 points) Consider the series $\ds \sum_{n=1}^{\infty}\frac{x^n}{n}.$ % Problem 6.1.17
+	\begin{enumerate}
+	\item Find $R$, the radius of convergence of the series.
+	\vfill
+	\item Determine the interval of convergence of the series. (Make sure to check any endpoints, if they exist.)
+	\vfill
+	\vfill
+	\end{enumerate}
+\end{enumerate}
+\newpage
+\textbf{Extra Credit} (1 point) Suppose the series $\ds \sum_{n=0}^{\infty} a_n(x-3)^n$ converges at $x=2.$ Can you conclude that the series converges at $x=3.9$? Justify your conclusion.
+\vfill
+\end{document}
+
+
+Use the limit comparison test to determine whether the series converge or diverge. You must include a detailed implementation of the test. You must (i) identify the comparison series, (ii) indicate whether the comparing series converges or diverges and why, (iii) evaluate an appropriate limit, and (iv) draw a conclusion.
+	\begin{enumerate}
+	\item $\ds \sum_{n=2}^{\infty} \frac{\sqrt{n}}{n^2-\sqrt{n}}$
+	\vfill
+	\item $\ds \sum_{n=2}^{\infty} \frac{1}{(\ln(n))^3}$
+	\vfill
+	\end{enumerate}
+\newpage
+\item (9 points) Determine if the series below are  convergent or divergent. You must include a justification. You must (i) state the test (or tests) you are applying, (ii) apply the test (or tests), and (iii) draw a conclusion.
+	\begin{enumerate}
+	\item $\ds \sum_{n=1}^{\infty} (-1)^n \ln(1+\frac{1}{n})$ 
+	\vfill
+	\item $\ds \sum_{n=2}^{\infty} (-1)^{n}\frac{100n+50}{n-1} $
+	\vfill
+	\end{enumerate}
+\end{enumerate}
+\end{document}
+

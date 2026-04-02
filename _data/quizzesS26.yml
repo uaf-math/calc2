@@ -31,7 +31,11 @@ quizzes:
   solutions: q7sol.pdf
 - name: Quiz 8
   sections: 5.4, 5.5
+  blank: q8.pdf
+  solutions: q8sol.pdf
 - name: Quiz 9
   sections: 5.6, 6.1
+  blank: q9.pdf
+  solutions: q9sol.pdf
 - name: Quiz 10
   sections: 6.4, 7.1, 7.2
