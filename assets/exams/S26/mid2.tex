@@ -1,0 +1,215 @@
+\documentclass[12pt]{article}
+\usepackage[top=1in, bottom=1in, left=.75in, right=.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{multicol,coordsys}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+\usepackage{anyfontsize}
+\usepackage[shortlabels]{enumitem}
+% \usepackage{times}
+% \usepackage[lf]{MinionPro}
+\usepackage{tikz,pgfplots,mathrsfs}
+%\def\degC{{}^\circ{\rm C}}
+\def\ra{\rightarrow}
+\usetikzlibrary{calc, backgrounds}
+\pgfplotsset{compat = newest}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+middle, xlabel={$x$}, ylabel={$y$},axis equal}}
+
+%yticklabels={,,} , xticklabels={,,}
+
+% \setmainfont{Times}
+% \def\sansfont{Lucida Grande Bold}
+\parindent 0pt
+\parskip 4pt
+\pagestyle{fancy}
+\fancyfoot[C]{\emph{\thepage}}
+\fancyhead[L]{\ifnum \value{page} > 1\relax\emph{Math 252: Midterm Exam 2}\fi}
+\fancyhead[R]{\ifnum \value{page} > 1\relax\emph{Spring 2026}\fi}
+\headheight 15pt
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\let\ds\displaystyle
+\def\continued{{\emph {Continued....}}}
+\def\continuing{{\emph {Problem \arabic{probcount} continued....}}\par\vskip 4pt}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{{\small (\textsl{#1 pts})}}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2} \quad}
+
+
+\begin{document}
+{\emph{\fontsize{26}{28}\selectfont Math F252\hfill
+{\fontsize{32}{36}\selectfont Midterm II}
+\hfill Spring 2026}}
+\vskip 2cm
+\strut\vtop{\halign{\emph#\hskip 0.5em\hfil&#\hbox to 4in{\hrulefill}\cr
+\emph{\fontsize{18}{22}\selectfont Name:}&\cr
+\noalign{\vskip 10pt}}}
+
+\vspace{0.5in}
+{\fontsize{18}{22}\selectfont\emph{Rules:}}
+
+You have {90 minutes} to complete this midterm.  
+
+Partial credit will be awarded, but you must show your work.
+
+Calculators are not allowed. 
+
+Place a box around your \fbox{FINAL ANSWER} to each question, or use the box provided.
+
+Turn off anything that might go beep during the exam.
+
+You may bring one page of hand-written notes ($8.5\times11$in paper, single side).
+
+Good luck!
+\vfill
+\def\emptybox{\hbox to 2em{\vrule height 16pt depth 8pt width 0pt\hfil}}
+\def\tline{\noalign{\hrule}}
+\centerline{\vbox{\offinterlineskip
+{
+\bf\sf\fontsize{18pt}{22pt}\selectfont
+\hrule
+\halign{
+\vrule#&\strut\quad\hfil#\hfil\quad&\vrule#&\quad\hfil#\hfil\quad
+&\vrule#&\quad\hfil#\hfil\quad&\vrule#\cr
+height 3pt&\omit&&\omit&&\omit&\cr
+&Problem&&Possible&&Score&\cr\tline
+height 3pt&\omit&&\omit&&\omit&\cr
+&1&& 16&&\emptybox&\cr\tline
+&2&& 18&&\emptybox&\cr\tline
+&3&& 12&&\emptybox&\cr\tline
+&4&& 12&&\emptybox&\cr\tline
+&5&& 12&&\emptybox&\cr\tline
+&6&&  6&&\emptybox&\cr\tline
+&7&&  6&&\emptybox&\cr\tline
+&8&& 18&&\emptybox&\cr\tline
+&\textsl{Extra Credit}&& \textsl{3}&&\emptybox&\cr\tline
+&Total&& 100&&\emptybox&\cr
+}\hrule}}}
+
+\newpage
+\prob{1}  Compute and simplify the improper integrals, or show they diverge.  Use correct limit notation.
+
+\epartpts{a}{8} $\ds \int_0^\infty xe^{-x}dx =$
+\vfill
+
+\epartpts{b}{8} $\ds \int_1^2 \frac{dx}{\sqrt{2-x}} = $
+\vfill
+
+
+
+\newpage\clearpage
+\prob{2} Do the following series converge or diverge?  Show your work, including naming any test you use.
+
+%HW 5.6 #321
+\epartpts{a}{6}  $\ds \sum_{n=1}^\infty \frac{(n!)^2}{(2n)!}$
+\vfill
+
+%HW 5.6 #330
+\epartpts{b}{6}  $\ds \sum_{n=1}^\infty \frac{(\ln n)^{2n}}{n^n}$
+\vfill
+
+\epartpts{c}{6} $\ds \sum_{n=2}^\infty \frac{(-1)^n}{\ln n}$
+\vfill
+
+
+
+\newpage\clearpage
+\newcommand{\threeopts}{{\small \hfill$\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{absolutely}} \end{matrix}$ \hfill $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{conditionally}} \end{matrix}$ \hfill \textsc{diverges}\hfill} \bigskip}
+\prob{3} Do the following series converge absolutely, conditionally, or neither(diverge)?  Show your work, identify any test(s) you use, and circle one answer.
+
+\epartpts{a}{6} $\ds \sum_{n=1}^\infty \frac{(-1)^{n+1}}{n!}$
+\vfill 
+\threeopts
+
+\epartpts{a}{6} $\ds \sum_{n=1}^\infty \frac{(-1)^n\ln n}{n}$
+\vfill 
+\threeopts
+
+
+
+
+\newcommand{\spread}{$\ds\frac{{\large\strut}}{{\large\strut}}$}
+\newcommand{\bspread}{$\ds\frac{{\Large\strut}}{{\Large\strut}}$}
+
+
+
+\newpage\clearpage
+\prob{4} Find the \emph{radius} and \emph{interval} of convergence of the following power series. Show your work, identify any test(s) you use, and write your answers in the provided boxes.
+
+%from first draft of quiz 9
+\epartpts{a}{6} $\ds \sum_{n=1}^\infty \frac{n^2 x^n}{2^n}$
+\vfill 
+
+\hfill \fbox{\spread $\ds R=$ \hspace{1.5in}} \qquad \fbox{\spread interval: \hspace{2.5in}}
+
+%HW 6.1 #31
+\epartpts{b}{6} $\ds \sum_{n=1}^\infty \frac{n!}{n^n}x^n$
+\vfill
+
+\hfill \fbox{\spread $\ds R=$ \hspace{1.5in}} \qquad \fbox{\spread interval: \hspace{2.5in}}
+
+
+\newpage\clearpage
+\prob{5} Show your work.
+
+
+\epartpts{a}{6} Find a simplified power series representation for the function $f(x)=\ds \frac{x^2}{2-x}$.
+\vfill
+
+\epartpts{b}{6}
+If $\ds f(x)=\sum_{n=1}^{\infty}\frac{(-1)^{n-1}x^n}{n}$, find $f'(x)$ and simplify your answer.
+\vfill 
+
+\newpage\clearpage
+
+%HW 6.2 #65
+\probpts{6}{6} Find a simplified power series of the function $\ds f(x)=\frac{4}{(x-3)(x+1)}$.
+\vfill 
+
+%HW 6.2 #91
+\probpts{7}{6} Evaluate $\ds\sum_{n=1}^\infty \frac{n}{2^n}$ by using the derivative of $\ds f(x)=\sum_{n=0}^\infty x^n$.
+\vfill
+
+
+\newpage\clearpage
+
+%HW 6.2 #65
+\prob{8} 
+\epartpts{a}{6}
+Find the Taylor polynomial of degree two approximating $f(x)=e^x$ centered at $a=0$.
+\vfill
+
+\epartpts{b}{6}
+Find the Taylor series for $f(x)=e^x$ centered at $a=2$.
+
+\vfill
+
+\newpage\clearpage
+
+
+\epartpts{c}{6} Find the MacLaurin series for $f(x)=\sin(2x)$.
+\vfill
+\vfill\vfill\vfill
+
+\probpts{Extra Credit}{3} Find a power series representation of $f(x)=\arctan(x)$. Show your work.
+
+(\emph{Hint:} Using Taylor's formula for the coefficients is \emph{not} required.)
+\vfill
+\vfill
+\vfill 
+
+\newpage\clearpage
+\medskip
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+\end{document}
