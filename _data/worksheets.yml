@@ -162,6 +162,8 @@ worksheets:
 - name: Section 7.3 (day 2)
   blank: M252-7-3-b.pdf
   solutions: M252-7-3-bs.pdf  
+- name: Polar coordinates graph paper (big, 2-sided)
+  blank: ../S24/polar2side.pdf
 - name: Section 7.4 (day 1)
   blank: M252-7-4a.pdf
   solutions:  M252-7-4as.pdf
