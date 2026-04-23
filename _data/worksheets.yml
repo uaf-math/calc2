@@ -170,8 +170,6 @@ worksheets:
 - name: Section 7.4 (day 2)
   blank: M252-7-4b.pdf
   solutions: M252-7-4bs.pdf
-- name: Final Review Day
-  blank: M252-FE-Review.pdf
-  solutions:
-
-  
+#- name: Final Review Day
+#  blank: M252-FE-Review.pdf
+#  solutions:
