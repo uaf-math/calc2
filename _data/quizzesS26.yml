@@ -39,3 +39,5 @@ quizzes:
   solutions: q9sol.pdf
 - name: Quiz 10
   sections: 6.4, 7.1, 7.2
+  blank: q10.pdf
+  solutions: q10sol.pdf
