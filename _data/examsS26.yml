@@ -14,5 +14,5 @@ exams:
 - name: Final Exam
   sections: all previous, 6.4, 7.1,
   cont: 7.2, 7.3, 7.4
-  #blank: final-v2.pdf
-  #solutions: final-v2-s.pdf
+  blank: final.pdf
+  solutions: finalsolns.pdf

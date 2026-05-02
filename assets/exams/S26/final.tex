@@ -1,0 +1,268 @@
+\documentclass[12pt]{article}
+
+\usepackage[top=1in, bottom=1in, left=.75in, right=.75in]{geometry}
+\usepackage{amsmath,fancyhdr,verbatim}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{multicol,coordsys}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+\usepackage{anyfontsize}
+\usepackage[shortlabels]{enumitem}
+% \usepackage{times}
+% \usepackage[lf]{MinionPro}
+\usepackage{tikz,pgfplots,mathrsfs}
+%\def\degC{{}^\circ{\rm C}}
+\def\ra{\rightarrow}
+\usetikzlibrary{calc, backgrounds}
+\pgfplotsset{compat = newest}
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=
+middle, xlabel={$x$}, ylabel={$y$},axis equal}}
+
+%yticklabels={,,} , xticklabels={,,}
+
+% \setmainfont{Times}
+% \def\sansfont{Lucida Grande Bold}
+\parindent 0pt
+\parskip 4pt
+\pagestyle{fancy}
+\fancyfoot[C]{\emph{\thepage}}
+\fancyhead[L]{\ifnum \value{page} > 1\relax\emph{Math 252: Final Exam}\fi}
+\fancyhead[R]{\ifnum \value{page} > 1\relax\emph{Spring 2024}\fi}
+\headheight 15pt
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\let\ds\displaystyle
+\def\continued{{\emph {Continued....}}}
+\def\continuing{{\emph {Problem \arabic{probcount} continued....}}\par\vskip 4pt}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{{\small (\textsl{#1})}}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2 pts} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2 pts} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2 pts} \quad}
+
+
+\begin{document}
+{\emph{\fontsize{26}{28}\selectfont Math F252\hfill
+{\fontsize{32}{36}\selectfont Final}
+\hfill Spring 2026}}
+
+\vskip 1cm
+\strut\vtop{\halign{\emph#\hskip 0.5em\hfil&#\hbox to 4in{\hrulefill}\cr
+\emph{\fontsize{18}{22}\selectfont Name:}&\cr
+\noalign{\vskip 10pt}}}
+
+\vspace{0.3in}
+{\fontsize{18}{22}\selectfont\emph{Rules:}}
+
+You have \textbf{2 hours} to complete this midterm.  
+
+Partial credit will be awarded, but you must show your work.
+
+Calculators and books are not allowed.  You may have \textbf{one whole sheet} of letter paper, 2-sided, with notes.
+
+Place a box around your \fbox{FINAL ANSWER} to each question.%, or use the box provided.
+
+Turn off anything that might go beep during the exam.  Good luck!
+
+\vfill
+\def\emptybox{\hbox to 2em{\vrule height 16pt depth 8pt width 0pt\hfil}}
+\def\tline{\noalign{\hrule}}
+\centerline{\vbox{\offinterlineskip
+{
+\bf\sf\fontsize{18pt}{22pt}\selectfont
+\hrule
+\halign{
+\vrule#&\strut\quad\hfil#\hfil\quad&\vrule#&\quad\hfil#\hfil\quad
+&\vrule#&\quad\hfil#\hfil\quad&\vrule#\cr
+height 3pt&\omit&&\omit&&\omit&\cr
+&Problem&&Possible&&Score&\cr\tline
+height 3pt&\omit&&\omit&&\omit&\cr
+& 1&&  6&&\emptybox&\cr\tline
+& 2&&  6&&\emptybox&\cr\tline
+& 3&& 13&&\emptybox&\cr\tline
+& 4&& 12&&\emptybox&\cr\tline
+& 5&&  6&&\emptybox&\cr\tline
+& 6&&  6&&\emptybox&\cr\tline
+& 7&& 15&&\emptybox&\cr\tline
+& 8&& 12&&\emptybox&\cr\tline
+& 9&&  9&&\emptybox&\cr\tline
+&10&& 11&&\emptybox&\cr\tline
+&11&& 14&&\emptybox&\cr\tline
+&12&&  9&&\emptybox&\cr\tline
+&13&&  6&&\emptybox&\cr\tline
+&\textsl{Extra Credit A}&& \textsl{2}&&\emptybox&\cr\tline
+&\textsl{Extra Credit B}&& \textsl{2}&&\emptybox&\cr\tline
+&Total&& 125&&\emptybox&\cr
+}\hrule}}}
+
+\newpage
+\probpts{1}{6}  Sketch the area under the curve $f(x)=\ln x$ between $x=1$ and $x=e$.  Find this area by evaluating an integral. \\
+
+\begin{tikzpicture}
+\draw[ultra thick, ->] (-1,0) -- (5,0);
+\draw[ultra thick, ->] (0,-1.5) -- (0,3.0);
+\end{tikzpicture}
+\vfill
+
+\probpts{2}{6} Evaluate (compute the value of) the series $\displaystyle \sum_{n=0}^\infty \frac{(-1)^n}{3^{n+1}}$.
+\vfill
+
+
+\newpage
+\prob{3} \ppartpts{a}{3} On the axes below, sketch the region $R$ in the first quadrant bounded by $y=\cos(x)$, $y=0$, and $x=0$. \\
+
+\begin{tikzpicture}
+\draw[ultra thick, ->] (-1,0) -- (5,0);
+\draw[ultra thick, ->] (0,-1.5) -- (0,3.0);
+\end{tikzpicture}
+
+\epartpts{b}{5} Use an integral to find the volume  of the solid obtained by rotating $R$ about the $x$-axis.
+\vfill
+
+\epartpts{c}{5} Set up, but do not evaluate, an integral for the surface area of the solid in part \textbf{(b)}.
+\vfill
+
+
+\newpage
+\prob{4}  Evaluate the indefinite integrals below.
+
+\epartpts{a}{6} $\displaystyle{\int \cos^5(\theta) \, d\theta}$
+\vfill
+
+\epartpts{b}{6} $\displaystyle{\int \frac{1}{(4+x^2)^{3/2}} \, dx}$
+\vfill
+
+
+\newpage
+\probpts{5}{6}  A spring with a relaxed length of 2 meters requires 3 Newtons force to stretch to a length of 2.1 meters.  How much work would it take to stretch the spring from 2 meters to 2.4 meters?
+\vfill
+
+\probpts{6}{6}  Find the Maclaurin series of\quad $\ds \sinh x = \frac{e^x - e^{-x}}{2}$.  Express your answer as \textbf{one series}.
+\vfill
+
+
+\newpage
+\prob{7} \pts{5 pts each} \quad Do the following series converge or diverge? Show your work; \textbf{state the name} of any test you use.
+
+\renewcommand{\labelenumi}{\textbf{(\alph{enumi})}}
+	\begin{enumerate}[leftmargin=7mm]
+	\item \, $\displaystyle{\sum_{n=0}^\infty \frac{(-1)^n}{\sqrt{2n+1}}}$
+	\vfill
+	\item \, $\displaystyle{\sum_{n=1}^\infty \frac{4^{n+1}}{n^n}}$
+	\vfill
+	\item \, $\displaystyle{\sum_{n=2}^\infty \frac{1}{n^2 \ln n}}$
+	\vfill
+	\end{enumerate}
+
+
+\newpage
+\prob{8} \pts{6 pts each} \quad For each power series, determine the \emph{interval} of convergence.
+	\begin{enumerate}[leftmargin=7mm]
+	\item \,$\displaystyle \sum_{n=1}^\infty \frac{(x+2)^n}{n}$
+	\vfill
+	\item \,$\displaystyle \sum_{n=0}^\infty \frac{x^{2n}}{8(n+1)!}$
+	\vspace{3.0in}
+	\end{enumerate}
+
+
+\newpage
+\prob{9} Let \,\, $\ds f(x)=\frac{1}{1+x}$. 
+	\begin{enumerate}[leftmargin=7mm]
+	\item \pts{4 pts} \, Find a formula for $f^{(n)}(x),$ the $n$th derivative of $f(x).$
+	\vspace{3.0in}
+	\item \pts{5 pts} \, Find the Taylor series for $f(x)$ centered at $a=1$. Your answer should be reasonably simplified.
+	\vfill
+	\end{enumerate}
+
+
+\newpage
+\prob{10} Consider the curve defined by the parametric equations \hspace{.2in} {\large $x=\ln(t)$, \hspace{.1in} $y=(t-1)^2$}.
+	\begin{enumerate}[leftmargin=7mm]
+	\item \pts{4 pts} \,  Find the equation of the tangent line at $t=2$.
+	\vfill
+	\item \pts{3 pts} \,  For $t>0$, determine the points on the curve---give the $x,y$ coordinates of these points---at which the tangent line is horizontal.
+	\vfill
+	\item \pts{4 pts} \,  Set up but do not evaluate an integral for the length of the curve from $t=1$ to $t=2.$
+	\vspace{1.6in}
+	\end{enumerate}  
+
+
+\newpage
+\prob{11}  \ppartpts{a}{4}  Find the Maclaurin series for {\large $\ds e^{-x^2}$}.  (\emph{Hint.}  Start from a known Maclaurin series.) \\
+\vfill
+
+\epartpts{b}{5}  Compute an infinite series for the integral \,\,$\ds \int_0^3 e^{-x^2}\,dx$.
+\vfill
+
+\epartpts{c}{5}  Show that the infinite series in part \textbf{(b)} converges.  \textbf{State the name} of any test you use.
+\vfill
+
+
+\newpage
+\prob{12}  \ppartpts{a}{4} Convert the polar equation $r=\cos \theta$ to rectangular form.
+\vfill
+
+\epartpts{b}{5} Sketch the polar curve $r=3+3\sin\theta.$\\
+
+\input{polar.tikz}
+
+\vspace{-4mm}
+
+\clearpage\newpage
+\probpts{13}{6}  Evaluate and simplify the indefinite integral \, $\ds \int e^{2x}\sin x\,dx$.
+\vfill
+
+\probpts{Extra Credit A (easier)}{2}  If you compute the millionth partial sum of the infinite series in problem {\large \textbf{7 (a)}}, about how many digits would you expect to be accurate?
+\vfill
+
+
+\clearpage\newpage
+\probpts{Extra Credit B (harder)}{2}  Evaluate the integral in problem {\large \textbf{3 (c)}}.
+\vfill
+
+
+\clearpage\newpage
+\centerline{\footnotesize \textsc{blank space}}
+\vfill
+
+\hrulefill
+
+You may find the following \textbf{trigonometric formulas} useful.  Other formulas, not listed here, should be in your memory, or you can derive them from the ones here.
+\begin{align*}
+\sin(\alpha \pm \beta) &= \sin \alpha \cos \beta \pm \cos \alpha \sin \beta \qquad &
+    \sin(ax) \sin(bx) &= \frac{1}{2} \cos((a-b)x) - \frac{1}{2} \cos((a+b)x) \\
+\cos(\alpha \pm \beta) &= \cos \alpha \cos \beta \mp \sin \alpha \sin \beta \qquad &
+    \sin(ax) \cos(bx) &= \frac{1}{2} \sin((a-b)x) + \frac{1}{2} \sin((a+b)x) \\
+ && \cos(ax) \cos(bx) &= \frac{1}{2} \cos((a-b)x) + \frac{1}{2} \cos((a+b)x)
+\end{align*}
+
+
+
+\begin{comment}
+%%%%%%%%%%%% commented out
+\clearpage\newpage
+\large\centerline{\textbf{Summary of Convergence Tests}}
+\normalsize
+
+\vspace{-2mm}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{serieshandoutA.png}
+\end{center}
+\vfill
+
+\clearpage\newpage
+\begin{center}
+\includegraphics[width=0.87\textwidth]{serieshandoutB.png}
+
+\vspace{-2mm}
+\includegraphics[width=0.87\textwidth]{serieshandoutC.png}
+\end{center}
+\vfill
+\end{comment}
+
+\end{document}
