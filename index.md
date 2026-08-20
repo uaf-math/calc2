@@ -3,7 +3,7 @@ layout: course-page
 title: Math F252 Calculus II at UAF
 ---
 
-Welcome to the homepage of **Math F252 Calculus II** for **Spring 2026** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
+Welcome to the homepage of **Math F252 Calculus II** for **Fall 2026** in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 ### Instructors
 
@@ -15,7 +15,7 @@ Welcome to the homepage of **Math F252 Calculus II** for **Spring 2026** in the 
 
 Log in to the Canvas page for your section:
 
-  * Yoo (in-person section 901): [canvas.alaska.edu/courses/31682](https://canvas.alaska.edu/courses/31682)
+  * Meek (in-person section 901): [canvas.alaska.edu/courses/31682](https://canvas.alaska.edu/courses/31682)
 
 to see
 
