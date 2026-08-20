@@ -7,23 +7,15 @@ Welcome to the homepage of **Math F252 Calculus II** for **Spring 2026** in the 
 
 ### Instructors
 
-  * Glen Woodworth, asynchronous section 001 (CRN 30347)
-    * info: asynchronous online on [Canvas](https://canvas.alaska.edu/courses/30029)
-    * contact: [gwoodworth@alaska.edu](mailto:gwoodworth@alaska.edu)
-  * [Youngho Yoo](https://sites.google.com/view/younghoyoo/), in-person section 901 (CRN 31037)
-    * info: MWF 11:45am-12:45pm, Th 11:30am-1pm, Gruening 409
-    * contact: Chapman 303B, [yyoo2@alaska.edu](mailto:yyoo2@alaska.edu)
-  * [Ed Bueler](https://bueler.github.io/), in-person section 902 (CRN 31788)
-    * info: MWF 9:15-10:15am, Th 9:45-11:15am, Chapman 106 
-    * contact: Chapman 306C, [elbueler@alaska.edu](mailto:elbueler@alaska.edu)
+  * Kevin Meek, in-person section 901 (CRN 73200)
+    * info: MWF 11:45 - 12:45, Th 11:30 - 13:00, Gruening 208
+    * contact: [krmeek2@alaska.edu](mailto:krmeek2@alaska.edu)
 
 ### Canvas course pages
 
 Log in to the Canvas page for your section:
 
-  * Woodworth (asychronous section 001): [canvas.alaska.edu/courses/30029](https://canvas.alaska.edu/courses/30029)
-  * Yoo (in-person section 901): [canvas.alaska.edu/courses/30032](https://canvas.alaska.edu/courses/30032)
-  * Bueler (in-person section 902): [canvas.alaska.edu/courses/30035](https://canvas.alaska.edu/courses/30035)
+  * Yoo (in-person section 901): [canvas.alaska.edu/courses/31682](https://canvas.alaska.edu/courses/31682)
 
 to see
 
@@ -34,7 +26,7 @@ to see
 
 ### Getting Started
 
-* Read the Syllabus for your section (tab at left).  "In-person" is for sections 901 and 902 (Yoo & Bueler).
+* Read the Syllabus for your section (tab at left).
 
 * See the Schedule for your section (tab at left).  Check it often to find out what happens next!
 
