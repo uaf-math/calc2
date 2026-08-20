@@ -5,14 +5,14 @@ docs:
 - title: "Syllabus <span style='font-size: 0.7em;'>(in-person)</span>"
   url: assets/general/S26/inperson/syllabus.pdf  # rebuild by "make" in directory
 
-- title: "Syllabus <span style='font-size: 0.7em;'>(async.)</span>"
-  url: assets/general/S26/asynchronous/syllabus.pdf
+# - title: "Syllabus <span style='font-size: 0.7em;'>(async.)</span>"
+#   url: assets/general/S26/asynchronous/syllabus.pdf
 
 - title: "Schedule <span style='font-size: 0.7em;'>(in-person)</span>"
   url: assets/general/S26/inperson/schedule.pdf  # rebuild by "make" in directory
 
-- title: "Schedule <span style='font-size: 0.7em;'>(async.)</span>"
-  url: assets/general/S26/asynchronous/schedule.pdf
+# - title: "Schedule <span style='font-size: 0.7em;'>(async.)</span>"
+#   url: assets/general/S26/asynchronous/schedule.pdf
 
 - title: Homework
   url: homework.html
