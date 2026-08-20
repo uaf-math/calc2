@@ -3,13 +3,13 @@ sidenavtitle: 'MATH F252'
 docs:
 
 - title: "Syllabus <span style='font-size: 0.7em;'>(in-person)</span>"
-  url: assets/general/S26/inperson/syllabus.pdf  # rebuild by "make" in directory
+  url: assets/general/F26/inperson/syllabus.pdf  # rebuild by "make" in directory
 
 # - title: "Syllabus <span style='font-size: 0.7em;'>(async.)</span>"
 #   url: assets/general/S26/asynchronous/syllabus.pdf
 
 - title: "Schedule <span style='font-size: 0.7em;'>(in-person)</span>"
-  url: assets/general/S26/inperson/schedule.pdf  # rebuild by "make" in directory
+  url: assets/general/F26/inperson/schedule.pdf  # rebuild by "make" in directory
 
 # - title: "Schedule <span style='font-size: 0.7em;'>(async.)</span>"
 #   url: assets/general/S26/asynchronous/schedule.pdf
