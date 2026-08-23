@@ -8,8 +8,9 @@ Welcome to the homepage of **Math F252 Calculus II** for **Fall 2026** in the [D
 ### Instructors
 
   * Kevin Meek, in-person section 901 (CRN 73200)
-    * info: MWF 11:45 - 12:45, Th 11:30 - 13:00, Gruening 208
-    * contact: [krmeek2@alaska.edu](mailto:krmeek2@alaska.edu)
+    * Lecture times: MWF 11:45 - 12:45, Th 11:30 - 13:00, Gruening 208
+    * Contact: [krmeek2@alaska.edu](mailto:krmeek2@alaska.edu)
+	* Office hours: MWF 9:15 - 10:15 in Chapman 301C and Th 10:15 - 11:15 in the Math and Stats Lab 
 
 ### Canvas course pages
 
