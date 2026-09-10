@@ -1,0 +1,7 @@
+semester: Fall 2026
+home: assets/quizzes/F26
+quizzes:
+- name: Quiz 2
+  sections: 2.1, 2.2
+  blank: quiz01.pdf
+  solutions: quiz01-s.pdf

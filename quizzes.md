@@ -11,13 +11,17 @@ The table below gives the section coverage, or planned coverage, of each Quiz.  
 
 <b>The best guide to the content of an upcoming Quiz is the Homework assignments you turn in just before the Quiz!  See the [Homework tab](homework.html).</b>
 
-### Spring 2026
+### Fall 2026
 
-{% include quiz_table.md  data=site.data.quizzesS26 %}
+{% include quiz_table.md  data=site.data.quizzesF26 %}
 
 ---
 
 <b>Old Quizzes appear below!</b>
+
+### Spring 2026
+
+{% include quiz_table.md  data=site.data.quizzesS26 %}
 
 ### Fall 2025
 
