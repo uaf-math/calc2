@@ -17,3 +17,7 @@ quizzes:
   sections: 3.1, 3.2
   blank: quiz04.pdf
   solutions: quiz04-s.pdf
+- name: Quiz 5
+  sections: 3.7, 5.1
+  blank: quiz05.pdf
+  solutions: quiz05-s.pdf
