@@ -25,3 +25,7 @@ quizzes:
   sections: 5.2, 5.3
   blank: quiz06.pdf
   solutions: quiz06-s.pdf
+- name: Quiz 7
+  sections: 5.4, 5.5
+  blank: quiz07.pdf
+  solutions: quiz07-s.pdf
