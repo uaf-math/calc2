@@ -1,3 +1,4 @@
+
 \documentclass[12pt]{article}
 
 % Layout.
@@ -96,74 +97,84 @@
 \newcommand{\bi}{\mathbf{i}}
 \newcommand{\bj}{\mathbf{j}}
 \newcommand{\bk}{\mathbf{k}}
-\newcommand{\bn}{\mathbf{n}}
 \newcommand{\bu}{\mathbf{u}}
 \newcommand{\bv}{\mathbf{v}}
 \newcommand{\bw}{\mathbf{w}}
-\newcommand{\br}{\mathbf{r}}
-\newcommand{\bT}{\mathbf{T}}
-\newcommand{\bN}{\mathbf{N}}
-\newcommand{\bB}{\mathbf{B}}
 
 \newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
 \newcommand{\vv}[2]{\mathrm{\left<#1,#2\right>}}
 \newcommand{\vvv}[3]{\mathrm{\left<#1,#2,#3\right>}}
 
 
-\doctitle{Math 253: Quiz 5}
+\doctitle{Math 252: Quiz 5}
 \docdate{15 October, 2026}
 \doccourse{}
 \docversion{}
 \docscoring{\fbox{{\LARGE \strut}\hspace{0.8in} / 25}}
 
 \begin{document}
-30 minutes maximum.  No aids (book, calculator, etc.) are permitted.  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.  25 points possible.
+30 minutes maximum.  No aids (book, calculator, etc.) are permitted.
+Show all work and use proper notation for full credit.  Answers should
+be in reasonably-simplified form.  25 points possible.
 
 \begin{enumerate}
 
-\item Consider the function $f(x,y) = x^2 + xy + y^2 - 3x$.
-  \begin{enumerate}
-  \item (4 points) Find all critical points of $f$.
-    \vfill
 
-  \item (3 points) Classify the critical points using $\ds D(x_0,y_0) =
-      f_{xx}(x_0,y_0)f_{yy}(x_0,y_0) - \left( f_{xy}(x_0,y_0)
-      \right)^2$.
+  \item Consider the sequence defined by $a_1 = 2$ and $\ds a_n =
+    -\frac{1}{2} a_{n-1}$.
+    \begin{enumerate}
+    \item (2 points) Write out the first 5 terms of the sequence. Simplify each
+      term.
       \vfill
+
+      $a_1 = \blank{1.5cm}$ \hfill $a_2 = \blank{1.5cm}$ \hfill $a_3 = \blank{1.5cm}$
+      \hfill $a_4 = \blank{1.5cm}$ \hfill $a_5 = \blank{1.5cm}$
+      \vspace{0.7cm}
+
+    \item (4 points) Find a formula (closed form) for the $n$th term $a_n$ of
+      the sequence.
+      \vfill
+
+    \item (3 points) Is the sequence bounded? Justify your answer. If it is
+      bounded, clearly state the bounds.
+      \vfill
+
+    \item (3 points) Is the sequence monotone? Justify your answer.
+      \vfill
+
+    \item (3 points) What (if anything) can you say about the sequence
+      based on your answers to
+      parts (c) and (d)?
+      \vfill
+      
     \end{enumerate}
 
     \newpage
-    
-\item (6 points) Find an equation for the tangent plane to the surface $-4x^3 + 12y^2 + 4z = -4$ at
-  the point $(2,1,4)$.
-  \vfill
-  \vfill
-  \vfill
-  
-\item Consider the function $f(x,y) = e^x \cos(y)$.
-  \begin{enumerate}
-  \item (6 points) Find the directional derivative of $f$ in
-    the direction of the vector $\left< 3,-4 \right>$ at the point
-    $(0,\frac{\pi}{2})$.
+
+  \item Compute the following integrals or show that they
+    diverge. Show all work and use proper notation.
+    \begin{enumerate}
+    \item (5 points) $\ds \int_1^{\infty} \frac{\ln(x)}{x} \, dx$
+      \vfill
+      
+    \item (5 points) $\ds \int_0^9 \frac{dx}{\sqrt{x}}$
+      \vfill
+      
+
+    \item BONUS (2 points) Compute the following integral. $\ds \int_0^3 \frac{1}{x-1}
+    \, dx$
     \vfill
-    \vfill
-    
-  \item (3 points) Find the direction of the maximum rate of change of $f$ at the
-    point $(0,\frac{\pi}{2})$.
-    \vfill
-    
-  \item (3 points) Find the maximum rate of change of $f$ at the point
-    $(0,\frac{\pi}{2})$.
-    \vfill
-    
+
   \end{enumerate}
 
-  
-  
 \end{enumerate}
 
+
 \end{document}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 %%% Local Variables:
-%%% mode: LaTeX
+%%% mode: latex
 %%% TeX-master: t
 %%% End:
